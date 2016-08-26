@@ -20,8 +20,20 @@
     - large lists, indefinite lists, infinite lists ... how do they matter?  Because the series they produce becomes a kind of limit
     - second main idea: massive expansion of lists -- everything is a list (e.g. images, text, etc)
 
+
+
+## Fri Aug 26 11:14:10 BST 2016
+
+ - finalising title; had idea about lists that change and those that don't; lists that adapt to individual circumstance and those that seek maximum stabilisation; are there enough tensions between the agent and structures, between change and stability; between control/order and event/invention to explore here? Tensions between predictive or probabilised lists (that adapt fully to context) and those that seek to minimise change (blockchain, working memory, sequence forms,etc.) 
+
+
 ## possible titles
 
+Lists that always change and lists that hardly ever change
+What is not a list?
+Lists as prediction
+List heterogeneity: change and stability
+Predictive listing
 Lists and prediction
 Lists as predictive setting
 List in a predictive configuration
@@ -39,6 +51,8 @@ List in a predictive configuration
 - discussion amongst programmers of why they hardly ever use 'lists'
 - python list comprehension
 - intel i7 and samsung branch prediction
+- lists of ingredients in Chef Watson
+- blockchain as an unchangeable list
 
 
 ## Theory
