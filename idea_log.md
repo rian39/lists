@@ -12,6 +12,8 @@
     - focus on the operations of listing, including indexing, ordering, ranking, rewriting, and retrieving
     - does the work on working memory, or on recursive processes help in exploring what is going on with lists?
     - could keep things simple and just focus on 'listings' dealt with in machine learning - how is a ranking actually done in  a model and why would that matter. The answer is probabilistic?  
+    - lists and the problems of scale 
+
 
 ## Wed Aug 24 09:09:36 BST 2016
 
@@ -27,6 +29,10 @@
  - finalising title; had idea about lists that change and those that don't; lists that adapt to individual circumstance and those that seek maximum stabilisation; are there enough tensions between the agent and structures, between change and stability; between control/order and event/invention to explore here? Tensions between predictive or probabilised lists (that adapt fully to context) and those that seek to minimise change (blockchain, working memory, sequence forms,etc.) 
 
 
+## Mon Sep  5 13:27:05 BST 2016
+
+- started looking at Godel numbers and Godel sequences, and from there got to the lists entry on wikipedia. Can think of stream as an infinite list, and this seems to be a useful way of thinking about lists in their contemporary form -- they are open ended; they contain time-orderings, but these orderings are not fixed. Could look at stream processing as an extension of lists; and then run an argument about scale. Do we oppose scale? Do we scale? What about scaleability? 
+
 ## possible titles
 
 Lists that always change and lists that hardly ever change
@@ -37,6 +43,8 @@ Predictive listing
 Lists and prediction
 Lists as predictive setting
 List in a predictive configuration
+Streams as lists: the problem of lists in time
+**Streams, pipelines and trees: living with unending lists**
 
 ## simple examples of lists
 - `ls` -- what is the history of this? See Stallman and MacKenzie; also cat, etc. 
@@ -53,6 +61,9 @@ List in a predictive configuration
 - intel i7 and samsung branch prediction
 - lists of ingredients in Chef Watson
 - blockchain as an unchangeable list
+- streams as indefinite lists
+- Godel numbers as lists
+
 
 
 ## Theory
