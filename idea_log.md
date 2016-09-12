@@ -33,6 +33,13 @@
 
 - started looking at Godel numbers and Godel sequences, and from there got to the lists entry on wikipedia. Can think of stream as an infinite list, and this seems to be a useful way of thinking about lists in their contemporary form -- they are open ended; they contain time-orderings, but these orderings are not fixed. Could look at stream processing as an extension of lists; and then run an argument about scale. Do we oppose scale? Do we scale? What about scaleability? 
 
+
+## Mon Sep 12 15:19:55 BST 2016
+
+- just listened to Shreena Patel from DunnHumby speaking about 'Have you forgotten?' in the shopping basket at Tesco. Really interesting description of the pipeline for the recommendations that are shown at the end. Could base the whole talk around this rather than the high-falutin talk I've sent in. Shopping lists are the prosaic example I've been looking for. 
+- see pages  43-47, **August 2016** notebook 
+
+
 ## possible titles
 
 Lists that always change and lists that hardly ever change
