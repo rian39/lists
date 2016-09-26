@@ -1,0 +1,44 @@
+# 1. Consumption and shopping
+- largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as early example of Big Data Analytics
+- 
+
+# 2. The web and the shopping basket
+- online commerce -- transforming shopping; 
+
+>Tesco is the clear winner in the online grocery market, in fact it takes almost 50p of every £1 spent on food shopping on the internet. 
+(https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/)[https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/]
+
+# 3. From the rules-based list to a 'relevancy model'
+How would I characterise this shift? Use it to emphasize why attention to the algorithm is not enough -- it is the model that counts
+A little history of recommender systems -- uses Varian 1997 for a start. But has no real reference list. Not sure  
+Also can use Schafer -- back to Association Rule Mining from early 1990s
+ 
+# 4. Hack? Customers go straight to the checkout
+people inhabit lists and work with them; no matter how they are made; cf ethnomethodology 
+ 
+# 5. Data: 52 weeks of data for each customer
+- history of data accumulations;
+- shift from data mining to personalization? 
+ 
+# 6. Gain: use good features to build models 
+ 
+# 7. Output 20 recommendations from 200,000 products
+The problem of too many things to list -- this must be happening in many settings -- videos, social networks, products, etc. 
+ 
+# 8. Value: Balancing conversion vs spend
+The value of a production
+ 
+# 9. Metric: precision-at-K
+ 
+# 10. Experiment: A/B allocation
+Could use the Google Infrastructure of experiment or Facebook Flow stuff here -- 1 million models
+ 
+# 11. Infrastructure: realtime engine serves up top 5
+Only in certain settings are things realtime; or only in limited ways;
+Realtime has its own economies and cultures
+
+# 12. Similarity, substitution and complementarity
+- interesting contrasts here between the relations of things in a list
+ 
+# 13. Complementarity drives conversion 
+- the problem of action
