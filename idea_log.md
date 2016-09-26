@@ -1,9 +1,8 @@
-
-
+# Lists siegen october 2016
 
 ## Tue Aug 23 08:41:32 BST 2016
 
-- 'list' of ideas for this paper
+    - 'list' of ideas for this paper
     - lists as sequences, and how sequences converge: this is only known through summation (Whitehead) and convergence to a limit; which links lists to neighbourhoods and ideas of convergence; via sequence, can also get into vector space
     - listings -- program code -- and lists of instructions executed by programs  -- and what differences listings make; why doesn't anyone really refer to program listings anymore
     - the list as predictive site -- how are lists becoming predictive: this could include many ranked lists (e.g. search results); -- but also the very architecture of the CPU itself as a predictive process.  -- the branch prediction idea and the way it allows pipelining of processes
@@ -14,14 +13,11 @@
     - could keep things simple and just focus on 'listings' dealt with in machine learning - how is a ranking actually done in  a model and why would that matter. The answer is probabilistic?  
     - lists and the problems of scale 
 
-
 ## Wed Aug 24 09:09:36 BST 2016
-
 
     - what if lists are fundamentally changing in nature because they are becoming probabilistic, vectorised and optimised.   The key question would be how to demonstrate that. 
     - large lists, indefinite lists, infinite lists ... how do they matter?  Because the series they produce becomes a kind of limit
     - second main idea: massive expansion of lists -- everything is a list (e.g. images, text, etc)
-
 
 
 ## Fri Aug 26 11:14:10 BST 2016
@@ -39,6 +35,11 @@
 - just listened to Shreena Patel from DunnHumby speaking about 'Have you forgotten?' in the shopping basket at Tesco. Really interesting description of the pipeline for the recommendations that are shown at the end. Could base the whole talk around this rather than the high-falutin talk I've sent in. Shopping lists are the prosaic example I've been looking for. 
 - see pages  43-47, **August 2016** notebook 
 
+
+## Mon Sep 26 08:34:00 BST 2016
+
+- went through Shreena Patel DunnHumby presentation and turned it into around 10 points that could be the basis of the presentation. 
+- would be good to have her presentation. 
 
 ## possible titles
 
@@ -70,8 +71,6 @@ Streams as lists: the problem of lists in time
 - blockchain as an unchangeable list
 - streams as indefinite lists
 - Godel numbers as lists
-
-
 
 ## Theory
 - Fuller quotes
