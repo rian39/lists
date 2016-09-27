@@ -1,18 +1,69 @@
-# 1. Consumption and shopping
-- largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as early example of Big Data Analytics
-- 
+# 'Have you forgotten'
 
-# 2. The web and the shopping basket
+# Introduction
+
+Presentation presents another presentation I saw recently about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further purchases under the title of 'Have you forgotten?'. 
+I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of list, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising.  Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. 
+If we are interested in lists from various angles -- asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA], or even in terms of different cultural practices of listing [@Jullien_TBA] -- then contemporary lists practices such as recommendations will probably not only objects of interest, but raise the question of how we institute our approach to them.
+While lists such as recommendations intersect strongly with meaning and sense-making practices, they are also somewhere refractory to methods of humanities and social science research.
+For on the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that limit semiotic readings.
+For on the other hand, as operational entities, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology]  The question for me here is whether contemporary lists can still be understood as produced through 'shared sense-making practices.' 
+All lists are forms of order, since even random ordering is operationally important, but what counts as order might historically transformable, in which case the order of social settings or the problem of social order might be deeply historically contingent. 
+The question of order or the problem of order lies at the core of lists making, and our relation to lists can be seen as a test of the way that order operates more generally. 
+Much of my paper, and my responses to the presentation I saw from a data scientist  will focus on these two related questions of order and new forms of social order, and participation and its contemporary forms. 
+I respond to the presentation in two ways -- one by recounting its step as an example of the sense-making done by data scientists and customer analytics teams in many places, and secondly as an occasion to intervene and participate in the list-making practices they engage in. 
+
+# 1. The presentation - Consumption and shopping
+- largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
+- the problems of scale: Tesco is like Amazon or Netflix in this respect: too many people and too many products
+
+>Tesco is the clear winner in the online grocery market, in fact it takes almost 50p of every £1 spent on food shopping on the internet. (https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/)[https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/]
+
+# 2. The web and the shopping basket: how it was reconstituted in the 1990s
 - online commerce -- transforming shopping; 
-
->Tesco is the clear winner in the online grocery market, in fact it takes almost 50p of every £1 spent on food shopping on the internet. 
-(https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/)[https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/]
-
-# 3. From the rules-based list to a 'relevancy model'
+- personalization and recommendation as the killer apps for social media as a commercial process, but also in government etc. 
+ 
 How would I characterise this shift? Use it to emphasize why attention to the algorithm is not enough -- it is the model that counts
 A little history of recommender systems -- uses Varian 1997 for a start. But has no real reference list. Not sure  
 Also can use Schafer -- back to Association Rule Mining from early 1990s
+
+DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Humby_1984]  
+
+![Humby, 1984]( figure/Humby_young0R_1994.png )
+
+When commentators first began talking about recommender systems in the 1990s, they highlighted the shift from demographic-driven market research techniques to personalized recommendations. For instance, writing in 1997, Paul Resnick and Hal Varian (at that time Dean of Information Sciences at UC Berkeley, but somehow now Chief Economist at Google), made much of this difference [@Resnick_1997]. 
+
+# 3. From the rules-based list to a 'relevancy model'
+
+Shreena described her work at DunnHumby in terms of a shift in models from a 'rules-based list' to a 'relevancy model.' 
+This was a significant change in how the 'Have You Forgotten' list was constructed. 
+
+I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm [@Agrawal_1993TBA]
+
+```{r arules, echo=TRUE}
+library(arules)
+library(arulesViz)
+library(datasets)
+data(Groceries)
+itemFrequencyPlot(Groceries,topN=20,type="absolute")
+# Get the rules
+rules <- apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8))
  
+# Show the top 5 rules, but only 2 digits
+options(digits=2)
+inspect(rules[1:5])
+summary(rules)
+
+rules<-sort(rules, by="confidence", decreasing=TRUE)
+inspect(rules[1:5])
+rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), 
+           appearance = list(default="rhs",lhs="whole milk"),
+           control = list(verbose=F))
+rules<-sort(rules, decreasing=TRUE,by="confidence")
+inspect(rules[1:5])  
+plot(rules,method="graph",interactive=TRUE,shading=NA)
+```
+
 # 4. Hack? Customers go straight to the checkout
 people inhabit lists and work with them; no matter how they are made; cf ethnomethodology 
  

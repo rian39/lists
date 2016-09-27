@@ -70,7 +70,6 @@ Streams as lists: the problem of lists in time
 
  - finalising title; had idea about lists that change and those that don't; lists that adapt to individual circumstance and those that seek maximum stabilisation; are there enough tensions between the agent and structures, between change and stability; between control/order and event/invention to explore here? Tensions between predictive or probabilised lists (that adapt fully to context) and those that seek to minimise change (blockchain, working memory, sequence forms,etc.) 
 
-
 ## Mon Sep  5 13:27:05 BST 2016
 
 - started looking at Godel numbers and Godel sequences, and from there got to the lists entry on wikipedia. Can think of stream as an infinite list, and this seems to be a useful way of thinking about lists in their contemporary form -- they are open ended; they contain time-orderings, but these orderings are not fixed. Could look at stream processing as an extension of lists; and then run an argument about scale. Do we oppose scale? Do we scale? What about scaleability? 
@@ -80,7 +79,6 @@ Streams as lists: the problem of lists in time
 
 - just listened to Shreena Patel from DunnHumby speaking about 'Have you forgotten?' in the shopping basket at Tesco. Really interesting description of the pipeline for the recommendations that are shown at the end. Could base the whole talk around this rather than the high-falutin talk I've sent in. Shopping lists are the prosaic example I've been looking for. 
 - see pages  43-47, **August 2016** notebook 
-
 
 ## Mon Sep 26 08:34:00 BST 2016
 
@@ -95,6 +93,18 @@ Streams as lists: the problem of lists in time
 - 1997 special issue of ACM on recsys? Not sure. Went through time in WoS a bit and found 2001 article on recommender systems -- Schafer et al ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf -- which is a bit better. Has a lot of taxonomies and late 1990s references 
 - TODO: go through the main points and think about where I can put my own stuff in; 
 - TODO: look up ethnomethodology on lists ...
-- TODO: go through book manuscript looking for points of intersection
+- TODO: go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; dimensionality;    
 
+## Tue Sep 27 09:12:58 BST 2016
 
+- started looking for any literature on Amazon recommendation engine -- found their ML service; much discussion of how important recommendations have been ... downloaded Linden's amazon paper; quite useful for all its material on the problems of large scale ... 
+- tried to find Humby's work -- only one paper in Journal of Market Research, 1999, 'New developments in demographic targeting--the implications of 1991.'i about the ACORN system; this 1989 paper not n the archives of Market Research Society -- too early.  Found abstract for a paper given at 'young OR conference' in 1994. 
+- Took screenshot of Humby 1984 and saved in figures folder -- it will be a slide ... 
+- following leads on collaborative filtering -- how it differs from market basket analysis; how item-based and user-based CF techniques differ; tutorials in R on these
+- also thinking about ordinals and well-ordered sets again: recommendation lists are well-ordered sets; in that sense they are something like ordinal numbers; that is, ways of describing well-ordered sets. 'Ordinal numbers are thus the "labels" needed to arrange collections of objects in order.' writes Wikipedia. 
+- did search on 'lists' in my notes and made file lists.md. Has useful stuff from Lury, Lazzarato, Fuller, d 
+- looking at this blog (Salem Marafi)[http://www.salemmarafi.com/code/market-basket-analysis-with-r/], installed arulesViz and played a bit with Grocery dataset.  
+- wrote an intro to list, highlighting problems of how to study them as forms of order, and how to participate in them
+- TODO: follow up on the Hobbes problem of social order: are new forms of operational changing that social problem. No longer contract, economic relations, etc. ... 
+- feel better about getting some code for arules in the paper -- this is something that I've wanted to do anyway
+- brought in all of Salem Marafi's code just to play with it -- will need more commentary to make sense of it. Am I saying that the shift in models from arules to CF is important? In what ways?
