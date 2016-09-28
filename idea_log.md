@@ -42,7 +42,7 @@ Streams as lists: the problem of lists in time
 ## to-do
 
 - look at information retrieval textbooks -- Manning, etc
-- go through Whitehead mathematics notes on sequences and series
+- go through Whitehead mathematics notes on sequences and series: DONE
 - go through _Elements of Statistical Learning_ for stuff on lists and ranking: do they deal with it? 
 
 
@@ -108,3 +108,17 @@ Streams as lists: the problem of lists in time
 - TODO: follow up on the Hobbes problem of social order: are new forms of operational changing that social problem. No longer contract, economic relations, etc. ... 
 - feel better about getting some code for arules in the paper -- this is something that I've wanted to do anyway
 - brought in all of Salem Marafi's code just to play with it -- will need more commentary to make sense of it. Am I saying that the shift in models from arules to CF is important? In what ways?
+
+
+## Wed 28 Sep 09:33:36 BST 2016
+
+- will look at the most interesting bits of dunnhumby presentation first, and then see if the other bits can be fitted in time ... 
+- wrote a bit about arules and apriori, trying to link it to set theory; 
+- TODO: find old shopping list and scan it
+- added a bit of badiou, but I'm not convinced.
+- got distracted by non-human book (Grusin) and spent time downloading Hansen's article on prediction. And then Bogost on carpentry. 
+- added a bit more on the badiou front -- the open and excess.
+- TODO: image of a ClubCard
+- spent time pasting itemset from `Groceries` dataset into Tesco's shopping list. Data is in data/grocery_items.csv. Can paste the whole list into the shopping site, or use the url (http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true)[http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true] substituting any term you want into it to get the results.  Would need to scrape a bit to get them all. Can get the number and then step through using http://www.tesco.com/groceries/product/search/default.aspx?notepad=chicken&viewMode=grid&N=0&Nao=40 
+- tracking down the `Groceries` dataset -- found reference in reference.pdf for `arules`. Added this to archive ~/archives/data_intensive/machine_learning/ 
+- what do the brands do?

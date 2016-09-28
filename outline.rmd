@@ -1,20 +1,27 @@
-# 'Have you forgotten'
+# 'Have you forgotten?'
 
 # Introduction
-
 Presentation presents another presentation I saw recently about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further purchases under the title of 'Have you forgotten?'. 
-I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of list, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising.  Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. 
-If we are interested in lists from various angles -- asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA], or even in terms of different cultural practices of listing [@Jullien_TBA] -- then contemporary lists practices such as recommendations will probably not only objects of interest, but raise the question of how we institute our approach to them.
+I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising. 
+Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. 
+If we are interested in lists from various angles -- asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA], or even in terms of different cultural practices of listing [@Jullien_TBA] -- then contemporary lists practices such as recommendations figure as sites of intersection between different forms.
+Lists also raise the question of how we institute our approach to them.
 While lists such as recommendations intersect strongly with meaning and sense-making practices, they are also somewhere refractory to methods of humanities and social science research.
 For on the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that limit semiotic readings.
 For on the other hand, as operational entities, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology]  The question for me here is whether contemporary lists can still be understood as produced through 'shared sense-making practices.' 
 All lists are forms of order, since even random ordering is operationally important, but what counts as order might historically transformable, in which case the order of social settings or the problem of social order might be deeply historically contingent. 
-The question of order or the problem of order lies at the core of lists making, and our relation to lists can be seen as a test of the way that order operates more generally. 
-Much of my paper, and my responses to the presentation I saw from a data scientist  will focus on these two related questions of order and new forms of social order, and participation and its contemporary forms. 
-I respond to the presentation in two ways -- one by recounting its step as an example of the sense-making done by data scientists and customer analytics teams in many places, and secondly as an occasion to intervene and participate in the list-making practices they engage in. 
+The problem of order lies at the core of lists making, and our relation to lists can be seen as a test of the way that order operates more generally. 
+Much of my paper, and my responses to the presentation I saw from a data scientist  will focus on how the ordering that is done in a recommendation lists relates to the problem of social order more generally. 
+- The main narrative of the presentation concerned a shift from a set-based model for making lists to a predictive, probabilistic way of making lists in almost realtime and dealing with lists on a scale that is often difficult to grasp concretely.
+I respond to the presentation in two ways -- firstly by recounting, contextualising and commenting on some of the main steps as a example of the sense-making done by data scientists and customer analytics teams in many places; and secondly, by trying to step into the list-making practices  as an occasion to intervene and participate in the list-making practices they engage in. 
 
-# 1. The presentation - Consumption and shopping
-- largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
+# 1. The context of the presentation - Consumption and shopping
+- presentation at an academic event with speakers from industry and government on statistics and operations research in industry. Speakers came from Shell, Disney, GCHQ, and various universities. 
+- Shreena Patel works as a data scientist for DunnHumby focusing on online grocery shopping at Tesco.
+Tesco is the largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
+DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Humby_1984]  
+
+![Humby, 1984]( figure/Humby_young0R_1994.png )
 - the problems of scale: Tesco is like Amazon or Netflix in this respect: too many people and too many products
 
 >Tesco is the clear winner in the online grocery market, in fact it takes almost 50p of every £1 spent on food shopping on the internet. (https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/)[https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/]
@@ -27,18 +34,17 @@ How would I characterise this shift? Use it to emphasize why attention to the al
 A little history of recommender systems -- uses Varian 1997 for a start. But has no real reference list. Not sure  
 Also can use Schafer -- back to Association Rule Mining from early 1990s
 
-DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Humby_1984]  
-
-![Humby, 1984]( figure/Humby_young0R_1994.png )
-
 When commentators first began talking about recommender systems in the 1990s, they highlighted the shift from demographic-driven market research techniques to personalized recommendations. For instance, writing in 1997, Paul Resnick and Hal Varian (at that time Dean of Information Sciences at UC Berkeley, but somehow now Chief Economist at Google), made much of this difference [@Resnick_1997]. 
 
 # 3. From the rules-based list to a 'relevancy model'
 
 Shreena described her work at DunnHumby in terms of a shift in models from a 'rules-based list' to a 'relevancy model.' 
 This was a significant change in how the 'Have You Forgotten' list was constructed. 
-
-I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm [@Agrawal_1993TBA]
+I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda [@Agrawal_1994].
+The `apriori` algorithm finds sets of items that commonly occur in transactions. 
+These commonly occurring sets are expressed as association rules. 
+For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart might have discovered  -- but didn't -- the fabled association between diapers and beer.  [http://www.dssresources.com/newsletters/66.php]
+It is a key algorithm in 'market basket analysis' and attempts to re-structure shopping lists.  
 
 ```{r arules, echo=TRUE}
 library(arules)
@@ -62,22 +68,49 @@ rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2),
 rules<-sort(rules, decreasing=TRUE,by="confidence")
 inspect(rules[1:5])  
 plot(rules,method="graph",interactive=TRUE,shading=NA)
+items = Groceries@itemInfo
+head(items)
+nrow(items)
 ```
 
+The association rule-based model for the `Groceries` dataset suggests some of the characteristic ordering practices of data-mining approaches to lists. 
+The association between items is expressed in the form of _rules_. These rules, a term derived from decision support literature, define sets of associations between items. 
+As a set theory-based practice, the association rules define likely sets of items or shopping baskets in terms of decreasing probability.   
+`r inspect(rules[1])` is a stronger association than `r inspect(rules[2])`.
+So any recommendation in the 'Have You Forgotten' list should probably put them in that order. 
+Association rules and the `apriori` algorithm present social order in terms of sets of common associations. 
+This means that that the algorithm can be understood in terms of the set-based multiples proposed by Alain Badiou. 
+Badiou in his account of multiples highlight the contrast between two different ways of grasping a multiple -- in terms of the 'numerical one' and the 'vital One' [@Badiou_2004, 72], between the 'closed' and the 'open' respectively.  
+The `apriori` algorithm, might be seen as an attempt to deal with the excess of things in a Tesco supermarket, and the lack of interest or engagement that people have with them by identifying subsets whose membership is stronger by virtue of the other sets of associations that people bring with them.   
+Association is stronger when it derives from an excess of different ways of being in sets.  
+Badiou's argument is that being part of a set differs from belonging to a set.
+An open set arises from when we dwell within a set by 'taking the intersection of two elements.' 
+What might this mean in terms of ordering?
+If we take the itemset from the `Groceries` dataset [@Hahsler_2006], and then run it through the Tesco online groceries site, each of the 169 items in the dataset yields dozens and sometimes thousands of results from Tesco online.  
+Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. 
+
 # 4. Hack? Customers go straight to the checkout
-people inhabit lists and work with them; no matter how they are made; cf ethnomethodology 
- 
-# 5. Data: 52 weeks of data for each customer
+
+Patel observed that the 'Have you forgotten' lists matter to people.
+Some people log on and go straight to the checkout, allowing the recommendation system to supply them with the suggestions that they then move to the shopping basket.
+This is the online equivalent of using an old shopping list and only adding new items when needed. 
+It is also a strategy to avoid having to view too many lists, since the only way Tesco can show people what they might buy is by showing them lists of things (e.g. chicken products), but these lists are too long to work with.  
+People inhabit lists and work with them no matter how they are made; thus vindicating ethnomethodologists assertion that social order is the product of ongoing sense-making practices. 
+
+As Badiou might say, 
+
+# 5. Data: 52 weeks of data for each customer: how is order constructed -- from history?
 - history of data accumulations;
 - shift from data mining to personalization? 
  
 # 6. Gain: use good features to build models 
+- what counts as a good feature? See Domingos on this
  
-# 7. Output 20 recommendations from 200,000 products
+# 7. Sparsity: output 20 recommendations from 200,000 products
 The problem of too many things to list -- this must be happening in many settings -- videos, social networks, products, etc. 
  
 # 8. Value: Balancing conversion vs spend
-The value of a production
+The value of an ordering
  
 # 9. Metric: precision-at-K
  
@@ -93,3 +126,5 @@ Realtime has its own economies and cultures
  
 # 13. Complementarity drives conversion 
 - the problem of action
+
+# Conclusion
