@@ -1,10 +1,23 @@
 # 'Have you forgotten?'
 
 # Introduction
-Presentation presents another presentation I saw recently about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further purchases under the title of 'Have you forgotten?'. 
-I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising. 
-Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. 
+
+Presentation presents another presentation I saw recently about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further purchases under the title of 'Have you forgotten?'. When you shop for groceries online, the 'Have you forgotten' recommendations appear when at the checkout stage. 
+While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, as we will see, the items on this list are recommendations. They are only a few of them: five. 
+
+Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door ![shopping_list](figure/1_shopping.png ) -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising.
+
+The shift from a handwritten list to 'Have you forgotten?' is perhaps a development in memory practices. It reminds me of the game 'I went shopping and I bought ... ' that I play with children sometimes at the dinner table to settle them down. The game is about remembering a well-ordered list of items - a is apple, b is for banana, c is for carrot.  
+The point of the game is to use the well-ordered set of labels provided by the sequence of letters in the alphabet to remember a random and perhaps very diverse list of items. 
+The longer the game continues, the harder it is to remember since the shopping list grows longer. At the same time, the many repetitions of this list, the fact that each player recites the whole list, helps memorisation. 
+One trick in playing this game is to choose items that are quite unexpected. Rather than `ham`, list `halva`; rather than `fish`, add `face cream.` This is especially useful for adults in beating children. The children have better memories for items they know, but adults know more unexpected items. 
+
+Something similar applies to recommendation systems. The system can remember very many things.
+It may know everything you bought in the last few years on that site, and it can easily see what you would normally buy and add those as suggestions.
+But a recommendation system finds it much harder to suggest items that you have not forgotten but may have never bought. 
+
 If we are interested in lists from various angles -- asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA], or even in terms of different cultural practices of listing [@Jullien_TBA] -- then contemporary lists practices such as recommendations figure as sites of intersection between different forms.
+
 Lists also raise the question of how we institute our approach to them.
 While lists such as recommendations intersect strongly with meaning and sense-making practices, they are also somewhere refractory to methods of humanities and social science research.
 For on the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that limit semiotic readings.
@@ -17,10 +30,10 @@ I respond to the presentation in two ways -- firstly by recounting, contextualis
 
 # 1. The context of the presentation - Consumption and shopping
 - presentation at an academic event with speakers from industry and government on statistics and operations research in industry. Speakers came from Shell, Disney, GCHQ, and various universities. 
-- Shreena Patel works as a data scientist for DunnHumby focusing on online grocery shopping at Tesco.
+- Shreena Patel works as a data scientist for DunnHumby, a well-known [ customer science company ](https://www.dunnhumby.com/)  focusing on online grocery shopping at Tesco.
 Tesco is the largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
 DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Humby_1984]  
-
+Clive Humby's academic work is hard to track down, but an early paper of his given at the Conference of Your Operational Researchers in Nottingham in 1984 suggests the direction that he and later Tesco would take in constructing lists [@Humby_1984] 
 ![Humby, 1984]( figure/Humby_young0R_1994.png )
 - the problems of scale: Tesco is like Amazon or Netflix in this respect: too many people and too many products
 
@@ -97,7 +110,6 @@ This is the online equivalent of using an old shopping list and only adding new 
 It is also a strategy to avoid having to view too many lists, since the only way Tesco can show people what they might buy is by showing them lists of things (e.g. chicken products), but these lists are too long to work with.  
 People inhabit lists and work with them no matter how they are made; thus vindicating ethnomethodologists assertion that social order is the product of ongoing sense-making practices. 
 
-As Badiou might say, 
 
 # 5. Data: 52 weeks of data for each customer: how is order constructed -- from history?
 - history of data accumulations;
