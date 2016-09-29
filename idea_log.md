@@ -125,3 +125,5 @@ Streams as lists: the problem of lists in time
 - the game is about remembering what is in the list, and the alphabet helps remind you.
 - could use this game at the opening.  The baseline account of lists as a form of number. 
 - wrote a bit about this at the beginning -- it feels a bit better than other stuff because it gets into sets
+- added in Hansen on prediction and how probability becomes actual ... Also put quotes in new notes file. His argument that prediction is a closed probabilistic determination of propensities that always exceed it as a field of data. The goal is to locate those excesses and perceptualise them somehow.  
+- TODO: bring the quote about technical interface to the data of sensibility into the conclusion
