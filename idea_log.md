@@ -110,7 +110,7 @@ Streams as lists: the problem of lists in time
 
 - will look at the most interesting bits of dunnhumby presentation first, and then see if the other bits can be fitted in time ... 
 - wrote a bit about arules and apriori, trying to link it to set theory; 
-- TODO: find old shopping list and scan it
+- TODO: find old shopping list and scan it DONE
 - added a bit of badiou, but I'm not convinced.
 - got distracted by non-human book (Grusin) and spent time downloading Hansen's article on prediction. And then Bogost on carpentry. 
 - added a bit more on the badiou front -- the open and excess.
@@ -127,3 +127,5 @@ Streams as lists: the problem of lists in time
 - wrote a bit about this at the beginning -- it feels a bit better than other stuff because it gets into sets
 - added in Hansen on prediction and how probability becomes actual ... Also put quotes in new notes file. His argument that prediction is a closed probabilistic determination of propensities that always exceed it as a field of data. The goal is to locate those excesses and perceptualise them somehow.  
 - TODO: bring the quote about technical interface to the data of sensibility into the conclusion
+- read some Hansen at lunch and marked useful bits on paper copy -- TODO: put those into notes file and then use them to structure the argument?
+- started to bring some of the probability idea into 'I went shopping and I bought ...' 
