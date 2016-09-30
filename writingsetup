@@ -8,9 +8,10 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +75 idea_log.md
-badd +56 outline.rmd
+badd +139 idea_log.md
+badd +156 outline.rmd
 badd +15 ~/Documents/notes/lists.md
+badd +6 ~/Documents/notes/hansen_prediction_2015.md
 argglobal
 silent! argdel *
 argadd idea_log.md
@@ -25,8 +26,8 @@ set nosplitbelow
 set nosplitright
 wincmd t
 set winheight=1 winwidth=1
-exe 'vert 1resize ' . ((&columns * 84 + 84) / 169)
-exe 'vert 2resize ' . ((&columns * 84 + 84) / 169)
+exe 'vert 1resize ' . ((&columns * 85 + 85) / 170)
+exe 'vert 2resize ' . ((&columns * 84 + 85) / 170)
 argglobal
 edit outline.rmd
 setlocal fdm=syntax
@@ -37,34 +38,34 @@ setlocal fdl=2
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 56 - ((10 * winheight(0) + 20) / 40)
+let s:l = 156 - ((9 * winheight(0) + 13) / 26)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-56
+156
 normal! 0
 lcd ~/lists
 wincmd w
 argglobal
 edit ~/lists/idea_log.md
 setlocal fdm=syntax
-setlocal fde=pandoc#folding#FoldExpr()
+setlocal fde=0
 setlocal fmr={{{,}}}
 setlocal fdi=#
 setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 75 - ((20 * winheight(0) + 20) / 40)
+let s:l = 139 - ((11 * winheight(0) + 13) / 26)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-75
-normal! 027|
+139
+normal! 066|
 lcd ~/lists
 wincmd w
-exe 'vert 1resize ' . ((&columns * 84 + 84) / 169)
-exe 'vert 2resize ' . ((&columns * 84 + 84) / 169)
+exe 'vert 1resize ' . ((&columns * 85 + 85) / 170)
+exe 'vert 2resize ' . ((&columns * 84 + 85) / 170)
 tabnext 1
 if exists('s:wipebuf')
   silent exe 'bwipe ' . s:wipebuf

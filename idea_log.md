@@ -129,3 +129,14 @@ Streams as lists: the problem of lists in time
 - TODO: bring the quote about technical interface to the data of sensibility into the conclusion
 - read some Hansen at lunch and marked useful bits on paper copy -- TODO: put those into notes file and then use them to structure the argument?
 - started to bring some of the probability idea into 'I went shopping and I bought ...' 
+
+
+## Fri Sep 30 10:16:16 BST 2016
+
+- pfaffing with rmarkdown, setting up shortcuts, etc. will be a help I think 
+- trying to get to core of the issue- what is probabilistic and potentiating in the sense that Hansen speaks about ...  
+- wrote python script to scrape all the product counts from tesco in the groceries list; took 1 hour; to get a total figure that is accurate I suppose
+- saved results as csv data/tesco_groceries.csv and a did of them 
+- eventually got somewhere with the Tesco data. Plotted it (> 50); 
+- started writing about the number of combinations of these items they constitute a surplus of sensibility.  
+- wrote some points for the conclusion
