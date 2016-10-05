@@ -2,35 +2,38 @@
 
 # Introduction: the presentation of a presentation
 
-Presentation presents another presentation I saw recently about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further purchases under the title of 'Have you forgotten?'. When you shop for groceries online, the 'Have you forgotten' recommendations appear when at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, as we will see, the items on this list are recommendations. They are only a few of them: five. 
+Presentation presents another presentation I saw recently about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further purchases under the title of 'Have you forgotten?'. When you shop for groceries online, the 'Have you forgotten' recommendations appear when at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list. The working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.
 
-The question: which five items and in what order?
+![Tesco ClubCard](figure/tesco-clubcard.jpg ) 
 
-Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door ![shopping_list](figure/1_shopping.png ) -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising.
+As we will see, the items on this list are recommendations. They are only a few of them: five. The question: which five items and in what order?
 
-The shift from a handwritten list to 'Have you forgotten?' is perhaps a **development in memory practices.** It reminds me of the game 'I went shopping and I bought ... ' that I play with children sometimes at the dinner table to settle them down. The game is about remembering a well-ordered list of items - 'a' is apple, 'b' is for banana, 'c' is for carrot.  The point of the game is to use the well-ordered set of labels provided by the sequence of letters in the alphabet to remember a random and perhaps very diverse list of items. The longer the game continues, the harder it is to remember since the shopping list grows longer. At the same time, the many repetitions of this list, the fact that each player recites the whole list, helps memorisation. One trick in playing this game is to choose items that are quite unexpected or increasingly random. Rather than `ham`, list `halva`; rather than `fish`, add `face cream.` This is especially useful for adults in beating children. The children have better memories for items they know, but adults know more unexpected items. On the other hand, very unexpected items are quite easy to remember and tend to even the score in the favour of the children. Balancing between the improbable and memorable ... 
+![shopping_list](figure/1_shopping.png )
+
+Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door  -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising.
+
+The problem of incomplete lists reminds me of the game 'I went shopping and I bought ... ' that adults sometimes play with children.  The game is about remembering a well-ordered list of items - 'a' is apple, 'b' is for banana, 'c' is for carrot.  The point of the game is to use the well-ordered set of labels provided by the sequence of letters in the alphabet to remember a random and perhaps very diverse list of items. The longer the game continues, the harder it is to remember since the shopping list grows longer. At the same time, each player repeats the list, and this  helps memorisation. One trick in playing this game is to choose items that are quite unexpected or increasingly random. Rather than `ham`, list `halva`; rather than `fish`, add `face cream.` This is especially useful for adults in beating children. The children have better memories for items they know, but adults know more unexpected items. On the other hand, very unexpected items are quite easy to remember and tend to even the score in the favour of the children. Balancing between the improbable and memorable, between a predictable list like 'apples, bananas, carrots' and an unusual list such as 'agave syrup, boccadilla,cilantro' is complicated. 
 
 Something similar applies to recommendation systems. The system can remember very many things. It may know everything you bought in the last few years on that site, and it can easily see what you would normally buy and add those as suggestions.
-But a recommendation system finds it much harder to suggest items that you have not forgotten but may have never bought. If you do buy recommended items, then the recommender system has been effective. It has led to a **'conversion.'** From a supermarket perspective, the conversion should be high-value.  
+But a recommendation system finds it much harder to suggest items that you have not forgotten but may have never bought. If you do buy recommended items, then the recommender system has been effective. It has led to a **'conversion.'** From a supermarket perspective, the conversion should be high-value. There is little value in recommending a whole lot of small and cheap items such as rubber bands or toothpicks. So it might need to choose amongst different recommendations and weight high value items differently to low value items. In either case, 'conversion'  is the valued event. 
 
 If we are interested in lists from various angles -- as asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or as elements in 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA], or even in terms of different cultural practices of listing [@Jullien_TBA] -- then contemporary list practices such as recommendations figure as sites of intersection between different forms.
 
-Lists also raise the question of how we institute our approach to them.
-While lists such as recommendations intersect strongly with other meaning and sense-making practices in everyday life and popular culture, they are also somewhere refractory to methods of humanities and social science research.
-For on the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that limit semiotic readings. For on the other hand, as operational entities, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology] 
+**How do we approach lists as objects of research?** While lists such as recommendations intersect strongly with other meaning and sense-making practices in everyday life and popular culture, they are also somewhere refractory to discourse analysis and textual analysis methods of humanities and social science research.
+For on the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that multiply semiotic readings. For on the other hand, as operational entities, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology] 
 
 The question for me here is whether contemporary lists can still be understood as produced through 'shared sense-making practices.' All lists are forms of order, since even random ordering is operationally important, but what counts as order might historically transformable, in which case the order of social settings or the problem of social order might be deeply historically contingent. The problem of order lies at the core of lists making, and our relation to lists can be seen as a test of the way that order operates more generally.
 
 Much of my paper, and my responses to the presentation I saw from a data scientist  will focus on how the ordering that is done in a recommendation lists relates to the problem of social order more generally.  The main narrative of the presentation concerned a shift from a set-based model for making lists to a predictive, probabilistic way of making lists in almost realtime and dealing with lists on a scale that is often difficult to grasp concretely. The change in list-making associated with learned models is increasingly widespread, and
-I respond to the presentation in two ways -- firstly by recounting, contextualising and commenting on some of the main steps as a example of the sense-making done by data scientists and customer analytics teams in many places; and secondly, by trying to step into the list-making practices  as an occasion to intervene and participate in the list-making practices they engage in. This is no mere methodological problem if, as Mark Hansen has recently suggested, 
+I respond to the presentation in two ways -- firstly by recounting, contextualising and commenting on some of the main steps in making the 'Have your forgotten?' list  as a example of the sense-making done by data scientists and customer analytics teams in many places; and secondly, by trying to step into the list-making practices  as an occasion to intervene and participate in the ontological conversion practices they engage in. This is no mere methodological problem if, as Mark Hansen has recently suggested, 
 
 > predictive analytics are discoveries of micrological propensities that are not directly correlated with human understanding and affectivity and that do not by themselves cohere into clearly identifiable events [@Hansen_2015a, 111-112]
 
-The question exercising much contemporary work on data, on media, platforms and finance pivots on the 'micrological propensities' that might be re-ordering lists. Hansen's argument here is that these propensities make probabilities into something real, some actually in things:  
+The question exercising much contemporary work on data, on media, platforms and finance pivots on the 'micrological propensities' that might be re-ordering lists. Hansen's argues that these propensities make probabilities into something real, some actually in things:  
 
 >Whatever explanatory and causal value predictive analytics of large datasets have is, I suggest, ultimately rooted in this ontological transformation whereby probabilities are understood to be expressions of the actual propensity of things [@Hansen_2015a, 120] 
 
-As the quote shows, he presents this as an 'ontological transformation.' The practical and indeed experimental question for me here is whether such transformations can be detected and articulated in the prosaic setting of shopping lists and  shopping baskets.  
+As the quote shows, he presents this as an 'ontological transformation.' The practical and indeed experimental question for me here is whether such transformations can be detected and articulated in the prosaic setting of shopping lists and  shopping baskets. I will suggest that 'conversion' might be a better way of mapping these changes than 'transformation.'   
 
 # 1. The context of the presentation - Consumption and shopping
 - presentation at an academic event with speakers from industry and government on statistics and operations research in industry. Speakers came from Shell, Disney, GCHQ, and various universities.  Because I've done a lot of work on machine learning and data science more generally, I found the sessions both familiar and occasionally exciting. 
@@ -38,7 +41,9 @@ As the quote shows, he presents this as an 'ontological transformation.' The pra
 Tesco is the largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
 DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Humby_1984]  
 Clive Humby's academic work is hard to track down, but an early paper of his given at the Conference of Your Operational Researchers in Nottingham in 1984 suggests the direction that he and later Tesco would take in constructing lists [@Humby_1984] 
+
 ![Humby, 1984]( figure/2_humby_young_org_1994.png)
+
 - the problems of scale: Tesco is like Amazon or Netflix in this respect: too many people and too many products
 
 >Tesco is the clear winner in the online grocery market, in fact it takes almost 50p of every £1 spent on food shopping on the internet. (https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/)[https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/]
@@ -84,10 +89,10 @@ rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2),
            control = list(verbose=F))
 rules<-sort(rules, decreasing=TRUE,by="confidence")
 inspect(rules[1:5])  
-plot(rules,method="graph",interactive=TRUE,shading=NA)
+#plot(rules,method="graph",interactive=TRUE,shading=NA)
 items = Groceries@itemInfo
-head(items)
-nrow(items)
+#head(items)
+#nrow(items)
 ```
 
 The association rule-based model for the `Groceries` dataset suggests some of the characteristic ordering practices of data-mining approaches to lists. 
@@ -97,6 +102,9 @@ As a set theory-based practice, the association rules define likely sets of item
 So any recommendation in the 'Have You Forgotten' list should probably put them in that order. 
 Association rules and the `apriori` algorithm present social order in terms of sets of common associations. 
 This means that that the algorithm can be understood in terms of the set-based multiples proposed by Alain Badiou. 
+
+> Multiplicity will be called  ‘closed’ when grasped by the numerical one, and ‘open’ when grasped by the vital One.  Every multiplicity is the joint effectuation of the closed and open, but its ‘veritable’ multiple-being lies on the side of the open. [@Badiou_2004, 72]
+
 Badiou in his account of multiples highlight the contrast between two different ways of grasping a multiple -- in terms of the 'numerical one' and the 'vital One' [@Badiou_2004, 72], between the 'closed' and the 'open' respectively.  
 The `apriori` algorithm, might be seen as an attempt to deal with the excess of things in a Tesco supermarket, and the lack of interest or engagement that people have with them by identifying subsets whose membership is stronger by virtue of the other sets of associations that people bring with them.   
 Association is stronger when it derives from an excess of different ways of being in sets.  
@@ -112,7 +120,7 @@ If we take the itemset from the `Groceries` dataset [@Hahsler_2006], and then ru
     tesco = na.omit(tesco)
     tesco$actual = as.integer(tesco$actual)
 
-    ggplot(tesco[tesco$actual>50,], aes(x=labels, y=actual, fill=labels)) +geom_bar(stat='identity') + coord_flip() + ggtitle('Tesco grocery items with more than 50 products')
+    ggplot(tesco[tesco$actual>50,], aes(x=labels, y=actual, fill=labels)) +geom_bar(stat='identity') + coord_flip() + ggtitle('Tesco grocery items with more than 50 products') + theme(legend.position="none")
 ```
 
 Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. The 169 items of the `Groceries` dataset, itself from a local German or Austrian supermarket [@REF_TBA],  expand into roughly `r total` possible items.  
@@ -139,11 +147,12 @@ The second uses many shopping lists to identify associations between things and 
 The 'relevancy model,' however, tries to do something different. 
 The problem that the proliferation of things on the shelves of supermarket or grocery warehouse confronts is partly combinatorial.
 With  `r total` products (actually Shreena mentions 200,000 products) can be combined in truly astronomical numbers of combinations.
-If a typical shopping list has 20 items, then there are `r choose(total, 20)` possible combinations.
+If a typical shopping list has 20 items, then there are `r format(choose(total, 20), 2)` possible combinations.
 Some of this vast number of possible shopping lists is highly unlikely in terms of shopping lists and histories of shopping, but potentially highly interesting and value as recommendation.   
-In some ways, this resembles the Badiouean ontology of the multiple a HERE 
 
-> This means, to put it slightly differently, that surrounding any delimited predictive system is a larger field of data—­what I elsewhere call a “surplus of sensibility”—­that, viewed speculatively, indexes the causal efficacy of the total situation within which this delimited system operates. (Effectively, the latter gains its reliability from closing off this larger surplus of sensibility, thereby transforming an always excessive propensity into a [provisionally] closed dataset.) Because it affords data that exceed whatever any given predictive system might include, the data of the world’s causal efficacy—­the data constituting its real potentiality—­always and in principle facilitates knowledge that cannot be restricted to any particular agenda [@Hansen_2015, 126-7]
+> This means, to put it slightly differently, that surrounding any delimited predictive system is a larger field of data -- what I elsewhere call a “surplus of sensibility” -- that, viewed speculatively, indexes the causal efficacy of the total situation within which this delimited system operates. (Effectively, the latter gains its reliability from closing off this larger surplus of sensibility, thereby transforming an always excessive propensity into a [provisionally] closed dataset.) Because it affords data that exceed whatever any given predictive system might include, the data of the world’s causal efficacy -- the data constituting its real potentiality -- always and in principle facilitates knowledge that cannot be restricted to any particular agenda [@Hansen_2015, 126-7]
+
+In some ways, Hansen's account resembles the Badiouean ontology of the multiple in which a closed set is surrounded and conditioned by an open set that is full of many more potentials. However, if we think of the  new model that Shreena describes as the delimited (or delimiting?) system within   the larger surplus of sensibility, how that help us understand what the 'Have you forgotten?' recommendations do?
 
 - history of data accumulations;
 
@@ -153,6 +162,15 @@ In some ways, this resembles the Badiouean ontology of the multiple a HERE
 # 6. Gain: use good features to build models 
 - what counts as a good feature? See Domingos on this
 - move from Dunnhumby's ClubCard focus to much more general world of predictive models (e.g. Facebook use a million models, etc.)
+- the model counts for surprisingly little -- at least, they all seem similar ... rather what counts is all that stuff on working with substitutions, similiarities and complementarities for each person.   
+
+It was surprising that Shreena spoke relatively briefly about the new models. She showed a graph that compared the old rule-based model with some of the new alternatives -- logistic regression, random forests, and a few others. She dismissed most of the models quite quickly and focused only on one, the logistic regression model. Or more accurately, she just said that logistic regression did better than other, and there was little more to discusson on that front.     
+
+Why did she say little about the model, which after all, produces the probabilistic predictions on which everything in the recommendation list depends? 
+
+Her interest lay in the relevance of the recommendations, and in particular, in how 'basket similarity affects relevance of recommendations.' 
+HERE
+
  
 # 7. Sparsity: output 20 recommendations from 200,000 products
 The problem of too many things to list -- this must be happening in many settings -- videos, social networks, products, etc. 
@@ -172,6 +190,7 @@ Realtime has its own economies and cultures
 
 # 12. Similarity, substitution and complementarity
 - interesting contrasts here between the relations of things in a list
+- whereas the `arule` approach compares lists looking for similiarities and ways of completing lists, the more recent approaches look for micrological propensities in the list that relate to a particular time and place, amidst a continuously differentiable pathways between things ... 
  
 # 13. Complementarity drives conversion 
 - the problem of action

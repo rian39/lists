@@ -10,7 +10,8 @@ Lists and prediction
 Lists as predictive setting
 List in a predictive configuration
 Streams as lists: the problem of lists in time
-**Streams, pipelines and trees: living with unending lists**
+Streams, pipelines and trees: living with unending lists
+**Have you forgotten? List experiences in our predictive condition** ... 
 
 ## simple examples of lists
 - `ls` -- what is the history of this? See Stallman and MacKenzie; also cat, etc. 
@@ -37,6 +38,7 @@ Streams as lists: the problem of lists in time
 - Stuart on sequences
 - Badiou on sequences
 - lists article in _Devices_ book
+- hansen on prediction
 
 ## to-do
 - look at information retrieval textbooks -- Manning, etc
@@ -114,7 +116,7 @@ Streams as lists: the problem of lists in time
 - added a bit of badiou, but I'm not convinced.
 - got distracted by non-human book (Grusin) and spent time downloading Hansen's article on prediction. And then Bogost on carpentry. 
 - added a bit more on the badiou front -- the open and excess.
-- TODO: image of a ClubCard
+- TODO: image of a ClubCard -- DONE
 - spent time pasting itemset from `Groceries` dataset into Tesco's shopping list. Data is in data/grocery_items.csv. Can paste the whole list into the shopping site, or use the url (http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true)[http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true] substituting any term you want into it to get the results.  Would need to scrape a bit to get them all. Can get the number and then step through using http://www.tesco.com/groceries/product/search/default.aspx?notepad=chicken&viewMode=grid&N=0&Nao=40 
 - tracking down the `Groceries` dataset -- found reference in reference.pdf for `arules`. Added this to archive ~/archives/data_intensive/machine_learning/ 
 - what do the brands do?
@@ -130,7 +132,6 @@ Streams as lists: the problem of lists in time
 - read some Hansen at lunch and marked useful bits on paper copy -- TODO: put those into notes file and then use them to structure the argument?
 - started to bring some of the probability idea into 'I went shopping and I bought ...' 
 
-
 ## Fri Sep 30 10:16:16 BST 2016
 
 - pfaffing with rmarkdown, setting up shortcuts, etc. will be a help I think 
@@ -140,3 +141,16 @@ Streams as lists: the problem of lists in time
 - eventually got somewhere with the Tesco data. Plotted it (> 50); 
 - started writing about the number of combinations of these items they constitute a surplus of sensibility.  
 - wrote some points for the conclusion
+
+## Wed Oct  5 07:48:28 BST 2016
+- have written about 2500 words, but need to get to the point: how does a subject of the list take shape in the data
+- have finished reading the Hansen which is at ~/archive/Hansen feel like I want to get away from any opposition between the actual and the statistical, and say that the feeling of agency comes from the list.
+- like the argument that subject is a feeling of the list ... and Hansen's argument in general about 'our predictive condition' 
+- 'condition' reminds of Lyotard - downloaded and added to archive here ~/archive/Lyotard_Postmodern_Condition_1981.pdf great line there about continuous differentiable functions won't be the basis of prediction ... this quote in notes file ~/notes/lyotard_postmodern.md.  
+- TODO: get quote on conversion and why it matters from Hansen
+- also had an idea of thinking about an event that happens in recommender system -- does it ever happen that something is recommended that matters to me ... 
+- TESCO api -- signed up for this but can't get key for API for some reason -- can't see it there, but its probably a distraction ... 
+- TODO: scan Shreena's graph of the models and use as image. 
+- went back to notes on 200000 products and looked at undersampling -- randomly drop some of the products to get a more balanced dataset; also see that much of the presentation was really about the topic of basket similarity and how to deal with it since it affects the **relevance** of the the recommendations. This is another tie-in to the Hansen argument. 
+- thought too that the conversion experience Tesco wants -- no low value conversion -- is precisely what they are suffering from in competition with the German supermarkets that do no online delivery. 
+

@@ -17,9 +17,10 @@ def getItems(url):
     print results
     return results
 
+
 groceries['product_count'] = [getItems(u) for u in urls]
 r = groceries.Product_count.str.extract('(\d+)')
-r[pd.isnull(r) != True].astype('int').sum()
-groceries['actual_count'] = r
+total = r[pd.isnull(r) != True].astype('int').sum()
+groceries['actual_count'] = r.astype('int')
 groceries.to_csv('data/tesco_groceries.csv')
 
