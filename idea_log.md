@@ -154,3 +154,12 @@ Streams, pipelines and trees: living with unending lists
 - went back to notes on 200000 products and looked at undersampling -- randomly drop some of the products to get a more balanced dataset; also see that much of the presentation was really about the topic of basket similarity and how to deal with it since it affects the **relevance** of the the recommendations. This is another tie-in to the Hansen argument. 
 - thought too that the conversion experience Tesco wants -- no low value conversion -- is precisely what they are suffering from in competition with the German supermarkets that do no online delivery. 
 
+
+
+## Thu  6 Oct 09:27:40 BST 2016
+
+- scanned notes from notebook as figures. 
+- how to deal with surplus -- is that the issue? Could talk about the undersampling of the 200000 products.  
+- went back to the TESCO api and actually managed to register properly
+- wrote a small python script to get items -- actually more interested in the data that the api gives back. Its quite extensive in its attempts to qualify each item.
+- got a bit into the 'unbalanced data' issue and started to write about that.

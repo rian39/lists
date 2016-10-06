@@ -164,16 +164,41 @@ In some ways, Hansen's account resembles the Badiouean ontology of the multiple 
 - move from Dunnhumby's ClubCard focus to much more general world of predictive models (e.g. Facebook use a million models, etc.)
 - the model counts for surprisingly little -- at least, they all seem similar ... rather what counts is all that stuff on working with substitutions, similiarities and complementarities for each person.   
 
-It was surprising that Shreena spoke relatively briefly about the new models. She showed a graph that compared the old rule-based model with some of the new alternatives -- logistic regression, random forests, and a few others. She dismissed most of the models quite quickly and focused only on one, the logistic regression model. Or more accurately, she just said that logistic regression did better than other, and there was little more to discusson on that front.     
+It was surprising that Shreena spoke relatively briefly about the new models. She showed a graph that compared the old rule-based model with some of the new alternatives -- logistic regression, random forests, and a few others. She dismissed most of the models quite quickly and focused only on one, the logistic regression model. Or more accurately, she just said that logistic regression did better than other, and there was little more to discusson on that front.  The measure of doing better here is called precision, and it measures the proportion of the recommended products that are actually purchased.     
 
-Why did she say little about the model, which after all, produces the probabilistic predictions on which everything in the recommendation list depends? 
+Why did she say little about the model, which after all, produces the probabilistic predictions on which everything in the recommendation list depends and hence the conversion experience? 
 
-Her interest lay in the relevance of the recommendations, and in particular, in how 'basket similarity affects relevance of recommendations.' 
-HERE
+![Models](figure/patel_recommendation1.png)
 
- 
+The graph compares models in terms of their predictions and how those predictions came to pass. The two columns on the left show earlier models -- the global model, which is not personalized, the association rules model for individual customers, and then the new models (logistic regression, random forest, etc) for customers. An increase in precision means more sales.  Her interest lay in the relevance of the recommendations, and in particular, in how 'most of the gain comes from thinking of good features.'
+
 # 7. Sparsity: output 20 recommendations from 200,000 products
-The problem of too many things to list -- this must be happening in many settings -- videos, social networks, products, etc. 
+
+What counts as a good feature in a world of predictive lists? Some things in the data that increases the precision of the model. The problem that Tesco faces, however, is that there are too many possible recommendations to be tested. They sell around 200,000 products and no customer wants to buy any more than a fraction of a per cent of those products. The recommendation list needs to very short.
+
+Predictive models, we might say, encounter their own surplus of sensibility in the data as they search for the most accurate predictions. A  very brief comment from Shreena -- 'we have lots of zeros' -- points to the problem here. Each of the millions of Tesco online grocery shoppers has bought some selection of the 200,000 products. But the product-customer matrix, the basic vector-space in which all recommendation systems operate, remain very sparse and unpopulated. 
+
+Say Tesco has 1 million online customers. A data matrix for just whether they ever bought a particular product or not will be `r format(1e6 * 2e5)` in size. Given that any one customer is like to only have bought 100 different products, the data matrix will be `r format(100-(100/2e5)*100, 2)`% empty. 
+
+```{r sparsity, cache=TRUE}
+
+library(ggplot2)
+customers = seq(1000000,1)
+products = seq(200000,1)
+format(1000000 * 200000, 3)
+
+m = matrix(p, nrow=900, byrow=TRUE)
+df = as.dataframe(m)
+#TODO: plot here
+ 
+```
+
+Having too many things to list -- this must be happening in many settings -- videos, social networks, products, etc. -- is not the real problem. The problem is that 'massively unbalanced data,' which means that different classes of products are not equally represented. Since so many people buy milk, the recommendation system might end up always recommending milk products. So the data needs to be 'corrected' by, in this case, random under-sampling or removal of some of the data for common purchases.   Secondly, even if a recommendation system finds uncommon items that are good recommendations, they should neither be too cheap ('low spend'), nor, as we will see too similar to what the customer has already ordered.  
+
+So the raw data -- the 52 weeks of purchases for each customer -- can be aggregated in various ways to increase the density of the data in ways that helps the model. Shreena mentions some of the 'features' used in the new model --    
+HERE
+In Hansen's or Badiou's terms, this is one way in which the dataset is closed. While 200,000 products is still a closed dataset since it has a defined number of items, undersampling alters the frequency of occurrence of very common items so that the predictive models are not distracted by them. 
+
 
  
 # 8. Value: Balancing conversion vs spend
