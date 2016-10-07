@@ -90,7 +90,7 @@ Streams, pipelines and trees: living with unending lists
 - got paper on Trilling, Kinsey Report -- started to think about all the accumulation of data in recommender systems. How long has this been happening? Tesco Clubcard seen as an origin, but customer/business analytics must be much older. How older? TODO: WoS search on research literature - DONE
 - did a bit of this -- first mention of the term is highly cited 1997 ACM article by Varian & Resnick; describes some existing systems; point to the term 'collaborative filtering' as first used in 1991; paper is in archive ~/archive/data_intensive/machine_learning/varian_resnick_recommenders_1997.pdf
 - 1997 special issue of ACM on recsys? Not sure. Went through time in WoS a bit and found 2001 article on recommender systems -- Schafer et al ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf -- which is a bit better. Has a lot of taxonomies and late 1990s references 
-- TODO: go through the main points and think about where I can put my own stuff in; 
+- TODO: go through the main points and think about where I can put my own stuff in; DONE 
 - TODO: look up ethnomethodology on lists ...
 - TODO: go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; dimensionality;    
 
@@ -147,14 +147,12 @@ Streams, pipelines and trees: living with unending lists
 - have finished reading the Hansen which is at ~/archive/Hansen feel like I want to get away from any opposition between the actual and the statistical, and say that the feeling of agency comes from the list.
 - like the argument that subject is a feeling of the list ... and Hansen's argument in general about 'our predictive condition' 
 - 'condition' reminds of Lyotard - downloaded and added to archive here ~/archive/Lyotard_Postmodern_Condition_1981.pdf great line there about continuous differentiable functions won't be the basis of prediction ... this quote in notes file ~/notes/lyotard_postmodern.md.  
-- TODO: get quote on conversion and why it matters from Hansen
+- TODO: get quote on conversion and **relevance** and why it matters from Hansen
 - also had an idea of thinking about an event that happens in recommender system -- does it ever happen that something is recommended that matters to me ... 
 - TESCO api -- signed up for this but can't get key for API for some reason -- can't see it there, but its probably a distraction ... 
-- TODO: scan Shreena's graph of the models and use as image. 
+- TODO: scan Shreena's graph of the models and use as image. DONE
 - went back to notes on 200000 products and looked at undersampling -- randomly drop some of the products to get a more balanced dataset; also see that much of the presentation was really about the topic of basket similarity and how to deal with it since it affects the **relevance** of the the recommendations. This is another tie-in to the Hansen argument. 
 - thought too that the conversion experience Tesco wants -- no low value conversion -- is precisely what they are suffering from in competition with the German supermarkets that do no online delivery. 
-
-
 
 ## Thu  6 Oct 09:27:40 BST 2016
 
@@ -163,3 +161,19 @@ Streams, pipelines and trees: living with unending lists
 - went back to the TESCO api and actually managed to register properly
 - wrote a small python script to get items -- actually more interested in the data that the api gives back. Its quite extensive in its attempts to qualify each item.
 - got a bit into the 'unbalanced data' issue and started to write about that.
+
+## Fri Oct  7 10:30:53 BST 2016
+- writing scripts to get tesco products -- now have that working and can make montage of whole collections of products. tesco_get_groceries.py
+- not sure why I did that -- can see no use for it except to a sense of the surplus of sensibility by showing montages. But what is the point of that?
+- ran scripts enough times to get around 20k products. Might be overlap between categories, but this is about 10% of Tesco's product range in groceries .. 
+- had idea of trying to simulate strange interests by working with the tesco data and then building models that could predict those.
+- could also use the images to build classifiers; or use all the product metadata to construct new features and classifications
+- had idea of trying to simulate strange interests by working with the tesco data and then building models that could predict those.
+- could also use the images to build classifiers; or use all the product metadata to construct new features and classifications.
+- added a bit of stuff on the experimental allocation of customers
+- also started adding fragments of my notes as images; I'm hoping that I can write a script to extract the images and the knitr blocks into a presentation file and then present that.
+- wrote script simulate_baskets.r to pull all the results into a single dataframe for tesco items and then use that to run queries against. 
+- TODO: get some ideas on conversion from James' ~/archive/james_texts/james_varieties.pdf
+- TODO: some more work on simulating the baskets and perhaps the customers using the GBCS data
+- started to write a script to simulate baskets in terms of range of items, total cost, number of items,, etac 
+- TODO: put r chunks in outline to extract high cost conversion items
