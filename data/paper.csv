@@ -1,0 +1,109 @@
+	AverageSellingUnitWeight	ContentsMeasureType	ContentsQuantity	IsNew	IsSpecialOffer	PromotionDescription	UnitOfSale	UnitQuantity	description	image	name	price	tpnb	unitprice
+0	0.135	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/769/9771742498769/IDShot_90x90.jpg	The Times	1.5	55668289	1.5
+1	0.416	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/783/0041773936783/IDShot_90x90.jpg	Kodak A4 Ultra Paper 20 Sheets	12.0	72797133	12.0
+2	0.049	SNGL	3.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/194/5000462090194/IDShot_90x90.jpg	Tesco Gold Tissue 3 Sheets	1.0	50115382	0.333
+3	0.942	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/255/5054269335255/IDShot_90x90.jpg	Tesco Pink/Gold Spot 2 Sheets 2 Tags	1.25	79187896	1.25
+4	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/795/5053947644795/IDShot_90x90.jpg	Tesco Purple Tissue 5 Sheets	1.0	74500085	1.0
+5	0.1	SNGL	1.0				1			http://img.tesco.com/Groceries/pi/768/9771358586768/IDShot_90x90.jpg	Daily Express	0.85	55366888	0.0
+6	0.036	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/982/5000358420982/IDShot_90x90.jpg	Tesco Royal Blue Tissue 5 Sheets	1.0	51065588	1.0
+7	0.083	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/387/5054775036387/IDShot_90x90.jpg	Tesco Celebrate Bright Floral 2 Sheets 2 Tags	1.25	80112408	1.25
+8	0.033	SNGL	3.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/057/5000462090057/IDShot_90x90.jpg	Tesco Silver Tissue 3 Sheets	1.0	50115192	0.333
+9	0.109	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/noimage.jpg	Tesco Brights Paper Clips	1.0	76849798	1.0
+10	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/251/5053947399251/IDShot_90x90.jpg	Tesco Pink Butterfly Tissue 3 Sheets	1.5	74163840	1.5
+11	0.039	G	23.0				1	100G	[Seasoned Cooking Paper for Paprika Chicken., For more great meal ideas go to maggi.co.uk]	http://img.tesco.com/Groceries/pi/349/8585002431349/IDShot_90x90.jpg	Maggi So Tender Paprika Chicken 23G	0.95	74747115	4.14
+12	0.517	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/793/5054402302793/IDShot_90x90.jpg	Tesco Go Create Colour Paper Pad 50 Sheet	2.0	77870401	2.0
+13	0.027	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/408/5054402141408/IDShot_90x90.jpg	Tesco Bright Pink Spot Tissue 3 Sheets	0.75	77659284	0.75
+14	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/241/5054268810241/IDShot_90x90.jpg	Tesco Red Tissue 5 Sheets	1.0	77248799	1.0
+15	0.427	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/764/9770307123764/IDShot_90x90.jpg	Daily Telegraph	2.0	56210046	2.0
+16	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/657/5054268398657/IDShot_90x90.jpg	Tesco Lilac Tissue 5 Sheets	1.0	76732400	1.0
+17	0.1	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/516/9771742498516/IDShot_90x90.jpg	The Times	1.4	50532095	1.4
+18	0.933	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/965/9770261307965/IDShot_90x90.jpg	The Guardian	2.9	55416450	2.9
+19	0.353	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/441/5053526575441/IDShot_90x90.jpg	Tesco Go Create Coloured Paper	2.5	75592877	2.5
+20	0.731	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/412/9770307123412/IDShot_90x90.jpg	Daily Telegraph	1.6	50532331	1.6
+21	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/378/5054269335378/IDShot_90x90.jpg	Tesco Clear Film Wrap	1.25	79188019	1.25
+22	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/858/5054775037858/IDShot_90x90.jpg	Tesco Neon Tissue Multi 4 Pack	1.0	80113223	1.0
+23	0.463	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/270/9770956138270/IDShot_90x90.jpg	Sunday Times	2.5	50706529	2.5
+24	0.208	SNGL	1.0				1			http://img.tesco.com/Groceries/pi/473/9770956807473/IDShot_90x90.jpg	Sunday Mirror	1.4	50711874	0.0
+25	0.007	SNGL	4.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/897/5054402125897/IDShot_90x90.jpg	Tesco Multi Colours Tag 4 Pack	1.25	77648147	0.313
+26	0.72	G	24.0				1	100G	[Seasoned Cooking Paper for Mediterranean Chicken., For more great meal ideas go to maggi.co.uk]	http://img.tesco.com/Groceries/pi/742/8585002432742/IDShot_90x90.jpg	Maggi So Tender Mediterranean Tomato Chicken 24G	0.95	77567450	3.96
+27	0.054	SNGL	4.0				1	EACH		http://img.tesco.com/Groceries/pi/909/3501170959909/IDShot_90x90.jpg	Paper Mate Inkjoy 300Rt Fun 4 Pack	3.0	76316369	0.75
+28	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/841/5054775037841/IDShot_90x90.jpg	Tesco Neon Pink Tissue 3 Pack	1.0	80113217	1.0
+29	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/503/5054268398503/IDShot_90x90.jpg	Tesco Happy Birthday Printed Text Tissue 3 Sheets	1.25	76732256	1.25
+30	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/834/5054775037834/IDShot_90x90.jpg	Tesco Neon Orange Tissue 3 Pack	1.0	80113200	1.0
+31	0.07	SNGL	1.0				1			http://img.tesco.com/Groceries/pi/713/9770957623713/IDShot_90x90.jpg	Daily Star	0.4	50532072	0.0
+32	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/865/5054775037865/IDShot_90x90.jpg	Tesco Bright Stripe Tissue 3 Sheets	1.25	80113232	1.25
+33	0.166	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/noimage.jpg	Tesco Brights Paper Clips Large	1.5	76849815	1.5
+34	0.042	SNGL	3.0				1	EACH		http://img.tesco.com/Groceries/pi/474/3501178422474/IDShot_90x90.jpg	Paper Mate Inkjoy 550 Rt Classic Asstd3pk	5.0	76316334	1.67
+35	0.029	SNGL	3.0	False	True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/342/5054775316342/IDShot_90x90.jpg	Tesco Pop Geo Harlequin Tissue 3 Pack	1.25	80437485	0.417
+36	0.029	SNGL	1.0	False	True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/727/5054269339727/IDShot_90x90.jpg	Tesco Midnight Blue Stars Tissue 3 Sheets	1.5	79190091	1.5
+37	0.029	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/827/5054775037827/IDShot_90x90.jpg	Tesco Neon Yellow Tissue 3 Pack	1.0	80113192	1.0
+38	0.094	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/410/5053526575410/IDShot_90x90.jpg	Tesco Go Create Craft Paper Pack	2.5	75592848	2.5
+39	0.2	G	50.0				1	100G	[100 Premium Quality Gummed Rolling Papers]	http://img.tesco.com/Groceries/pi/046/5000143560046/IDShot_90x90.jpg	Sterling Roll Your Own 50G	16.19	71303225	32.38
+40	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/164/9772045492164/IDShot_90x90.jpg	I	0.6	70360745	0.6
+41	0.305	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/774/9770039519774/IDShot_90x90.jpg	Sunday Express	1.4	51415549	1.4
+42	0.31	SNGL	1.0				1			http://img.tesco.com/Groceries/pi/164/9770957623164/IDShot_90x90.jpg	Daily Star	0.5	55367144	0.0
+43	0.007	SNGL	4.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/880/5054402125880/IDShot_90x90.jpg	Tesco Multi Blue Tag 4 Pack	1.25	77648130	0.313
+44	0.413	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/316/9770261307316/IDShot_90x90.jpg	The Guardian	2.0	50532325	2.0
+45	0.007	SNGL	4.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/873/5054402125873/IDShot_90x90.jpg	Tesco Multi Pink Tag 4 Pack	1.25	77648124	0.313
+46	0.007	SNGL	4.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/910/5054402125910/IDShot_90x90.jpg	Tesco Multi Silver Tag 4 Pack	1.25	77648164	0.313
+47	0.345	G	250.0				1	100G	[Black tea (bags), In the time it takes your kettle to boil, we'd like to tell you about some things that really matter to us..., Don't forget   It's easy for you to do your bit too when you purchase our Eco Refills packs. With 92% less packaging weight*, you can save more than just money, *Each Eco refill pack has 92% less packaging weight than our 40 teabag carton., Typhoo Quality Programme, Working in partnership with our chosen plantations, we're committed to continually improving the conditions of the people who grow, harvest and produce the tea., Goodness all Round, We use biodegradable filter paper for all our teabags, so you can compost your old bags, Typhoo Sports for all, Community has always been at the heart of our company, so we've teamed up with a number of sports charity foundations to give many thousands of disabled people the opportunity to take part in the sports and games they love., www.typhooshop.com, www.facebook.com/typhootea, www.twitter.com/typhoo_tea]	http://img.tesco.com/Groceries/pi/094/5060123600094/IDShot_90x90.jpg	Typhoo 80 Teabags 250G	2.2	50242386	0.88
+48	0.007	SNGL	4.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/095/5054269335095/IDShot_90x90.jpg	Tesco Gold/Silver Tag 4 Pack	1.25	79187734	0.313
+49	38.889	G	23.0	False			1	10G	[Seasoned Cooking Paper for Lemon and Dill Salmon., For more great meal ideas go to maggi.co.uk, Oily fish, like salmon, should be eaten as part of a healthy diet.]	http://img.tesco.com/Groceries/pi/562/8585002434562/IDShot_90x90.jpg	Maggi So Tender Lemon Salmon 23G	0.95	80817842	0.413
+50	0.176	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/279/9771478555279/IDShot_90x90.jpg	Daily Star Sunday	1.0	57161499	1.0
+51	0.38	SNGL	1.0				1			http://img.tesco.com/Groceries/pi/272/9770956808272/IDShot_90x90.jpg	Sunday People	1.4	50711868	0.0
+52	1.225	CL	75.0				1	75CL		http://img.tesco.com/Groceries/pi/516/3175529639516/IDShot_90x90.jpg	Vieux Papes Red 75Cl	4.5	76795941	4.5
+53	0.285	SNGL	55.0				1	EACH	[Kandoo Toilet Wipes Melon Single Pack 55 Wipes, Forget tricky toilet paper   now kids can master the toilet with Pampers Kandoo toilet wipes. The wipes are just the right size for kids' hands, allowing children to wipe their bottom clean on their own   a small but important step on the road to independence.]	http://img.tesco.com/Groceries/pi/381/4015400192381/IDShot_90x90.jpg	Pampers Kandoo Toilet Wipes Melon 55 Pack	2.5	56915468	0.046
+54	0.274	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/644/5000358418644/IDShot_90x90.jpg	Tesco Fabric Transfers 7 Sheets	3.75	51062401	3.75
+55	1.22	CL	75.0				1	75CL	[Cuvée - White French Wine]	http://img.tesco.com/Groceries/pi/486/3175529639486/IDShot_90x90.jpg	Vieux Papes White 75Cl	4.5	76796001	4.5
+56	1.425	CL	75.0				1	75CL	[Châteauneuf du pape, Appellation châteauneuf du pape contrôlée, Product of France, vintage, ABV, bottling adress, volume, winemaker, UK units]	http://img.tesco.com/Groceries/pi/109/5010204345109/IDShot_90x90.jpg	Tesco Finest Chateauneuf Du Pape 75Cl	13.0	57015408	13.0
+57	0.37	SNGL	1.0	False			1			http://img.tesco.com/Groceries/pi/562/9770307176562/IDShot_90x90.jpg	Saturday Financial Times - Only available for deliveries Saturday	3.5	55515776	0.0
+58	0.175	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/427/9770029771427/IDShot_90x90.jpg	The Observer	3.0	50706339	3.0
+59	0.522	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/677/9770307269677/IDShot_90x90.jpg	Sunday Telegraph	2.0	50706541	2.0
+60	0.213	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/402/5012213363402/IDShot_90x90.jpg	Frozen Tags	1.0	80527747	1.0
+61	1.425	CL	75.0	False			1	75CL	[Red French Wine]	http://img.tesco.com/Groceries/pi/570/3211209282570/IDShot_90x90.jpg	H Valrasque Chateauneuf Du Pape 75Cl	11.0	79455683	11.0
+62	492.5	SNGL	1.0				1	EACH	[Madeira sponge cake filled with buttercream and raspberry jam, covered with soft icing and sugar decorations. Box contains a paper bunting banner with plastic sticks for decoration., Includes minature bunting]	http://img.tesco.com/Groceries/pi/613/5054402787613/IDShot_90x90.jpg	Tesco Bunting Cake	10.0	78588711	10.0
+63	1.383	CL	75.0				1	75CL		http://img.tesco.com/Groceries/pi/050/3391184190050/IDShot_90x90.jpg	M.Chapoutier Chateauneuf Du Pape 75Cl	20.0	70914534	20.0
+64	0.522	G	500.0				1	KG	[Fondant Icing Sugar, We work directly with 1,200 British farmers in East Anglia to grow our sugar beet., The sugar beet then travels directly from farm to local factory   an efficient journey from field to spoon., In just a few simple steps our factory in Bury St Edmunds turns the sugar beet in our range of homegrown sugars, Sustainability is nothing new to us   we've been working on it for 30 years. Our sugar beet is homegrown, our bags are recyclable, and we plant trees to offset the paper we make them from. We send nothing to landfill, and all of our excess production energy powers British homes., Visit Baking Mad.com, For more recipe inspiration & baking tips]	http://img.tesco.com/Groceries/pi/838/5010067334838/IDShot_90x90.jpg	Fondant Icing Sugar 500G	1.09	60572210	2.18
+65	0.028	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/937/5054402140937/IDShot_90x90.jpg	Tesco Blue Accessory Pack	1.0	77658832	1.0
+66	0.028	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/989/5054402125989/IDShot_90x90.jpg	Tesco Bright Pink Accessory Pack	1.0	77648239	1.0
+67	0.384	SNGL	1.0		True	Better Than Half Price Was £12.00 Now £5.00	1	EACH		http://img.tesco.com/Groceries/pi/412/5055114288412/IDShot_90x90.jpg	Playdoh Activity Backpack	5.0	80697896	5.0
+68	1.383	CL	75.0	True			1	75CL	[Wine of France AOP Chateauneuf du Pape 2015]	http://img.tesco.com/Groceries/pi/761/5057008456761/IDShot_90x90.jpg	Tesco Chateauneuf Du Pape 75Cl	10.0	81781126	10.0
+69	2.333	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/200/5060275045200/IDShot_90x90.jpg	My Little Pony Stationery Bumper School Pack	10.0	80577301	10.0
+70	0.128	SNGL	5.0				1	EACH	[Smooth writing & bold colour, Document proof ink, Floating ball technology, Medium 1.0mm black ballpoint pens]	http://img.tesco.com/Groceries/pi/980/8008285024980/IDShot_90x90.jpg	Papermate Flex Grip Retractable Ball Pen Black 5 Pack	5.0	63778982	1.0
+71	0.116	SNGL	8.0				1	EACH		http://img.tesco.com/Groceries/pi/746/3501179270746/IDShot_90x90.jpg	Papermate Inkjoy 100 Assorted Capped Fashion 8Pk	3.0	78546485	0.375
+72	0.546	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/073/5055918614073/IDShot_90x90.jpg	Disney Tsum Tsum Large Stationery Set	10.0	81369431	10.0
+73	0.136	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/134/5055918614134/IDShot_90x90.jpg	Tsum Tsum Art Bumper Pack	4.0	81369460	4.0
+74	0.028	SNGL	1.0	False	True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/305/5054268400305/IDShot_90x90.jpg	Tesco Gold Accessory Pack	1.0	76733301	1.0
+75	0.008	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/910/5053526471910/IDShot_90x90.jpg	Tesco Pink Happy Birthday Bow	1.0	75455159	1.0
+76	0.008	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/350/5054268400350/IDShot_90x90.jpg	Tesco Blue And White Stripe Bow	1.0	76733353	1.0
+77	0.243	SNGL	1.0	False	True	Half Price Was £10.00 Now £5.00	1	EACH		http://img.tesco.com/Groceries/pi/911/5055114321911/IDShot_90x90.jpg	Paw Patrol Colour Your Own Backpack	5.0	81328100	5.0
+78	0.028	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/958/5054402125958/IDShot_90x90.jpg	Tesco Red Accessory Pack	1.0	77648204	1.0
+79	0.021	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/428/5054268400428/IDShot_90x90.jpg	Tesco Hot Pink Encapsulated Flitter Bow	1.5	76733422	1.5
+80	0.167	SNGL	1.0	True			1	EACH	[Princess Perfect Pamper Table, Visit the Disney Princess website at www.DisneyPrincess.com]	http://img.tesco.com/Groceries/pi/562/5022545084562/IDShot_90x90.jpg	Disney Princess Perfect Pamper Table Set	6.0	81594837	6.0
+81	0.008	SNGL	1.0		True	Any 3 for 2 Cheapest Product Free	1	EACH		http://img.tesco.com/Groceries/pi/466/5054268400466/IDShot_90x90.jpg	Tesco Red And White Striped Fabric Bow	1.5	76733468	1.5
+82	0.741	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/567/3329681936567/IDShot_90x90.jpg	Set 5 Foam Boards 3Mm A4 White	7.0	77429844	7.0
+83	0.173	SNGL	1.0				1	EACH	[Smooth writing & bold colour, Document proof ink, Floating ball technology, Medium 1.0mm blue ballpoint pens]	http://img.tesco.com/Groceries/pi/997/8008285024997/IDShot_90x90.jpg	Papermate Flex Grip Blue 5 Pack	5.0	70336544	5.0
+84	0.625	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/007/5054775981007/IDShot_90x90.jpg	Love Juicy Pamper Box	7.0	81233192	7.0
+85	0.839	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/673/3329681936673/IDShot_90x90.jpg	Set 5 Foam Boards 3Mm A3 White	10.0	77429856	10.0
+86	0.205	SNGL	18.0	False			1	EACH		http://img.tesco.com/Groceries/pi/722/3501179270722/IDShot_90x90.jpg	Papermate Inkjoy 100 Assorted Fun Colours 18 Pack	5.0	78546502	0.278
+87	0.059	SNGL	5.0				1	EACH		http://img.tesco.com/Groceries/pi/825/3501178927825/IDShot_90x90.jpg	Papermate Mates Mechanical Pencils 5 Pack	2.5	77940503	0.5
+88	0.328	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/583/5060388880583/IDShot_90x90.jpg	Flower Pharm Pamper Bag One Size	8.0	76900023	8.0
+89	0.23	SNGL	10.0				1	EACH		http://img.tesco.com/Groceries/pi/000/8008285025000/IDShot_90x90.jpg	Papermate Non Stop Mech Pencils 10 Pack	5.0	50175753	0.5
+90	0.123	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/noimage.jpg	Papermate Inkjoy 100 Capped Business Asst.X8	3.0	78546491	3.0
+91	0.278	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/180/3501179270180/IDShot_90x90.jpg	Papermarte Inkjoy 300Rt Fun 8	5.0	78546525	5.0
+92	0.267	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/noimage.jpg	Papermate Inkjoy 300Rt Black 8	5.0	78546519	5.0
+93	0.041	SNGL	3.0				1	EACH		http://img.tesco.com/Groceries/pi/893/3501170959893/IDShot_90x90.jpg	Papermate Inkjoy 300 Retractable Medium Assorted 3 Pack	3.0	74537767	1.0
+94	0.117	SNGL	8.0				1	EACH		http://img.tesco.com/Groceries/pi/996/3501179255996/IDShot_90x90.jpg	Papermate Replay 8Pk 4Blk 2Blue, Pink, Purple	14.0	78505574	1.75
+95	0.278	SNGL	8.0				1	EACH		http://img.tesco.com/Groceries/pi/173/3501179270173/IDShot_90x90.jpg	Papermate 300Rt Astt 8Pk	5.0	78546410	0.625
+96	0.064	SNGL	4.0				1	EACH		http://img.tesco.com/Groceries/pi/965/3501179255965/IDShot_90x90.jpg	Papermate Replay 4 Pack Black	7.0	78505563	1.75
+97	0.039	SNGL	2.0	False			1	EACH		http://img.tesco.com/Groceries/pi/941/3501179255941/IDShot_90x90.jpg	Papermate Replay 2 Pack Black	4.0	78546456	2.0
+98	0.044	SNGL	4.0				1	EACH	[Floating ball writing technology, Retractable ball pen full triangular grip, 1. Triangular rubberised barrel for increased comfort, 2. Smooth, pleasant writing]	http://img.tesco.com/Groceries/pi/319/3501170512319/IDShot_90x90.jpg	Papermate Comfortmate 4 Pack Black	2.5	58872595	0.625
+99	0.064	SNGL	4.0				1	EACH		http://img.tesco.com/Groceries/pi/269/3501179256269/IDShot_90x90.jpg	Papermate Replay 4 Pack Blk, Purp, Blue Pink	7.5	78505592	1.88
+0	0.081	SNGL	2.0				1	EACH	[Smooth writing., M. 2.]	http://img.tesco.com/Groceries/pi/708/8008285046708/IDShot_90x90.jpg	Papermate 2 Pack Flexgrip Ultra Black Ballpens	2.5	57744144	1.25
+1	0.041	SNGL	2.0				1	EACH		http://img.tesco.com/Groceries/pi/715/8008285046715/IDShot_90x90.jpg	Papermate 2 Pack Flexgrip Ultra Blue Ballpens	2.0	57744288	1.0
+2	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/992/9771744438992/IDShot_90x90.jpg	Papercraft And Inspiration	5.99	81104394	5.99
+3	0.159	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/957/0041773937957/IDShot_90x90.jpg	Kodak 7X5 Ultra Premium Paper 20 Sheets	7.0	72797127	7.0
+4	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/021/9771744844021/IDShot_90x90.jpg	Papercraft Essentials	5.99	81104411	5.99
+5	2.308	SNGL	1.0	False			1	EACH	[Calcot Manor Country Spa Retreat, The Ultimate Spa Pamper Collection]	http://img.tesco.com/Groceries/pi/710/5054775980710/IDShot_90x90.jpg	Calcot Manor Ultimate Spa Pamper Collection	20.0	81232656	20.0
+6	0.283	SNGL	1.0				1	EACH	[Ultralift Pamper Gift Set]	http://img.tesco.com/Groceries/pi/533/5021044108533/IDShot_90x90.jpg	Garnier Pamper 160 Ultralift Set	13.0	81748069	13.0
+7	0.18	SNGL	1.0	True			1	EACH	[A complementary pet food for dogs, Oven baked wheatmeal biscuit with ready made icing and rice paper decorations. Vitamin & mineral enriched.  Oven baked wheatmeal biscuits. Suitable for adult dogs.  No artificial colours or flavours.]	http://img.tesco.com/Groceries/pi/898/5057008473898/IDShot_90x90.jpg	Tesco Decorative Dog Biscuit	2.5	81794704	2.5

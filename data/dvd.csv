@@ -1,0 +1,98 @@
+	AverageSellingUnitWeight	ContentsMeasureType	ContentsQuantity	IsNew	IsSpecialOffer	PromotionDescription	UnitOfSale	UnitQuantity	description	image	name	price	tpnb	unitprice
+0	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/494/5055201827494/IDShot_90x90.jpg	Shaun The Sheep The Movie Dvd	5.0	79360535	5.0
+1	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/564/5039036072564/IDShot_90x90.jpg	Birdman Dvd	5.0	79078311	5.0
+2	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/743/5051892189743/IDShot_90x90.jpg	The Flash S1 Dvd 5Disc	12.0	80120888	12.0
+3	1.01	SNGL	1.0		True	Any 2 for £5.00	1	EACH		http://img.tesco.com/Groceries/pi/643/7321900818643/IDShot_90x90.jpg	Scooby Doo And The Ghoul School Dvd	3.0	58403570	3.0
+4	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/175/5051892184175/IDShot_90x90.jpg	The Judge Dvd	5.0	78761137	5.0
+5	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/008/5051892187008/IDShot_90x90.jpg	Get Hard Dvd	5.0	79932280	5.0
+6	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/718/5050350967718/IDShot_90x90.jpg	House Of Cards Seasons 1 To 3 Dvd	17.0	79382359	17.0
+7	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/612/5039036074612/IDShot_90x90.jpg	Fantastic Four Dvd	7.0	80258869	7.0
+8	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/121/5053083028121/IDShot_90x90.jpg	Dumb And Dumber To Dvd	3.0	78839029	3.0
+9	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/270/5053083036270/IDShot_90x90.jpg	Seventh Son Dvd	3.0	79839696	3.0
+10	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/123/5055761904123/IDShot_90x90.jpg	The Hunger Games Mockingjay Part 1 Dvd	5.0	78362483	5.0
+11	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/613/5051892189613/IDShot_90x90.jpg	Entourage Dvd	5.0	80351050	5.0
+12	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/604/5039036071604/IDShot_90x90.jpg	Maze Runner The Dvd	3.0	78761241	3.0
+13	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/629/5051892074629/IDShot_90x90.jpg	Game Of Thrones 5 Discs Dvd	12.0	71093190	12.0
+14	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/356/5039036073356/IDShot_90x90.jpg	Unfinished Business The Dvd	3.0	79791554	3.0
+15	1.0	SNGL	1.0		True	Any 2 for £5.00	1	EACH		http://img.tesco.com/Groceries/pi/712/7321900006712/IDShot_90x90.jpg	The Witches Dvd	3.0	55187648	3.0
+16	1.0	SNGL	1.0		True	Any 2 for £8.00	1	EACH		http://img.tesco.com/Groceries/pi/276/5051892193276/IDShot_90x90.jpg	Lego Dc Justice League: Attack Of Legion Dvd	5.0	80307858	5.0
+17	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/160/5051892122160/IDShot_90x90.jpg	Game Of Thrones: Season 2 5 Disc Dvd	15.0	73319866	15.0
+18	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/455/5030305518455/IDShot_90x90.jpg	The Hundred Foot Journey Dvd	5.0	78761310	5.0
+19	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/390/5053083053390/IDShot_90x90.jpg	Back To The Future Dvd Trilogy 4Disc	12.0	80245216	12.0
+20	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/987/5053083037987/IDShot_90x90.jpg	Unfriended Dvd	3.0	79945149	3.0
+21	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/485/5055761903485/IDShot_90x90.jpg	The Expendables 3 Dvd	3.0	78214377	3.0
+22	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/634/5051892177634/IDShot_90x90.jpg	Game Of Thrones Season 4 Dvd	15.0	77521821	15.0
+23	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/223/5039036074223/IDShot_90x90.jpg	Spy Extended Cut Dvd	5.0	80183882	5.0
+24	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/417/5035822450417/IDShot_90x90.jpg	21 Jump Street 22 Jump Street Dvd	10.0	78213919	10.0
+25	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/530/5014437600530/IDShot_90x90.jpg	The Spongebob Movie: Sponge Out Of Water Dvd	5.0	79903891	5.0
+26	1.0	SNGL	1.0		True	Any 2 for £12.00	1	EACH		http://img.tesco.com/Groceries/pi/759/8717418366759/IDShot_90x90.jpg	Cinderella Diamond Edition Dvd	7.0	72486184	7.0
+27	1.0	SNGL	1.0		True	Any 2 for £12.00	1	EACH		http://img.tesco.com/Groceries/pi/430/8717418403430/IDShot_90x90.jpg	Jungle Book Dvd	7.0	74706510	7.0
+28	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/645/5050582974645/IDShot_90x90.jpg	Kill The Messenger Dvd	3.0	79791520	3.0
+29	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/274/5051892184274/IDShot_90x90.jpg	Horrible Bosses 2 Dvd	5.0	78970736	5.0
+30	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/816/5039036072816/IDShot_90x90.jpg	Taken 3 Dvd	3.0	79078271	3.0
+31	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/731/5039036072731/IDShot_90x90.jpg	Exodus: Gods And Kings Dvd	5.0	79295439	5.0
+32	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/016/5051892164016/IDShot_90x90.jpg	This Is Where I Leave You Dvd	5.0	78761154	5.0
+33	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/606/8717418468606/IDShot_90x90.jpg	Avengers Age Of Ultron/Avengers Assemble Dvd	12.0	79933054	12.0
+34	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/612/5051892201612/IDShot_90x90.jpg	Batman V Superman / Man Of Steel Dvd	13.0	81865195	13.0
+35	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/358/5053083048358/IDShot_90x90.jpg	Jurassic Park Collection Boxset 1-4 Dvd	20.0	79779651	20.0
+36	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/099/5053083048099/IDShot_90x90.jpg	Fast And Furious Dvd Bonus Disc Tesco Exclusive	5.0	79827629	5.0
+37	1.0	SNGL	1.0		True	Any 2 for £12.00	1	EACH		http://img.tesco.com/Groceries/pi/652/8717418391652/IDShot_90x90.jpg	Wreck It Ralph Dvd	7.0	74005118	7.0
+38	1.0	SNGL	1.0		True	Any 2 for £12.00	1	EACH		http://img.tesco.com/Groceries/pi/383/8717418123383/IDShot_90x90.jpg	Robin Hood Special Edition	7.0	60959220	7.0
+39	1.0	SNGL	1.0		True	Any 2 for £8.00	1	EACH		http://img.tesco.com/Groceries/pi/797/5051892186797/IDShot_90x90.jpg	Lego Dc Justice League Vs Bizarro League	5.0	79402648	5.0
+40	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/403/5039036072403/IDShot_90x90.jpg	Night At The Museum 3 Secret Of The Tomb	3.0	79222135	3.0
+41	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/325/5053083042325/IDShot_90x90.jpg	Fifty Shades Of Grey: 2 Disc Special Edition	5.0	79213889	5.0
+42	1.0	SNGL	1.0		True	Any 2 for £5.00	1	EACH		http://img.tesco.com/Groceries/pi/996/8717418468996/IDShot_90x90.jpg	The Descendants	3.0	80147557	3.0
+43	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/782/5051561039782/IDShot_90x90.jpg	Peaky Blinders Box Set (Series 1 And 2)	15.0	78255408	15.0
+44	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/513/5039036074513/IDShot_90x90.jpg	Star Wars Complete Saga Blu-Ray	50.0	80011856	50.0
+45	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/867/5053083049867/IDShot_90x90.jpg	Monster High Double Feature	5.0	79839724	5.0
+46	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/646/5053083026646/IDShot_90x90.jpg	Charlotte Crosby's 3 Minute Belly	13.0	78228804	13.0
+47	0.113	G	90.0	False			1	100G	[Milk Chocolate Coated Biscuits, About Weight Watchers®, Our food range is just part of what we have to offer. We also run thousands of friendly meetings across the UK each week, or you can follow our plan step by step completely online., For more information, call 08457 123 000 or visit weightwatchers.co.uk, Be Inspired, For great free recipe ideas, money off coupons and information about new products in our range, visit weloveweightwatchersfoods.co.uk, Useful tip #40, Too shy for the gym?, Get an exercise DVD and you won't need to leave the house]	http://img.tesco.com/Groceries/pi/757/0039047145757/IDShot_90x90.jpg	Weight Watchers Chocolate Biscuits 5 Pack 90G	1.48	63783981	1.65
+48	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/703/5039036071703/IDShot_90x90.jpg	Dawn Of The Planet Of The Apes - Tesco	3.0	78290573	3.0
+49	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/696/5051429102696/IDShot_90x90.jpg	The Last Five Years	3.0	79358429	3.0
+50	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/237/5053083028237/IDShot_90x90.jpg	Fifty Shades Of Grey The Unseen Edition	5.0	78822521	5.0
+51	1.0	SNGL	1.0		True	Any 2 for £12.00	1	EACH		http://img.tesco.com/Groceries/pi/253/8717418251253/IDShot_90x90.jpg	Walt Disney Alice In Wl Se Animation	7.0	70238540	7.0
+52	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/875/5055761906875/IDShot_90x90.jpg	The Hunger Games:Mockingjay Part 2 Blu Ray	15.0	80695103	15.0
+53	1.3	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/788/8712581670788/IDShot_90x90.jpg	Philips Dvp2800 Dvd Player	23.7	79883302	23.7
+54	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/847/5039036072847/IDShot_90x90.jpg	Kingsman: The Secret Service Blu-Ray	8.0	79456653	8.0
+55	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/599/5051124638599/IDShot_90x90.jpg	Chappie(Blu-Ray)	7.0	79761395	7.0
+56	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/906/5039036076906/IDShot_90x90.jpg	Deadpool Blu-Ray Plus Digital High Definition Ultra Violet	15.0	81262977	15.0
+57	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/565/5039036075565/IDShot_90x90.jpg	Martian, The Blu-Ray Plus Digital High Definition Ultra Violet	10.0	80695126	10.0
+58	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/452/5051892186452/IDShot_90x90.jpg	John Wick Blu-Ray	8.0	80120871	8.0
+59	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/159/5053083016159/IDShot_90x90.jpg	Lucy Blu-Ray	8.0	78041794	8.0
+60	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/554/5030305518554/IDShot_90x90.jpg	Nightcrawler Blu-Ray	7.0	78699568	7.0
+61	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/391/5051124146391/IDShot_90x90.jpg	Fury (Blu-Ray)	7.0	78699539	7.0
+62	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/699/5051124251699/IDShot_90x90.jpg	Equalizer, The (Blu-Ray)	8.0	78665044	8.0
+63	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/612/5053083069612/IDShot_90x90.jpg	Daddy's Home Blu-Ray	10.0	81332852	10.0
+64	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/841/5055201825841/IDShot_90x90.jpg	The Gunman Blu Ray	6.0	79826187	6.0
+65	1.0	SNGL	1.0	False	True	Any 2 for £15.00	1	EACH		http://img.tesco.com/Groceries/pi/185/8717418475185/IDShot_90x90.jpg	The Good Dinosaur (Blu-Ray)	10.0	81068384	10.0
+66	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/517/5039036076517/IDShot_90x90.jpg	Revenant, The Blu-Ray Plus Digital High Definition Ultra Violet	15.0	81262948	15.0
+67	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/786/5039036072786/IDShot_90x90.jpg	Taken 3 Blu-Ray Digital High Definition Ultra Violet	8.0	79078616	8.0
+68	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/794/5053083028794/IDShot_90x90.jpg	Ex_ Machina Bd	8.0	78859345	8.0
+69	1.0	SNGL	1.0		True	Any 2 for £25.00	1	EACH		http://img.tesco.com/Groceries/pi/882/8717418480882/IDShot_90x90.jpg	Star Wars: The Force Awakens Blu-Ray Plus Bonus	15.0	81201492	15.0
+70	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/641/5017239152641/IDShot_90x90.jpg	The Hateful Eight Blu-Ray	15.0	81406929	15.0
+71	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/611/5039036071611/IDShot_90x90.jpg	Maze Runner The Blu-Ray Digital High Definition Ultra Violet	8.0	78760616	8.0
+72	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/136/5053083035136/IDShot_90x90.jpg	Fast And Furious 7 Bd	8.0	79401822	8.0
+73	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/025/5030305519025/IDShot_90x90.jpg	Spooks: The Greater Good Blu-Ray	7.0	80167458	7.0
+74	0.365	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/050/5054402025050/IDShot_90x90.jpg	Tesco I Love Dad Mug Single	2.5	77524668	2.5
+75	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/397/5055761905397/IDShot_90x90.jpg	Ultimate Avengers Dvd (Re-Sleeve)	3.0	79211511	3.0
+76	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/145/5053083028145/IDShot_90x90.jpg	Cooties Dvd	5.0	80279723	5.0
+77	1.0	SNGL	1.0		True	Any 2 for £12.00	1	EACH		http://img.tesco.com/Groceries/pi/358/8717418291358/IDShot_90x90.jpg	Bambi Diamond Edition Dvd	7.0	67484286	7.0
+78	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/588/5053083025588/IDShot_90x90.jpg	Atticus Institute Dvd	5.0	79080814	5.0
+79	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/600/5053083051600/IDShot_90x90.jpg	Cop Car Dvd	5.0	80308120	5.0
+80	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/643/5055744700643/IDShot_90x90.jpg	Mr Turner Dvd	5.0	78867554	5.0
+81	0.506	SNGL	25.0				1	EACH		http://img.tesco.com/Groceries/pi/928/5051898490928/IDShot_90x90.jpg	Tesco Dvd+R 25 Disc Spindle	5.0	51021433	0.2
+82	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/911/5055761903911/IDShot_90x90.jpg	The Expendables Triple Dvd Boxset 3 Disc	7.0	78214210	7.0
+83	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/328/5030305108328/IDShot_90x90.jpg	Peppa Pig Pumpkin Party Dvd	6.0	80244782	6.0
+84	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/713/5051892182713/IDShot_90x90.jpg	Magic In The Moonlight Dvd	5.0	78699211	5.0
+85	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/996/5039036051996/IDShot_90x90.jpg	Aliens In The Attic Dvd	3.0	73106536	3.0
+86	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/639/5014437600639/IDShot_90x90.jpg	Hot Tub Time Machine 2 Dvd	5.0	80011758	5.0
+87	1.048	SNGL	50.0				1	EACH		http://img.tesco.com/Groceries/pi/784/5051008884784/IDShot_90x90.jpg	Tesco Dvd+R 50 Disc Spindle	9.0	58147628	0.18
+88	1.0	SNGL	1.0	False			1	EACH		http://img.tesco.com/Groceries/pi/386/8717418445386/IDShot_90x90.jpg	Avengers Earth's Mightiest Heroes Volumes 1-8	10.0	78665211	10.0
+89	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/715/5053083032715/IDShot_90x90.jpg	The Man With The Iron Fists 2	5.0	79382198	5.0
+90	1.0	SNGL	1.0		True	Any 2 for £15.00	1	EACH		http://img.tesco.com/Groceries/pi/374/8717418440374/IDShot_90x90.jpg	The Lion King Blu-Ray	10.0	77982770	10.0
+91	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/568/5039036074568/IDShot_90x90.jpg	Fantastic Four Blu-Ray Digital High Definition Ultra Violet	10.0	80258875	10.0
+92	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/193/5039036074193/IDShot_90x90.jpg	Spy Extended Cut Blu-Ray Digital High Definition Ultra Violet	10.0	80183899	10.0
+93	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/992/5053083044992/IDShot_90x90.jpg	Jurassic World Blu-Ray	10.0	79675756	10.0
+94	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/778/5051892194778/IDShot_90x90.jpg	Black Mass Blu-Ray	8.0	81004881	8.0
+95	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/771/5039036065771/IDShot_90x90.jpg	X-Men Days Of Future Past Blu-Ray Digital	8.0	77534570	8.0
+96	1.0	SNGL	1.0				1	EACH		http://img.tesco.com/Groceries/pi/482/5055761904482/IDShot_90x90.jpg	The Hunger Games Mockingjay Part 1 Blu Ray	9.0	78362016	9.0
