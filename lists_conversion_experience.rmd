@@ -1,10 +1,9 @@
 # 'Have you forgotten?' Conversion experiences in list worlds
 
-# Introduction: the presentation of a presentation
-
+## Introduction: the presentation of a presentation
+ 
 Presentation presents another presentation I saw recently about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further purchases under the title of 'Have you forgotten?'. When you shop for groceries online, the 'Have you forgotten' recommendations appear when at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list. The working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.
 
-![Tesco ClubCard](figure/tesco-clubcard.jpg ) 
 
 As we will see, the items on this list are recommendations. They are only a few of them: five. The question: which five items and in what order?
 
@@ -12,7 +11,7 @@ As we will see, the items on this list are recommendations. They are only a few 
 
 Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door  -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising. 
 
-In this respect, the presentation was not really surprising or exceptional. Its ordinariness and prosaic character stands out as the most significant feature.  The presentation itself is a working example for an argument about our experience of predictive ordering. 
+In this respect, the presentation was not really surprising or exceptional. Its ordinariness and prosaic character stands out as the most significant feature.  The presentation itself is a working example for an argument about our experience of predictive ordering. In this paper, I re-present the presentation using a mixture of theoretical and practical resources. The theory is largely recent media theory, and the practical resources are that of coding and predictive models.  
 
 The problem of incomplete lists reminds me of the game 'I went shopping and I bought ... ' that adults sometimes play with children.  The game is about remembering a well-ordered list of items - 'a' is apple, 'b' is for banana, 'c' is for carrot.  The point of the game is to use the well-ordered set of labels provided by the sequence of letters in the alphabet to remember a random and perhaps very diverse list of items. The longer the game continues, the harder it is to remember since the shopping list grows longer. At the same time, each player repeats the list, and this  helps memorisation. One trick in playing this game is to choose items that are quite unexpected or increasingly random. Rather than `ham`, list `halva`; rather than `fish`, add `face cream.` This is especially useful for adults in beating children. The children have better memories for items they know, but adults know more unexpected items. On the other hand, very unexpected items are quite easy to remember and tend to even the score in the favour of the children. Balancing between the improbable and memorable, between a predictable list like 'apples, bananas, carrots' and an unusual list such as 'agave syrup, boccadilla,cilantro' is complicated. 
 
@@ -20,7 +19,7 @@ Something similar applies to recommendation systems. The system can remember ver
 
 But a recommendation system finds it much harder to suggest items that you have not forgotten but may have never bought. If you do buy recommended items, then the recommender system has been effective. It has led to a **'conversion.'** From a supermarket perspective, the conversion should be high-value. There is little value in recommending a whole lot of small and cheap items such as rubber bands or toothpicks. So it might need to choose amongst different recommendations and weight high value items differently to low value items. In either case, 'conversion'  is the valued event. 
 
-If we are interested in lists from various angles -- as asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or as elements in 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA], or even in terms of different cultural practices of listing [@Jullien_TBA] -- then contemporary list practices such as recommendations figure as sites of intersection between different forms.
+If we are interested in lists from various angles -- as asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or as elements in 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA], or in terms of the predictive conditions of contemporary experience [@Hansen_2015a] -- then contemporary list practices such as recommendations figure as sites of intersection between different forms.
 
 **How do we approach lists as objects of research?** While lists such as recommendations intersect strongly with other meaning and sense-making practices in everyday life and popular culture, they are also somewhere refractory to discourse analysis and textual analysis methods of humanities and social science research. For on the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that multiply semiotic readings. For on the other hand, as operational entities, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology] 
 
@@ -59,23 +58,32 @@ The question exercising much contemporary work on data, on media, platforms and 
 
 As the quote shows, he presents this as an 'ontological transformation.' The practical and indeed experimental question for me here is whether such transformations can be detected and articulated in the prosaic setting of shopping lists and  shopping baskets. I will suggest that 'conversion' might be a better way of mapping these changes than 'transformation.'   
 
-# 1. The context of the presentation - Consumption and shopping
-- presentation at an academic event with speakers from industry and government on statistics and operations research in industry. Speakers came from Shell, Disney, GCHQ, and various universities.  Because I've done a lot of work on machine learning and data science more generally, I found the sessions both familiar and occasionally exciting. 
+## 1. The context of the presentation - Consumption and shopping
+
+I heard this presentation at an academic event with speakers from industry and government on statistics and operations research in industry. Speakers came from Shell, Disney, GCHQ, and various universities.  Because I've done a lot of work on machine learning and data science more generally, I found the sessions both familiar and occasionally exciting. 
 
 ![patel_notes](figure/patel_overall.png)
 
-- Shreena Patel works as a data scientist for DunnHumby, a well-known [ customer science company ](https://www.dunnhumby.com/)  focusing on online grocery shopping at Tesco. I found her presentation on shopping lists to be very practical since it was focused quite a lot on implementation of recommendations, and symptomatic in various ways. 
+Shreena Patel works as a data scientist for DunnHumby, a well-known [ customer science company ](https://www.dunnhumby.com/)  focusing on online grocery shopping at Tesco. I found her presentation on shopping lists to be  practical and evocative since it was focused quite a lot on implementation of recommendations, and symptomatic in various ways. 
+
+![Tesco ClubCard](figure/tesco-clubcard.jpg ) 
+
 Tesco is the largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
 DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Humby_1984]  
 Clive Humby's academic work is hard to track down, but an early paper of his given at the Conference of Your Operational Researchers in Nottingham in 1984 suggests the direction that he and later Tesco would take in constructing lists [@Humby_1984] 
 
 ![Humby, 1984]( figure/2_humby_young_org_1994.png)
 
+While Tesco has been very successful in data-mining its customers, the online shopping situation is a bit different. It is no longer organised around campaigns involving special offers or redemption of points, but on continuous up-selling and cross-selling. 
+
 - the problems of scale: Tesco is like Amazon or Netflix in this respect: too many people and too many products
 
 >Tesco is the clear winner in the online grocery market, in fact it takes almost 50p of every £1 spent on food shopping on the internet. (https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/)[https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/]
 
-# 2. The web and the shopping basket: how it was reconstituted in the 1990s
+## 2. The web and the shopping basket: how it was reconstituted in the 1990s
+
+![People add to list](figure/online_lists_in_practice.png)
+
 - online commerce -- transforming shopping; 
 - personalization and recommendation as the killer apps for social media as a commercial process, but also in government etc. 
  
@@ -85,7 +93,7 @@ Also can use Schafer -- back to Association Rule Mining from early 1990s
 
 When commentators first began talking about recommender systems in the 1990s, they highlighted the shift from demographic-driven market research techniques to personalized recommendations. For instance, writing in 1997, Paul Resnick and Hal Varian (at that time Dean of Information Sciences at UC Berkeley, but somehow now Chief Economist at Google), made much of this difference [@Resnick_1997]. 
 
-# 3. From the rules-based list to a 'relevancy model'
+## 3. From the rules-based list to a 'relevancy model'
 
 Shreena described her work at DunnHumby in terms of a shift in models from a 'rules-based list' to a 'relevancy model.' 
 This was a significant change in how the 'Have You Forgotten' list was constructed from one kind of model to another. For me, the shift in models matters since it amounts to a much more probabilistic structuring of lists.
@@ -151,7 +159,7 @@ If we take the itemset from the `Groceries` dataset [@Hahsler_2006], and then ru
 Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. The 169 items of the `Groceries` dataset, itself from a local German or Austrian supermarket [@REF_TBA],  expand into roughly `r total` possible items.  
 
 
-# 4. Hack? Customers go straight to the checkout
+## 4. Hack? Customers go straight to the checkout
 
 Shreena observed that the 'Have you forgotten' lists matter to people, and we can see why in the light of this proliferation of things in the list. A `r total` list of items is quite hard to list let alone read. 
 Shreena said that some people log on and go straight to the checkout, allowing the recommendation system to supply them with the suggestions that they then move to the shopping basket.
@@ -160,7 +168,7 @@ It is also a strategy to avoid having to view too many lists, since the only way
 People inhabit lists and work with them no matter how they are made; thus vindicating ethnomethodologists assertion that social order is the product of ongoing sense-making practices. 
 But it also suggests a transformation in the way that lists exist in the world. 
 
-# 5. Data: 52 weeks of data for each customer: how is order constructed -- from history?
+## 5. Data: 52 weeks of data for each customer: how is order constructed -- from history?
 
 Shreena described the data they on grocery purchases. 'We have 52 weeks of purchase data for each customer.' 
 We know that the construction of lists has been transformed by recommendation systems.
@@ -184,7 +192,7 @@ In some ways, Hansen's account resembles the Badiouean ontology of the multiple 
 - shift from data mining to personalization? 
 - use some of the Varian, Linden, Resnick, Schaffer literature
  
-# 6. Gain: use good features to build models 
+## 6. Gain: use good features to build models 
 - what counts as a good feature? See Domingos on this
 - move from Dunnhumby's ClubCard focus to much more general world of predictive models (e.g. Facebook use a million models, etc.)
 - the model counts for surprisingly little -- at least, they all seem similar ... rather what counts is all that stuff on working with substitutions, similiarities and complementarities for each person.   
@@ -197,7 +205,7 @@ Why did she say little about the model, which after all, produces the probabilis
 
 The graph compares models in terms of their predictions and how those predictions came to pass. The two columns on the left show earlier models -- the global model, which is not personalized, the association rules model for individual customers, and then the new models (logistic regression, random forest, etc) for customers. An increase in precision means more sales.  Her interest lay in the relevance of the recommendations, and in particular, in how 'most of the gain comes from thinking of good features.'
 
-# 7. Sparsity: output 20 recommendations from 200,000 products
+## 7. Sparsity: output 20 recommendations from 200,000 products
 
 What counts as a good feature in a world of predictive lists? Some things in the data that increases the precision of the model. The problem that Tesco faces, however, is that there are too many possible recommendations to be tested. They sell around 200,000 products and no customer wants to buy any more than a fraction of a per cent of those products. The recommendation list needs to very short.
 
@@ -224,36 +232,51 @@ In Hansen's or Badiou's terms, this is one way in which the dataset is closed. W
  
 So the raw data -- the 52 weeks of purchases for each customer -- can be aggregated to increase the density of the data in ways that helps the model. Shreena mentions some of the 'features' used in the new model but somewhat strangely at this point, her presentation turns toward the difficulties of measuring the success of the model and the infrastructural limitations on making recommendations in ways that are more alive to what is happening right now. 
 
-# 8. Value: Balancing conversion vs spend
+## 8. Value: Balancing conversion vs spend
 The value of an ordering
  
-# 9. Metric: precision-at-K
+## 9. Metric: precision-at-K
  
 The discussion of imperfection was brief - it incorporated the notion of recommendations weighted by price and the notion of precision (or the proportion of products actually purchased.). Shreena simply said that this metric was imperfect, but without elaborating why. Instead she moved to describe some of the ways in which the recommendation system worked in practice. 
 
-# 10. Experiment: A/B allocation
+## 10. Experimental settings: A/B allocation and uplift
 
-![A/B testing](figure/a_b_tests.png)
+![A/B testing](figure/a_b_tests.png) 
 
 First of all, the new model was deployed experimentally in a random A/B controlled trial. This means that all customers are allocated to one of four categories as shown in the figure. For an identical shopping list, or even for the same person, it is possible to receive different recommendations.    
 
 This randomising of the application of the model, drawing on protocols for randomised clinical trials first developed in the 1960s, is widely used in social media platforms and hence in all recommender systems. It is difficult to gauge how much. Facebook reports that it has more than 1 million models operation in its infrastructure. [TBA: ref for FBflow]   We could also discuss the integration of experiments into the operational infrastructures at Google.[REF tba] 
  
-Random allocation of customers to the four categories (Test A, Test B, Control A, Control B) adds another layer of probability to the recommendation system. This is done in the name of statistical validation of the effects or the uplift of the model.  
+Random allocation of customers to the four categories (Test A, Test B, Control A, Control B) adds another layer of probability to the recommendation system. This is done in the name of statistical validation of the effects or the uplift of the model. It also suggests that the effects of the model cannot be known in advance -- they can only be observed experimentally. Does this experimentality of the list point more to the propensities that Hansen says saturate experience?  
 
-# 11. Infrastructure: realtime engine serves up top 5
-Only in certain settings are things realtime; or only in limited ways;
-Realtime has its own economies and cultures
+It is perhaps significant that this random allocation of customers to control and test groups occurs without any relation to the particular profile or propensities of the customer. It seeks to statistically validate the effects -- the *uplift* -- of the model on  conversion events by allowing the effects of the model on what people do to be measured. The lift or uplift refers to a change in events associated with the same groups of people. This effectively is an experiment in inhabiting two different worlds.  This sets up a feedback look between the predictive model, the logistic regression, and the operation of the recommendation system.[^12] Once the experimental uplift methodology is in place, the recommendation system can constantly modify the recommendation list in light of subsequent data on the uplift. Predictions, then, are not bound by fixed parameters of the model. 
 
-# 12. Similarity, substitution and complementarity
+[^12]: See [@Lo_2002] for an introduction to the construction of experimental set ups for uplift models. Market researchers and data miners seem to have started adopting a statistically grounded experimental predictive practice sometimes around 2000. See for instance [@Almquist_2001]  Response modelling, propensity modelling and uplift modelling all seek to identify associations between 'treatments' or interventions and the 'Responders', the people  affected by the treatment.  Interestingly, these 
+
+
+## 11. Infrastructure: realtime engine serves up top 5
+
+![Realtime infrastructure and its limits](~/lists/figure/hadoop.png)
+
+While much discussion of recent media has highlighted its realtime operation, Shreena's description of the infrastructure that implements the new model suggested a different temporal patterning. While raw data from Tesco Online feeds into the model every hour, it seems that recommendation list for each customer is only generated once a week. This makes sense. Customers only shop online every few days at the most, and in some cases, only every few weeks. To continually update the top 200 recommendations for every customer would be computationally expensive.   
+
+Shreena did not say much else about the infrastructure but the 200 recommendations generated each week are certainly never seen by the customers. The realtime engine that actually generates results shown on the Tesco Online website only shows 5 after 'applying business rules.' Again, this might be seen as corroborating Hansen and Badiou's insistence on the necessarily limited grasp of any prediction system on the situation it encounters. Even the new model, situated amidst its experimental setup cannot fully encompass the surplus of sensibility it encounters.    
+
+The brief mention of specific infrastructural elements such as `hadoop` is, however, significant. It points to the temporality of infrastructures themselves as a component of list practices. The possibility of adjusting the recommendations for every customer weekly derives from an infrastructure capable of collecting data, assimilating that data to predictive model able to generate recommendations that are relevant to individuals amongst 200,000 products.  
+
+## 12. Similarity, substitution and complementarity
+
+
 - interesting contrasts here between the relations of things in a list
 - whereas the `arule` approach compares lists looking for similiarities and ways of completing lists, the more recent approaches look for micrological propensities in the list that relate to a particular time and place, amidst a continuously differentiable pathways between things ... 
+- how do things associate with each other in complementarities, substitutions, etc. 
  
-# 13. Complementarity drives conversion 
+## 13. Complementarity drives conversion 
 - the problem of action
 
-# Conclusion
-- lists have complex temporal structure
-- listing practices very closely entangled with problems of social order
-- lists undergoing a 'conversion' experience as they become more probabilistic
+## Conclusion
+- lists have complex temporal-material structure, since they mix prediction, infrastructural constraints, the individual characteristics of list-makers, statistical validations, database architectures and above all the surplus of sensibility associated with commodity production. 
+- listing practices very closely entangled with problems of social order under predictive conditions or amidst predictive operations. 
+- lists undergoing a 'conversion' experience as they become more probabilistic, but their heterogeneous character as operations caught up in models, infrastructures, experiments, and the flow of commodities means that they can never form a closed set or dataset. Amidst prediction they become constitutively incomplete. 
 
+## References

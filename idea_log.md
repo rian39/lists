@@ -177,3 +177,16 @@ Streams, pipelines and trees: living with unending lists
 - TODO: some more work on simulating the baskets and perhaps the customers using the GBCS data
 - started to write a script to simulate baskets in terms of range of items, total cost, number of items,, etac 
 - TODO: put r chunks in outline to extract high cost conversion items
+
+
+## Mon Oct 10 09:27:43 BST 2016
+
+- reread hansen a bit to get a sense of the actual argument: the main thing seems to be that it is not the event itself that matters but the organisation and accessing of the propensities in the world that come to light. 4  
+- also the hansen point about re-thinking media as distributed in the world
+- tried to track down the Vernes reference -- 1982, critique de raison aleatoire -- would need to ill that.
+- wrote some on the uplift model -- turns out that has only recently come into marking (around 1999) and is under active development in market research. I thought it would be standard practice ...  downloaded a paper on it by Victor Lo 2002 ~/archive/data_intensive/markets/lo_lift_model_1982_10.1.1.99.7064.pdf
+- uplift models are one of the ways that markets link machine learning into marketing ... 
+- TODO: write bash script to extract all headings, images and knitr chunks to a file and then convert to ioslides, etc. 
+- TODO: get some references for realtime in media: Hansen doesn't speak about this much -- might be able to adapt some of his temporality talk. ... 
+- tried t write the infrastructure section -- not much to say about hadoop, except that without it, no lists ... is all of this a product of infrastructural transformation?
+
