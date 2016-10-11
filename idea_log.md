@@ -77,7 +77,7 @@ Streams, pipelines and trees: living with unending lists
 ## Mon Sep 12 15:19:55 BST 2016
 
 - just listened to Shreena Patel from DunnHumby speaking about 'Have you forgotten?' in the shopping basket at Tesco. Really interesting description of the pipeline for the recommendations that are shown at the end. Could base the whole talk around this rather than the high-falutin talk I've sent in. Shopping lists are the prosaic example I've been looking for. 
-- see pages  43-47, **August 2016** notebook 
+- see pages  43-47, **August 2016** notebook; now scanned as figure/single_patel.pdf
 
 ## Mon Sep 26 08:34:00 BST 2016
 
@@ -92,7 +92,7 @@ Streams, pipelines and trees: living with unending lists
 - 1997 special issue of ACM on recsys? Not sure. Went through time in WoS a bit and found 2001 article on recommender systems -- Schafer et al ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf -- which is a bit better. Has a lot of taxonomies and late 1990s references 
 - TODO: go through the main points and think about where I can put my own stuff in; DONE 
 - TODO: look up ethnomethodology on lists ...
-- TODO: go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; dimensionality;    
+- TODO: go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; probabilisation, dimensionality; enunciative function;    
 
 ## Tue Sep 27 09:12:58 BST 2016
 
@@ -156,7 +156,7 @@ Streams, pipelines and trees: living with unending lists
 
 ## Thu  6 Oct 09:27:40 BST 2016
 
-- scanned notes from notebook as figures. 
+- scanned notes from notebook as figures. They are figure/single_patel.pdf as well as in single files 
 - how to deal with surplus -- is that the issue? Could talk about the undersampling of the 200000 products.  
 - went back to the TESCO api and actually managed to register properly
 - wrote a small python script to get items -- actually more interested in the data that the api gives back. Its quite extensive in its attempts to qualify each item.
@@ -176,8 +176,7 @@ Streams, pipelines and trees: living with unending lists
 - TODO: get some ideas on conversion from James' ~/archive/james_texts/james_varieties.pdf
 - TODO: some more work on simulating the baskets and perhaps the customers using the GBCS data
 - started to write a script to simulate baskets in terms of range of items, total cost, number of items,, etac 
-- TODO: put r chunks in outline to extract high cost conversion items
-
+- TODO: write r chunks in outline to extract high cost conversion items
 
 ## Mon Oct 10 09:27:43 BST 2016
 
@@ -186,7 +185,13 @@ Streams, pipelines and trees: living with unending lists
 - tried to track down the Vernes reference -- 1982, critique de raison aleatoire -- would need to ill that.
 - wrote some on the uplift model -- turns out that has only recently come into marking (around 1999) and is under active development in market research. I thought it would be standard practice ...  downloaded a paper on it by Victor Lo 2002 ~/archive/data_intensive/markets/lo_lift_model_1982_10.1.1.99.7064.pdf
 - uplift models are one of the ways that markets link machine learning into marketing ... 
-- TODO: write bash script to extract all headings, images and knitr chunks to a file and then convert to ioslides, etc. 
+- TODO: write script to extract all headings, quotes, images and knitr chunks to a file and then convert to ioslides, etc. 
 - TODO: get some references for realtime in media: Hansen doesn't speak about this much -- might be able to adapt some of his temporality talk. ... 
 - tried t write the infrastructure section -- not much to say about hadoop, except that without it, no lists ... is all of this a product of infrastructural transformation?
 
+## Tue 11 Oct 09:27:24 BST 2016
+
+- TODO: use montage to create image of all out.jpg as a slide
+- had to rescan patel page 3 because it was cropped figure/patel_page3_SKM_C36816101109420.pdf
+- went through paper adding a bit on classifiers and tangentially approaching the topic of basket similarity. 
+- finding it hard to write about that bit of the presentation  - some small cues -- 'modelling substitutes'. Does that mean that they build models for reach product? Or for each of the recommendations in the 200 in the list? That is, a second layer of modelling that connects the recommendations to what is in the basket? Shreena talks about it in that way ...    
