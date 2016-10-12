@@ -2,23 +2,22 @@
 
 ## Introduction: the presentation of a presentation
  
-Presentation presents another presentation I saw recently about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further grocery purchases under the title of 'Have you forgotten?'. When you shop for groceries online, the 'Have you forgotten' recommendations appear  at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, the working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.
+I saw recently a presentation about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further grocery purchases under the title of 'Have you forgotten?'. When you shop for groceries online, a list of 'Have you forgotten' recommendations appear  at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, the working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.
 
-As we will see, the items on this list are recommendations. They are only a few of them: five. The question: which five items and in what order?
+The items on this list are recommendations. They are only a few of them: five. The question: which five items and in what order?
 
 ![shopping_list](figure/1_shopping.png )
 
-Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door  -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. I regard this list of just five suggestions given to Tesco's online customers as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising. 
+Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door  -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. I regard the list of five suggestions show to Tesco's online customers at the checkout as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising. 
 
-In this respect, the presentation was not really surprising or exceptional. Its ordinariness and prosaic character stands out as the most significant feature.  The presentation itself is a working example for an argument about our experience of predictive ordering. In this paper, I re-present the presentation using a mixture of theoretical and practical resources. The theory is largely recent media theory, and the practical resources are that of coding and predictive models.  
+In this respect, the presentation was not really surprising or exceptional. The ordinariness and prosaic character of grocery shopping stands out as the most significant feature.  The presentation itself is a working example for an argument about our experience of predictive ordering. In this paper, I re-present the presentation using a mixture of theoretical and practical resources. The theory is largely recent media theory and its accounts of prediction in media. The practical resources are that of coding and predictive models.  
 
-The problem of incomplete lists reminds me of the game 'I went shopping and I bought ... ' that adults sometimes play with children.  The game is about remembering a well-ordered list of items - 'a' is apple, 'b' is for banana, 'c' is for carrot.  The point of the game is to use the well-ordered set of labels provided by the sequence of letters in the alphabet to remember a random and perhaps very diverse list of items. The longer the game continues, the harder it is to remember since the shopping list grows longer. At the same time, each player repeats the list, and this  helps memorisation. One trick in playing this game is to choose items that are quite unexpected or increasingly random. Rather than `ham`, list `halva`; rather than `fish`, add `face cream.` This is especially useful for adults in beating children. The children have better memories for items they know, but adults know more unexpected items. On the other hand, very unexpected items are quite easy to remember and tend to even the score in the favour of the children. Balancing between the improbable and memorable, between a predictable list like 'apples, bananas, carrots' and an unusual list such as 'agave syrup, boccadilla,cilantro' is complicated. 
 
-Something similar applies to recommendation systems. The system can remember very many things. It may know everything you bought in the last few years on that site, and it can easily see what you would normally buy and add those as suggestions.
+The problem of incomplete lists reminds me of the game 'I went shopping and I bought ... ' that adults sometimes play with children.  The game is about remembering a well-ordered list of items - 'a' is apple, 'b' is for banana, 'c' is for carrot.  The point of the game is to use the well-ordered set of labels provided by the sequence of letters in the alphabet to remember a random and perhaps very diverse list of items. The longer the game continues, the harder it is to remember since the shopping list grows longer. At the same time, each player repeats the list, and this  helps memorisation. One trick in playing this game is to choose items that are quite unexpected or increasingly random. Rather than `ham`, list `halva`; rather than `fish`, add `face cream.` This is especially useful for adults in beating children. The children have better memories for items they know, but adults know more unexpected items. On the other hand, very unexpected items are quite easy to remember and tend to even the score in the favour of the children. Balancing between the improbable and memorable, between a predictable list like 'apples, bananas, carrots' and an unusual list such as 'agave syrup, boccadilla, cilantro' is complicated. Something similar applies to recommendation systems. The system can remember very many things. It may know everything you bought in the last few years on that site, and it can easily see what you would normally buy and add those as suggestions.
 
-But a recommendation system finds it much harder to suggest items that you have not forgotten but may have never bought. If you do buy recommended items, then the recommender system has been effective in shunting the situation differently. It has led to a **'conversion.'** From a supermarket perspective, the conversion should be high-value. There is little value in recommending a whole lot of small and cheap items such as rubber bands or toothpicks. So it might need to choose amongst different recommendations and weight high value items differently to low value items. In either case, 'conversion'  is the valued event. 
+A recommendation system should suggest items that you have not forgotten but may have never bought. If you do buy recommended items, then the recommender system has been effective in shunting the situation differently. It has led to a **'conversion.'** From a supermarket perspective, the conversion should be high-value. There is little value in recommending a whole lot of small and cheap items such as rubber bands or toothpicks. So it might need to choose amongst different recommendations and weight high value items differently to low value items. In either case, 'conversion'  is the valued event. 
 
-We could regard lists from various angles -- as asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or as elements in 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA]. In this paper, I focus on lists and their propensities in terms of the predictive conditions of contemporary experience [@Hansen_2015a].  List practices such as recommendations figure as sites of intersection between people, infrastructures, things, places and predictions.  
+We could regard lists from various angles -- as asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or as elements in 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@TBA]. In this paper, I focus on lists and their propensities in terms of the predictive conditions of contemporary media experience [@Hansen_2015a].  List practices such as recommendations figure as sites of intersection between people, infrastructures, things, places and predictions.  
 
 **How do we approach lists as objects of research?** While lists such as recommendations intersect strongly with other meaning and sense-making practices in everyday life and popular culture, they are also somewhere refractory to discourse analysis and textual analysis methods of humanities and social science research. For on the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that multiply semiotic readings. For on the other hand, as operational entities, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology] 
 
@@ -33,14 +32,10 @@ library(dplyr)
 library(ggplot2)
 library(readr)
 
-dir('data/')
 csvs = list.files('data', pattern = '*.csv',full.names=TRUE)
 df = bind_rows(sapply(csvs, read_tsv))
 
-str(df)
-colnames(df)
 ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point() 
-ggplot(df, aes(x=price)) + geom_histogram(bins=200)
 fivenum(df$price)
 df[df$price>=20,'name']
 ```
@@ -271,7 +266,7 @@ How does the DunnHumby model deal with the micrological propensities of things? 
 
 Whereas the association rules focus on complementarities -- if you buy bread, you might want milk, if you buy beer, you might want diapers -- the substitutions look for micrological propensities that relate to gradations of preference, and variations in time and place.  Micrological propensities in the list relate to a particular time and place, amidst a continuously differentiable pathways between things.
 
-How do things associate with each other in  substitutions and complementarities? Patel's comments on this are very brief. Like the mention of `hadoop`, they imply quite extensive but relatively well-established data practices. She speaks for instance of a 'design matrix of 14,000 columns' and the use of `L1 regularization` to drive coefficients down to zero.   
+How do things associate with each other in  substitutions and complementarities? Patel's comments on this are very brief but suggest that the 'Have You Forgotten?' list becomes an increasingly mutable entity, open to many substitutions and re-writings. Like the mention of `hadoop`, what Patel said about substitution and complementarity implies extensive but relatively well-established data practices. She speaks for instance of a 'design matrix of 14,000 columns' and the use of `L1 regularization` to drive coefficients down to zero. This is machine learning talk. What is being modelled here? No longer whether to recommend a product to a customer or not, but whether something could be substituted for what is already in the recommendation list.  
 
 ```{r biscuits, echo=FALSE, cache=TRUE}
     library(dplyr)
@@ -281,12 +276,19 @@ How do things associate with each other in  substitutions and complementarities?
     bisc %>% select(price, name)  %>% order(price, decreasing=TRUE)    
     bisc[order(bisc$price, decreasing=TRUE), c('name','price')]
 ```
-We can imagine this in terms of biscuits. 
+We can imagine this in terms of biscuits. A customer's recommendation list might already include `r bisc$name[10]`.  The 'self-learning substitution model' might be able to substitute something in that list that is of higher value, either because it is bigger or more expensive. 
+
+Similarly, to model the potential complementarities   between things entails a matrix of comparisons. `Nutella` complements `bananas,` but the converse is not necessarily true since `bananas` need not complement `nutella.`  If then the 
  
 ## 13. Complementarity drives conversion 
 - the problem of action
 
 ## Conclusion
+
+My investigation of lists has been centred around the transformation in their predictive underpinnings. Following Hansen, I have been suggesting that the predictive listing in the form of open-ended recommendation is symptomatic of changes in the distribution of media. The idea that media should no longer be considered as extensions or prostheses of human communication but the environmental situation in which different propensities play out is increasingly central to contemporary media theory.   
+
+I diverge from Hansen in how I account for this change. Hansen refers to an ontological transformation in which predictive media or recommendation systems would be seen as the closed form of the open propensities of the world. I have not explored the Whitehead-derived philosophy of propensities in the world that he develops there, only because I am not sure that we need speculative theory to grapple with the material practices of prediction. Already in the DunnHumby model and the Tesco 'Have You Forgotten?' recommendations, many of the traits of predictive processes are at work.   
+
 - lists have complex temporal-material structure, since they mix prediction, infrastructural constraints, the individual characteristics of list-makers, statistical validations, database architectures and above all the surplus of sensibility associated with commodity production. 
 - listing practices very closely entangled with problems of social order under predictive conditions or amidst predictive operations. 
 - lists undergoing a 'conversion' experience as they become more probabilistic, but their heterogeneous character as operations caught up in models, infrastructures, experiments, and the flow of commodities means that they can never form a closed set or dataset. Amidst prediction they become constitutively incomplete. 
