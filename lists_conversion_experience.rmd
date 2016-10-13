@@ -1,5 +1,12 @@
 # 'Have you forgotten?' Conversion experiences in list worlds
 
+```{r setup, cache=FALSE, include=FALSE}
+library(knitr)
+output <- opts_knit$get("rmarkdown.pandoc.to")
+opts_chunk$set(warnings=FALSE)
+opts_chunk$set(messages=FALSE)
+```
+
 ## Introduction: the presentation of a presentation
  
 I saw recently a presentation about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further grocery purchases under the title of 'Have you forgotten?'. When you shop for groceries online, a list of 'Have you forgotten' recommendations appear  at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, the working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.

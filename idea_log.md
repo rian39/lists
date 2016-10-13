@@ -204,3 +204,8 @@ Streams, pipelines and trees: living with unending lists
 - read it a bit and it might help in the discussion of the weighting of the list
 - had the idea in the pool that I don't need to go much further except to say something about how media theory is grappling with the growth of prediction; premediation, etc. This also is an attempt to grapple with that. TODO: put into intro and conclusion 
 - added extract_images.sh to create slides; TODO: try it with Rmarkdown reveal, etc. 
+
+
+## Thu 13 Oct 15:58:47 BST 2016
+
+- didn't get much time today, but did a little on slides -- putting in chunk options, which didn't seem to work, and trying to get slides working. Some of them come out, but not all. 
