@@ -261,7 +261,7 @@ It is perhaps significant that this random allocation of customers to control an
 
 ## 11. Infrastructure: realtime engine serves up top 5
 
-![Realtime infrastructure and its limits](~/lists/figure/hadoop.png)
+![Realtime infrastructure and its limits](figure/hadoop.png)
 
 While much discussion of recent media has highlighted its realtime operation, Patel's description of the infrastructure that implements the new model suggested a different temporal patterning. While raw data from Tesco Online feeds into the model every hour, it seems that recommendation list for each customer is only generated once a week. This makes sense. Customers only shop online every few days at the most, and in some cases, only every few weeks. To continually update the top 200 recommendations for every customer would be computationally expensive.   
 
