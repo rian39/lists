@@ -1,3 +1,11 @@
+---
+title: "An Example Using the Tufte Style"
+author: "John Smith"
+output:
+  tufte::tufte_handout: default
+tufte::tufte_html: default
+---
+
 # 'Have you forgotten?' Conversion experiences in list worlds
 
 ## Introduction: the presentation of a presentation
@@ -278,7 +286,6 @@ How do things associate with each other in  substitutions and complementarities?
     library(ggplot2)
     library(readr)
     bisc = read_tsv('data/biscuits.csv')
-    bisc %>% select(price, name)  %>% order(price, decreasing=TRUE)    
     bisc[order(bisc$price, decreasing=TRUE), c('name','price')]
 ```
 We can imagine this in terms of biscuits. 
