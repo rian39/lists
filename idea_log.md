@@ -64,7 +64,6 @@ Streams, pipelines and trees: living with unending lists
 - large lists, indefinite lists, infinite lists ... how do they matter?  Because the series they produce becomes a kind of limit
 - second main idea: massive expansion of lists -- everything is a list (e.g. images, text, etc)
 
-
 ## Fri Aug 26 11:14:10 BST 2016
 
  - finalising title; had idea about lists that change and those that don't; lists that adapt to individual circumstance and those that seek maximum stabilisation; are there enough tensions between the agent and structures, between change and stability; between control/order and event/invention to explore here? Tensions between predictive or probabilised lists (that adapt fully to context) and those that seek to minimise change (blockchain, working memory, sequence forms,etc.) 
@@ -195,3 +194,20 @@ Streams, pipelines and trees: living with unending lists
 - had to rescan patel page 3 because it was cropped figure/patel_page3_SKM_C36816101109420.pdf
 - went through paper adding a bit on classifiers and tangentially approaching the topic of basket similarity. 
 - finding it hard to write about that bit of the presentation  - some small cues -- 'modelling substitutes'. Does that mean that they build models for reach product? Or for each of the recommendations in the 200 in the list? That is, a second layer of modelling that connects the recommendations to what is in the basket? Shreena talks about it in that way ...    
+
+## Wed 12 Oct 11:41:17 BST 2016
+- hard to get started today -- 11.41 and just starting. Spent quite a lot of time on poLCA and this doesn't have relation to the topic.  
+- will try to write about the substitute and similarity modelling
+- looking up Popper on propensity and downloaded to ~/archive/popper_propensities_1990.pdf; also printed it
+- read it a bit and it might help in the discussion of the weighting of the list
+- had the idea in the pool that I don't need to go much further except to say something about how media theory is grappling with the growth of prediction; premediation, etc. This also is an attempt to grapple with that. TODO: put into intro and conclusion 
+- added extract_images.sh to create slides; TODO: try it with Rmarkdown reveal, etc. 
+
+## Thu 13 Oct 15:58:47 BST 2016
+
+- didn't get much time today, but did a little on slides -- putting in chunk options, which didn't seem to work, and trying to get slides working. Some of them come out, but not all. 
+
+## Sun Oct 16 20:43:09 BST 2016
+
+- playing with tint formatting, but didn't really get it working.
+- managed to mess up the repo a bit by forgetting to pull down
