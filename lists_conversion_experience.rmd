@@ -1,15 +1,22 @@
 ---
 title: "'Have you forgotten?' Conversion experiences in list worlds"
 author: "Adrian Mackenzie"
+date: "`r Sys.Date()`"
 output:
-    tufte::tufte_handout: default
-    tufte::tufte_html: default
+tufte::tufte_handout: default
+citation_package: biber
+latex_engine: xelatex
+bibliography: ~/ref_bibs/uni.bib
+link-citations: yes
 ---
 
 # 'Have you forgotten?' Conversion experiences in list worlds
 
 ```{r setup, cache=FALSE, include=FALSE}
 library(knitr)
+library(tint)
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tint'))
+options(htmltools.dir.version = FALSE)
 output <- opts_knit$get("rmarkdown.pandoc.to")
 opts_chunk$set(warning=FALSE)
 opts_chunk$set(message=FALSE)
@@ -24,7 +31,7 @@ The items on this list are recommendations. They are only a few of them: five. T
 
 ![shopping_list](figure/1_shopping.png )
 
-Shopping lists are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door  -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. I regard the list of five suggestions show to Tesco's online customers at the checkout as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising. 
+Shopping lists such as Figure \ref{fig:shopping_list} are quite prosaic -- a dozen lines scrawled on the back of a used envelope stuck on the refrigerator door  -- and sublime -- a million products ranked in some kind of order for tens or hundreds of millions of people. I regard the list of five suggestions show to Tesco's online customers at the checkout as symptomatic of a major contemporary form of ordering, the recommendation list, that we see in many  forms of news, media, entertainment, marketing, advertising. 
 
 In this respect, the presentation was not really surprising or exceptional. The ordinariness and prosaic character of grocery shopping stands out as the most significant feature.  The presentation itself is a working example for an argument about our experience of predictive ordering. In this paper, I re-present the presentation using a mixture of theoretical and practical resources. The theory is largely recent media theory and its accounts of prediction in media. The practical resources are that of coding and predictive models.  
 
@@ -42,7 +49,7 @@ In this context, the fact that the lists and indeed supermarkets more generally 
 
 To this end, I will be seeking to simulate the workings of the recommendation system by generating queries, and exploring results from  a very large supermarket chain database. 
 
-```{r simulate_basket, echo=FALSE, cache=TRUE}
+```{r simulate_basket, echo=FALSE, cache=TRUE, fig.margin=TRUE}
 library(dplyr)
 library(ggplot2)
 library(readr)
@@ -109,7 +116,7 @@ Patel described her work at DunnHumby in terms of a shift in models from a 'rule
 I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda [@Agrawal_1994]. The `apriori` algorithm finds sets of items that commonly occur in transactions. These commonly occurring sets are expressed as association rules. For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart might have discovered  -- but didn't -- the fabled association between diapers and beer.  [http://www.dssresources.com/newsletters/66.php]
 The `apriori` algorithm is widely used in 'market basket analysis' and attempts to re-structure shopping lists in terms of associations between items that are frequently bought together.  
 
-```{r arules, echo=TRUE}
+```{r arules, echo=TRUE, fig.margin=TRUE}
 library(arules)
 library(arulesViz)
 library(datasets)
@@ -150,7 +157,7 @@ An open set arises from when we dwell within a set by 'taking the intersection o
 
 If we take the itemset from the `Groceries` dataset [@Hahsler_2006], and then run it through the Tesco online groceries site, each of the 169 items in the dataset yields dozens and sometimes thousands of results from Tesco online.  
 
-```{r tesco, cache=TRUE, }
+```{r tesco, cache=TRUE, fig.margin=TRUE}
     library(ggplot2)
     tesco = read.csv('data/reference_data/tesco_groceries.csv')
     total = sum(tesco$actual, na.rm=TRUE) 
@@ -292,10 +299,16 @@ How do things associate with each other in  substitutions and complementarities?
 ```
 We can imagine this in terms of biscuits. A customer's recommendation list might already include `r bisc$name[10]`.  The 'self-learning substitution model' might be able to substitute something in that list that is of higher value, either because it is bigger or more expensive. 
 
-Similarly, to model the potential complementarities   between things entails a matrix of comparisons. `Nutella` complements `bananas,` but the converse is not necessarily true since `bananas` need not complement `nutella.`  If then the 
  
 ## 13. Complementarity drives conversion 
-- the problem of action
+
+![propensity_matrix](figure/propensity_conversions.png)
+
+Similarly, to model the potential complementarities   between things entails a matrix of comparisons. `Nutella` complements `bananas,` but the converse is not necessarily true since `bananas` need not complement `nutella.`
+
+How should we understand the effect of complementarity? Patel says that 'complementarity drives conversion.' That is, the matrix of similarities expressed as numerical associations between products best animates the conversion of recommendations into purchases.  
+
+In the similarity matrix, shaped by the history of past recommendations and purchases made by this customer, lie the propensities of things that Hansen (following Popper) attributes to the world. Karl Popper speaks of the future as a 'crystallization of propensities' [@Popper_1990,18]   
 
 ## Conclusion
 

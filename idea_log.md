@@ -212,10 +212,9 @@ Streams, pipelines and trees: living with unending lists
 - playing with tint formatting, but didn't really get it working.
 - managed to mess up the repo a bit by forgetting to pull down
 
-
 ## Mon 17 Oct 12:55:25 BST 2016
 - still playing around with tufte, tint etc. Got it working reasonably well after an hour. Good example document is here: https://raw.githubusercontent.com/rstudio/tufte/master/inst/rmarkdown/templates/tufte_html/skeleton/skeleton.Rmd
-- also found Morris paper on recommender systems that I should read as point of comparison: TODO: DONE read and extract key points from ~/archive/data_intensive/morris_recommender_European Journal of Cultural Studies-2015-Morris-446-63.pdf and added some notes here morris_recommender_2015.md
+- also found Morris paper on recommender systems that I should read as point of comparison: TODO: DONE read and extract key points from ~/archive/data_intensive/morris_recommender_European Journal of Cultural Studies-2015-Morris-446-63.pdf and added some notes here ~/notes/morris_recommender_2015.md
 
 - key thing to get it working is:
 >library('tint'), render('test_tufte.rmd',output_format=tintPdf())
@@ -226,3 +225,12 @@ or
 - made a small script for this and added it as render_tufte.r
 - modified it to run for lists_conversion_experience.rmd
 
+
+
+## Tue Oct 18 10:55:59 BST 2016
+
+- still need to write something on the similarity matrix; how does it fit into the narrative? 
+- playing around with figures in the margins instead of working on the similarity matrix
+- wrote a little on the similarity matrix, but it still doesn't go far. 
+- building an image of similarity matrix using all images; getting more images for snacks, sauces, etc. Idea is that I will be able to say something about propensities and hence conversion(?) by having these images in vast montage. 
+- finished making the image, but hard to get it showing in the document ... maybe just too big 
