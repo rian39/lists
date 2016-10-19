@@ -234,3 +234,9 @@ or
 - wrote a little on the similarity matrix, but it still doesn't go far. 
 - building an image of similarity matrix using all images; getting more images for snacks, sauces, etc. Idea is that I will be able to say something about propensities and hence conversion(?) by having these images in vast montage. 
 - finished making the image, but hard to get it showing in the document ... maybe just too big 
+
+
+## Wed 19 Oct 09:24:20 BST 2016
+
+- figure/propensity_conversions.png works ok at work laptop. Not sure why not showing at home. Some problem with eog. 
+- trying to write abstract to send, but not sure I have one. 
