@@ -8,6 +8,9 @@ citation_package: biber
 latex_engine: xelatex
 bibliography: ~/ref_bibs/uni.bib
 link-citations: yes
+header-includes:
+    - \usepackage{setspace}
+    - \doublespacing
 ---
 
 # 'Have you forgotten?' Conversion experiences in lists
@@ -22,6 +25,19 @@ opts_chunk$set(warning=FALSE)
 opts_chunk$set(message=FALSE)
 opts_chunk$set(error=TRUE)
 ```
+
+## Abstract
+
+
+Amidst the predictive conditions of contemporary media-culture, the inevitable incompleteness of lists is both a problem and a potential. 
+This paper investigates practices of list-making associated with online grocery shopping at a  UK and global supermarket chain, Tesco. 
+It will analyse how a recommendation system suggests a small number of grocery items of personal relevance to each of the millions of online grocery shoppers. 
+The predictive modelling practices aim to up-sell and cross-sell some of the 250,000 items in the supermarket's inventory. 
+I find it interesting to approach the list-making practices  of the grocery recommendation system as a mundane case of the predictive intermediaries operating in many places. 
+The transformation or conversion of listing into predicting can be analysed in recommendation systems that extend existing lists with potential new items, thus transforming the temporal and agential fabric of the list.
+While all written lists mix past and future actions, actual and potential events, their predictive re-writing in recommendation systems adds a new operational dynamic.
+In this operational dynamic, the incompleteness of lists, their propensity to expand or change, becomes more important than their capacity to exhaustively enumerate things. 
+The conversion of lists from finite to in-definite in recommendation systems suggests we might need to re-conceptualise how we think about social order and structure in media cultures.  
 
 ## Introduction: the presentation of a presentation
  
@@ -58,8 +74,7 @@ library(readr)
 csvs = list.files('data', pattern = '*.csv',full.names=TRUE)
 df = bind_rows(sapply(csvs, read_tsv))
 
-ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point() 
-fivenum(df$price)
+ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point() + theme(axis.text=element_text(size=10)) 
 df[df$price>=20,'name']
 ```
 
@@ -86,8 +101,7 @@ Shreena Patel works as a data scientist for DunnHumby, a well-known [ customer s
 ![Tesco ClubCard](figure/tesco-clubcard.jpg ) 
 
 Tesco is the largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
-DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Humby_1984]  
-Clive Humby's academic work is hard to track down, but an early paper of his given at the Conference of Your Operational Researchers in Nottingham in 1984 suggests the direction that he and later Tesco would take in constructing lists [@Humby_1984] 
+DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Okeefe_1984]  Clive Humby's academic work is hard to track down, but an early paper of his given at the Conference of Your Operational Researchers in Nottingham in 1984 suggests the direction that he and later Tesco would take in constructing lists [@Okeefe_1984] 
 
 ![Humby, 1984]( figure/2_humby_young_org_1994.png)
 
@@ -158,14 +172,14 @@ An open set arises from when we dwell within a set by 'taking the intersection o
 
 If we take the itemset from the `Groceries` dataset [@Hahsler_2006], and then run it through the Tesco online groceries site, each of the 169 items in the dataset yields dozens and sometimes thousands of results from Tesco online.  
 
-```{r tesco, cache=TRUE, fig.margin=TRUE}
+```{r tesco, cache=TRUE, fig.cap ='Tesco surplus',  fig.margin=TRUE}
     library(ggplot2)
     tesco = read.csv('data/reference_data/tesco_groceries.csv')
     total = sum(tesco$actual, na.rm=TRUE) 
     tesco = na.omit(tesco)
     tesco$actual = as.integer(tesco$actual)
 
-    ggplot(tesco[tesco$actual>50,], aes(x=labels, y=actual, fill=labels)) +geom_bar(stat='identity') + coord_flip() + ggtitle('Tesco grocery items with more than 50 products') + theme(legend.position="none")
+    ggplot(tesco[tesco$actual>50,], aes(x=labels, y=actual, fill=labels)) +geom_bar(stat='identity') + coord_flip() + ggtitle('Tesco grocery items with more than 50 products') + theme(legend.position="none", axis.text=element_text(size=9))
 ```
 
 Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. The 169 items of the `Groceries` dataset, itself from a local German or Austrian supermarket [@REF_TBA],  expand into roughly `r total` possible items.  
@@ -228,16 +242,17 @@ Predictive models, we might say, encounter their own surplus of sensibility in t
 
 Say Tesco has 1 million online customers. A data matrix for just whether they ever bought a particular product or not will be `r format(1e6 * 2e5)` in size. Given that any one customer is like to only have bought 100 different products, the data matrix will be `r format(100-(100/2e5)*100, 2)`% empty. 
 
-```{r sparsity, cache=TRUE}
-
+```{r sparsity, echo=FALSE, cache=TRUE, fig.margin=TRUE, fig.cap ='The sparsity of data' }
 library(ggplot2)
-customers = seq(1000000,1)
-products = seq(200000,1)
-format(1000000 * 200000, 3)
-p = rbinom(2e5, n=1,prob=0.5)
-m = matrix(p, nrow=900, byrow=TRUE)
-df = as.data.frame(m)
-#TODO: plot here, could possibly use the images from tescoe
+library(reshape2)
+p = as.logical(rbinom(n=2e5, size=1, prob=0.001))
+head(p, 30)
+m = (matrix(p, nrow=1000, byrow=TRUE))
+
+melted <- melt(m)
+melted$value <- as.logical(melted$value)
+ggplot(melted, aes(x = Var2, y = Var1, fill = value)) + geom_tile() +
+    scale_fill_manual(values = c("grey", "black"))
  
 ```
 
@@ -291,19 +306,19 @@ Whereas the association rules focus on complementarities -- if you buy bread, yo
 
 How do things associate with each other in  substitutions and complementarities? Patel's comments on this are very brief but suggest that the 'Have You Forgotten?' list becomes an increasingly mutable entity, open to many substitutions and re-writings. Like the mention of `hadoop`, what Patel said about substitution and complementarity implies extensive but relatively well-established data practices. She speaks for instance of a 'design matrix of 14,000 columns' and the use of `L1 regularization` to drive coefficients down to zero. This is machine learning talk. What is being modelled here? No longer whether to recommend a product to a customer or not, but whether something could be substituted for what is already in the recommendation list.  
 
-```{r biscuits, echo=FALSE, cache=TRUE}
-    library(dplyr)
-    library(ggplot2)
+```{r biscuits, echo=FALSE, cache=TRUE, fig.margin=TRUE}
     library(readr)
+    library(knitr)
     bisc = read_tsv('data/biscuits.csv')
-    bisc[order(bisc$price, decreasing=TRUE), c('name','price')]
+    kable(bisc[order(bisc$price, decreasing=TRUE)[1:30], c('name','price')])
 ```
+
 We can imagine this in terms of biscuits. A customer's recommendation list might already include `r bisc$name[10]`.  The 'self-learning substitution model' might be able to substitute something in that list that is of higher value, either because it is bigger or more expensive. 
 
  
 ## 13. Complementarity drives conversion 
 
-![propensity_matrix](figure/propensity_conversions.jpg)
+![propensity_matrix](figure/propensity_conversions.png)
 
 Similarly, to model the potential complementarities   between things entails a matrix of comparisons. `Nutella` complements `bananas,` but the converse is not necessarily true since `bananas` need not complement `nutella.`
 
@@ -313,12 +328,17 @@ In the similarity matrix, shaped by the history of past recommendations and purc
 
 ## Conclusion
 
-My investigation of lists has been centred around the transformation in their predictive underpinnings. Following Hansen, I have been suggesting that the predictive listing in the form of open-ended recommendation is symptomatic of changes in the distribution of media. The idea that media should no longer be considered as extensions or prostheses of human communication but the environmental situation in which different propensities play out is increasingly central to contemporary media theory. 
+My investigation of lists has been centred around the transformation in their predictive underpinnings. How should we think about the list-making practices of these models, databases and computational infrastructures? Following Hansen, I have been suggesting that the predictive listing in the form of open-ended recommendation is symptomatic of changes in the distribution of media. The idea that media should no longer be considered as extensions or prostheses of human communication but the environmental situation in which different propensities play out is increasingly central to contemporary media theory. 
 
-I diverge from Hansen in how I account for this change. Hansen refers to an ontological transformation in which predictive media or recommendation systems would be seen as the closed form of the open propensities of the world. I have not explored the Whitehead-derived philosophy of propensities in the world that he develops there, only because I am not sure that we need speculative theory to grapple with the material practices of prediction. Already in the DunnHumby model and the Tesco 'Have You Forgotten?' recommendations, many of the traits of predictive processes are at work.   
+Hansen refers to an ontological transformation in which predictive media or recommendation systems would be seen as the closed realisation of the actually open propensities of the world. By understanding the world in terms of propensities, he argues, we have a change to engage with contemporary predictive media. 
 
+I have not explored the Whitehead-derived philosophy of propensities in the world that he develops there, only because I am not sure that we need speculative theory to grapple with the material practices of prediction. Already in the DunnHumby model and the Tesco 'Have You Forgotten?' recommendations, many of the traits of predictive processes are at work. 
+
+I diverge from Hansen in how I account for this change. Rather than looking for a speculative theory that sets out a world in which prediction would be the closed form, 
+
+- listing practices are very closely entangled with problems of social order under predictive conditions or amidst predictive operations. 
 - lists have complex temporal-material structure, since they mix prediction, infrastructural constraints, the individual characteristics of list-makers, statistical validations, database architectures and above all the surplus of sensibility associated with commodity production. 
-- listing practices very closely entangled with problems of social order under predictive conditions or amidst predictive operations. 
 - lists undergoing a 'conversion' experience as they become more probabilistic, but their heterogeneous character as operations caught up in models, infrastructures, experiments, and the flow of commodities means that they can never form a closed set or dataset. Amidst prediction they become constitutively incomplete. 
+
 
 ## References

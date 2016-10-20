@@ -240,3 +240,12 @@ or
 
 - figure/propensity_conversions.png works ok at work laptop. Not sure why not showing at home. Some problem with eog. 
 - trying to write abstract to send, but not sure I have one. 
+- wrote abstract and sent it
+
+
+## Thu 20 Oct 11:10:53 BST 2016
+
+- changing font size on graphics2
+- added a bit to the conclusion and then printed to get something to work with
+- doing graphic for matrix of zeros
+- and trying to read everything 
