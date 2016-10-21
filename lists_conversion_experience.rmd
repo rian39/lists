@@ -24,6 +24,7 @@ output <- opts_knit$get("rmarkdown.pandoc.to")
 opts_chunk$set(warning=FALSE)
 opts_chunk$set(message=FALSE)
 opts_chunk$set(error=TRUE)
+opts_chunk$set(cache=TRUE)
 ```
 
 ## Abstract
@@ -31,17 +32,19 @@ opts_chunk$set(error=TRUE)
 
 Amidst the predictive conditions of contemporary media-culture, the inevitable incompleteness of lists is both a problem and a potential. 
 This paper investigates practices of list-making associated with online grocery shopping at a  UK and global supermarket chain, Tesco. 
-It will analyse how a recommendation system suggests a small number of grocery items of personal relevance to each of the millions of online grocery shoppers. 
+It will analyse how a recommender system suggests a small number of grocery items of personal relevance to each of the millions of online grocery shoppers. 
 The predictive modelling practices aim to up-sell and cross-sell some of the 250,000 items in the supermarket's inventory. 
-I find it interesting to approach the list-making practices  of the grocery recommendation system as a mundane case of the predictive intermediaries operating in many places. 
-The transformation or conversion of listing into predicting can be analysed in recommendation systems that extend existing lists with potential new items, thus transforming the temporal and agential fabric of the list.
-While all written lists mix past and future actions, actual and potential events, their predictive re-writing in recommendation systems adds a new operational dynamic.
+I find it interesting to approach the list-making practices  of the grocery recommender system as a mundane case of the predictive intermediaries operating in many places. 
+The transformation or conversion of listing into predicting can be analysed in recommender systems that extend existing lists with potential new items, thus transforming the temporal and agential fabric of the list.
+While all written lists mix past and future actions, actual and potential events, their predictive re-writing in recommender systems adds a new operational dynamic.
 In this operational dynamic, the incompleteness of lists, their propensity to expand or change, becomes more important than their capacity to exhaustively enumerate things. 
-The conversion of lists from finite to in-definite in recommendation systems suggests we might need to re-conceptualise how we think about social order and structure in media cultures.  
+The conversion of lists from finite to in-definite in recommender systems suggests we might need to re-conceptualise how we think about social order and structure in media cultures.  
 
 ## Introduction: the presentation of a presentation
  
 I saw recently a presentation about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further grocery purchases under the title of 'Have you forgotten?'. When you shop for groceries online, a list of 'Have you forgotten' recommendations appear  at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, the working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.
+- making some changes, including a slide of early recommendation systems from 1990s such as described in ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf
+-
 
 The items on this list are recommendations. They are only a few of them: five. The question: which five items and in what order?
 
@@ -51,7 +54,7 @@ Shopping lists such as Figure \ref{fig:shopping_list} are quite prosaic -- a doz
 
 The presentation I saw was not really surprising or exceptional. It was a presentation by a data scientist to data scientists, describing an implementation of a predictive model as well as some of the problems and potentials of the predictive model.  I see the presentation itself as providing materials for an argument about our experience of predictive ordering. In this paper, I re-present the presentation using a mixture of theoretical and practical resources. The theory is largely recent media theory and its accounts of prediction in media. The practical resources are that of coding and predictive models.[^12]
 
-[^12]: The problem of incomplete lists reminds me of the game 'I went shopping and I bought ... ' that adults sometimes play with children.  The game is about remembering a well-ordered list of items - 'a' is apple, 'b' is for banana, 'c' is for carrot.  The point of the game is to use the well-ordered set of labels provided by the sequence of letters in the alphabet to remember a random and perhaps very diverse list of items. The longer the game continues, the harder it is to remember since the shopping list grows longer. At the same time, each player repeats the list, and this  helps memorisation. One trick in playing this game is to choose items that are quite unexpected or increasingly random. Rather than `ham`, list `halva`; rather than `fish`, add `face cream.` This is especially useful for adults in beating children. The children have better memories for items they know, but adults know more unexpected items. On the other hand, very unexpected items are quite easy to remember and tend to even the score in the favour of the children. Balancing between the improbable and memorable, between a predictable list like 'apples, bananas, carrots' and an unusual list such as 'agave syrup, boccadilla, cilantro' is complicated. Something similar applies to recommendation systems. The system can remember very many things. It may know everything you bought in the last few years on that site, and it can easily see what you would normally buy and add those as suggestions.
+[^12]: The problem of incomplete lists reminds me of the game 'I went shopping and I bought ... ' that adults sometimes play with children.  The game is about remembering a well-ordered list of items - 'a' is apple, 'b' is for banana, 'c' is for carrot.  The point of the game is to use the well-ordered set of labels provided by the sequence of letters in the alphabet to remember a random and perhaps very diverse list of items. The longer the game continues, the harder it is to remember since the shopping list grows longer. At the same time, each player repeats the list, and this  helps memorisation. One trick in playing this game is to choose items that are quite unexpected or increasingly random. Rather than `ham`, list `halva`; rather than `fish`, add `face cream.` This is especially useful for adults in beating children. The children have better memories for items they know, but adults know more unexpected items. On the other hand, very unexpected items are quite easy to remember and tend to even the score in the favour of the children. Balancing between the improbable and memorable, between a predictable list like 'apples, bananas, carrots' and an unusual list such as 'agave syrup, boccadilla, cilantro' is complicated. Something similar applies to recommender systems. The system can remember very many things. It may know everything you bought in the last few years on that site, and it can easily see what you would normally buy and add those as suggestions.
 
 A recommendation system should suggest items that you have not forgotten but may have never bought. If you do buy recommended items, then the recommender system has been effective in shunting the situation differently. It has led to a **'conversion.'** From a supermarket perspective, the conversion should be high in price. There is little value in successfully recommending a whole lot of small and cheap items such as rubber bands or toothpicks. So it might need to choose amongst different recommendations and weight high value items differently to low value items. In either case, 'conversion'  is the valued event. 
 
@@ -64,18 +67,19 @@ The question for me here is **how** contemporary lists can still be understood a
 
 In this context, the fact that the lists and indeed supermarkets more generally are driven by database logics suggests that working with list data could well entail interacting with databases. 
 
-To this end, I will be seeking to simulate the workings of the recommendation system by generating queries, and exploring results from  a very large supermarket chain database. 
+To this end, I will be seeking to simulate the workings of the recommender system by generating queries, and exploring results from  a very large supermarket chain database. 
 
-```{r simulate_basket, echo=FALSE, cache=TRUE, fig.margin=TRUE}
+```{r simulate_basket, echo=FALSE, cache=TRUE, fig.margin=TRUE, fig.cap='Prices and quantities of things in the world'}
 library(dplyr)
 library(ggplot2)
 library(readr)
+library(knitr)
 
 csvs = list.files('data', pattern = '*.csv',full.names=TRUE)
 df = bind_rows(sapply(csvs, read_tsv))
 
 ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point() + theme(axis.text=element_text(size=10)) 
-df[df$price>=20,'name']
+kable(df[df$price>=20,'name'])
 ```
 
 Much of my paper, and my responses to the presentation I saw from a data scientist  will focus on how the ordering that is done in a recommendation lists relates to the problem of social order more generally.  The main narrative of the presentation concerned a shift from a set-based model for making lists to a predictive, probabilistic way of making lists in almost realtime and dealing with lists on a scale that is often difficult to grasp concretely. The change in list-making associated with learned models is increasingly widespread, and relies on a probabilistic treatment of people and things. 
@@ -119,10 +123,15 @@ While Tesco has been very successful in data-mining its customers, the online sh
 - personalization and recommendation as the killer apps for social media as a commercial process, but also in government etc. 
  
 How would I characterise this shift? Use it to emphasize why attention to the algorithm is not enough -- it is the model that counts
-A little history of recommender systems -- uses Varian 1997 for a start. But has no real reference list. Not sure  
+A little history of recommender systems -- uses Varian 1997 for a start. But has no real reference list. 
 Also can use Schafer -- back to Association Rule Mining from early 1990s
 
 When commentators first began talking about recommender systems in the 1990s, they highlighted the shift from demographic-driven market research techniques to personalized recommendations. For instance, writing in 1997, Paul Resnick and Hal Varian (at that time Dean of Information Sciences at UC Berkeley, but somehow now Chief Economist at Google), made much of this difference [@Resnick_1997]. 
+
+![Early e-commerce recommender system architecture](figure/schafer_recommendation_2001.png)
+
+![The advent of recommender systems](figure/resnick_varian_page1_197.png)
+
 
 ## 3. From the rules-based list to a 'relevancy model'
 
@@ -131,34 +140,29 @@ Patel described her work at DunnHumby in terms of a shift in models from a 'rule
 I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda [@Agrawal_1994]. The `apriori` algorithm finds sets of items that commonly occur in transactions. These commonly occurring sets are expressed as association rules. For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart might have discovered  -- but didn't -- the fabled association between diapers and beer.  [http://www.dssresources.com/newsletters/66.php]
 The `apriori` algorithm is widely used in 'market basket analysis' and attempts to re-structure shopping lists in terms of associations between items that are frequently bought together.  
 
-```{r arules, echo=TRUE, fig.margin=TRUE}
+```{r arules, cache=TRUE, echo=TRUE, fig.margin=TRUE}
+library(knitr)
 library(arules)
 library(arulesViz)
 library(datasets)
 data(Groceries)
 itemFrequencyPlot(Groceries,topN=20,type="absolute")
-# Get the rules
 rules <- apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8))
  
-# Show the top 5 rules, but only 2 digits
 options(digits=2)
-inspect(rules[1:5])
-summary(rules)
-
 rules<-sort(rules, by="confidence", decreasing=TRUE)
-inspect(rules[1:5])
 rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), 
            appearance = list(default="rhs",lhs="whole milk"),
            control = list(verbose=F))
 rules<-sort(rules, decreasing=TRUE,by="confidence")
-inspect(rules[1:5])  
+kable(inspect(rules[1:5]))
 items = Groceries@itemInfo
 ```
 
-The association rule-based model for the `Groceries` dataset suggests some of the characteristic ordering practices of data-mining approaches to lists. 
+The association rule-based model for the `Groceries` dataset suggests some of the characteristic ordering practices of 1990s-style data-mining approaches to lists. 
 The association between items is expressed in the form of _rules_. These rules, a term derived from decision support literature, define sets of associations between items. As a set theory-based practice, the association rules define likely sets of items or shopping baskets in terms of decreasing probability.   `r inspect(rules[1])` is a stronger association than `r inspect(rules[2])`. So any recommendation in the 'Have You Forgotten' list should probably put them in that order. 
 
-Association rules and the `apriori` algorithm present social order in terms of sets of common associations. This means that that the algorithm can be understood in terms of the set-based multiples proposed by Alain Badiou: 
+Association rules and the `apriori` algorithm present social order in terms of sets of common associations that are already weighted by frequency and hence probability. This means that that the algorithm can be understood in terms of the set-based multiples proposed by Alain Badiou: 
 
 > Multiplicity will be called  ‘closed’ when grasped by the numerical one, and ‘open’ when grasped by the vital One.  Every multiplicity is the joint effectuation of the closed and open, but its ‘veritable’ multiple-being lies on the side of the open. [@Badiou_2004, 72]
 
@@ -188,7 +192,7 @@ Each of the items in the `Groceries` dataset proliferates in the Tesco site, int
 ## 4. Hack? Customers go straight to the checkout
 
 Patel observed that the 'Have you forgotten' lists matter to people, and we can see why in the light of this proliferation of things in the list. A `r total` list of items is quite hard to list let alone read. 
-Patel said that some people log on and go straight to the checkout, allowing the recommendation system to supply them with the suggestions that they then move to the shopping basket.
+Patel said that some people log on and go straight to the checkout, allowing the recommender system to supply them with the suggestions that they then move to the shopping basket.
 This is the online equivalent of using an old shopping list and only adding new items when needed. 
 It is also a strategy to avoid having to view too many lists, since the only way Tesco can show people what they might buy is by showing them lists of things (e.g. chicken products), but these lists are often too long to work with. For instance, Tesco has more than 1000 chicken products on its site.   
 People inhabit lists and work with them no matter how they are made; thus vindicating ethnomethodologists assertion that social order is the product of ongoing sense-making practices. 
@@ -197,7 +201,7 @@ But it also suggests a transformation in the way that lists exist in the world. 
 ## 5. Data: 52 weeks of data for each customer: how is order constructed -- from history?
 
 Patel described the data they on grocery purchases. 'We have 52 weeks of purchase data for each customer.' 
-We know that the construction of lists has been transformed by recommendation systems.
+We know that the construction of lists has been transformed by recommender systems.
 These transformations have been widely discussed in the context of big data, where questions of who has how much data are usually most prominent.
 In terms of the ways that lists order the world, the amount of data is not so amount as the way in which things in the world take on a list-like existence. 
 I want to dwell on this idea for a while. We have seen two different ways in which lists might be constructed in a recommender system. 
@@ -232,13 +236,13 @@ Why did she say little about the model, which after all, produces the probabilis
 
 The graph compares models in terms of their predictions and how those predictions came to pass. The two columns on the left show earlier models -- the global model, which is not personalized, the association rules model for individual customers, and then the new models (logistic regression, random forest, etc) for customers. An increase in precision means more sales.  Her interest lay in the relevance of the recommendations, and in particular, in how 'most of the gain comes from thinking of good features.'
 
-The fact that so little was said about the models themselves suggests that they are now largely taken for granted in recommendation systems. The models she mentioned are all classifiers, predictive models that treat a set of variables in a datasets as a vector space in which good classification means finding a way of defining a decision boundary between points that belong to different classes of things. Here the classes of things are binary: `recommended` or `not recommended.` Some classifier models, including logistic regression, generate a probability rather than simply a classification.  
+The fact that so little was said about the models themselves suggests that they are now largely taken for granted in recommender systems. The models she mentioned are all classifiers, predictive models that treat a set of variables in a datasets as a vector space in which good classification means finding a way of defining a decision boundary between points that belong to different classes of things. Here the classes of things are binary: `recommended` or `not recommended.` Some classifier models, including logistic regression, generate a probability rather than simply a classification.  
 
 ## 7. Sparsity: output 20 recommendations from 200,000 products
 
 What counts as a good feature in a world of predictive lists? Some things in the data that increases the precision of the model. The problem that Tesco faces, however, is that there are too many possible recommendations to be tested. They sell around 200,000 products and no customer wants to buy any more than a fraction of a per cent of those products. The recommendation list needs to very short.
 
-Predictive models, we might say, encounter their own surplus of sensibility in the data as they search for the most accurate predictions. A  very brief comment from Patel -- 'we have lots of zeros' -- points to the problem here. Each of the millions of Tesco online grocery shoppers has bought some selection of the 200,000 products. But the product-customer matrix, the basic vector-space in which all recommendation systems operate, remain very sparse and unpopulated. 
+Predictive models, we might say, encounter their own surplus of sensibility in the data as they search for the most accurate predictions. A  very brief comment from Patel -- 'we have lots of zeros' -- points to the problem here. Each of the millions of Tesco online grocery shoppers has bought some selection of the 200,000 products. But the product-customer matrix, the basic vector-space in which all recommender systems operate, remain very sparse and unpopulated. 
 
 Say Tesco has 1 million online customers. A data matrix for just whether they ever bought a particular product or not will be `r format(1e6 * 2e5)` in size. Given that any one customer is like to only have bought 100 different products, the data matrix will be `r format(100-(100/2e5)*100, 2)`% empty. 
 
@@ -267,7 +271,7 @@ The value of an ordering
  
 ## 9. Metric: precision-at-K
  
-The discussion of imperfection was brief - it incorporated the notion of recommendations weighted by price and the notion of precision (or the proportion of products actually purchased.). Patel simply said that this metric was imperfect, but without elaborating why. Instead she moved to describe some of the ways in which the recommendation system worked in practice. 
+The discussion of imperfection was brief - it incorporated the notion of recommendations weighted by price and the notion of precision (or the proportion of products actually purchased.). Patel simply said that this metric was imperfect, but without elaborating why. Instead she moved to describe some of the ways in which the recommender system worked in practice. 
 
 ## 10. Experimental settings: A/B allocation and uplift
 
@@ -277,9 +281,9 @@ First of all, the new model was deployed experimentally in a random A/B controll
 
 This randomising of the application of the model, drawing on protocols for randomised clinical trials first developed in the 1960s, is widely used in social media platforms and hence in all recommender systems. It is difficult to gauge how much. Facebook reports that it has more than 1 million models operation in its infrastructure. [TBA: ref for FBflow]   We could also discuss the integration of experiments into the operational infrastructures at Google.[REF tba] 
  
-Random allocation of customers to the four categories (Test A, Test B, Control A, Control B) adds another layer of probability to the recommendation system. This is done in the name of statistical validation of the effects or the uplift of the model. It also suggests that the effects of the model cannot be known in advance -- they can only be observed experimentally. Does this experimentality of the list point more to the propensities that Hansen says saturate experience?  
+Random allocation of customers to the four categories (Test A, Test B, Control A, Control B) adds another layer of probability to the recommender system. This is done in the name of statistical validation of the effects or the uplift of the model. It also suggests that the effects of the model cannot be known in advance -- they can only be observed experimentally. Does this experimentality of the list point more to the propensities that Hansen says saturate experience?  
 
-It is perhaps significant that this random allocation of customers to control and test groups occurs without any relation to the particular profile or propensities of the customer. It seeks to statistically validate the effects -- the *uplift* -- of the model on  conversion events by allowing the effects of the model on what people do to be measured. The lift or uplift refers to a change in events associated with the same groups of people. This effectively is an experiment in inhabiting two different worlds.  This sets up a feedback look between the predictive model, the logistic regression, and the operation of the recommendation system.[^122] Once the experimental uplift methodology is in place, the recommendation system can constantly modify the recommendation list in light of subsequent data on the uplift. Predictions, then, are not bound by fixed parameters of the model. 
+It is perhaps significant that this random allocation of customers to control and test groups occurs without any relation to the particular profile or propensities of the customer. It seeks to statistically validate the effects -- the *uplift* -- of the model on  conversion events by allowing the effects of the model on what people do to be measured. The lift or uplift refers to a change in events associated with the same groups of people. This effectively is an experiment in inhabiting two different worlds.  This sets up a feedback look between the predictive model, the logistic regression, and the operation of the recommendation system.[^122] Once the experimental uplift methodology is in place, the recommender system can constantly modify the recommendation list in light of subsequent data on the uplift. Predictions, then, are not bound by fixed parameters of the model. 
 
 [^122]: See [@Lo_2002] for an introduction to the construction of experimental set ups for uplift models. Market researchers and data miners seem to have started adopting a statistically grounded experimental predictive practice sometimes around 2000. See for instance [@Almquist_2001]  Response modelling, propensity modelling and uplift modelling all seek to identify associations between 'treatments' or interventions and the 'Responders', the people  affected by the treatment.  Interestingly, these 
 
@@ -330,7 +334,7 @@ In the similarity matrix, shaped by the history of past recommendations and purc
 
 My investigation of lists has been centred around the transformation in their predictive underpinnings. How should we think about the list-making practices of these models, databases and computational infrastructures? Following Hansen, I have been suggesting that the predictive listing in the form of open-ended recommendation is symptomatic of changes in the distribution of media. The idea that media should no longer be considered as extensions or prostheses of human communication but the environmental situation in which different propensities play out is increasingly central to contemporary media theory. 
 
-Hansen refers to an ontological transformation in which predictive media or recommendation systems would be seen as the closed realisation of the actually open propensities of the world. By understanding the world in terms of propensities, he argues, we have a change to engage with contemporary predictive media. 
+Hansen refers to an ontological transformation in which predictive media or recommender systems would be seen as the closed realisation of the actually open propensities of the world. By understanding the world in terms of propensities, he argues, we have a change to engage with contemporary predictive media. 
 
 I have not explored the Whitehead-derived philosophy of propensities in the world that he develops there, only because I am not sure that we need speculative theory to grapple with the material practices of prediction. Already in the DunnHumby model and the Tesco 'Have You Forgotten?' recommendations, many of the traits of predictive processes are at work. 
 

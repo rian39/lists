@@ -249,3 +249,13 @@ or
 - added a bit to the conclusion and then printed to get something to work with
 - doing graphic for matrix of zeros
 - and trying to read everything 
+
+
+## Fri 21 Oct 11:07:10 BST 2016
+
+- laid out all pages on the whiteboard and looked at the flow of the argument
+- making some changes, including a slide of early recommendation systems from 1990s such as described in ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf
+- feeling very distracted, but also adding ~/archive/data_intensive/machine_learning/varian_resnick_recommenders_1997.pdf
+- also did some re-formatting of tables and stuff to cut down on the output. 
+- Feels like the bigger ideas around transformation in probability are still being sorted out here. Do I think that the probability practices associated with the personal relevance model can be understood as propensities of things in the world? Or am I arguing for more intermediate positioning? That is, we don't to do an infrastructural transformation in order to account for the conversion experiences. 
+- Maybe I can play around a bit more with conversion experiences in theory. 
