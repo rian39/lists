@@ -259,3 +259,9 @@ or
 - also did some re-formatting of tables and stuff to cut down on the output. 
 - Feels like the bigger ideas around transformation in probability are still being sorted out here. Do I think that the probability practices associated with the personal relevance model can be understood as propensities of things in the world? Or am I arguing for more intermediate positioning? That is, we don't to do an infrastructural transformation in order to account for the conversion experiences. 
 - Maybe I can play around a bit more with conversion experiences in theory. 
+
+
+## Mon 24 Oct 15:51:50 BST 2016
+
+- trying to fix up the flow a bit. Adding quote from Varian and Resnick. 
+- fleshing out some sections of the discussion by adding more commentary -- got to page 

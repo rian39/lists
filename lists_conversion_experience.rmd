@@ -58,7 +58,9 @@ The presentation I saw was not really surprising or exceptional. It was a presen
 
 A recommendation system should suggest items that you have not forgotten but may have never bought. If you do buy recommended items, then the recommender system has been effective in shunting the situation differently. It has led to a **'conversion.'** From a supermarket perspective, the conversion should be high in price. There is little value in successfully recommending a whole lot of small and cheap items such as rubber bands or toothpicks. So it might need to choose amongst different recommendations and weight high value items differently to low value items. In either case, 'conversion'  is the valued event. 
 
-**How do we approach lists as objects of research?** While lists such as recommendations intersect strongly with other meaning and sense-making practices in everyday life and popular culture, they are also somewhat refractory to discourse  and textual analysis methods. On the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that multiply semiotic readings. On the other hand, as operational inscriptions, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology] 
+## How do we approach lists as objects of research? 
+
+While lists such as recommendations intersect strongly with other meaning and sense-making practices in everyday life and popular culture, they are also somewhat refractory to discourse  and textual analysis methods. On the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that multiply semiotic readings. On the other hand, as operational inscriptions, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology] 
 
 List practices such as online grocery recommendations figure as sites of intersection between people, infrastructures, things, places and predictions.  We might, therefore,  approach lists from various novel angles -- as asignifying semiotics as Maurizio Lazzarato calls it in his _Signs and Machines_ [@Lazzarato_2014] or as elements in 'a new order of spatio-temporal continuity for forms of economic, political and cultural life' as Celia Lury terms in her account of topological turn [@Lury_2012]. In this paper, I focus on lists and list-making in terms of the predictive conditions of contemporary media experience [@Hansen_2015a].  
 
@@ -67,7 +69,26 @@ The question for me here is **how** contemporary lists can still be understood a
 
 In this context, the fact that the lists and indeed supermarkets more generally are driven by database logics suggests that working with list data could well entail interacting with databases. 
 
-To this end, I will be seeking to simulate the workings of the recommender system by generating queries, and exploring results from  a very large supermarket chain database. 
+
+This is no mere methodological problem if, as Mark Hansen has recently suggested, 
+
+> predictive analytics are discoveries of micrological propensities that are not directly correlated with human understanding and affectivity and that do not by themselves cohere into clearly identifiable events [@Hansen_2015a, 111-112]
+
+The question exercising much contemporary work on data, on media, platforms and finance pivots on the 'micrological propensities' that might be re-ordering lists. Hansen's argues that these propensities make probabilities into something real, some actually in things:  
+
+>Whatever explanatory and causal value predictive analytics of large datasets have is, I suggest, ultimately rooted in this ontological transformation whereby probabilities are understood to be expressions of the actual propensity of things [@Hansen_2015a, 120] 
+
+As the quote shows, he presents this as an 'ontological transformation.' The practical and indeed experimental question for me here is whether such transformations can be detected and articulated in the prosaic setting of shopping lists and  shopping baskets. I will suggest that 'conversion' might be a better way of mapping these changes than 'transformation.'   
+
+## 1. The context of the presentation: 'statistics and operations research in industry' 
+
+I heard this presentation at an academic event with speakers from industry and government on statistics and operations research in industry. Speakers came from Shell, Disney, GCHQ, and various universities.  Because I've done a lot of work on machine learning and data science more generally, I found the sessions both familiar and occasionally exciting. 
+
+![patel_notes](figure/patel_overall.png)
+
+Shreena Patel works as a data scientist for DunnHumby, a well-known [ customer science company ](https://www.dunnhumby.com/)  focusing on online grocery shopping at Tesco. I found her presentation on shopping lists to be  practical and evocative since it was focused quite a lot on implementation of recommendations, and symptomatic in various ways. It was filled with graphs, numbers, and tables concerning different aspects of the 'have you forgotten?' list. Understandably, this was not presented in a language of ontological transformation. 
+
+To this end, I will be seeking to reconstruct some of the workings of the recommender system by generating queries, and exploring results from  a very large supermarket chain database. 
 
 ```{r simulate_basket, echo=FALSE, cache=TRUE, fig.margin=TRUE, fig.cap='Prices and quantities of things in the world'}
 library(dplyr)
@@ -84,60 +105,41 @@ kable(df[df$price>=20,'name'])
 
 Much of my paper, and my responses to the presentation I saw from a data scientist  will focus on how the ordering that is done in a recommendation lists relates to the problem of social order more generally.  The main narrative of the presentation concerned a shift from a set-based model for making lists to a predictive, probabilistic way of making lists in almost realtime and dealing with lists on a scale that is often difficult to grasp concretely. The change in list-making associated with learned models is increasingly widespread, and relies on a probabilistic treatment of people and things. 
 
-I respond to the presentation in two ways. First, by recounting, contextualising and commenting on some of the main steps in making the 'Have your forgotten?' list  as a example of the sense-making done by data scientists and customer analytics teams in many places. Many of these steps were mentioned only briefly in the presentation, and they are largely taken for granted as part of predictive analytic practice.  Second, by trying to step into the list-making practices  as an occasion to intervene and participate in the ontological conversion practices they engage in. This is no mere methodological problem if, as Mark Hansen has recently suggested, 
+I respond to the presentation in two ways. First, by recounting, contextualising and commenting on some of the main steps in making the 'Have your forgotten?' list  as a example of the sense-making done by data scientists and customer analytics teams in many places. Many of these steps were mentioned only briefly in the presentation, and they are largely taken for granted as part of predictive analytic practice.  Second, by trying to step into the list-making practices  as an occasion to intervene and participate in the ontological conversion practices they engage in.
 
-> predictive analytics are discoveries of micrological propensities that are not directly correlated with human understanding and affectivity and that do not by themselves cohere into clearly identifiable events [@Hansen_2015a, 111-112]
+## 2. The web and the shopping basket: how it was reconstituted in the 1990s
 
-The question exercising much contemporary work on data, on media, platforms and finance pivots on the 'micrological propensities' that might be re-ordering lists. Hansen's argues that these propensities make probabilities into something real, some actually in things:  
-
->Whatever explanatory and causal value predictive analytics of large datasets have is, I suggest, ultimately rooted in this ontological transformation whereby probabilities are understood to be expressions of the actual propensity of things [@Hansen_2015a, 120] 
-
-As the quote shows, he presents this as an 'ontological transformation.' The practical and indeed experimental question for me here is whether such transformations can be detected and articulated in the prosaic setting of shopping lists and  shopping baskets. I will suggest that 'conversion' might be a better way of mapping these changes than 'transformation.'   
-
-## 1. The context of the presentation: 'statistics and operations research in industry' 
-
-I heard this presentation at an academic event with speakers from industry and government on statistics and operations research in industry. Speakers came from Shell, Disney, GCHQ, and various universities.  Because I've done a lot of work on machine learning and data science more generally, I found the sessions both familiar and occasionally exciting. 
-
-![patel_notes](figure/patel_overall.png)
-
-Shreena Patel works as a data scientist for DunnHumby, a well-known [ customer science company ](https://www.dunnhumby.com/)  focusing on online grocery shopping at Tesco. I found her presentation on shopping lists to be  practical and evocative since it was focused quite a lot on implementation of recommendations, and symptomatic in various ways. 
-
-![Tesco ClubCard](figure/tesco-clubcard.jpg ) 
+!['Every little bit helps':Tesco ClubCard](figure/tesco-clubcard.jpg ) 
 
 Tesco is the largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
 DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Okeefe_1984]  Clive Humby's academic work is hard to track down, but an early paper of his given at the Conference of Your Operational Researchers in Nottingham in 1984 suggests the direction that he and later Tesco would take in constructing lists [@Okeefe_1984] 
 
 ![Humby, 1984]( figure/2_humby_young_org_1994.png)
 
-While Tesco has been very successful in data-mining its customers, the online shopping situation is a bit different. It is no longer organised around campaigns involving special offers or redemption of points, but on continuous up-selling and cross-selling. 
+While Tesco has been very successful in data-mining its customers,  and perhaps became the UK's biggest supermarket through data-mining in the 1990s, the online shopping situation is a bit different. It is no longer organised around campaigns involving special offers or redemption of points, but on continuous up-selling and cross-selling to customers who might be anywhere, but especially are not in the supermarket itself. . 
 
-- the problems of scale: Tesco is like Amazon or Netflix in this respect: too many people and too many products
-
->Tesco is the clear winner in the online grocery market, in fact it takes almost 50p of every £1 spent on food shopping on the internet. (https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/)[https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/]
-
-## 2. The web and the shopping basket: how it was reconstituted in the 1990s
+>Tesco is the clear winner in the online grocery market, in fact it takes almost 50p of every £1 spent on food shopping on the internet. [ https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/ ]( https://econsultancy.com/blog/64841-how-seo-helps-tesco-to-dominate-the-online-grocery-market/ )
 
 ![People add to list](figure/online_lists_in_practice.png)
 
-- online commerce -- transforming shopping; 
-- personalization and recommendation as the killer apps for social media as a commercial process, but also in government etc. 
- 
-How would I characterise this shift? Use it to emphasize why attention to the algorithm is not enough -- it is the model that counts
-A little history of recommender systems -- uses Varian 1997 for a start. But has no real reference list. 
-Also can use Schafer -- back to Association Rule Mining from early 1990s
+How should characterise this shift from ClubCard membership data mining to online grocery markets?  Patel described her work at DunnHumby in terms of a shift in models from a 'rules-based list' to a 'relevancy model.' This was a significant change in how the 'Have You Forgotten' list was constructed from one kind of model to another. For me, this shift is a part of broader re-organisation of prediction in which existing predictive practices are being re-distributed and intensified in particular ways. The shift in models matters since it amounts to a much more probabilistic structuring of lists.
 
-When commentators first began talking about recommender systems in the 1990s, they highlighted the shift from demographic-driven market research techniques to personalized recommendations. For instance, writing in 1997, Paul Resnick and Hal Varian (at that time Dean of Information Sciences at UC Berkeley, but somehow now Chief Economist at Google), made much of this difference [@Resnick_1997]. 
+When commentators first began talking about recommender systems in the 1990s, they highlighted the shift from demographic-driven market research or data mining techniques to personalized recommendations. For instance, writing in 1997 in a special section of the _Communications of the ACM_ on recommender systems, Paul Resnick and Hal Varian (at that time Dean of Information Sciences at UC Berkeley, but somehow now Chief Economist at Google), made much of this difference [@Resnick_1997]. They emphasise the need for a term to distinguish the emerging practices from data mining. [^44]
+
+[^44]: Also can use Schafer -- back to Association Rule Mining from early 1990s
 
 ![Early e-commerce recommender system architecture](figure/schafer_recommendation_2001.png)
 
 ![The advent of recommender systems](figure/resnick_varian_page1_197.png)
 
+> In everyday life, we rely on recommendations from other people. ... Recommender systems augment this natural social process. In a typical recommender  system, people provide recommendations as inputs, which the system then aggregates and directs to appropriate recipients. In some cases the primary transformation is in the aggregation; in others the system’s value lies in its ability to make good matches between the recommenders and those seeking recommendations.[@Resnick_1997,56] 
+
+Writing near the advent of early web-based e-Commerce, Resnick and Varian (now Chief Economist at Google) imagined recommender systems as automations of the 'collaborative filtering' that people do when they write and read reviews of products and services (for instance, on the travel website, TripAdvisor; [@REF_Scott_TBA] 
 
 ## 3. From the rules-based list to a 'relevancy model'
 
-Patel described her work at DunnHumby in terms of a shift in models from a 'rules-based list' to a 'relevancy model.' This was a significant change in how the 'Have You Forgotten' list was constructed from one kind of model to another. For me, the shift in models matters since it amounts to a much more probabilistic structuring of lists.
+We can see something of this shift from collaborative filtering in the shift that Patel describes as moving from 'a rules-based' model to personal relevance. I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda [@Agrawal_1994]. The `apriori` algorithm finds sets of items that commonly occur in transactions. It was listed as one of the top ten data mining algorithms in a survey conducted amongst data miners [@TBA_2007].  These commonly occurring sets are expressed as association rules. For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart might have discovered  -- but didn't -- the fabled association between diapers and beer.  [http://www.dssresources.com/newsletters/66.php]
 
-I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda [@Agrawal_1994]. The `apriori` algorithm finds sets of items that commonly occur in transactions. These commonly occurring sets are expressed as association rules. For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart might have discovered  -- but didn't -- the fabled association between diapers and beer.  [http://www.dssresources.com/newsletters/66.php]
 The `apriori` algorithm is widely used in 'market basket analysis' and attempts to re-structure shopping lists in terms of associations between items that are frequently bought together.  
 
 ```{r arules, cache=TRUE, echo=TRUE, fig.margin=TRUE}
@@ -146,7 +148,7 @@ library(arules)
 library(arulesViz)
 library(datasets)
 data(Groceries)
-itemFrequencyPlot(Groceries,topN=20,type="absolute")
+itemFrequencyPlot(Groceries,topN=10,col=rainbow(10), ntype="absolute",  cex.axis = 0.55)
 rules <- apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8))
  
 options(digits=2)
@@ -166,15 +168,14 @@ Association rules and the `apriori` algorithm present social order in terms of s
 
 > Multiplicity will be called  ‘closed’ when grasped by the numerical one, and ‘open’ when grasped by the vital One.  Every multiplicity is the joint effectuation of the closed and open, but its ‘veritable’ multiple-being lies on the side of the open. [@Badiou_2004, 72]
 
-Badiou in his account of multiples highlight the contrast between two different ways of grasping a multiple -- in terms of the 'numerical one' and the 'vital One' [@Badiou_2004, 72], between the 'closed' and the 'open' respectively.  
+Badiou in his account of multiples highlights the contrast between two different ways of grasping a multiple -- in terms of the 'numerical one' and the 'vital One' [@Badiou_2004, 72], between the 'closed' and the 'open' respectively. Note that Badiou does not explicitly oppose the closed and open. While Hansen tends to see predictive analytics as the closed-formed of the micrological propensities of things,  Badiou refers to a 'joint effectuation.'  
 
-The `apriori` algorithm, might be seen as an attempt to deal with the excess of things in a Tesco supermarket, and the lack of interest or engagement that people have with them by identifying subsets whose membership is stronger by virtue of the other sets of associations that people bring with them.   
+What would be Badiou's take on a grocery list as augmented by a recommender system? The `apriori` algorithm, might be seen as an attempt to grasp the excess of things in a Tesco supermarket by identifying subsets whose membership is stronger by virtue of the other sets of associations that people bring with them.   
 Association is stronger when it derives from an excess of different ways of being in sets.  
 
-Badiou's argument is that being part of a set differs from belonging to a set.
-An open set arises from when we dwell within a set by 'taking the intersection of two elements.' What might this mean in terms of ordering?
+Badiou's argument is that being part of a set differs from belonging to a set. An open set arises from when we dwell within a set by 'taking the intersection of two elements.' What might this mean in terms of ordering carried out with specific grocery items in a supermarket?
 
-If we take the itemset from the `Groceries` dataset [@Hahsler_2006], and then run it through the Tesco online groceries site, each of the 169 items in the dataset yields dozens and sometimes thousands of results from Tesco online.  
+If we take a typical grocery dataset used in data-mining modelling (e.g. from the `Groceries` dataset [@Hahsler_2006a] acquired from 'local German supermarket'), and then paste it into the 'shopping list' box on on the Tesco grocery website, each of the 169 items in the dataset yields dozens and sometimes thousands of results from Tesco online.  
 
 ```{r tesco, cache=TRUE, fig.cap ='Tesco surplus',  fig.margin=TRUE}
     library(ggplot2)
@@ -186,25 +187,28 @@ If we take the itemset from the `Groceries` dataset [@Hahsler_2006], and then ru
     ggplot(tesco[tesco$actual>50,], aes(x=labels, y=actual, fill=labels)) +geom_bar(stat='identity') + coord_flip() + ggtitle('Tesco grocery items with more than 50 products') + theme(legend.position="none", axis.text=element_text(size=9))
 ```
 
-Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. The 169 items of the `Groceries` dataset, itself from a local German or Austrian supermarket [@REF_TBA],  expand into roughly `r total` possible items.  
-
+Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. The 169 items of Hahsler `Groceries` dataset  expand into roughly `r total` possible items.  This is, I would suggest, a form of open. The multiplicity grasped at the `Grocery` dataset becomes more open in this setting, where 'open' complements any possible closure with new intersections. Rather than seeing predictive analytics as a closed form of an open world, I am suggesting that we might begin to locate it in the joint effectuations or intersections within models.      
 
 ## 4. Hack? Customers go straight to the checkout
 
-Patel observed that the 'Have you forgotten' lists matter to people, and we can see why in the light of this proliferation of things in the list. A `r total` list of items is quite hard to list let alone read. 
-Patel said that some people log on and go straight to the checkout, allowing the recommender system to supply them with the suggestions that they then move to the shopping basket.
-This is the online equivalent of using an old shopping list and only adding new items when needed. 
-It is also a strategy to avoid having to view too many lists, since the only way Tesco can show people what they might buy is by showing them lists of things (e.g. chicken products), but these lists are often too long to work with. For instance, Tesco has more than 1000 chicken products on its site.   
-People inhabit lists and work with them no matter how they are made; thus vindicating ethnomethodologists assertion that social order is the product of ongoing sense-making practices. 
-But it also suggests a transformation in the way that lists exist in the world. They are less the product of a discrete agent than an effect of an environment teeming with possible combinations and complementaries, a surplus of possible purchases that the supermarket needs to continually maintain but also filter in order to make it possible for something to happen. 
+Patel said that some people log on and go straight to the checkout, allowing the recommender system to supply them with the suggestions that they then move to the shopping basket. Patel observed that the 'Have you forgotten' lists matter to people, and we can see why in the light of this proliferation of things in the list. A `r total` list of items is quite hard to list let alone read. This is the online equivalent of using an old shopping list and only adding new items when needed. 
+It is also a strategy to avoid having to view too many lists, since the only way Tesco can show people what they might buy is by showing them lists of things (e.g. chicken products), but these lists are often too long to work with. For instance, if Tesco has more than 1000 chicken products on its site, how can a customer even look through the list of chicken products?
 
-## 5. Data: 52 weeks of data for each customer: how is order constructed -- from history?
+People inhabit lists and work with them no matter how they are made; thus vindicating ethnomethodologists assertion that social order is the product of ongoing sense-making practices. [^45] But it also suggests a transformation in the way that lists exist in the world. They are less the inscriptions of a discrete agent than an effect of an environment teeming with possible combinations and complementaries, a surplus of possible purchases that the supermarket needs to continually maintain but also filter in order to make it possible for something to happen. 
 
-Patel described the data they on grocery purchases. 'We have 52 weeks of purchase data for each customer.' 
+[^45]: What have ethnomethodologists and others actually said about lists?  
+
+## 5. 'We have 52 weeks of data for each customer': how is order constructed -- from history?
+
 We know that the construction of lists has been transformed by recommender systems.
-These transformations have been widely discussed in the context of big data, where questions of who has how much data are usually most prominent.
-In terms of the ways that lists order the world, the amount of data is not so amount as the way in which things in the world take on a list-like existence. 
-I want to dwell on this idea for a while. We have seen two different ways in which lists might be constructed in a recommender system. 
+Patel described the data that Tesco keeps on grocery purchases: 'We have 52 weeks of purchase data for each customer.' 
+These transformations have been widely discussed in the context of big data, where questions of who has how much data are usually most prominent (see [@Kitchin_2014]).
+In terms of the ways that lists order the world, the amount of data is not perhaps not so important as the way in which list-making is re-distributed in the world. 
+I want to dwell on this idea for a while.
+
+HERE
+
+We have seen two different ways in which lists might be constructed in a recommender system. 
 The first uses history and existence of previous lists, including the customer's own list, to populate a new list. 
 The second uses many shopping lists to identify associations between things and then uses the strongest associations to recommend additions to a current list. 
 The 'relevancy model,' however, tries to do something different. 
