@@ -1,5 +1,5 @@
 ---
-title: "'Have you forgotten?' Conversion experiences in lists"
+title: "'Have you forgotten?' Conversion experiences in shopping lists"
 author: "Adrian Mackenzie"
 date: "`r Sys.Date()`"
 output:
@@ -13,7 +13,7 @@ header-includes:
     - \doublespacing
 ---
 
-# 'Have you forgotten?' Conversion experiences in lists
+# 'Have you forgotten?' Conversion experiences in shopping lists
 
 ```{r setup, cache=FALSE, include=FALSE}
 library(knitr)
@@ -100,7 +100,7 @@ csvs = list.files('data', pattern = '*.csv',full.names=TRUE)
 df = bind_rows(sapply(csvs, read_tsv))
 
 ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point() + theme(axis.text=element_text(size=10)) 
-kable(df[df$price>=20,'name'])
+kable(head(df[df$price>=30,c('name','price')]))
 ```
 
 Much of my paper, and my responses to the presentation I saw from a data scientist  will focus on how the ordering that is done in a recommendation lists relates to the problem of social order more generally.  The main narrative of the presentation concerned a shift from a set-based model for making lists to a predictive, probabilistic way of making lists in almost realtime and dealing with lists on a scale that is often difficult to grasp concretely. The change in list-making associated with learned models is increasingly widespread, and relies on a probabilistic treatment of people and things. 
@@ -130,7 +130,7 @@ When commentators first began talking about recommender systems in the 1990s, th
 
 ![Early e-commerce recommender system architecture](figure/schafer_recommendation_2001.png)
 
-![The advent of recommender systems](figure/resnick_varian_page1_197.png)
+![The advent of recommender systems](figure/resnick_varian_1997_p1.png)
 
 > In everyday life, we rely on recommendations from other people. ... Recommender systems augment this natural social process. In a typical recommender  system, people provide recommendations as inputs, which the system then aggregates and directs to appropriate recipients. In some cases the primary transformation is in the aggregation; in others the system’s value lies in its ability to make good matches between the recommenders and those seeking recommendations.[@Resnick_1997,56] 
 
@@ -142,7 +142,7 @@ We can see something of this shift from collaborative filtering in the shift tha
 
 The `apriori` algorithm is widely used in 'market basket analysis' and attempts to re-structure shopping lists in terms of associations between items that are frequently bought together.  
 
-```{r arules, cache=TRUE, echo=TRUE, fig.margin=TRUE}
+```{r arules, cache=TRUE, echo=FALSE, fig.margin=TRUE}
 library(knitr)
 library(arules)
 library(arulesViz)
@@ -177,7 +177,7 @@ Badiou's argument is that being part of a set differs from belonging to a set. A
 
 If we take a typical grocery dataset used in data-mining modelling (e.g. from the `Groceries` dataset [@Hahsler_2006a] acquired from 'local German supermarket'), and then paste it into the 'shopping list' box on on the Tesco grocery website, each of the 169 items in the dataset yields dozens and sometimes thousands of results from Tesco online.  
 
-```{r tesco, cache=TRUE, fig.cap ='Tesco surplus',  fig.margin=TRUE}
+```{r tesco, echo=FALSE, cache=TRUE, fig.cap ='Tesco surplus',  fig.margin=TRUE}
     library(ggplot2)
     tesco = read.csv('data/reference_data/tesco_groceries.csv')
     total = sum(tesco$actual, na.rm=TRUE) 
@@ -194,7 +194,7 @@ Each of the items in the `Groceries` dataset proliferates in the Tesco site, int
 Patel said that some people log on and go straight to the checkout, allowing the recommender system to supply them with the suggestions that they then move to the shopping basket. Patel observed that the 'Have you forgotten' lists matter to people, and we can see why in the light of this proliferation of things in the list. A `r total` list of items is quite hard to list let alone read. This is the online equivalent of using an old shopping list and only adding new items when needed. 
 It is also a strategy to avoid having to view too many lists, since the only way Tesco can show people what they might buy is by showing them lists of things (e.g. chicken products), but these lists are often too long to work with. For instance, if Tesco has more than 1000 chicken products on its site, how can a customer even look through the list of chicken products?
 
-People inhabit lists and work with them no matter how they are made; thus vindicating ethnomethodologists assertion that social order is the product of ongoing sense-making practices. [^45] But it also suggests a transformation in the way that lists exist in the world. They are less the inscriptions of a discrete agent than an effect of an environment teeming with possible combinations and complementaries, a surplus of possible purchases that the supermarket needs to continually maintain but also filter in order to make it possible for something to happen. 
+People inhabit lists and work with them no matter how they are made; thus vindicating ethnomethodologists assertion that social order is the product of ongoing sense-making practices. [^45] But the predicted list also suggests a transformation in the way that lists exist in the world. They are less the inscriptions of a discrete agent than an effect of an environment teeming with possible combinations and complementaries, a surplus of possible purchases that the supermarket needs to continually maintain but also filter in order to make it possible for something to happen. 
 
 [^45]: What have ethnomethodologists and others actually said about lists?  
 
@@ -206,11 +206,12 @@ These transformations have been widely discussed in the context of big data, whe
 In terms of the ways that lists order the world, the amount of data is not perhaps not so important as the way in which list-making is re-distributed in the world. 
 I want to dwell on this idea for a while.
 
-HERE
 
-We have seen two different ways in which lists might be constructed in a recommender system. 
-The first uses history and existence of previous lists, including the customer's own list, to populate a new list. 
-The second uses many shopping lists to identify associations between things and then uses the strongest associations to recommend additions to a current list. 
+We have seen one ways in which lists might be constructed in a recommender system.[^56] 
+
+[^56]: The first uses history and existence of previous lists, including the customer's own list, to populate a new list. 
+
+It uses many shopping lists to identify associations between things and then uses the strongest associations to recommend additions to a current list. 
 The 'relevancy model,' however, tries to do something different. 
 The problem that the proliferation of things on the shelves of supermarket or grocery warehouse confronts is partly combinatorial.
 With  `r total` products (actually Patel mentions 200,000 products) can be combined in truly astronomical numbers of combinations.
@@ -219,7 +220,7 @@ Some of this vast number of possible shopping lists is highly unlikely in terms 
 
 > This means, to put it slightly differently, that surrounding any delimited predictive system is a larger field of data -- what I elsewhere call a “surplus of sensibility” -- that, viewed speculatively, indexes the causal efficacy of the total situation within which this delimited system operates. (Effectively, the latter gains its reliability from closing off this larger surplus of sensibility, thereby transforming an always excessive propensity into a [provisionally] closed dataset.) Because it affords data that exceed whatever any given predictive system might include, the data of the world’s causal efficacy -- the data constituting its real potentiality -- always and in principle facilitates knowledge that cannot be restricted to any particular agenda [@Hansen_2015, 126-7]
 
-In some ways, Hansen's account resembles the Badiouean ontology of the multiple in which a closed set is surrounded and conditioned by an open set that is full of many more potentials. However, if we think of the  new model that Patel describes as the delimited (or delimiting?) system within   the larger surplus of sensibility, how that help us understand what the 'Have you forgotten?' recommendations do?
+Hansen's account opposes the closed prediction to the open propensities of the data-world. A closed set is surrounded and conditioned by an open set that is full of many more potentials. However, if we think of the  new model that Patel describes as the delimited (or delimiting?) system within   the larger surplus of sensibility, how that help us understand what the 'Have you forgotten?' recommendations do?
 
 - history of data accumulations;
 
@@ -232,15 +233,19 @@ In some ways, Hansen's account resembles the Badiouean ontology of the multiple 
 - move from Dunnhumby's ClubCard focus to much more general world of predictive models (e.g. Facebook use a million models, etc.)
 - the model counts for surprisingly little -- at least, they all seem similar ... rather what counts is all that stuff on working with substitutions, similiarities and complementarities for each person.   
 
-It was surprising that Patel spoke relatively briefly about the new models. She showed a graph that compared the old rule-based model with some of the new alternatives -- logistic regression, random forests, and a few others. She dismissed most of the models quite quickly and focused only on one, the logistic regression model. Or more accurately, she just said that logistic regression did better than other, and there was little more to discuss on that front.  The measure of doing better here is called precision, and it measures the proportion of the recommended products that are actually purchased.     
+It was surprising that Patel spoke relatively briefly about the new models. She showed a graph that compared the old rule-based model with some of the new alternatives -- logistic regression, random forests, and a few others. She dismissed most of the models quite quickly and focused only on one, the logistic regression model. Or more accurately, she just said that logistic regression did better than other, and there was little more to discuss on that front.  
 
 Why did she say little about the model, which after all, produces the probabilistic predictions on which everything in the recommendation list depends and hence the conversion experience? 
 
 ![Models](figure/patel_recommendation1.png)
 
-The graph compares models in terms of their predictions and how those predictions came to pass. The two columns on the left show earlier models -- the global model, which is not personalized, the association rules model for individual customers, and then the new models (logistic regression, random forest, etc) for customers. An increase in precision means more sales.  Her interest lay in the relevance of the recommendations, and in particular, in how 'most of the gain comes from thinking of good features.'
+The graph compares models in terms of their predictions and how those predictions came to pass. The two columns on the left show earlier models -- the global model, which is not personalized, the association rules model for individual customers, and then the new relevance models (logistic regression, random forest, etc) for customers. An increase in precision means more sales.  Her interest lay in the relevance of the recommendations, and in particular, in how 'most of the gain comes from thinking of good features.'
 
-The fact that so little was said about the models themselves suggests that they are now largely taken for granted in recommender systems. The models she mentioned are all classifiers, predictive models that treat a set of variables in a datasets as a vector space in which good classification means finding a way of defining a decision boundary between points that belong to different classes of things. Here the classes of things are binary: `recommended` or `not recommended.` Some classifier models, including logistic regression, generate a probability rather than simply a classification.  
+The fact that so little was said about the models themselves suggests that they are now largely taken for granted in recommender systems.[^57] The models Patel mentioned are all classifiers, predictive models that treat a set of variables in a datasets as a vector space in which good classification means finding a way of defining a decision boundary between points that belong to different classes of things. Here the classes of things are binary: `recommended` or `not recommended.` Some classifier models, including logistic regression, generate a probability rather than simply a classification.  
+
+[^57]: The measure of doing better here is called precision, and it measures the proportion of the recommended products that are actually purchased.     
+
+So, the model generates probabilities for each product for each customer. The 'good features' strengthen associations between people and things. Each thing has a propensity in relation to each customer. 
 
 ## 7. Sparsity: output 20 recommendations from 200,000 products
 
@@ -248,13 +253,12 @@ What counts as a good feature in a world of predictive lists? Some things in the
 
 Predictive models, we might say, encounter their own surplus of sensibility in the data as they search for the most accurate predictions. A  very brief comment from Patel -- 'we have lots of zeros' -- points to the problem here. Each of the millions of Tesco online grocery shoppers has bought some selection of the 200,000 products. But the product-customer matrix, the basic vector-space in which all recommender systems operate, remain very sparse and unpopulated. 
 
-Say Tesco has 1 million online customers. A data matrix for just whether they ever bought a particular product or not will be `r format(1e6 * 2e5)` in size. Given that any one customer is like to only have bought 100 different products, the data matrix will be `r format(100-(100/2e5)*100, 2)`% empty. 
+Say Tesco has 1 million online customers. A data matrix for just whether they ever bought a particular product or not will be `r format(1e6 * 2e5)` in size. Given that any one customer is like to only have bought 100 different products, the probability matrix will be `r format(100-(100/2e5)*100, 2)`% empty. 
 
 ```{r sparsity, echo=FALSE, cache=TRUE, fig.margin=TRUE, fig.cap ='The sparsity of data' }
 library(ggplot2)
 library(reshape2)
 p = as.logical(rbinom(n=2e5, size=1, prob=0.001))
-head(p, 30)
 m = (matrix(p, nrow=1000, byrow=TRUE))
 
 melted <- melt(m)
@@ -268,7 +272,7 @@ Having too many things to list -- this must be happening in many settings -- vid
 
 In Hansen's or Badiou's terms, this is one way in which the dataset is closed. While 200,000 products is still a closed dataset since it has a defined number of items, undersampling alters the frequency of occurrence of very common items so that the predictive models are not distracted by them. 
  
-So the raw data -- the 52 weeks of purchases for each customer -- can be aggregated to increase the density of the data in ways that helps the model. Patel mentions some of the 'features' used in the new model but somewhat strangely at this point, her presentation turns toward the difficulties of measuring the success of the model and the infrastructural limitations on making recommendations in ways that are more alive to what is happening right now. 
+So the raw data -- the 52 weeks of purchases for each customer -- can be rewoven with the database of Tesco products to increase the density of the data in ways that helps the model. Patel mentions some of the 'features' used in the new model but somewhat strangely at this point, her presentation turns toward the difficulties of measuring the success of the model and the infrastructural limitations on making recommendations in ways that are more alive to what is happening right now. 
 
 ## 8. Value: Balancing conversion vs spend
 The value of an ordering

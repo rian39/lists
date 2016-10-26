@@ -265,3 +265,10 @@ or
 
 - trying to fix up the flow a bit. Adding quote from Varian and Resnick. 
 - fleshing out some sections of the discussion by adding more commentary -- got to page 
+
+
+## Wed Oct 26 09:43:43 BST 2016
+
+- did some revisions on paper yesterday, but didn't manage to enter them all.
+- realised during revisions that predictions are in the product-customer matrix, not after that. Important for my argument that   
+- had to print out with revision halfway through ... 
