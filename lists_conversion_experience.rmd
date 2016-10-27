@@ -6,7 +6,7 @@ output:
 tufte::tufte_handout: default
 citation_package: biber
 latex_engine: xelatex
-bibliography: ~/ref_bibs/uni.bib
+bibliography: /home/mackenza/ref_bibs/uni.bib
 link-citations: yes
 header-includes:
     - \usepackage{setspace}
@@ -43,10 +43,18 @@ The conversion of lists from finite to in-definite in recommender systems sugges
 ## Introduction: the presentation of a presentation
  
 I saw recently a presentation about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further grocery purchases under the title of 'Have you forgotten?'. When you shop for groceries online, a list of 'Have you forgotten' recommendations appear  at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, the working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.
-- making some changes, including a slide of early recommendation systems from 1990s such as described in ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf
--
 
-The items on this list are recommendations. They are only a few of them: five. The question: which five items and in what order?
+```{r random_basket, echo=FAlSE, cache=TRUE, fig.cap='Random basket'}
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(knitr)
+csvs = list.files('data', pattern = '*.csv',full.names=TRUE)
+df = bind_rows(sapply(csvs, read_tsv))
+kable(sample_n(df, size=5)$name, col.names='item')
+```
+
+The items on this list could be recommendations. They are only a few of them: five. The question: which five items and in what order?
 
 ![shopping_list](figure/1_shopping.png )
 
@@ -99,8 +107,13 @@ library(knitr)
 csvs = list.files('data', pattern = '*.csv',full.names=TRUE)
 df = bind_rows(sapply(csvs, read_tsv))
 
-ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point() + theme(axis.text=element_text(size=10)) 
-kable(head(df[df$price>=30,c('name','price')]))
+g = ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point(alpha=0.3, size=0.9 ) + theme(axis.text=element_text(size=10))  + xlab('Price (£)')
+g + scale_x_log10() + geom_smooth()
+```
+
+```{r  simlate_basket_2, echo=FALSE, cache=TRUE, fig.margin=TRUE}
+s = sample_n(df[df$price>=30,], size=20)
+kable(s[, c('name','price')])
 ```
 
 Much of my paper, and my responses to the presentation I saw from a data scientist  will focus on how the ordering that is done in a recommendation lists relates to the problem of social order more generally.  The main narrative of the presentation concerned a shift from a set-based model for making lists to a predictive, probabilistic way of making lists in almost realtime and dealing with lists on a scale that is often difficult to grasp concretely. The change in list-making associated with learned models is increasingly widespread, and relies on a probabilistic treatment of people and things. 
@@ -112,7 +125,7 @@ I respond to the presentation in two ways. First, by recounting, contextualising
 !['Every little bit helps':Tesco ClubCard](figure/tesco-clubcard.jpg ) 
 
 Tesco is the largest supermarket chain in UK, famous for Clubcard starting in 1991; often cited as a leading early example of Big Data Analytics. 
-DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@Okeefe_1984]  Clive Humby's academic work is hard to track down, but an early paper of his given at the Conference of Your Operational Researchers in Nottingham in 1984 suggests the direction that he and later Tesco would take in constructing lists [@Okeefe_1984] 
+DunnHumby -- Edwina Dunn and Clive Humby -- are famous for having convinced the CEO of Tesco sometime in 1991 that a loyalty card program could change the supermarket chain's relationship to its customers. [@OKeefe_1984]  Clive Humby's academic work is hard to track down, but an early paper of his given at the Conference of Your Operational Researchers in Nottingham in 1984 suggests the direction that he and later Tesco would take in constructing lists [@OKeefe_1984] 
 
 ![Humby, 1984]( figure/2_humby_young_org_1994.png)
 
@@ -128,15 +141,16 @@ When commentators first began talking about recommender systems in the 1990s, th
 
 [^44]: Also can use Schafer -- back to Association Rule Mining from early 1990s
 
-![Early e-commerce recommender system architecture](figure/schafer_recommendation_2001.png)
-
-![The advent of recommender systems](figure/resnick_varian_1997_p1.png)
 
 > In everyday life, we rely on recommendations from other people. ... Recommender systems augment this natural social process. In a typical recommender  system, people provide recommendations as inputs, which the system then aggregates and directs to appropriate recipients. In some cases the primary transformation is in the aggregation; in others the system’s value lies in its ability to make good matches between the recommenders and those seeking recommendations.[@Resnick_1997,56] 
 
 Writing near the advent of early web-based e-Commerce, Resnick and Varian (now Chief Economist at Google) imagined recommender systems as automations of the 'collaborative filtering' that people do when they write and read reviews of products and services (for instance, on the travel website, TripAdvisor; [@REF_Scott_TBA] 
 
-## 3. From the rules-based list to a 'relevancy model'
+![Early e-commerce recommender system architecture](figure/schafer_recommendation_2001.png)
+
+![The advent of recommender systems](figure/resnick_varian_1997_p1.png)
+
+## 3. The rules-based list and the `apriori` algorithm
 
 We can see something of this shift from collaborative filtering in the shift that Patel describes as moving from 'a rules-based' model to personal relevance. I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda [@Agrawal_1994]. The `apriori` algorithm finds sets of items that commonly occur in transactions. It was listed as one of the top ten data mining algorithms in a survey conducted amongst data miners [@TBA_2007].  These commonly occurring sets are expressed as association rules. For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart might have discovered  -- but didn't -- the fabled association between diapers and beer.  [http://www.dssresources.com/newsletters/66.php]
 
@@ -149,15 +163,10 @@ library(arulesViz)
 library(datasets)
 data(Groceries)
 itemFrequencyPlot(Groceries,topN=10,col=rainbow(10), ntype="absolute",  cex.axis = 0.55)
-rules <- apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8))
- 
 options(digits=2)
-rules<-sort(rules, by="confidence", decreasing=TRUE)
-rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), 
-           appearance = list(default="rhs",lhs="whole milk"),
-           control = list(verbose=F))
+rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), appearance = list(default="rhs",lhs="whole milk"), control = list(verbose=F))
 rules<-sort(rules, decreasing=TRUE,by="confidence")
-kable(inspect(rules[1:5]))
+inspect(rules[1:5]) 
 items = Groceries@itemInfo
 ```
 
@@ -190,6 +199,8 @@ If we take a typical grocery dataset used in data-mining modelling (e.g. from th
 Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. The 169 items of Hahsler `Groceries` dataset  expand into roughly `r total` possible items.  This is, I would suggest, a form of open. The multiplicity grasped at the `Grocery` dataset becomes more open in this setting, where 'open' complements any possible closure with new intersections. Rather than seeing predictive analytics as a closed form of an open world, I am suggesting that we might begin to locate it in the joint effectuations or intersections within models.      
 
 ## 4. Hack? Customers go straight to the checkout
+
+![Straight to the checkout?](figure/patel_straight_to_checkout.png)
 
 Patel said that some people log on and go straight to the checkout, allowing the recommender system to supply them with the suggestions that they then move to the shopping basket. Patel observed that the 'Have you forgotten' lists matter to people, and we can see why in the light of this proliferation of things in the list. A `r total` list of items is quite hard to list let alone read. This is the online equivalent of using an old shopping list and only adding new items when needed. 
 It is also a strategy to avoid having to view too many lists, since the only way Tesco can show people what they might buy is by showing them lists of things (e.g. chicken products), but these lists are often too long to work with. For instance, if Tesco has more than 1000 chicken products on its site, how can a customer even look through the list of chicken products?
@@ -237,7 +248,7 @@ It was surprising that Patel spoke relatively briefly about the new models. She 
 
 Why did she say little about the model, which after all, produces the probabilistic predictions on which everything in the recommendation list depends and hence the conversion experience? 
 
-![Models](figure/patel_recommendation1.png)
+![Models](figure/patel_compares_models.png)
 
 The graph compares models in terms of their predictions and how those predictions came to pass. The two columns on the left show earlier models -- the global model, which is not personalized, the association rules model for individual customers, and then the new relevance models (logistic regression, random forest, etc) for customers. An increase in precision means more sales.  Her interest lay in the relevance of the recommendations, and in particular, in how 'most of the gain comes from thinking of good features.'
 
@@ -255,7 +266,7 @@ Predictive models, we might say, encounter their own surplus of sensibility in t
 
 Say Tesco has 1 million online customers. A data matrix for just whether they ever bought a particular product or not will be `r format(1e6 * 2e5)` in size. Given that any one customer is like to only have bought 100 different products, the probability matrix will be `r format(100-(100/2e5)*100, 2)`% empty. 
 
-```{r sparsity, echo=FALSE, cache=TRUE, fig.margin=TRUE, fig.cap ='The sparsity of data' }
+```{r sparsity, echo=FALSE, cache=TRUE, fig.margin=FALSE, fig.cap ='The sparsity of predictions' }
 library(ggplot2)
 library(reshape2)
 p = as.logical(rbinom(n=2e5, size=1, prob=0.001))
@@ -348,9 +359,9 @@ I have not explored the Whitehead-derived philosophy of propensities in the worl
 
 I diverge from Hansen in how I account for this change. Rather than looking for a speculative theory that sets out a world in which prediction would be the closed form, 
 
-- listing practices are very closely entangled with problems of social order under predictive conditions or amidst predictive operations. 
-- lists have complex temporal-material structure, since they mix prediction, infrastructural constraints, the individual characteristics of list-makers, statistical validations, database architectures and above all the surplus of sensibility associated with commodity production. 
+- the **constitutive incompleteness** and openness of lists are very closely entangled with problems of social order under predictive conditions or amidst predictive operations. 
+- shopping lists have complex temporal-material structure, since they mix prediction, infrastructural constraints, the individual characteristics of list-makers, statistical validations, database architectures and above all the **surplus sensibility** associated with  circulation of commodities.
+- shopping lists undergoing a **conversion experience** as they become more probabilistic, but the idea that probabilities are the closed form of propensities does not account for the distribution of probabilities in relations between things, between people, between people and things, and between things and people.
 - lists undergoing a 'conversion' experience as they become more probabilistic, but their heterogeneous character as operations caught up in models, infrastructures, experiments, and the flow of commodities means that they can never form a closed set or dataset. Amidst prediction they become constitutively incomplete. 
-
 
 ## References
