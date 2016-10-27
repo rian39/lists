@@ -76,7 +76,7 @@ Streams, pipelines and trees: living with unending lists
 ## Mon Sep 12 15:19:55 BST 2016
 
 - just listened to Shreena Patel from DunnHumby speaking about 'Have you forgotten?' in the shopping basket at Tesco. Really interesting description of the pipeline for the recommendations that are shown at the end. Could base the whole talk around this rather than the high-falutin talk I've sent in. Shopping lists are the prosaic example I've been looking for. 
-- see pages  43-47, **August 2016** notebook; now scanned as figure/single_patel.pdf
+- see pages  43-47, **August 2016** notebook; now scanned as figure/single_patel.pdf; also single pages as figure/patel_page3_SKM_C36816101109420.pdf and as figure/SKM_C36816100609150.pdf and figure/SKM_C36816100609170.pdf and figure/SKM_C36816100609171.pdf.
 
 ## Mon Sep 26 08:34:00 BST 2016
 
@@ -110,7 +110,7 @@ Streams, pipelines and trees: living with unending lists
 ## Wed 28 Sep 09:33:36 BST 2016
 
 - will look at the most interesting bits of dunnhumby presentation first, and then see if the other bits can be fitted in time ... 
-- wrote a bit about arules and apriori, trying to link it to set theory; 
+- wrote a bit about arules and apriori, trying to link it to set theory; see ~/archive/data_intensive/machine_learning/agrawal_apriori_94apriori.pdf
 - TODO: find old shopping list and scan it DONE
 - added a bit of badiou, but I'm not convinced.
 - got distracted by non-human book (Grusin) and spent time downloading Hansen's article on prediction. And then Bogost on carpentry. 
@@ -272,3 +272,13 @@ or
 - did some revisions on paper yesterday, but didn't manage to enter them all.
 - realised during revisions that predictions are in the product-customer matrix, not after that. Important for my argument that   
 - had to print out with revision halfway through ... 
+- working on train and flight. Re-wrote conclusion in notebook blue august 2016, 66-67. Also has some comments TODO: bring these comments and ideas into paper
+
+
+## Thu Oct 27 08:27:50 BST 2016
+- how to do ioslides -- take the main text; cut out everything except headings, quotes, images and r chunks; use --------- to make slide breaks ... 
+- added new patel screenshots to figure;
+- fixing plots to be a bit more meaningful
+- TODO: check whether Miller's work on shopping would be helpful here ... a good point of comparison. 
+- wrote lots of notes on the 2nd paper copy: TODO: bring them into the lists_conversion_experience.rmd. Also check the 1st printout as it has some unprocessed notes and changes. 
+- TODO: look at SI of E&P D on lists; also Stark and Esposito; also  maybe Eco; 
