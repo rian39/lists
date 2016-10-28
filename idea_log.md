@@ -282,3 +282,17 @@ or
 - TODO: check whether Miller's work on shopping would be helpful here ... a good point of comparison. 
 - wrote lots of notes on the 2nd paper copy: TODO: bring them into the lists_conversion_experience.rmd. Also check the 1st printout as it has some unprocessed notes and changes. 
 - TODO: look at SI of E&P D on lists; also Stark and Esposito; also  maybe Eco; 
+- TODO: would be good to  add a bit of the formalism of Agrawal to flesh out the rules
+- TODO: add Popper point about conditional probability
+- TODO: flesh out infrastructure section by reference to the ways in which the list is constructed around some infrastructural underpinnings  
+- this fits with Carolins point that many big data practices -- not all -- end up producing a ranked list. Could also use Jack Goody on lists and the seduction to order 
+
+## Fri Oct 28 08:07:00 BST 2016
+
+- questions from presentaton:
+- doesn't the idea of the open need qualification? Yes, good idea -- would be good to develop some different ways of thinking about how to qualify the open;
+- What are the politics of doing this with the Tesco shopping list? Not sure how to answer this -- certainly doesn't have the politico-epistemically loaded value of elite examples ....
+- How does this relate to the future? Is it about open future? Maybe it is -- what if these systems do shape what happens more and more? If we live in the anticipatory mode? 
+- Where is trust in this setup? How do I trust over time? Again, couldn't answer this - I haven't look at how people relate to it. But wider issues of trust -- people going to supermarkets where the data science is not so obviously shaping everything; where the branding is not so extensively shaped by the supply chain logistics, etc. 
+- Valuation practices -- question from Martin -- about how these fit. Reminded me that I could add Marx on this ... on the forms of relevance embedded in the commodity form.
+- Also looked up precision and recall again -- TODO: both of them are connected by the notion of relevance; look at Whitehead on this -- where does he talk about relevance? 
