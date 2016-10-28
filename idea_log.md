@@ -91,7 +91,7 @@ Streams, pipelines and trees: living with unending lists
 - 1997 special issue of ACM on recsys? Not sure. Went through time in WoS a bit and found 2001 article on recommender systems -- Schafer et al ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf -- which is a bit better. Has a lot of taxonomies and late 1990s references 
 - TODO: go through the main points and think about where I can put my own stuff in; DONE 
 - TODO: look up ethnomethodology on lists ...
-- TODO: go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; probabilisation, dimensionality; enunciative function;    
+- TODO: DONE go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; probabilisation, dimensionality; enunciative function;    
 
 ## Tue Sep 27 09:12:58 BST 2016
 
@@ -127,8 +127,8 @@ Streams, pipelines and trees: living with unending lists
 - could use this game at the opening.  The baseline account of lists as a form of number. 
 - wrote a bit about this at the beginning -- it feels a bit better than other stuff because it gets into sets
 - added in Hansen on prediction and how probability becomes actual ... Also put quotes in new notes file. His argument that prediction is a closed probabilistic determination of propensities that always exceed it as a field of data. The goal is to locate those excesses and perceptualise them somehow.  
-- TODO: bring the quote about technical interface to the data of sensibility into the conclusion
-- read some Hansen at lunch and marked useful bits on paper copy -- TODO: put those into notes file and then use them to structure the argument?
+- TODO:  DONE bring the quote about technical interface to the data of sensibility into the conclusion
+- read some Hansen at lunch and marked useful bits on paper copy -- TODO:  DONE put those into notes file and then use them to structure the argument?
 - started to bring some of the probability idea into 'I went shopping and I bought ...' 
 
 ## Fri Sep 30 10:16:16 BST 2016
@@ -149,7 +149,7 @@ Streams, pipelines and trees: living with unending lists
 - TODO: get quote on conversion and **relevance** and why it matters from Hansen
 - also had an idea of thinking about an event that happens in recommender system -- does it ever happen that something is recommended that matters to me ... 
 - TESCO api -- signed up for this but can't get key for API for some reason -- can't see it there, but its probably a distraction ... 
-- TODO: scan Shreena's graph of the models and use as image. DONE
+- TODO: DONE scan Shreena's graph of the models and use as image. 
 - went back to notes on 200000 products and looked at undersampling -- randomly drop some of the products to get a more balanced dataset; also see that much of the presentation was really about the topic of basket similarity and how to deal with it since it affects the **relevance** of the the recommendations. This is another tie-in to the Hansen argument. 
 - thought too that the conversion experience Tesco wants -- no low value conversion -- is precisely what they are suffering from in competition with the German supermarkets that do no online delivery. 
 
@@ -175,7 +175,7 @@ Streams, pipelines and trees: living with unending lists
 - TODO: get some ideas on conversion from James' ~/archive/james_texts/james_varieties.pdf
 - TODO: some more work on simulating the baskets and perhaps the customers using the GBCS data
 - started to write a script to simulate baskets in terms of range of items, total cost, number of items,, etac 
-- TODO: write r chunks in outline to extract high cost conversion items
+- TODO: write r chunks in outline to extract high cost conversion items DONE
 
 ## Mon Oct 10 09:27:43 BST 2016
 
@@ -184,7 +184,7 @@ Streams, pipelines and trees: living with unending lists
 - tried to track down the Vernes reference -- 1982, critique de raison aleatoire -- would need to ill that.
 - wrote some on the uplift model -- turns out that has only recently come into marking (around 1999) and is under active development in market research. I thought it would be standard practice ...  downloaded a paper on it by Victor Lo 2002 ~/archive/data_intensive/markets/lo_lift_model_1982_10.1.1.99.7064.pdf
 - uplift models are one of the ways that markets link machine learning into marketing ... 
-- TODO: write script to extract all headings, quotes, images and knitr chunks to a file and then convert to ioslides, etc. 
+- TODO: DONE write script to extract all headings, quotes, images and knitr chunks to a file and then convert to ioslides, etc. DONE
 - TODO: get some references for realtime in media: Hansen doesn't speak about this much -- might be able to adapt some of his temporality talk. ... 
 - tried t write the infrastructure section -- not much to say about hadoop, except that without it, no lists ... is all of this a product of infrastructural transformation?
 
@@ -200,8 +200,8 @@ Streams, pipelines and trees: living with unending lists
 - will try to write about the substitute and similarity modelling
 - looking up Popper on propensity and downloaded to ~/archive/popper_propensities_1990.pdf; also printed it
 - read it a bit and it might help in the discussion of the weighting of the list
-- had the idea in the pool that I don't need to go much further except to say something about how media theory is grappling with the growth of prediction; premediation, etc. This also is an attempt to grapple with that. TODO: put into intro and conclusion 
-- added extract_images.sh to create slides; TODO: try it with Rmarkdown reveal, etc. 
+- had the idea in the pool that I don't need to go much further except to say something about how media theory is grappling with the growth of prediction; premediation, etc. This also is an attempt to grapple with that. TODO: put into intro and conclusion  DONE
+- added extract_images.sh to create slides; TODO: try it with Rmarkdown reveal, etc. DONE
 
 ## Thu 13 Oct 15:58:47 BST 2016
 
@@ -272,7 +272,7 @@ or
 - did some revisions on paper yesterday, but didn't manage to enter them all.
 - realised during revisions that predictions are in the product-customer matrix, not after that. Important for my argument that   
 - had to print out with revision halfway through ... 
-- working on train and flight. Re-wrote conclusion in notebook blue august 2016, 66-67. Also has some comments TODO: bring these comments and ideas into paper
+- working on train and flight. Re-wrote conclusion in notebook blue august 2016, 66-67. Also has some comments TODO: DONE bring these comments and ideas into paper
 
 
 ## Thu Oct 27 08:27:50 BST 2016
@@ -289,10 +289,14 @@ or
 
 ## Fri Oct 28 08:07:00 BST 2016
 
-- questions from presentaton:
+- questions from presentation and further discussion thoughts:
 - doesn't the idea of the open need qualification? Yes, good idea -- would be good to develop some different ways of thinking about how to qualify the open;
 - What are the politics of doing this with the Tesco shopping list? Not sure how to answer this -- certainly doesn't have the politico-epistemically loaded value of elite examples ....
 - How does this relate to the future? Is it about open future? Maybe it is -- what if these systems do shape what happens more and more? If we live in the anticipatory mode? 
 - Where is trust in this setup? How do I trust over time? Again, couldn't answer this - I haven't look at how people relate to it. But wider issues of trust -- people going to supermarkets where the data science is not so obviously shaping everything; where the branding is not so extensively shaped by the supply chain logistics, etc. 
 - Valuation practices -- question from Martin -- about how these fit. Reminded me that I could add Marx on this ... on the forms of relevance embedded in the commodity form.
-- Also looked up precision and recall again -- TODO: both of them are connected by the notion of relevance; look at Whitehead on this -- where does he talk about relevance? 
+- Also looked up precision and recall again -- TODO: both of them are connected by the notion of relevance; look at Whitehead on this -- where does he talk about relevance? The flipside of this would be an irrelevant list, but possibly there would be a relevance that felt different to the ones described by precision and recall. 
+- What about lists of images on the Tesco -- lists of images are shown ... 
+- also could bring in grocerylists.org for many shopping lists
+- think of the list as a sub-structured by a much deeper set of plans and orientations. But also as the surplus -- between the two, what happens?
+- notes on the workshop august blue notebook pp 66-81 add more ... 
