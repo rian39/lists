@@ -300,3 +300,7 @@ or
 - also could bring in grocerylists.org for many shopping lists
 - think of the list as a sub-structured by a much deeper set of plans and orientations. But also as the surplus -- between the two, what happens?
 - notes on the workshop august blue notebook pp 66-81 add more ... 
+
+## Thu 24 Nov 16:24:08 GMT 2016
+
+- doing prep for socl940 session: 2 things came up. Striphas and Hallinan's Netflix prize article is on recommendation systems. TODO: include their comments on culture there; also suggests need to do a better lit search TODO
