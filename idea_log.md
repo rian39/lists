@@ -311,3 +311,10 @@ or
 - TODO: read manuscript again looking for ensemble focus
 - TODO: read the notes above
 - TODO: read the notes in blue notebook
+- trying to calculate how many hours I need to revise the manuscript -- see blue_aug2016 notebook 152-153
+- starting reading the siegen manuscript and writing a few notes on it. 
+- reframe the list as important topic for bdas -- use peters argument for media theory notes/durham-peters-cloud.md - data comes first, and in a list; 
+- spent 25 minutes fixing knit elements of siegen version in order to get a clean manuscript. 
+- TODO: add the key point that big data is a response to the problem of logistical ensembles; this might be the linchpin for the whole paper. And definitely would suit it to BDAS
+- printed clean copy
+- NEXT: edit 6 pages 

@@ -44,7 +44,7 @@ The conversion of lists from finite to in-definite in recommender systems sugges
  
 I saw recently a presentation about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further grocery purchases under the title of 'Have you forgotten?'. When you shop for groceries online, a list of 'Have you forgotten' recommendations appear  at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, the working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.
 
-```{r random_basket, echo=FAlSE, cache=TRUE, fig.cap='Random basket'}
+```{r random-basket, echo=FALSE, cache=TRUE, fig.cap='Random basket'}
 library(dplyr)
 library(ggplot2)
 library(readr)
@@ -164,14 +164,15 @@ library(datasets)
 data(Groceries)
 itemFrequencyPlot(Groceries,topN=10,col=rainbow(10), ntype="absolute",  cex.axis = 0.55)
 options(digits=2)
-rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), appearance = list(default="rhs",lhs="whole milk"), control = list(verbose=F))
-rules<-sort(rules, decreasing=TRUE,by="confidence")
-inspect(rules[1:5]) 
-items = Groceries@itemInfo
+rules<- apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), appearance = list(default="rhs",lhs="whole milk"), control = list(verbose=F))
+rules_sorted <- sort(rules, decreasing=TRUE,by="confidence")
+rule1 <- inspect(rules_sorted[1])
+rule2 <- inspect(rules_sorted[2])
+kable(inspect(rules[1:5]))
+items <- Groceries@itemInfo
 ```
 
-The association rule-based model for the `Groceries` dataset suggests some of the characteristic ordering practices of 1990s-style data-mining approaches to lists. 
-The association between items is expressed in the form of _rules_. These rules, a term derived from decision support literature, define sets of associations between items. As a set theory-based practice, the association rules define likely sets of items or shopping baskets in terms of decreasing probability.   `r inspect(rules[1])` is a stronger association than `r inspect(rules[2])`. So any recommendation in the 'Have You Forgotten' list should probably put them in that order. 
+The association rule-based model for the `Groceries` dataset suggests some of the characteristic ordering practices of 1990s-style data-mining approaches to lists. The association between items is expressed in the form of _rules_. These rules, a term derived from older decision support literature, define sets of associations between items. As a set theory-based practice, the association rules define likely sets of items or shopping baskets in terms of decreasing probability. Table \@ref(tab:arules) shows that the first rule has a stronger association than the second. Milk and vegetables is more likely an association than milk and buns.   So any recommendation in the 'Have You Forgotten' list should probably put them in that order. 
 
 Association rules and the `apriori` algorithm present social order in terms of sets of common associations that are already weighted by frequency and hence probability. This means that that the algorithm can be understood in terms of the set-based multiples proposed by Alain Badiou: 
 
