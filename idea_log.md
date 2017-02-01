@@ -290,17 +290,24 @@ or
 ## Fri Oct 28 08:07:00 BST 2016
 
 - questions from presentation and further discussion thoughts:
-- doesn't the idea of the open need qualification? Yes, good idea -- would be good to develop some different ways of thinking about how to qualify the open;
-- What are the politics of doing this with the Tesco shopping list? Not sure how to answer this -- certainly doesn't have the politico-epistemically loaded value of elite examples ....
-- How does this relate to the future? Is it about open future? Maybe it is -- what if these systems do shape what happens more and more? If we live in the anticipatory mode? 
-- Where is trust in this setup? How do I trust over time? Again, couldn't answer this - I haven't look at how people relate to it. But wider issues of trust -- people going to supermarkets where the data science is not so obviously shaping everything; where the branding is not so extensively shaped by the supply chain logistics, etc. 
-- Valuation practices -- question from Martin -- about how these fit. Reminded me that I could add Marx on this ... on the forms of relevance embedded in the commodity form.
-- Also looked up precision and recall again -- TODO: both of them are connected by the notion of relevance; look at Whitehead on this -- where does he talk about relevance? The flipside of this would be an irrelevant list, but possibly there would be a relevance that felt different to the ones described by precision and recall. 
-- What about lists of images on the Tesco -- lists of images are shown ... 
-- also could bring in grocerylists.org for many shopping lists
-- think of the list as a sub-structured by a much deeper set of plans and orientations. But also as the surplus -- between the two, what happens?
+    - doesn't the idea of the open need qualification? Yes, good idea -- would be good to develop some different ways of thinking about how to qualify the open;
+    - What are the politics of doing this with the Tesco shopping list? Not sure how to answer this -- certainly doesn't have the politico-epistemically loaded value of elite examples ....
+    - How does this relate to the future? Is it about open future? Maybe it is -- what if these systems do shape what happens more and more? If we live in the anticipatory mode? 
+    - Where is trust in this setup? How do I trust over time? Again, couldn't answer this - I haven't look at how people relate to it. But wider issues of trust -- people going to supermarkets where the data science is not so obviously shaping everything; where the branding is not so extensively shaped by the supply chain logistics, etc. 
+    - Valuation practices -- question from Martin -- about how these fit. Reminded me that I could add Marx on this ... on the forms of relevance embedded in the commodity form.
+    - Also looked up precision and recall again -- TODO: both of them are connected by the notion of relevance; look at Whitehead on this -- where does he talk about relevance? The flipside of this would be an irrelevant list, but possibly there would be a relevance that felt different to the ones described by precision and recall. 
+    - What about lists of images on the Tesco -- lists of images are shown ... 
+    - also could bring in grocerylists.org for many shopping lists
+    - think of the list as a sub-structured by a much deeper set of plans and orientations. But also as the surplus -- between the two, what happens?
 - notes on the workshop august blue notebook pp 66-81 add more ... 
 
 ## Thu 24 Nov 16:24:08 GMT 2016
 
 - doing prep for socl940 session: 2 things came up. Striphas and Hallinan's Netflix prize article is on recommendation systems. TODO: include their comments on culture there; also suggests need to do a better lit search TODO
+
+## Wed 01 Feb 2017 10:24:50 GMT
+- new branch 'bdas'; starting work on journal submission; have manuscript from siegen
+- TODO: add reference to morris
+- TODO: read manuscript again looking for ensemble focus
+- TODO: read the notes above
+- TODO: read the notes in blue notebook
