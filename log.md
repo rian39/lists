@@ -318,3 +318,24 @@ or
 - TODO: add the key point that big data is a response to the problem of logistical ensembles; this might be the linchpin for the whole paper. And definitely would suit it to BDAS
 - printed clean copy
 - NEXT: edit 6 pages 
+
+## Thu 02 Feb 2017 09:27:56 GMT
+- according to my calculations - blue_aug2016 152, editing and submission should take about 26 hours of work. I can do 2 hours today. Implies submission on 17 Feb
+- DONE: look at recent articles in bdas and collect any relevant ones; have been through 100 or so -- best candidates -- Kitchin,  Beer,  added some to lists subcollection in data_forms collection in zotero
+- TODO: look again at Amoore in Econ&Society, add Peters on List; could add List as evil media;
+- Going through notes from the siegen event -- reminded me of
+    - engagement with probability and propensity; a key site of debate
+    - transformation of interestedness of order
+    - alignments between our interests and interestedness of the list
+    - mixed list types in the same list?
+    - look at specific quantifications within lists -- often linked
+    - affective becomings in list, especially via gaps
+    - really rich set of list ideas in the workshop
+- spent quite a lot of time on bdas site -- around 134 articles there - I tried to download all of the biblio into zotero, but that wasn't working. I'd like to read of them.- spent quite a lot of time on bdas site -- around 134 articles there - I tried to download all of the biblio into zotero, but that wasn't working. I'd like to read of them. 
+- oh, no, it was working, just in a different place. so spent 20 minutes getting rid of duplicates
+- starting to work on the clean paper copy and want to address
+    1. probability and propensities in the world -- the Hansen argument
+    2. recommender system as construction of propensities
+    3. but also as response to logistical worlds and complexity of transformations of value -- 'conversion experiences'
+    4. the conversion experience associated with 'big data' is?
+- managed to do 5 pages today, but then had all the pfaff described above as well. 22.5 hours work to go
