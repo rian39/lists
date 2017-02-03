@@ -308,7 +308,7 @@ or
 ## Wed 01 Feb 2017 10:24:50 GMT
 - new branch 'bdas'; starting work on journal submission; have manuscript from siegen
 - TODO: add reference to morris
-- TODO: read manuscript again looking for ensemble focus
+- DONE: read manuscript again looking for ensemble focus
 - TODO: read the notes above
 - TODO: read the notes in blue notebook
 - trying to calculate how many hours I need to revise the manuscript -- see blue_aug2016 notebook 152-153
@@ -320,7 +320,7 @@ or
 - NEXT: edit 6 pages 
 
 ## Thu 02 Feb 2017 09:27:56 GMT
-- according to my calculations - blue_aug2016 152, editing and submission should take about 26 hours of work. I can do 2 hours today. Implies submission on 17 Feb
+- according to my calculations - blue_aug2016 152, editing and submission should take about 27 hours of work. I can do 2 hours today. Implies submission on 17 Feb
 - DONE: look at recent articles in bdas and collect any relevant ones; have been through 100 or so -- best candidates -- Kitchin,  Beer,  added some to lists subcollection in data_forms collection in zotero
 - TODO: look again at Amoore in Econ&Society, add Peters on List; could add List as evil media;
 - Going through notes from the siegen event -- reminded me of
@@ -337,5 +337,9 @@ or
     1. probability and propensities in the world -- the Hansen argument
     2. recommender system as construction of propensities
     3. but also as response to logistical worlds and complexity of transformations of value -- 'conversion experiences'
-    4. the conversion experience associated with 'big data' is?
+    4. the conversion experience associated with 'big data' is? conversion of rules to associations; conversion of propensity to actuality; conversion of belief in big data into the operations of an ensemble (logistics, media platform, operational control). 
 - managed to do 5 pages today, but then had all the pfaff described above as well. 22.5 hours work to go
+
+## Fri 03 Feb 2017 13:08:17 GMT
+- working on next 5-6 pages of manuscript; did to the end of page 12; so that's on schedule  2.15 hours
+- TODO: look up quote on reconstruction from Dewey; can't find it electronically; need to find book at home;
