@@ -343,3 +343,8 @@ or
 ## Fri 03 Feb 2017 13:08:17 GMT
 - working on next 5-6 pages of manuscript; did to the end of page 12; so that's on schedule  2.15 hours
 - TODO: look up quote on reconstruction from Dewey; can't find it electronically; need to find book at home;
+
+## Mon 06 Feb 2017 11:20:42 GMT
+- limited time today, but thinking that 'propensity' should go in the title? Would I have to change a lot for that? Or do I need to speak much more about conversion? Or combine them: from propensity to actuality: conversion experiences in shopping lists ; the propensity discourse in big data is quite important since it underpins the promise. The promise of big data is a propensity promise. So to analyse the doing of propensity is to analyse the conversion experience ...
+- TODO: add the practice of propensity idea into the abstract, intro and conclusion framings. 
+- did 8 pages of revisions today, leaving about 9 for tomorrow.  
