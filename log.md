@@ -348,3 +348,10 @@ or
 - limited time today, but thinking that 'propensity' should go in the title? Would I have to change a lot for that? Or do I need to speak much more about conversion? Or combine them: from propensity to actuality: conversion experiences in shopping lists ; the propensity discourse in big data is quite important since it underpins the promise. The promise of big data is a propensity promise. So to analyse the doing of propensity is to analyse the conversion experience ...
 - TODO: add the practice of propensity idea into the abstract, intro and conclusion framings. 
 - did 8 pages of revisions today, leaving about 9 for tomorrow.  
+
+## Tue 07 Feb 2017 08:58:03 GMT
+- hoping to do about 9 pages today, but we'll see. Some harder conceptual stuff around propensity to work through. Have read Hansen a bit again, and he is not so bad on open/closed.
+- pfaffed a bit with branches and commits between master/siegen version and newer bdas version. Hard to see sometimes in git how things are distributed. I used:
+    git diff bdas  master -- lists_conversion_experience.rmd
+    to look at differences between the branches. 
+- did around 7 pages -now finishing page 26, quite close to conclusion given the presence of a table. But I've hit a slight snag -- the design matrix, the similiarity matrix for products, has to be included in the overall process. How  
