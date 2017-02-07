@@ -1,9 +1,10 @@
+
 ---
 title: "'Have you forgotten?' Conversion experiences in shopping lists"
 author: "Adrian Mackenzie"
 date: "`r Sys.Date()`"
 output:
-tufte::tufte_handout: default
+tint::tintPdf: default
 citation_package: biber
 latex_engine: xelatex
 bibliography: /home/mackenza/ref_bibs/uni.bib
@@ -13,7 +14,6 @@ header-includes:
     - \doublespacing
 ---
 
-# 'Have you forgotten?' Conversion experiences in shopping lists
 
 ```{r setup, cache=FALSE, include=FALSE}
 library(knitr)
@@ -27,8 +27,7 @@ opts_chunk$set(error=TRUE)
 opts_chunk$set(cache=TRUE)
 ```
 
-## Abstract
-
+# Abstract
 
 Amidst the predictive conditions of contemporary media-culture, the inevitable incompleteness of lists is both a problem and a potential. 
 This paper investigates practices of list-making associated with online grocery shopping at a  UK and global supermarket chain, Tesco. 
@@ -40,18 +39,17 @@ While all written lists mix past and future actions, actual and potential events
 In this operational dynamic, the incompleteness of lists, their propensity to expand or change, becomes more important than their capacity to exhaustively enumerate things. 
 The conversion of lists from finite to in-definite in recommender systems suggests we might need to re-conceptualise how we think about social order and structure in media cultures.  
 
-## Introduction: the presentation of a presentation
+# Introduction: the presentation of a presentation
  
 I saw recently a presentation about online grocery shopping at Tesco, a large supermarket chain based in the UK. The lists in this setting are recommendations for further grocery purchases under the title of 'Have you forgotten?'. When you shop for groceries online, a list of 'Have you forgotten' recommendations appear  at the checkout stage. While the title 'have you forgotten' implies that you will be shown items that could have been or are usually on a shopping list, the working assumption is a temporal one -- the list is incomplete either because you have forgotten to list something, or you didn't know what should be on your list, perhaps because you have never even thought of putting that thing on your list.
 
-```{r random_basket, echo=FAlSE, cache=TRUE, fig.cap='Random basket'}
+```{r random_basket, echo=FALSE, cache=TRUE, fig.cap='Random basket', fig.margin=TRUE}
 library(dplyr)
-library(ggplot2)
 library(readr)
 library(knitr)
 csvs = list.files('data', pattern = '*.csv',full.names=TRUE)
 df = bind_rows(sapply(csvs, read_tsv))
-kable(sample_n(df, size=5)$name, col.names='item')
+kable(sample_n(df, size=5)$name, col.names='Items')
 ```
 
 The items on this list could be recommendations. They are only a few of them: five. The question: which five items and in what order?
@@ -66,7 +64,7 @@ The presentation I saw was not really surprising or exceptional. It was a presen
 
 A recommendation system should suggest items that you have not forgotten but may have never bought. If you do buy recommended items, then the recommender system has been effective in shunting the situation differently. It has led to a **'conversion.'** From a supermarket perspective, the conversion should be high in price. There is little value in successfully recommending a whole lot of small and cheap items such as rubber bands or toothpicks. So it might need to choose amongst different recommendations and weight high value items differently to low value items. In either case, 'conversion'  is the valued event. 
 
-## How do we approach lists as objects of research? 
+# How do we approach lists as objects of research? 
 
 While lists such as recommendations intersect strongly with other meaning and sense-making practices in everyday life and popular culture, they are also somewhat refractory to discourse  and textual analysis methods. On the one hand, lists are highly associative. They can be interpreted or decoded semiotically, but they also exhibit great variations in textuality that multiply semiotic readings. On the other hand, as operational inscriptions, they can be treated ethnomethodologically, as the production of ('the order of social settings through ...  shared sense making practices.')[https://en.wikipedia.org/wiki/Ethnomethodology] 
 
@@ -88,7 +86,7 @@ The question exercising much contemporary work on data, on media, platforms and 
 
 As the quote shows, he presents this as an 'ontological transformation.' The practical and indeed experimental question for me here is whether such transformations can be detected and articulated in the prosaic setting of shopping lists and  shopping baskets. I will suggest that 'conversion' might be a better way of mapping these changes than 'transformation.'   
 
-## 1. The context of the presentation: 'statistics and operations research in industry' 
+# 1. The context of the presentation: 'statistics and operations research in industry' 
 
 I heard this presentation at an academic event with speakers from industry and government on statistics and operations research in industry. Speakers came from Shell, Disney, GCHQ, and various universities.  Because I've done a lot of work on machine learning and data science more generally, I found the sessions both familiar and occasionally exciting. 
 
@@ -120,7 +118,7 @@ Much of my paper, and my responses to the presentation I saw from a data scienti
 
 I respond to the presentation in two ways. First, by recounting, contextualising and commenting on some of the main steps in making the 'Have your forgotten?' list  as a example of the sense-making done by data scientists and customer analytics teams in many places. Many of these steps were mentioned only briefly in the presentation, and they are largely taken for granted as part of predictive analytic practice.  Second, by trying to step into the list-making practices  as an occasion to intervene and participate in the ontological conversion practices they engage in.
 
-## 2. The web and the shopping basket: how it was reconstituted in the 1990s
+# 2. The web and the shopping basket: how it was reconstituted in the 1990s
 
 !['Every little bit helps':Tesco ClubCard](figure/tesco-clubcard.jpg ) 
 
@@ -150,7 +148,7 @@ Writing near the advent of early web-based e-Commerce, Resnick and Varian (now C
 
 ![The advent of recommender systems](figure/resnick_varian_1997_p1.png)
 
-## 3. The rules-based list and the `apriori` algorithm
+# 3. The rules-based list and the `apriori` algorithm
 
 We can see something of this shift from collaborative filtering in the shift that Patel describes as moving from 'a rules-based' model to personal relevance. I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda [@Agrawal_1994]. The `apriori` algorithm finds sets of items that commonly occur in transactions. It was listed as one of the top ten data mining algorithms in a survey conducted amongst data miners [@TBA_2007].  These commonly occurring sets are expressed as association rules. For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart might have discovered  -- but didn't -- the fabled association between diapers and beer.  [http://www.dssresources.com/newsletters/66.php]
 
@@ -167,11 +165,13 @@ options(digits=2)
 rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), appearance = list(default="rhs",lhs="whole milk"), control = list(verbose=F))
 rules<-sort(rules, decreasing=TRUE,by="confidence")
 inspect(rules[1:5]) 
+rule2 = inspect(rules[2])
+rule1 = inspect(rules[1])
 items = Groceries@itemInfo
 ```
 
 The association rule-based model for the `Groceries` dataset suggests some of the characteristic ordering practices of 1990s-style data-mining approaches to lists. 
-The association between items is expressed in the form of _rules_. These rules, a term derived from decision support literature, define sets of associations between items. As a set theory-based practice, the association rules define likely sets of items or shopping baskets in terms of decreasing probability.   `r inspect(rules[1])` is a stronger association than `r inspect(rules[2])`. So any recommendation in the 'Have You Forgotten' list should probably put them in that order. 
+The association between items is expressed in the form of _rules_. These rules, a term derived from decision support literature, define sets of associations between items. As a set theory-based practice, the association rules define likely sets of items or shopping baskets in terms of decreasing probability.   `r rule1` is a stronger association than `r rule2`. So any recommendation in the 'Have You Forgotten' list should probably put them in that order. 
 
 Association rules and the `apriori` algorithm present social order in terms of sets of common associations that are already weighted by frequency and hence probability. This means that that the algorithm can be understood in terms of the set-based multiples proposed by Alain Badiou: 
 
@@ -198,7 +198,7 @@ If we take a typical grocery dataset used in data-mining modelling (e.g. from th
 
 Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. The 169 items of Hahsler `Groceries` dataset  expand into roughly `r total` possible items.  This is, I would suggest, a form of open. The multiplicity grasped at the `Grocery` dataset becomes more open in this setting, where 'open' complements any possible closure with new intersections. Rather than seeing predictive analytics as a closed form of an open world, I am suggesting that we might begin to locate it in the joint effectuations or intersections within models.      
 
-## 4. Hack? Customers go straight to the checkout
+# 4. Hack? Customers go straight to the checkout
 
 ![Straight to the checkout?](figure/patel_straight_to_checkout.png)
 
@@ -209,7 +209,7 @@ People inhabit lists and work with them no matter how they are made; thus vindic
 
 [^45]: What have ethnomethodologists and others actually said about lists?  
 
-## 5. 'We have 52 weeks of data for each customer': how is order constructed -- from history?
+# 5. 'We have 52 weeks of data for each customer': how is order constructed -- from history?
 
 We know that the construction of lists has been transformed by recommender systems.
 Patel described the data that Tesco keeps on grocery purchases: 'We have 52 weeks of purchase data for each customer.' 
@@ -238,7 +238,7 @@ Hansen's account opposes the closed prediction to the open propensities of the d
 - shift from data mining to personalization? 
 - use some of the Varian, Linden, Resnick, Schaffer literature
  
-## 6. Gain: use good features to build models 
+# 6. Gain: use good features to build models 
 
 - what counts as a good feature? See Domingos on this
 - move from Dunnhumby's ClubCard focus to much more general world of predictive models (e.g. Facebook use a million models, etc.)
@@ -258,7 +258,7 @@ The fact that so little was said about the models themselves suggests that they 
 
 So, the model generates probabilities for each product for each customer. The 'good features' strengthen associations between people and things. Each thing has a propensity in relation to each customer. 
 
-## 7. Sparsity: output 20 recommendations from 200,000 products
+# 7. Sparsity: output 20 recommendations from 200,000 products
 
 What counts as a good feature in a world of predictive lists? Some things in the data that increases the precision of the model. The problem that Tesco faces, however, is that there are too many possible recommendations to be tested. They sell around 200,000 products and no customer wants to buy any more than a fraction of a per cent of those products. The recommendation list needs to very short.
 
@@ -285,14 +285,11 @@ In Hansen's or Badiou's terms, this is one way in which the dataset is closed. W
  
 So the raw data -- the 52 weeks of purchases for each customer -- can be rewoven with the database of Tesco products to increase the density of the data in ways that helps the model. Patel mentions some of the 'features' used in the new model but somewhat strangely at this point, her presentation turns toward the difficulties of measuring the success of the model and the infrastructural limitations on making recommendations in ways that are more alive to what is happening right now. 
 
-## 8. Value: Balancing conversion vs spend
-The value of an ordering
- 
-## 9. Metric: precision-at-K
+# 9. Metric: precision-at-K
  
 The discussion of imperfection was brief - it incorporated the notion of recommendations weighted by price and the notion of precision (or the proportion of products actually purchased.). Patel simply said that this metric was imperfect, but without elaborating why. Instead she moved to describe some of the ways in which the recommender system worked in practice. 
 
-## 10. Experimental settings: A/B allocation and uplift
+# 10. Experimental settings: A/B allocation and uplift
 
 ![A/B testing](figure/a_b_tests.png) 
 
@@ -307,7 +304,7 @@ It is perhaps significant that this random allocation of customers to control an
 [^122]: See [@Lo_2002] for an introduction to the construction of experimental set ups for uplift models. Market researchers and data miners seem to have started adopting a statistically grounded experimental predictive practice sometimes around 2000. See for instance [@Almquist_2001]  Response modelling, propensity modelling and uplift modelling all seek to identify associations between 'treatments' or interventions and the 'Responders', the people  affected by the treatment.  Interestingly, these 
 
 
-## 11. Infrastructure: realtime engine serves up top 5
+# 11. Infrastructure: realtime engine serves up top 5
 
 ![Realtime infrastructure and its limits](figure/hadoop.png)
 
@@ -317,7 +314,7 @@ Patel did not say much else about the infrastructure but the 200 recommendations
 
 The brief mention of specific infrastructural elements such as `hadoop` is, however, significant. It points to the temporality of infrastructures themselves as a component of list practices. The possibility of adjusting the recommendations for every customer weekly derives from an infrastructure capable of collecting data, assimilating that data to predictive model able to generate recommendations that are relevant to individuals amongst 200,000 products.  
 
-## 12. Similarity, substitution, complementarity and micrological propensities
+# 12. Similarity, substitution, complementarity and micrological propensities
 
 ![Basket similarity](figure/patel_basket_similarity.png)
 
@@ -339,7 +336,7 @@ How do things associate with each other in  substitutions and complementarities?
 We can imagine this in terms of biscuits. A customer's recommendation list might already include `r bisc$name[10]`.  The 'self-learning substitution model' might be able to substitute something in that list that is of higher value, either because it is bigger or more expensive. 
 
  
-## 13. Complementarity drives conversion 
+# 13. Complementarity drives conversion 
 
 ![propensity_matrix](figure/propensity_conversions.png)
 
@@ -349,7 +346,7 @@ How should we understand the effect of complementarity? Patel says that 'complem
 
 In the similarity matrix, shaped by the history of past recommendations and purchases made by this customer, lie the propensities of things that Hansen (following Popper) attributes to the world. Karl Popper speaks of the future as a 'crystallization of propensities' [@Popper_1990,18]   
 
-## Conclusion
+# Conclusion
 
 My investigation of lists has been centred around the transformation in their predictive underpinnings. How should we think about the list-making practices of these models, databases and computational infrastructures? Following Hansen, I have been suggesting that the predictive listing in the form of open-ended recommendation is symptomatic of changes in the distribution of media. The idea that media should no longer be considered as extensions or prostheses of human communication but the environmental situation in which different propensities play out is increasingly central to contemporary media theory. 
 
@@ -364,4 +361,4 @@ I diverge from Hansen in how I account for this change. Rather than looking for 
 - shopping lists undergoing a **conversion experience** as they become more probabilistic, but the idea that probabilities are the closed form of propensities does not account for the distribution of probabilities in relations between things, between people, between people and things, and between things and people.
 - lists undergoing a 'conversion' experience as they become more probabilistic, but their heterogeneous character as operations caught up in models, infrastructures, experiments, and the flow of commodities means that they can never form a closed set or dataset. Amidst prediction they become constitutively incomplete. 
 
-## References
+# References
