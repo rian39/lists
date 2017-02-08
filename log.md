@@ -86,12 +86,12 @@ Streams, pipelines and trees: living with unending lists
 - put the 10 or so main points into presentation order and started to write some notes around these
 - could also point to (Recommender Systems Conference)[https://recsys.acm.org/recsys16/] as an example -- spent some time looking through these -- interesting papers on Youtube deeplearning, which I put in archive (~/archive/data_intensive/machine_learning/covington_youtube_deeplearning_2016.pdf). See there how matrix factorization has been been the main approach for recommender systems. 
 - would like to simulate some of the things that Patel talked about. 
-- got paper on Trilling, Kinsey Report -- started to think about all the accumulation of data in recommender systems. How long has this been happening? Tesco Clubcard seen as an origin, but customer/business analytics must be much older. How older? TODO: WoS search on research literature - DONE
+- got paper on Trilling, Kinsey Report -- started to think about all the accumulation of data in recommender systems. How long has this been happening? Tesco Clubcard seen as an origin, but customer/business analytics must be much older. How older? DONE: WoS search on research literature - DONE
 - did a bit of this -- first mention of the term is highly cited 1997 ACM article by Varian & Resnick; describes some existing systems; point to the term 'collaborative filtering' as first used in 1991; paper is in archive ~/archive/data_intensive/machine_learning/varian_resnick_recommenders_1997.pdf
 - 1997 special issue of ACM on recsys? Not sure. Went through time in WoS a bit and found 2001 article on recommender systems -- Schafer et al ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf -- which is a bit better. Has a lot of taxonomies and late 1990s references 
-- TODO: go through the main points and think about where I can put my own stuff in; DONE 
-- TODO: look up ethnomethodology on lists ...
-- TODO: DONE go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; probabilisation, dimensionality; enunciative function;    
+- DONE: go through the main points and think about where I can put my own stuff in; DONE 
+- DONE: look up ethnomethodology on lists ...
+- DONE: DONE go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; probabilisation, dimensionality; enunciative function;    
 
 ## Tue Sep 27 09:12:58 BST 2016
 
@@ -111,11 +111,11 @@ Streams, pipelines and trees: living with unending lists
 
 - will look at the most interesting bits of dunnhumby presentation first, and then see if the other bits can be fitted in time ... 
 - wrote a bit about arules and apriori, trying to link it to set theory; see ~/archive/data_intensive/machine_learning/agrawal_apriori_94apriori.pdf
-- TODO: find old shopping list and scan it DONE
+- DONE: find old shopping list and scan it DONE
 - added a bit of badiou, but I'm not convinced.
 - got distracted by non-human book (Grusin) and spent time downloading Hansen's article on prediction. And then Bogost on carpentry. 
 - added a bit more on the badiou front -- the open and excess.
-- TODO: image of a ClubCard -- DONE
+- DONE: image of a ClubCard -- DONE
 - spent time pasting itemset from `Groceries` dataset into Tesco's shopping list. Data is in data/grocery_items.csv. Can paste the whole list into the shopping site, or use the url (http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true)[http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true] substituting any term you want into it to get the results.  Would need to scrape a bit to get them all. Can get the number and then step through using http://www.tesco.com/groceries/product/search/default.aspx?notepad=chicken&viewMode=grid&N=0&Nao=40 
 - tracking down the `Groceries` dataset -- found reference in reference.pdf for `arules`. Added this to archive ~/archives/data_intensive/machine_learning/ 
 - what do the brands do?
@@ -128,7 +128,7 @@ Streams, pipelines and trees: living with unending lists
 - wrote a bit about this at the beginning -- it feels a bit better than other stuff because it gets into sets
 - added in Hansen on prediction and how probability becomes actual ... Also put quotes in new notes file. His argument that prediction is a closed probabilistic determination of propensities that always exceed it as a field of data. The goal is to locate those excesses and perceptualise them somehow.  
 - TODO:  DONE bring the quote about technical interface to the data of sensibility into the conclusion
-- read some Hansen at lunch and marked useful bits on paper copy -- TODO:  DONE put those into notes file and then use them to structure the argument?
+- read some Hansen at lunch and marked useful bits on paper copy -- DONE:  DONE put those into notes file and then use them to structure the argument?
 - started to bring some of the probability idea into 'I went shopping and I bought ...' 
 
 ## Fri Sep 30 10:16:16 BST 2016
@@ -149,7 +149,7 @@ Streams, pipelines and trees: living with unending lists
 - TODO: get quote on conversion and **relevance** and why it matters from Hansen
 - also had an idea of thinking about an event that happens in recommender system -- does it ever happen that something is recommended that matters to me ... 
 - TESCO api -- signed up for this but can't get key for API for some reason -- can't see it there, but its probably a distraction ... 
-- TODO: DONE scan Shreena's graph of the models and use as image. 
+- DONE: DONE scan Shreena's graph of the models and use as image. 
 - went back to notes on 200000 products and looked at undersampling -- randomly drop some of the products to get a more balanced dataset; also see that much of the presentation was really about the topic of basket similarity and how to deal with it since it affects the **relevance** of the the recommendations. This is another tie-in to the Hansen argument. 
 - thought too that the conversion experience Tesco wants -- no low value conversion -- is precisely what they are suffering from in competition with the German supermarkets that do no online delivery. 
 
@@ -172,10 +172,10 @@ Streams, pipelines and trees: living with unending lists
 - added a bit of stuff on the experimental allocation of customers
 - also started adding fragments of my notes as images; I'm hoping that I can write a script to extract the images and the knitr blocks into a presentation file and then present that.
 - wrote script simulate_baskets.r to pull all the results into a single dataframe for tesco items and then use that to run queries against. 
-- TODO: get some ideas on conversion from James' ~/archive/james_texts/james_varieties.pdf
+- DONE: get some ideas on conversion from James' ~/archive/james_texts/james_varieties.pdf
 - TODO: some more work on simulating the baskets and perhaps the customers using the GBCS data
 - started to write a script to simulate baskets in terms of range of items, total cost, number of items,, etac 
-- TODO: write r chunks in outline to extract high cost conversion items DONE
+- DONE: write r chunks in outline to extract high cost conversion items DONE
 
 ## Mon Oct 10 09:27:43 BST 2016
 
@@ -184,13 +184,13 @@ Streams, pipelines and trees: living with unending lists
 - tried to track down the Vernes reference -- 1982, critique de raison aleatoire -- would need to ill that.
 - wrote some on the uplift model -- turns out that has only recently come into marking (around 1999) and is under active development in market research. I thought it would be standard practice ...  downloaded a paper on it by Victor Lo 2002 ~/archive/data_intensive/markets/lo_lift_model_1982_10.1.1.99.7064.pdf
 - uplift models are one of the ways that markets link machine learning into marketing ... 
-- TODO: DONE write script to extract all headings, quotes, images and knitr chunks to a file and then convert to ioslides, etc. DONE
+- DONE: DONE write script to extract all headings, quotes, images and knitr chunks to a file and then convert to ioslides, etc. DONE
 - TODO: get some references for realtime in media: Hansen doesn't speak about this much -- might be able to adapt some of his temporality talk. ... 
 - tried t write the infrastructure section -- not much to say about hadoop, except that without it, no lists ... is all of this a product of infrastructural transformation?
 
 ## Tue 11 Oct 09:27:24 BST 2016
 
-- TODO: use montage to create image of all out.jpg as a slide
+- DONE: use montage to create image of all out.jpg as a slide
 - had to rescan patel page 3 because it was cropped figure/patel_page3_SKM_C36816101109420.pdf
 - went through paper adding a bit on classifiers and tangentially approaching the topic of basket similarity. 
 - finding it hard to write about that bit of the presentation  - some small cues -- 'modelling substitutes'. Does that mean that they build models for reach product? Or for each of the recommendations in the 200 in the list? That is, a second layer of modelling that connects the recommendations to what is in the basket? Shreena talks about it in that way ...    
@@ -200,7 +200,7 @@ Streams, pipelines and trees: living with unending lists
 - will try to write about the substitute and similarity modelling
 - looking up Popper on propensity and downloaded to ~/archive/popper_propensities_1990.pdf; also printed it
 - read it a bit and it might help in the discussion of the weighting of the list
-- had the idea in the pool that I don't need to go much further except to say something about how media theory is grappling with the growth of prediction; premediation, etc. This also is an attempt to grapple with that. TODO: put into intro and conclusion  DONE
+- had the idea in the pool that I don't need to go much further except to say something about how media theory is grappling with the growth of prediction; premediation, etc. This also is an attempt to grapple with that. DONE: put into intro and conclusion  DONE
 - added extract_images.sh to create slides; TODO: try it with Rmarkdown reveal, etc. DONE
 
 ## Thu 13 Oct 15:58:47 BST 2016
@@ -272,7 +272,7 @@ or
 - did some revisions on paper yesterday, but didn't manage to enter them all.
 - realised during revisions that predictions are in the product-customer matrix, not after that. Important for my argument that   
 - had to print out with revision halfway through ... 
-- working on train and flight. Re-wrote conclusion in notebook blue august 2016, 66-67. Also has some comments TODO: DONE bring these comments and ideas into paper
+- working on train and flight. Re-wrote conclusion in notebook blue august 2016, 66-67. Also has some comments DONE: DONE bring these comments and ideas into paper
 
 
 ## Thu Oct 27 08:27:50 BST 2016
@@ -310,7 +310,7 @@ or
 - TODO: add reference to morris
 - DONE: read manuscript again looking for ensemble focus
 - TODO: read the notes above
-- TODO: read the notes in blue notebook
+- DONE: read the notes in blue notebook
 - trying to calculate how many hours I need to revise the manuscript -- see blue_aug2016 notebook 152-153
 - starting reading the siegen manuscript and writing a few notes on it. 
 - reframe the list as important topic for bdas -- use peters argument for media theory notes/durham-peters-cloud.md - data comes first, and in a list; 
@@ -355,3 +355,12 @@ or
     git diff bdas  master -- lists_conversion_experience.rmd
     to look at differences between the branches. 
 - did around 7 pages -now finishing page 26, quite close to conclusion given the presence of a table. But I've hit a slight snag -- the design matrix, the similiarity matrix for products, has to be included in the overall process. How  
+
+## Wed 08 Feb 2017 09:32:30 GMT
+-working on the conclusion on paper
+-TODO: I was looking at DunnHumby yesterday. Could make more of what they claim about themselves. At least in a footnote. Also state an empirical limitation in the project -- commercial sensitivity -- and how I deal with it; could link this back to the forensic book on shelves at home
+-TODO also thinking about diapers and beer again. Could I make that into the headline story? An anchor point that I set out to reconstruct? But hasn't that been done? Should look up diaper on bdas.
+- finished paper revisions at 10.10. Still need do abstract; and many todos above on references, of various kinds. Especially Morris, Peters, etc.  
+- starting file revisions. 
+- TODO: get Miller - Theory of Shopping, TJRC (M)
+- added a backup file; did almost 5 pages of revs in the file. 
