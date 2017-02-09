@@ -364,3 +364,7 @@ or
 - starting file revisions. 
 - TODO: get Miller - Theory of Shopping, TJRC (M)
 - added a backup file; did almost 5 pages of revs in the file. 
+
+## Thu 09 Feb 2017 10:07:25 GMT
+-limited time today due to various home stuff, but trying to get 5 pages of edits into text.  
+- did 2 hours of edits -- gradually adding more references, etc
