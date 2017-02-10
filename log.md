@@ -368,3 +368,16 @@ or
 ## Thu 09 Feb 2017 10:07:25 GMT
 -limited time today due to various home stuff, but trying to get 5 pages of edits into text.  
 - did 2 hours of edits -- gradually adding more references, etc
+
+## Fri 10 Feb 2017 13:33:59 GMT
+- read a bit of dewey last night --  
+    > Concrete things have _ways_ of acting, as many ways of acting as they points of interaction with other things. One thing is callous, unresponsive, inert in the presence of some other things; it is alert, eager and on the aggressive with respect to other things; in a third case, it is receptive, docile. 153 
+
+    >Organization is no more merely nominal or mental in any art, including the art of inquiry, than it is in a department store or railway system. 154
+
+    >[a classification] ... is rather a repertory of weapons for attack upon the future and the unknown. 154 
+
+- these might be useful -- classification, organization, the future -- but only within the broader framing of a non-transcendental ontology. 
+- riding to work --  thought that I should emphasize the shift from rules to models, from associations to prediction; this is the major shift, and its use of probability as the connective tissue, as the abstract-concrete conditioning is really important to recognise. It cuts across the closed-open distinction that Hansen assumes; that said, the obscure of this conversion, the fact that it cannot be fully brought to light in reconstruction cannot be eliminated by phenomenological reduction; forensics, etc. It operates within the model itself, with the 'need for good features.'  
+- TODO: footnote how DunnHumby itself markets to customers. There is a regress, perhaps not infinite, but multi-stepped that runs from customer analytics; selling customer analytics; the images of analytics; the selling of images of analytics; etc. 
+- did manage to get 5 more pages

@@ -135,28 +135,19 @@ How could we characterise the shift from ClubCard data mining to online grocery 
 
 ## Reconfiguring recommendations
 
-HERE
-
-When commentators first began talking about recommender systems in the 1990s, they highlighted the shift from demographic-driven market research or data mining techniques to personalized recommendations. For instance, writing in 1997 in a special section of the _Communications of the ACM_ on recommender systems, Paul Resnick and Hal Varian (at that time Dean of Information Sciences at UC Berkeley, but somehow now Chief Economist at Google), made much of this difference [@Resnick_1997]. They emphasise the need for a term to distinguish the emerging practices from data mining. [^44]
-
-[^44]: Also can use Schafer -- back to Association Rule Mining from early 1990s
-
+Academic researchers first began writing about recommender systems in the mid-1990s. They highlighted a potential shift from demographic-driven market research or data mining techniques to personalized recommendations. For instance, writing in 1997 in a special section of the _Communications of the ACM_ on recommender systems, Paul Resnick and Hal Varian (at that time Dean of Information Sciences at UC Berkeley, but currently Chief Economist at Google), made much of this difference [@Resnick_1997]. Resnick and Varian  emphasise the need to distinguish the emerging practices from data mining: 
 
 > In everyday life, we rely on recommendations from other people. ... Recommender systems augment this natural social process. In a typical recommender  system, people provide recommendations as inputs, which the system then aggregates and directs to appropriate recipients. In some cases the primary transformation is in the aggregation; in others the system’s value lies in its ability to make good matches between the recommenders and those seeking recommendations.[@Resnick_1997,56] 
 
-Writing near the advent of early web-based e-Commerce, Resnick and Varian (now Chief Economist at Google) imagined recommender systems as automations of the 'collaborative filtering' that people do when they write and read reviews of products and services (for instance, on the travel website, TripAdvisor; [@REF_Scott_TBA] 
+Writing just after the advent of web-based e-Commerce, Resnick and Varian  imagined recommender systems augmenting the 'collaborative filtering' that people do when they write and read reviews of products and services (for instance, on the travel website, TripAdvisor; [@Scott_2012]). In 1997, two decades ago, Resnick and Varian thought that 'people provide recommendations' and recommender systems would aggregate and rank for recipients. A slightly later review, [@Schafer_2001], diagrams an augmented 'natural social process' with a range of elements, technologies, inputs and outputs, with varying degrees of personalization. 
 
 ![Early e-commerce recommender system architecture](figure/schafer_recommendation_2001.png)
 
-![The advent of recommender systems](figure/resnick_varian_1997_p1.png)
 
-## 3. The rules-based list and the `apriori` algorithm
+The shift from or conversion of  collaborative filtering appeared in Patel's presentations. Patel describes the move from 'a rules-based system'  to  a 'personal relevance model'. Each term in that phrase -- personal, relevance and model -- has some weight in the conversion work. We can assume that What Patel refers to as  the rule-based system refers  to the `apriori` algorithm, developed  by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda in the early 1990s [@Agrawal_1994]. A now-classic approach to 'market basket analysis,' it was listed as one of the top ten data mining algorithms in a survey conducted amongst data miners [@Wu_2008] and usually attracts a chapter in data-mining and some machine learning textbooks (e.g. [@Hastie_2009]). 
 
-We can see something of this shift from collaborative filtering in the shift that Patel describes as moving from 'a rules-based' model to personal relevance. I assume that the rules-based model derived from the early 1990s work on the `apriori` algorithm by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda [@Agrawal_1994]. The `apriori` algorithm finds sets of items that commonly occur in transactions. It was listed as one of the top ten data mining algorithms in a survey conducted amongst data miners [@TBA_2007].  These commonly occurring sets are expressed as association rules. For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart might have discovered  -- but didn't -- the fabled association between diapers and beer.  [http://www.dssresources.com/newsletters/66.php]
 
-The `apriori` algorithm is widely used in 'market basket analysis' and attempts to re-structure shopping lists in terms of associations between items that are frequently bought together.  
-
-```{r arules, cache=TRUE, echo=FALSE, fig.margin=TRUE}
+```{r arules, cache=TRUE, messages=FALSE, echo=FALSE, fig.margin=TRUE}
 library(knitr)
 library(arules)
 library(arulesViz)
@@ -166,26 +157,16 @@ itemFrequencyPlot(Groceries,topN=10,col=rainbow(10), ntype="absolute",  cex.axis
 options(digits=2)
 rules<- apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), appearance = list(default="rhs",lhs="whole milk"), control = list(verbose=F))
 rules_sorted <- sort(rules, decreasing=TRUE,by="confidence")
-rule1 <- inspect(rules_sorted[1])
-rule2 <- inspect(rules_sorted[2])
-kable(inspect(rules[1:5]))
-items <- Groceries@itemInfo
+kable(inspect(rules_sorted[1:5]))
 ```
 
-The association rule-based model for the `Groceries` dataset suggests some of the characteristic ordering practices of 1990s-style data-mining approaches to lists. The association between items is expressed in the form of _rules_. These rules, a term derived from older decision support literature, define sets of associations between items. As a set theory-based practice, the association rules define likely sets of items or shopping baskets in terms of decreasing probability. Table \@ref(tab:arules) shows that the first rule has a stronger association than the second. Milk and vegetables is more likely an association than milk and buns.   So any recommendation in the 'Have You Forgotten' list should probably put them in that order. 
+The `apriori` algorithm finds sets of items that commonly occur together in transactions.  These commonly occurring sets are expressed as 'association rules.' For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart *might* have discovered   the fabled association between diapers and beer.[^149.1] Figure \@ref(fig:arules) shows how often common items appear. `Whole milk` appears most frequently.  The `apriori` algorithm attempts to re-structure shopping lists using associations between items frequently bought together.  The association rule-based model for the `Groceries` dataset illustrates some characteristic ordering practices of 1990s-style data-mining approaches to lists (the `Groceries` dataset  was acquired from a 'local German supermarket' [@Hahsler_2006a]). The association between items is expressed in the form of _rules_ not a model. These rules, a term derived from older decision support literature, define sets of associations between items. As the product of a  counting practice, the association rules define sets of items or shopping baskets in terms of decreasing strength. Table \@ref(tab:arules) shows that the first rule has a stronger association than the second. Milk and vegetables is more likely an association than milk and buns.  A rules-based recommender system should, therefore, might put them in that order in the 'Have You Forgotten' list. 
 
-Association rules and the `apriori` algorithm present social order in terms of sets of common associations that are already weighted by frequency and hence probability. This means that that the algorithm can be understood in terms of the set-based multiples proposed by Alain Badiou: 
+[^149.1]: One of the founding narratives of big data customer analytics, the beer-diaper association was not, according to [@Power_2002] found through data mining at all.
 
-> Multiplicity will be called  ‘closed’ when grasped by the numerical one, and ‘open’ when grasped by the vital One.  Every multiplicity is the joint effectuation of the closed and open, but its ‘veritable’ multiple-being lies on the side of the open. [@Badiou_2004, 72]
+While association rules and the `apriori` algorithm present social order in terms of sets of common associations weighted by frequency and hence implicitly by probability, an `apriori`-based recommender system contains no statistical model. It has no grasp on personal relevance since the associations it defines are only between things. Put in terms of the big data conversion, the rules-based system is not predictive. The `apriori` algorithm might be seen as an attempt to grasp the excess of things in a Tesco supermarket by identifying subsets whose closure derives from the associations between things that people construct (through buying habits, by virtue of a shopping list, etc.). In association rules, personhood or experience is irrelevant. The openness of these rules -- the `apriori` algorithm can product any number of rules of diminishing strength -- points towards the propensity of things, but cannot cannot individuate that propensity. 
 
-Badiou in his account of multiples highlights the contrast between two different ways of grasping a multiple -- in terms of the 'numerical one' and the 'vital One' [@Badiou_2004, 72], between the 'closed' and the 'open' respectively. Note that Badiou does not explicitly oppose the closed and open. While Hansen tends to see predictive analytics as the closed-formed of the micrological propensities of things,  Badiou refers to a 'joint effectuation.'  
-
-What would be Badiou's take on a grocery list as augmented by a recommender system? The `apriori` algorithm, might be seen as an attempt to grasp the excess of things in a Tesco supermarket by identifying subsets whose membership is stronger by virtue of the other sets of associations that people bring with them.   
-Association is stronger when it derives from an excess of different ways of being in sets.  
-
-Badiou's argument is that being part of a set differs from belonging to a set. An open set arises from when we dwell within a set by 'taking the intersection of two elements.' What might this mean in terms of ordering carried out with specific grocery items in a supermarket?
-
-If we take a typical grocery dataset used in data-mining modelling (e.g. from the `Groceries` dataset [@Hahsler_2006a] acquired from 'local German supermarket'), and then paste it into the 'shopping list' box on on the Tesco grocery website, each of the 169 items in the dataset yields dozens and sometimes thousands of results from Tesco online.  
+Although data mining for association rules finds relations things, it struggles with the propensity of commodities to multiply. A simple illustration of the combinatorial problem faced by recommender system can be developed using the `Grocery` dataset.  If we take all the items in the `Grocery` dataset and paste them into the 'shopping list' box on the Tesco grocery website, each of the 169 items in the dataset yields dozens and sometimes thousands of products from Tesco online.
 
 ```{r tesco, echo=FALSE, cache=TRUE, fig.cap ='Tesco surplus',  fig.margin=TRUE}
     library(ggplot2)
@@ -197,7 +178,7 @@ If we take a typical grocery dataset used in data-mining modelling (e.g. from th
     ggplot(tesco[tesco$actual>50,], aes(x=labels, y=actual, fill=labels)) +geom_bar(stat='identity') + coord_flip() + ggtitle('Tesco grocery items with more than 50 products') + theme(legend.position="none", axis.text=element_text(size=9))
 ```
 
-Each of the items in the `Groceries` dataset proliferates in the Tesco site, into a new list of branded variations. The 169 items of Hahsler `Groceries` dataset  expand into roughly `r total` possible items.  This is, I would suggest, a form of open. The multiplicity grasped at the `Grocery` dataset becomes more open in this setting, where 'open' complements any possible closure with new intersections. Rather than seeing predictive analytics as a closed form of an open world, I am suggesting that we might begin to locate it in the joint effectuations or intersections within models.      
+Items in the `Groceries` dataset proliferate into a Tesco's list of branded variations. The 169 items of the `Groceries` dataset  expand into roughly `r total` Tesco items.  This is, I would suggest, a form of propensity in Hansen's terms, albeit one that occurs in or very close to the recommender system rather than  'in the world.'  The multiple listed  in the `Grocery` dataset becomes more open in this setting through new possible intersections. HERE , where 'open' complements any possible closure with new intersections. Rather than seeing predictive analytics as a closed form of an open world, I am suggesting that we might begin to locate it in the joint effectuations or intersections within models.      
 
 ## 4. Hack? Customers go straight to the checkout
 
