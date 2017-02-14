@@ -385,4 +385,9 @@ or
 ## Mon 13 Feb 2017 09:21:53 GMT
 - still roughly on schedule I think; reached edit 24 of 44
 - read Will Davies on happiness industry on the weekend -- he has a lot on the problems of measuring people, including measuring faces, reactions, etc. + the rise of marketing and behavioural prediction. This is the side of things that I don't really talk about. That designing more effective recommendation really does not address an underlying malaise in which not speaking, not articulating, not contesting or engaging with the question of what you want, or what might make you happy, becomes the problem in itself. The better the recommender, the worse for the recommendee. 
-- reached top of page 22, which is just 5 pages. But they were hard work. Still not sure if they are doing enough. The main thing would be the identification of person and things, and the list as the site of their encounter.  How does this differ from advertising?
+- reached top of page 22, edit 34 done;  which is just 5 pages. But they were hard work. Still not sure if they are doing enough. The main thing would be the identification of person and things, and the list as the site of their encounter.  How does this differ from advertising?
+
+## Tue 14 Feb 2017 09:52:01 GMT
+- late start due to school/run ; been thinking about modelisation, and how/why that matters. It is both limiting -- since its all still driven by customer behaviour -- and interesting because it identifies people and things. If probability is propensity of things, as Popper puts it, that is, all probability is conditional, and big data is a massive expansion of that conditionality, then what about conversion? There is no conversion, only an incremental indexing and linking up? 
+- heavy weather in these revisions -- not sure this part of the paper is working well enough. 
+-made it to edit 42 of about 46 or page 28 of 31 
