@@ -103,7 +103,7 @@ Streams, pipelines and trees: living with unending lists
 - did search on 'lists' in my notes and made file lists.md. Has useful stuff from Lury, Lazzarato, Fuller, d 
 - looking at this blog (Salem Marafi)[http://www.salemmarafi.com/code/market-basket-analysis-with-r/], installed arulesViz and played a bit with Grocery dataset.  
 - wrote an intro to list, highlighting problems of how to study them as forms of order, and how to participate in them
-- TODO: follow up on the Hobbes problem of social order: are new forms of operational changing that social problem. No longer contract, economic relations, etc. ... 
+- NOTDONE: follow up on the Hobbes problem of social order: are new forms of operational changing that social problem. No longer contract, economic relations, etc. ... 
 - feel better about getting some code for arules in the paper -- this is something that I've wanted to do anyway
 - brought in all of Salem Marafi's code just to play with it -- will need more commentary to make sense of it. Am I saying that the shift in models from arules to CF is important? In what ways?
 
@@ -127,7 +127,7 @@ Streams, pipelines and trees: living with unending lists
 - could use this game at the opening.  The baseline account of lists as a form of number. 
 - wrote a bit about this at the beginning -- it feels a bit better than other stuff because it gets into sets
 - added in Hansen on prediction and how probability becomes actual ... Also put quotes in new notes file. His argument that prediction is a closed probabilistic determination of propensities that always exceed it as a field of data. The goal is to locate those excesses and perceptualise them somehow.  
-- TODO:  DONE bring the quote about technical interface to the data of sensibility into the conclusion
+- DONE bring the quote about technical interface to the data of sensibility into the conclusion
 - read some Hansen at lunch and marked useful bits on paper copy -- DONE:  DONE put those into notes file and then use them to structure the argument?
 - started to bring some of the probability idea into 'I went shopping and I bought ...' 
 
@@ -146,7 +146,7 @@ Streams, pipelines and trees: living with unending lists
 - have finished reading the Hansen which is at ~/archive/Hansen feel like I want to get away from any opposition between the actual and the statistical, and say that the feeling of agency comes from the list.
 - like the argument that subject is a feeling of the list ... and Hansen's argument in general about 'our predictive condition' 
 - 'condition' reminds of Lyotard - downloaded and added to archive here ~/archive/Lyotard_Postmodern_Condition_1981.pdf great line there about continuous differentiable functions won't be the basis of prediction ... this quote in notes file ~/notes/lyotard_postmodern.md.  
-- TODO: get quote on conversion and **relevance** and why it matters from Hansen
+- DONE: get quote on conversion and **relevance** and why it matters from Hansen
 - also had an idea of thinking about an event that happens in recommender system -- does it ever happen that something is recommended that matters to me ... 
 - TESCO api -- signed up for this but can't get key for API for some reason -- can't see it there, but its probably a distraction ... 
 - DONE: DONE scan Shreena's graph of the models and use as image. 
@@ -185,7 +185,7 @@ Streams, pipelines and trees: living with unending lists
 - wrote some on the uplift model -- turns out that has only recently come into marking (around 1999) and is under active development in market research. I thought it would be standard practice ...  downloaded a paper on it by Victor Lo 2002 ~/archive/data_intensive/markets/lo_lift_model_1982_10.1.1.99.7064.pdf
 - uplift models are one of the ways that markets link machine learning into marketing ... 
 - DONE: DONE write script to extract all headings, quotes, images and knitr chunks to a file and then convert to ioslides, etc. DONE
-- TODO: get some references for realtime in media: Hansen doesn't speak about this much -- might be able to adapt some of his temporality talk. ... 
+- DONE: get some references for realtime in media: Hansen doesn't speak about this much -- might be able to adapt some of his temporality talk. ... 
 - tried t write the infrastructure section -- not much to say about hadoop, except that without it, no lists ... is all of this a product of infrastructural transformation?
 
 ## Tue 11 Oct 09:27:24 BST 2016
@@ -201,7 +201,7 @@ Streams, pipelines and trees: living with unending lists
 - looking up Popper on propensity and downloaded to ~/archive/popper_propensities_1990.pdf; also printed it
 - read it a bit and it might help in the discussion of the weighting of the list
 - had the idea in the pool that I don't need to go much further except to say something about how media theory is grappling with the growth of prediction; premediation, etc. This also is an attempt to grapple with that. DONE: put into intro and conclusion  DONE
-- added extract_images.sh to create slides; TODO: try it with Rmarkdown reveal, etc. DONE
+- added extract_images.sh to create slides; DONE: try it with Rmarkdown reveal, etc. DONE
 
 ## Thu 13 Oct 15:58:47 BST 2016
 
@@ -214,7 +214,7 @@ Streams, pipelines and trees: living with unending lists
 
 ## Mon 17 Oct 12:55:25 BST 2016
 - still playing around with tufte, tint etc. Got it working reasonably well after an hour. Good example document is here: https://raw.githubusercontent.com/rstudio/tufte/master/inst/rmarkdown/templates/tufte_html/skeleton/skeleton.Rmd
-- also found Morris paper on recommender systems that I should read as point of comparison: TODO: DONE read and extract key points from ~/archive/data_intensive/morris_recommender_European Journal of Cultural Studies-2015-Morris-446-63.pdf and added some notes here ~/notes/morris_recommender_2015.md
+- also found Morris paper on recommender systems that I should read as point of comparison:  DONE read and extract key points from ~/archive/data_intensive/morris_recommender_European Journal of Cultural Studies-2015-Morris-446-63.pdf and added some notes here ~/notes/morris_recommender_2015.md
 
 - key thing to get it working is:
 >library('tint'), render('test_tufte.rmd',output_format=tintPdf())
@@ -279,9 +279,9 @@ or
 - how to do ioslides -- take the main text; cut out everything except headings, quotes, images and r chunks; use --------- to make slide breaks ... 
 - added new patel screenshots to figure;
 - fixing plots to be a bit more meaningful
-- TODO: check whether Miller's work on shopping would be helpful here ... a good point of comparison. 
-- wrote lots of notes on the 2nd paper copy: TODO: bring them into the lists_conversion_experience.rmd. Also check the 1st printout as it has some unprocessed notes and changes. 
-- TODO: look at SI of E&P D on lists; also Stark and Esposito; also  maybe Eco; 
+- DONE: check whether Miller's work on shopping would be helpful here ... a good point of comparison. 
+- wrote lots of notes on the 2nd paper copy: DONE: bring them into the lists_conversion_experience.rmd. Also check the 1st printout as it has some unprocessed notes and changes. 
+- DONE: look at SI of E&P D on lists; also Stark and Esposito; also  maybe Eco; 
 - TODO: would be good to  add a bit of the formalism of Agrawal to flesh out the rules
 - TODO: add Popper point about conditional probability
 - TODO: flesh out infrastructure section by reference to the ways in which the list is constructed around some infrastructural underpinnings  
@@ -303,13 +303,13 @@ or
 
 ## Thu 24 Nov 16:24:08 GMT 2016
 
-- doing prep for socl940 session: 2 things came up. Striphas and Hallinan's Netflix prize article is on recommendation systems. TODO: include their comments on culture there; also suggests need to do a better lit search TODO
+- doing prep for socl940 session: 2 things came up. Striphas and Hallinan's Netflix prize article is on recommendation systems. DONE: include their comments on culture there; also suggests need to do a better lit search DONE
 
 ## Wed 01 Feb 2017 10:24:50 GMT
 - new branch 'bdas'; starting work on journal submission; have manuscript from siegen
-- TODO: add reference to morris
+- DONE: add reference to morris
 - DONE: read manuscript again looking for ensemble focus
-- TODO: read the notes above
+- DONE: read the notes above
 - DONE: read the notes in blue notebook
 - trying to calculate how many hours I need to revise the manuscript -- see blue_aug2016 notebook 152-153
 - starting reading the siegen manuscript and writing a few notes on it. 
@@ -391,3 +391,13 @@ or
 - late start due to school/run ; been thinking about modelisation, and how/why that matters. It is both limiting -- since its all still driven by customer behaviour -- and interesting because it identifies people and things. If probability is propensity of things, as Popper puts it, that is, all probability is conditional, and big data is a massive expansion of that conditionality, then what about conversion? There is no conversion, only an incremental indexing and linking up? 
 - heavy weather in these revisions -- not sure this part of the paper is working well enough. 
 -made it to edit 42 of about 46 or page 28 of 31 
+
+## Wed 15 Feb 2017 09:36:21 GMT
+- hoping to finish the paper revisions today.
+- work up last night thinking that I should include Hallinan and Striphas' argument about re-making culture; am I arguing the same thing? That social order is being re-done? Yes, but with a difference -- the attention to conversion events suggests that this is still being worked out; this is a social ordering process; the entanglement of human and non-human, the intersections of infrastructure, calculation, etc.  
+- DONE: quote from hallinan about objects, etc
+- for conclusion, need to write the different senses of conversion; and perhaps add something about relation between inversion and conversion. Is there one? Method of infrastructural inversion; no real relation because one is a methodological maxim and the latter is a term describing something that takes place.  
+- writing a conclusion today -- nothing else really
+- have started putting some extra stuff - hallinan, more hansen, etc near the introduction. Feels like it needs another run through to fix many loose ends, etc. 
+- started to deGoede from e&P D -- could add a bit more. 
+- started to go through TODO lists -- still more to follow up there. 
