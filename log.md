@@ -173,7 +173,7 @@ Streams, pipelines and trees: living with unending lists
 - also started adding fragments of my notes as images; I'm hoping that I can write a script to extract the images and the knitr blocks into a presentation file and then present that.
 - wrote script simulate_baskets.r to pull all the results into a single dataframe for tesco items and then use that to run queries against. 
 - DONE: get some ideas on conversion from James' ~/archive/james_texts/james_varieties.pdf
-- TODO: some more work on simulating the baskets and perhaps the customers using the GBCS data
+-  MAYBE: some more work on simulating the baskets and perhaps the customers using the GBCS data
 - started to write a script to simulate baskets in terms of range of items, total cost, number of items,, etac 
 - DONE: write r chunks in outline to extract high cost conversion items DONE
 
@@ -282,8 +282,8 @@ or
 - DONE: check whether Miller's work on shopping would be helpful here ... a good point of comparison. 
 - wrote lots of notes on the 2nd paper copy: DONE: bring them into the lists_conversion_experience.rmd. Also check the 1st printout as it has some unprocessed notes and changes. 
 - DONE: look at SI of E&P D on lists; also Stark and Esposito; also  maybe Eco; 
-- TODO: would be good to  add a bit of the formalism of Agrawal to flesh out the rules
-- TODO: add Popper point about conditional probability
+- MAYBE: would be good to  add a bit of the formalism of Agrawal to flesh out the rules
+- DONE: add Popper point about conditional probability
 - TODO: flesh out infrastructure section by reference to the ways in which the list is constructed around some infrastructural underpinnings  
 - this fits with Carolins point that many big data practices -- not all -- end up producing a ranked list. Could also use Jack Goody on lists and the seduction to order 
 
@@ -399,5 +399,14 @@ or
 - for conclusion, need to write the different senses of conversion; and perhaps add something about relation between inversion and conversion. Is there one? Method of infrastructural inversion; no real relation because one is a methodological maxim and the latter is a term describing something that takes place.  
 - writing a conclusion today -- nothing else really
 - have started putting some extra stuff - hallinan, more hansen, etc near the introduction. Feels like it needs another run through to fix many loose ends, etc. 
-- started to deGoede from e&P D -- could add a bit more. 
+- started to deGoede from e&P ~/archive/ensembles/deGoede_SI_lists_2016.pdf -- could add a bit more. 
 - started to go through TODO lists -- still more to follow up there. 
+
+## Thu 16 Feb 2017 09:36:46 GMT
+- TODO will start by adding deGoede today - have made some ~/notes/deGoede_lists_2016.md and should include some of those in main text 
+- have made some notes on deGoede -- not sure they open up any new insights. Should read Staheli's piece. But they are useful support. TODO: include in conclusion
+- looking at TODOs -- Popper is important; started reading that again and making ~/notes/popper_propensities.md
+- have added some Popper into intro and conclusion (too implicit?). Feels like I need to go through again and check the argument: which is now implicitly: conversion comes from propensities; .
+- TODO: check the overall argument by going through introduction, abstract and conclusion
+- TODO: check section headings map the overall argument
+
