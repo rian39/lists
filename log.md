@@ -362,7 +362,7 @@ or
 -TODO also thinking about diapers and beer again. Could I make that into the headline story? An anchor point that I set out to reconstruct? But hasn't that been done? Should look up diaper on bdas.
 - finished paper revisions at 10.10. Still need do abstract; and many todos above on references, of various kinds. Especially Morris, Peters, etc.  
 - starting file revisions. 
-- TODO: get Miller - Theory of Shopping, TJRC (M)
+- DONE: get Miller - Theory of Shopping, TJRC (M); actually I got _Consumption and its Consequences_, 2012; seems just as good
 - added a backup file; did almost 5 pages of revs in the file. 
 
 ## Thu 09 Feb 2017 10:07:25 GMT
@@ -405,8 +405,13 @@ or
 ## Thu 16 Feb 2017 09:36:46 GMT
 - TODO will start by adding deGoede today - have made some ~/notes/deGoede_lists_2016.md and should include some of those in main text 
 - have made some notes on deGoede -- not sure they open up any new insights. Should read Staheli's piece. But they are useful support. TODO: include in conclusion
-- looking at TODOs -- Popper is important; started reading that again and making ~/notes/popper_propensities.md
+- looking at todos -- Popper is important; started reading that again and making ~/notes/popper_propensities.md
 - have added some Popper into intro and conclusion (too implicit?). Feels like I need to go through again and check the argument: which is now implicitly: conversion comes from propensities; .
 - TODO: check the overall argument by going through introduction, abstract and conclusion
-- TODO: check section headings map the overall argument
+- DONE: check section headings map the overall argument
 
+## Fri 17 Feb 2017 13:24:29 GMT
+- got Miller on Consumption; peanut-butter theory of shopping may be useful in framing what is going on with the shopping list; puts some notes in ~/notes/miller_consumptions_2012.md; two connections to social order -- the discrepancies between normative and actual; the sacrificial constitution of social order; 
+- DONE: emphasize in conclusion that the 'conversion' in Tesco is an example of ongoing modification; of a propensity that existed as a possibility for quite a long time. So the conversion event is just as much about Tesco itself as about what happens to people. Always this double face of the event. 
+- quite a lot of pfaffing around with images and other stuff; like labels etcs 
+- TODO: commentary on the different items show in the items table and what they might be for an individual shopper; 
