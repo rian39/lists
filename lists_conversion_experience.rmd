@@ -4,6 +4,7 @@ author: "Adrian Mackenzie"
 date: "`r Sys.Date()`"
 output:
 tufte::tufte_handout: default
+fontsize: 12pt
 citation_package: biber
 latex_engine: xelatex
 bibliography: /home/mackenza/ref_bibs/uni.bib

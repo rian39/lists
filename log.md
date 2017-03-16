@@ -415,3 +415,7 @@ or
 - DONE: emphasize in conclusion that the 'conversion' in Tesco is an example of ongoing modification; of a propensity that existed as a possibility for quite a long time. So the conversion event is just as much about Tesco itself as about what happens to people. Always this double face of the event. 
 - quite a lot of pfaffing around with images and other stuff; like labels etcs 
 - TODO: commentary on the different items show in the items table and what they might be for an individual shopper; 
+
+## Thu 16 Mar 2017 10:39:43 GMT
+- have done another edit on the paper, smoothing out the argument more.  
+- TODO: go through the bdas bibliography to see what should be included from there. 
