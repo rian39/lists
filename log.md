@@ -418,4 +418,7 @@ or
 
 ## Thu 16 Mar 2017 10:39:43 GMT
 - have done another edit on the paper, smoothing out the argument more.  
-- TODO: go through the bdas bibliography to see what should be included from there. 
+- TODO: go through the bdas bibliography to see what should be included from there. started doing this and found dourish and garnett;  
+- starting to put paper edits in. How many in 30 minutes?
+- roughly 80 edits to do. 
+- did 20 edits in about 90 minutes of work. With 80 edits, that means about 3 more sessions of work. Should be able to submit next week. 
