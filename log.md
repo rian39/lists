@@ -422,3 +422,7 @@ or
 - starting to put paper edits in. How many in 30 minutes?
 - roughly 80 edits to do. 
 - did 20 edits in about 90 minutes of work. With 80 edits, that means about 3 more sessions of work. Should be able to submit next week. 
+
+## Fri 17 Mar 2017 14:22:25 GMT
+- aiming for 20 edits today: DONE 
+- finally got some turow -- it is pretty relevant -- focused on shopping ... but how would I relate to it? Don't disagree with it, but doesn't offer much of a way forward. Maybe could compare to Hansen? 
