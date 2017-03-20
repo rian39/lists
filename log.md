@@ -425,4 +425,9 @@ or
 
 ## Fri 17 Mar 2017 14:22:25 GMT
 - aiming for 20 edits today: DONE 
-- finally got some turow -- it is pretty relevant -- focused on shopping ... but how would I relate to it? Don't disagree with it, but doesn't offer much of a way forward. Maybe could compare to Hansen? 
+- finally got some turow -- ~/archive/ensembles/Turow_data_mining_2015.pdf bit is pretty relevant -- focused on shopping ... but how would I relate to it? Don't disagree with it, but doesn't offer much of a way forward. Maybe could compare to Hansen? 
+
+## Mon 20 Mar 2017 12:04:19 GMT
+- have got only 2 hours today maximum - working on 20 edits I hope 
+- not sure what to do about Turow -- read a bit and added notes in ~/notes/turow_2015.md Could use some of this in a footnote, or to distinguish what I'm doing in the article ... 
+- do a bdas search on personalization/personalisation
