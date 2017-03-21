@@ -431,3 +431,9 @@ or
 - have got only 2 hours today maximum - working on 20 edits I hope 
 - not sure what to do about Turow -- read a bit and added notes in ~/notes/turow_2015.md Could use some of this in a footnote, or to distinguish what I'm doing in the article ... 
 - do a bdas search on personalization/personalisation
+
+## Tue 21 Mar 2017 08:57:50 GMT
+- had the idea while running that the problem of the Jt argument about personalization is that (1) it sees personalization in purely personal terms; rather than as something that has a history and forms of practice (2) it sees the fabric of social order as not already woven by the power differentials associated with ownership and infrastructure. I could develop an argument around this, but not sure it would fit with this article. It seems too that Cathy O'Neill's stuff would be saying something similar.     
+- the key argument -- propensities are enclosed as probabilities only to the extent that probabilities become propensities -- needs more highlighting. Get it in the abstract? TODO: put in the conclusion
+- finished entering 92 edits
+- current title: **Probabilities and propensities: conversion experiences in online grocery shopping**
