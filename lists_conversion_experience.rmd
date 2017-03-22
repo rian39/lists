@@ -75,25 +75,21 @@ In grocery shopping, conversion events derive from and affect lists. Whether  th
 
 In this paper, I focus on lists and list-making in terms of the predictive social orderings.   All lists are forms of order. Mathematicians distinguish lists from sets on the basis of order. Formally, both lists and sets are collections, but a list also contains a mapping of its elements to an ordering, usually the natural or counting numbers. Sometimes this order is explicit. Numbers are written down one side of the list. Often the order is implicit to the spatial arrangement of the list.  Mappings between list order and social order are manifestly highly contingent. A flight checklist differs greatly from a personal to-do list, even if they share many formal properties.  Listing practices in a given social setting, therefore, always index an engagement between the formal properties of the list and the necessarily more fluid dynamics of social order. From the perspective of social order, shopping lists, as they are co-constructed by a supermarket chain's recommender system, might be important intersectional zones for the conversion of average everydayness through data-analytic propensities. 
 
-How should we view the predictive re-writing of lists? The media theorist Mark Hansen has recently suggested that 
-
-> predictive analytics are discoveries of micrological propensities that are not directly correlated with human understanding and affectivity and that do not by themselves cohere into clearly identifiable events [@Hansen_2015a, 111-112]
-
-Hansen's account resonates with wider views of big data.  The expectation energising much predictive practice  pivots on 'micrological propensities' elicited from data.  Hansen  links his Whitehead-inspired ontology to propensities of things in the world via probabilities:
+How should we view the predictive re-writing of lists? The media theorist Mark Hansen has recently suggested that 'predictive analytics are discoveries of micrological propensities that are not directly correlated with human understanding and affectivity and that do not by themselves cohere into clearly identifiable events.' [@Hansen_2015a, 111-112] Hansen's account resonates with wider views of big data.  The expectation energising much predictive practice  pivots on 'micrological propensities' elicited from data. Unlike many other accounts of data, Hansen  links data to propensities of things in the world via probabilities:
 
 >Whatever explanatory and causal value predictive analytics of large datasets have is, I suggest, ultimately rooted in this ontological transformation whereby probabilities are understood to be expressions of the actual propensity of things [@Hansen_2015a, 120] 
 
-Hansen predicates prediction as an 'ontological transformation' that deploys probabilities in an evermore closely woven and encompassing expression of the animated, eventful, propensities of things. Predictive analytics links probabilities as calculations to propensities or the mutable agencies of things. The practical and indeed empirical  question is whether such transformations or 'conversion' in relations between probabilities and 'the propensities of things'  can be detected and articulated in the prosaic setting of shopping lists and recommender systems.[^20.1]
+In his Whitehead-inspired account, Hansen theorises prediction as an 'ontological transformation' that deploys probabilities in an evermore closely woven and encompassing expression of animated, eventful, propensities of things. Predictive analytics links probabilities as calculations to propensities or the mutable associative agencies of things. The practical and indeed empirical  question is whether such transformations or 'conversion' in relations between probabilities and 'the propensities of things'  can be detected and articulated in the prosaic setting of shopping lists and recommender systems.[^20.1]
 
 [^20.1]: I will argue that 'conversion' is a preferable term for these changes.  It highlights  re-orientations in subjects, experience, things, numbers and structures that ranges more widely than Hansen's 'ontological transformation' formulation.
 
 ## Conversion events: DunnHumby's work for Tesco
 
-At one of the many industry-meets-academia events occurring in increasingly data science-oriented higher education institutions in the UK, speakers from industry, government and commerce described their work with predictive models.[^11.1] Shreena Patel, a PhD graduate in statistics and operations research,  works as a data scientist for DunnHumby, a well-known [ customer science company ](https://www.dunnhumby.com/) [@dunnhumby_2017].  Her work at DunnHumby focuses on online grocery shopping at the supermarket chain Tesco.  Speaking to an audience of statisticians and operations researchers, Patel   focused on the development and operation of predictive models underlying  shopping list recommendations. Her presentation was filled with graphs, numbers, and tables concerning ongoing development of the 'Have you forgotten?' recommender system. 
+At one of the many industry-meets-academia events occurring in increasingly data science-oriented higher education institutions in the UK, speakers from industry, government and commerce described their work with predictive models.[^11.1] Shreena Patel, a PhD graduate in statistics and operations research,  works as a data scientist for DunnHumby, a well-known [ customer science company ](https://www.dunnhumby.com/) [@dunnhumby_2017].  Her work at DunnHumby focuses on online grocery shopping at the supermarket chain Tesco.  Speaking to an audience of statisticians and operations researchers, Patel focused on the development and operation of predictive models underlying  shopping list recommendations. Her presentation was filled with graphs, numbers, and tables concerning ongoing development of the 'Have you forgotten?' recommender system. 
 
 [^11.1]: More than 100  Data Science Institutes have been set up in North America, Europe and UK since around 2012. The traffic between higher education and data analytics in industry is intense and flows in several forms: people funding, research findings, software and technical devices (code) and training. 
 
-```{r simulate-inventory, echo=FALSE, cache=TRUE, fig.margin=TRUE, fig.cap='Prices and quantities of things in the world'}
+```{r simulate-inventory, echo=FALSE, cache=TRUE, fig.margin=TRUE, fig.cap='Prices and quantities of things in the Tesco universe of reference'}
 library(dplyr)
 library(ggplot2)
 library(readr)
@@ -106,12 +102,14 @@ g = ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point(alpha=0.3, size=0.9
 g + ylab('Number of products') + scale_x_log10() + geom_smooth()
 ```
 
-Like many recommender systems, Patel's models address a large inventory of commodities.  Figure \@ref(fig:simulate-inventory) plots something of the density of commodity prices in the Tesco grocery inventory. By virtue of their sheer abundance, the plot cannot easily separate the many items that Tesco sells, especially in the price range £1-£10. A random sample of the more highly priced items in Tesco stores is shown in Table  \@ref(tab:expensive-groceries)      
-
 ```{r  expensive-groceries, echo=FALSE, cache=TRUE, fig.margin=TRUE}
 s = sample_n(df[df$price>=30,], size=10)
-kable(s[order(s$price), c('Label,'Price (£)')])
+s$Price = s$price
+s$Label = s$name
+kable(s[order(s$price), c('Label','Price')], col.names=c('Item', 'Price (£)'))
 ```
+
+Like many recommender systems, Patel's models address a large inventory of commodities.  Figure \@ref(fig:simulate-inventory) plots something of the density of commodity prices in the Tesco grocery inventory. By virtue of their sheer abundance, the plot cannot easily separate the many items that Tesco sells, especially in the price range £1-£10. A random sample of the more highly priced items in Tesco stores is shown in Table  \@ref(tab:expensive-groceries)      
 
 Against the background of the sheer number of commodities and their distribution of prices,  Patel's presentation presents two opportunities. First, by recounting, contextualising and commenting on the main steps in making the 'Have your forgotten?' list, we might follow some of the predictive sense-making done by data scientists and customer analytics teams working with transactional data in a typical commercial setting. Patel mentioned many of these steps only fleetingly in the presentation, for they are largely taken for granted as part of predictive analytic practice. Second, Patel focused on the renovation and updating of long-standing data-mining practice via a much more explicitly 'big data' and 'machine learning' oriented implementation.  What stands out from the presentation is the normality of the recommender system: it is part of a long-standing and ongoing transformation or conversion of grocery shopping. From a sociological standpoint, the interest lies less in specific technical innovations and more on how the ordering work done by recommender systems relates to problems of social order more generally. 
 
