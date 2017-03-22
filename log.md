@@ -437,3 +437,7 @@ or
 - the key argument -- propensities are enclosed as probabilities only to the extent that probabilities become propensities -- needs more highlighting. Get it in the abstract? TODO: put in the conclusion
 - finished entering 92 edits
 - current title: **Probabilities and propensities: conversion experiences in online grocery shopping**
+
+## Wed 22 Mar 2017 09:15:08 GMT
+- trying to get figure numbers working and made a new branch to do this. 
+- problems running arules -- updating packages to deal with that. 
