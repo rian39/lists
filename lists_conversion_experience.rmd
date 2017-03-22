@@ -8,7 +8,7 @@ fontsize: 12pt
 citation_package: biber
 latex_engine: xelatex
 bibliography: /home/mackenza/ref_bibs/uni.bib
-bibliostyle: 'harvard'
+csl: "sage-harvard.csl"
 link-citations: yes
 header-includes:
     - \usepackage{setspace}
@@ -55,10 +55,10 @@ library(readr)
 library(knitr)
 csvs = list.files('data', pattern = '*.csv',full.names=TRUE)
 df = bind_rows(sapply(csvs, read_tsv))
-kable(sample_n(df, size=5)$name, col.names='item')
+kable(sample_n(df, size=5)$name, col.names='item', caption='A random list of Tesco grocery items')
 ```
 
-```{r shopping-hand}
+```{r shopping-hand, fig.cap='A hand-written shopping list'}
 include_graphics('figure/1_shopping.png')
 ```
 
@@ -102,11 +102,11 @@ g = ggplot(df, aes(x=price,y=ContentsQuantity)) + geom_point(alpha=0.3, size=0.9
 g + ylab('Number of products') + scale_x_log10() + geom_smooth()
 ```
 
-```{r  expensive-groceries, echo=FALSE, cache=TRUE, fig.margin=TRUE}
+```{r expensive-groceries, echo=FALSE, cache=TRUE}
 s = sample_n(df[df$price>=30,], size=10)
 s$Price = s$price
 s$Label = s$name
-kable(s[order(s$price), c('Label','Price')], col.names=c('Item', 'Price (£)'))
+kable(s[order(s$price), c('Label','Price')], col.names=c('Item', 'Price (£)'), caption='Random sample of higher cost items from Tesco')
 ```
 
 Like many recommender systems, Patel's models address a large inventory of commodities.  Figure \@ref(fig:simulate-inventory) plots something of the density of commodity prices in the Tesco grocery inventory. By virtue of their sheer abundance, the plot cannot easily separate the many items that Tesco sells, especially in the price range £1-£10. A random sample of the more highly priced items in Tesco stores is shown in Table  \@ref(tab:expensive-groceries)      
@@ -136,20 +136,23 @@ Writing just after the advent of web-based e-Commerce, Resnick and Varian  imagi
 The conversion of  collaborative filtering into predictive personalisation appeared in Patel's presentations. Patel describes the move from 'a rules-based system'  to  a 'personal relevance model'. Each term in that phrase -- personal, relevance and model -- has some weight in the conversion event. We can assume that what Patel describes as  the 'rule-based system' refers  to the `apriori` algorithm, developed  by Rakesh Agrawal and Ramakrishnan Srikanti at IBM Research Alameda in the early 1990s [@Agrawal_1994]. A now-classic approach to 'market basket analysis,' it was listed as one of the top ten data mining algorithms in a survey conducted amongst data miners [@Wu_2008] and usually attracts a chapter in data-mining and machine learning textbooks (e.g. [@Hastie_2009]). 
 
 
-```{r arules-ex, cache=TRUE, message=FALSE, echo=FALSE, fig.margin=TRUE}
+```{r arules-ex, cache=TRUE, fig.cap='Frequency of association betwene items in the `Grocery` dataset', message=FALSE, echo=FALSE, fig.margin=TRUE}
 library(knitr)
 library(arules)
 library(arulesViz)
 library(datasets)
 data(Groceries)
 itemFrequencyPlot(Groceries,topN=10,col=rainbow(10), ntype="absolute",  cex.axis = 0.55)
+```
+
+```{r arules-ex2}
 options(digits=2)
 rules<- apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), appearance = list(default="rhs",lhs="whole milk"), control = list(verbose=FALSE))
 rules_sorted <- sort(rules, decreasing=TRUE,by="confidence")
-kable(inspect(rules_sorted[1:5]))
+kable(inspect(rules_sorted[1:5]), caption='The first five association rules for the `Groceries` dataset')
 ```
 
-The `apriori` algorithm finds sets of items that commonly occur together in transactions.  These commonly occurring sets are expressed as 'association rules.' For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart *might* have discovered   the fabled association between diapers and beer.[^149.1] Figure \@ref(fig:arules-ex) shows how often common items appear. `Whole milk` appears most frequently.  The association rule-based model for the `Groceries` dataset illustrates some characteristic ordering practices of 1990s-style data-mining approaches to lists (the `Groceries` dataset  was acquired from a 'local German supermarket' [@Hahsler_2006a]). The association between items is expressed in the form of _rules_ not a model. These rules, a term derived from older decision support literature, define sets of associations between items. Table \@ref(tab:arules-ex) shows that the first rule has a stronger association than the second. Milk and vegetables is more likely an association than milk and buns.  A rules-based recommender system should, therefore, might put them in that order in the 'Have You Forgotten' list. 
+The `apriori` algorithm finds sets of items that commonly occur together in transactions.  These commonly occurring sets are expressed as 'association rules.' For instance, using the `Groceries` dataset in the `R` package `arules,` we can readily see how Walmart *might* have discovered   the fabled association between diapers and beer.[^149.1] Figure \@ref(fig:arules-ex) shows how often common items appear. `Whole milk` appears most frequently.  The association rule-based model for the `Groceries` dataset illustrates some characteristic ordering practices of 1990s-style data-mining approaches to lists (the `Groceries` dataset  was acquired from a 'local German supermarket' [@Hahsler_2006a]). The association between items is expressed in the form of _rules_ not a model. These rules, a term derived from older decision support literature, define sets of associations between items. Table \@ref(tab:arules-ex2) shows that the first rule has a stronger association than the second. Milk and vegetables is more likely an association than milk and buns.  A rules-based recommender system should, therefore, might put them in that order in the 'Have You Forgotten' list. 
 
 [^149.1]: One of the founding narratives of big data customer analytics, the beer-diaper association was not, according to [@Power_2002] found through data mining at all.
 
@@ -182,7 +185,7 @@ Many affirmative and critical analyses of big data and predictive analytics high
 
 If we think of the  new model that Patel describes as the delimited (or delimiting?) system within   the larger surplus of sensibility, how would the idea of a predictive system as a provisional enclosure of the world's causal efficacy, its 'surplus of sensibility' (a terms that carries some connotations of the critical political economy of surplus value) help us understand what the 'Have you forgotten?' recommendations do? It enables us to understand -- as we will see next -- what the Tesco relevancy model borrows from the world. By contrast, despite its ontological ambitions, it limits our understanding of how predictive analytics  themselves exist amidst technical ensembles whose operation remains obscure yet central to contemporary worlds.   
 
-```{r models}
+```{r models, fig.cap='Precision measurements for different machine learning models'}
 include_graphics('figure/patel_compares_models.png')
 ```
 
