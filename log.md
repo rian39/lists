@@ -442,3 +442,6 @@ or
 - trying to get figure numbers working and made a new branch to do this. 
 - problems running arules -- updating packages to deal with that. 
 - found the root of all problems with figure numbering -- the lack of captions. Without a caption, knitr doesn't find the label. You must have captions on everything -- tables and figure -- for the cross-references to work. 
+
+## Fri 24 Mar 2017 12:16:48 GMT
+- been meaning to submit -- looking at guidelines https://us.sagepub.com/en-us/nam/journal/big-data-society#ManuscriptPrep 
