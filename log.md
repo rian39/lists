@@ -433,6 +433,7 @@ or
 - do a bdas search on personalization/personalisation
 
 ## Tue 21 Mar 2017 08:57:50 GMT
+
 - had the idea while running that the problem of the Jt argument about personalization is that (1) it sees personalization in purely personal terms; rather than as something that has a history and forms of practice (2) it sees the fabric of social order as not already woven by the power differentials associated with ownership and infrastructure. I could develop an argument around this, but not sure it would fit with this article. It seems too that Cathy O'Neill's stuff would be saying something similar.     
 - the key argument -- propensities are enclosed as probabilities only to the extent that probabilities become propensities -- needs more highlighting. Get it in the abstract? TODO: put in the conclusion
 - finished entering 92 edits
@@ -448,4 +449,4 @@ or
 
 ## Tue 28 Mar 2017 11:28:42 BST
 - rewrote abstract a bit, but played a lot with yaml, etc in trying to get title page to work. Ended up constructing one using title.rmd and then manual edits 
-
+- building gh-pages again -- can build the index.html but only by running script in R session. Something strange happens in vim RMarkdown, and even in Rscript. 
