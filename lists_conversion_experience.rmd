@@ -1,6 +1,6 @@
 ---
 title: "Probabilities and propensities: conversion experiences in online grocery shopping"
-author: Adrian Mackenzie^[University of Somewhere] 
+author: Adrian Mackenzie, Sociology, Lancaster University
 date: "`r format(Sys.time(), '%B %Y')`"
 fontsize: 12pt
 citation_package: biber
