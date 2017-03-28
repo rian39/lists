@@ -1,9 +1,0 @@
-Amidst the predictive conditions of contemporary media-culture, the inevitable incompleteness of lists is both a problem and a potential. 
-This paper investigates practices of list-making associated with online grocery shopping at a  UK and global supermarket chain, Tesco. 
-It will analyse how a recommendation system suggests a small number of grocery items of personal relevance to each of the millions of online grocery shoppers. 
-The predictive modelling practices aim to up-sell and cross-sell some of the 250,000 items in the supermarket's inventory. 
-I find it interesting to approach the list-making practices  of the grocery recommendation system as a mundane case of the predictive intermediaries operating in many places. 
-The transformation or conversion of listing into predicting can be analysed in recommendation systems that extend existing lists with potential new items, thus transforming the temporal and agential fabric of the list.
-While all written lists mix past and future actions, actual and potential events, their predictive re-writing in recommendation systems adds a new operational dynamic.
-In this operational dynamic, the incompleteness of lists, their propensity to expand or change, becomes more important than their capacity to exhaustively enumerate things. 
-The conversion of lists from finite to in-definite in recommendation systems suggests we might need to re-conceptualise how we think about social order and structure in media cultures.  
