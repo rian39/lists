@@ -445,3 +445,7 @@ or
 
 ## Fri 24 Mar 2017 12:16:48 GMT
 - been meaning to submit -- looking at guidelines https://us.sagepub.com/en-us/nam/journal/big-data-society#ManuscriptPrep 
+
+## Tue 28 Mar 2017 11:28:42 BST
+- rewrote abstract a bit, but played a lot with yaml, etc in trying to get title page to work. Ended up constructing one using title.rmd and then manual edits 
+
