@@ -449,3 +449,6 @@ or
 ## Tue 28 Mar 2017 11:28:42 BST
 - rewrote abstract a bit, but played a lot with yaml, etc in trying to get title page to work. Ended up constructing one using title.rmd and then manual edits 
 
+
+## Fri 28 Apr 2017 11:33:20 BST
+- accidentally came across Thrift 1999, lists come live and put into zotero ensembles folder 
