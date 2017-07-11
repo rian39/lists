@@ -451,3 +451,10 @@ or
 
 ## Fri 28 Apr 2017 11:33:20 BST
 - accidentally came across Thrift 1999, lists come live and put into zotero ensembles folder 
+
+## Mon 10 Jul 2017 15:50:59 BST
+- need to update this log with stuff about reports;
+- TODO; notes from Dewey about reconstruction are here ~/notes/dewey_reconstruction_1957.md; and the full text is in ~/archive/dewey_reconstruction.txt;
+- Dewey:  grepped through the full text; the basic idea is that reconstruction is the way that experience can be intelligently re-configured; it draws on the  medium it inhabits, but changes/transforms elements of that medium, in the same way that any living thing does. The challenge of reconstruction is to deal with problem of the disconnect between power-knowledge and social life.  
+- if I were to rewrite the lists paper as a philosophical reconstruction, how would it differ from an empirical investigation of recommender systems.
+- dewey's argument is that a new conception of experience is needed, and a new relation between reason and experience (83). Psychology + biology: transformative nature of experience -- it changes the world; 'experience becomes an affair primarily of doing'  - this in the notes file ... 
