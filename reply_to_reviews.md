@@ -1,0 +1,6 @@
+Thanks very much to reviewers for their work on what must have seemed like a frustratingly elusive and adumbratory piece of work. The reviews have been a great help in re-writing the piece. The reviews were quite long, so I won't summarise all the changes I've made in response. There were many. My summary of the  major issues identified in the reviews  is below.
+
+
+    1. Perceives **lack of cohesion and clarity in the argument;** re-frame opening to be less about commodities and supply chain, and more about problems of association, correlation, categorisation, etc.; establish a consistent role for the list; elaborate the methodology of reconstruction; clearly say what kind of transformation occurs in the transformation, and in the propensities; and what is the 'so what' of these clarifications and conceptualisation? 
+    2. Asks for more substantial empirical engagement, reorganization of the piece and **clarification of overall argument and purpose,** and specific section purposes; several dozen detailed points and calls for correction; 
+    3. Asks for clarification about the contribution of the piece; description of the case is vague in detail; look at Bucher and Barocas for state of the art; deal with disconnect between abstract and actual paper, especially around social order; **main argument is incomprehensible.**  
