@@ -456,4 +456,22 @@ or
 - received reports a week or two ago: all in report.md
 - printed them out to read; nothing too major, but they didn't get the paper. Revision will need to cut away whatever obstructs their view, I guess. 
 - programme the work on this: I've estimated 15 hours on it. Might work;
-- TODO: read reports properly
+- DONE: read reports properly
+- added reports as report.md.gpg
+
+## Mon 10 Jul 2017 15:50:59 BST
+- need to update this log with stuff about reports;
+- TODO; notes from Dewey about reconstruction are here ~/notes/dewey_reconstruction_1957.md; and the full text is in ~/archive/dewey_reconstruction.txt;
+- Dewey:  grepped through the full text; the basic idea is that reconstruction is the way that experience can be intelligently re-configured; it draws on the  medium it inhabits, but changes/transforms elements of that medium, in the same way that any living thing does. The challenge of reconstruction is to deal with problem of the disconnect between power-knowledge and social life.  
+- if I were to rewrite the lists paper as a philosophical reconstruction, how would it differ from an empirical investigation of recommender systems.
+- dewey's argument is that a new conception of experience is needed, and a new relation between reason and experience (83). Psychology + biology: transformative nature of experience -- it changes the world; 'experience becomes an affair primarily of doing'  - this in the notes file ... 
+
+## Wed 12 Jul 2017 14:29:19 BST
+- historical precedent -- Tesco shopping 1984 http://www.bbc.co.uk/news/magazine-24091393 [@Winterman_2013]  - TODO -- add in 
+- reading through the reports, and summarizing here what they are asking
+    1. The friendly one  - lack of cohesion and clarity in the argument; re-frame opening to be less about commodities and supply chain, and more about problems of association, correlation, categorisation, etc.; establish a consistent role for the list; elaborate the methodology of reconstruction; clearly say what kind of transformation occurs in the transformation, and in the propensities; and what is the 'so what' of these clarifications and conceptualisation? 
+    2. Asks for more substantial empirical engagement, reorganization of the piece and clarification of overall argument and purpose, and specific section purposes; many detailed points and calls for clarification; 
+    3. Asks for clarification about the contribution of the piece; description of the case is vague in detail; look at Bucher and Barocas for state of the art; deal with disconnect between abstract and actual paper, especially around social order; main argument is incomprehensible.  
+- started writing reply_to_reviews.md
+- there are 36 double-spaced pages of content (39 including references). About 6 of these are figures/tables/images. So at 6 pages/day revisions, it would take about 5 days. Starting tomorrow 13 July, that would be 13, 14, 17, 18, 19 July working on the pages.  Entering the edits would take another 5 days (20, 21, 24, 25, 26). That assumes not major obstacles. So submission could be before end of July. 
+- I'm not I can satisfy R2 in their desires for empirical, or sociological rigour. I'm drawn much more to the idea of reconstructing an encounter with a system, where reconstruction is a pragmatist/Dewey-oriented attempt to change our relation to experience. This includes a form of technical practice working with data and models, very much in the way of the actual recommender system.  
