@@ -173,128 +173,24 @@ Barocas, S., & Selbst, A. D. (2016). Big data's disparate impact.
 
 # Reviewer 3
 
-Reviewer’s Comments
-The paper argues that recommendation systems such as Tesco’s contrast narratives about the
-ordering and narrowing tendencies of big data systems, instead producing a tendency for indefinite
-extension and recombination. This difference is located in the formal technical logic of the
-recommender system, wherein vast quantities of things (grocery products) must constantly be
-resolved into meaningful (profitable) recommendations, and wherein those recommendations
-actualise into practiced reality the potentiality or possibility of correlations in buyer preferences.
-This is a well written and well organised article. Its specific and detailed analysis of Tesco's predictive
-system makes an original contribution, and the skilful bridging of that empirical material with Mark
-Hansen's media theory provides added value of a nuanced and grounded discussion of the formal
-tendencies and operative principles that we often shorthand 'probability' and 'prediction'. However,
-the article does suffer in certain areas from a lack of cohesion and clarity in the argumentation; the
-language it uses sometimes only becomes clear later on, while the default to higher-level conceptual
-language can end up clouding the analysis. The below queries and suggestions further discuss those
-issues. On the whole, I recommend the paper for publication with minor revisions.
+The paper argues that recommendation systems such as Tesco’s contrast narratives about the ordering and narrowing tendencies of big data systems, instead producing a tendency for indefinite extension and recombination. This difference is located in the formal technical logic of the recommender system, wherein vast quantities of things (grocery products) must constantly be resolved into meaningful (profitable) recommendations, and wherein those recommendations actualise into practiced reality the potentiality or possibility of correlations in buyer preferences. This is a well written and well organised article. Its specific and detailed analysis of Tesco's predictive system makes an original contribution, and the skilful bridging of that empirical material with Mark Hansen's media theory provides added value of a nuanced and grounded discussion of the formal tendencies and operative principles that we often shorthand 'probability' and 'prediction'. However, the article does suffer in certain areas from a lack of cohesion and clarity in the argumentation; the language it uses sometimes only becomes clear later on, while the default to higher-level conceptual language can end up clouding the analysis. The below queries and suggestions further discuss those issues. On the whole, I recommend the paper for publication with minor revisions.
 
 1. List
-The terms in which the introductory section establishes the problem don’t seem to resonate
-maximally with the content of the analysis. While the broader introduction of groceries and
-supermarkets re. commodity-geography is valid, the specific identification of the shopping list as an
-intersectional ordering device seems much more particular to the article's concerns - and resonating
-immediately with the problems of categorisation, association, correlation, that are central to
-recommendation systems themselves. One option would be to compress the former and extend the
-latter, and perhaps make gestures to the historical importance of lists, tables, databases, etc. as
-ordering devices that always present a double-bind: they allow us to read and organise the
-multitude facing us, but they also program and normalise our own behaviour and perception. (e.g.
-Mark Poster's 'Databases as Discourse'; McQuillan's 'Algorithmic states of exception') Another
-option would be to discuss the openness/closedness difference in understanding big data systems
-up front, as a way of signalling to the reader the broader stakes of arguing that Tesco’s system
-shows a ‘propensity to expand or change’ (Abstract). A useful reference in this regard might be
-Michael Betancourt’s ‘The Demands of Agnotology’, which discusses the meaning-agnostic
-recombinatory potential of signs in data-hungry systems as the primary engine of their profitability.
-The place of the formal particularity of the list in the analysis is ambiguous. The opening pages seem
-to imply this will be central, e.g. the discussion in p6-7, but it seems to disappear after that. What
-exactly is the role of the list as a specific form or medium in the conversions of probability and
-propensity? Or is the point that the list’s traditional function as an ordering device becomes rather
-secondary, insofar as the list of the Tesco system is no longer the same kind of list at all?
+The terms in which the introductory section establishes the problem don’t seem to resonate maximally with the content of the analysis. While the broader introduction of groceries and supermarkets re. commodity-geography is valid, the specific identification of the shopping list as an intersectional ordering device seems much more particular to the article's concerns - and resonating immediately with the problems of categorisation, association, correlation, that are central to recommendation systems themselves. One option would be to compress the former and extend the latter, and perhaps make gestures to the historical importance of lists, tables, databases, etc. as ordering devices that always present a double-bind: they allow us to read and organise the multitude facing us, but they also program and normalise our own behaviour and perception. (e.g. Mark Poster's 'Databases as Discourse'; McQuillan's 'Algorithmic states of exception') Another option would be to discuss the openness/closedness difference in understanding big data systems up front, as a way of signalling to the reader the broader stakes of arguing that Tesco’s system shows a ‘propensity to expand or change’ (Abstract). A useful reference in this regard might be Michael Betancourt’s ‘The Demands of Agnotology’, which discusses the meaning-agnostic recombinatory potential of signs in data-hungry systems as the primary engine of their profitability. The place of the formal particularity of the list in the analysis is ambiguous. The opening pages seem to imply this will be central, e.g. the discussion in p6-7, but it seems to disappear after that. What exactly is the role of the list as a specific form or medium in the conversions of probability and propensity? Or is the point that the list’s traditional function as an ordering device becomes rather secondary, insofar as the list of the Tesco system is no longer the same kind of list at all?
 
 2. Tesco
-The specific focus on Tesco's system, and using the career history of Clive Humby to refract the
-wider shifts in big data / advertising / audience research, works well and is told well. The decision to
-model and approximate Tesco's system from available information is a credible one, but I think
-readers - both those literate in big data analytics and those that are not - would benefit fromlearning more precisely what is the expected fidelity of this reconstruction and the steps taken
-(perhaps in footnotes/appendix). What data is available through the Tesco API? Presumably, the
-actual algorithms for Tesco's recommendation systems are proprietary? And so on. Naturally, a full
-reconstruction is neither reasonable nor necessary - it's more about informing the reader as to what
-has been done to achieve what kind of approximation, and what this allows us to analyse as opposed
-to, say, simply analysing the actual recommender system from the consumer end by going there and
-using it. (I acknowledge that some of this occurs later in the article, e.g. the discussion of the apriori
-algorithm in p16; it would suffice to flag all this for the reader in general terms at this stage.)
+The specific focus on Tesco's system, and using the career history of Clive Humby to refract the wider shifts in big data / advertising / audience research, works well and is told well. The decision to model and approximate Tesco's system from available information is a credible one, but I think readers - both those literate in big data analytics and those that are not - would benefit fromlearning more precisely what is the expected fidelity of this reconstruction and the steps taken (perhaps in footnotes/appendix). What data is available through the Tesco API? Presumably, the actual algorithms for Tesco's recommendation systems are proprietary? And so on. Naturally, a full reconstruction is neither reasonable nor necessary - it's more about informing the reader as to what has been done to achieve what kind of approximation, and what this allows us to analyse as opposed to, say, simply analysing the actual recommender system from the consumer end by going there and using it. (I acknowledge that some of this occurs later in the article, e.g. the discussion of the apriori algorithm in p16; it would suffice to flag all this for the reader in general terms at this stage.)
 
 3. Propensity & Closedness
-On one hand, the article is solidly grounded in specific, relevant, non-trivial empirical research, and
-relates this to appropriate levels of conceptual analysis. On the other, there is sometimes an
-imbalance in how the writing travels across those levels.
-E.g. having already been told that the shopping list 'lies at the intersection of these logistical
-flows' as an 'intersectional ordering device that encapsulates a universe of possible
-references' (p2), the reader again is informed that lists 'take shape at the intersection of web
-and internet infrastructures [etc]' (p3), and, shortly after, that the recommendations list
-'exemplifies a transformation in forms of ordering' in which it 'reassembles individualised
-desire, consumption practices, value-chains...' (p5)
-So there is a consistent and repeated jump between empirical description to (ironically) a listing of
-generalised concepts - but at this point, I think the reader is well ready for more precise conceptual
-analysis: not just 'a transformation', but what kind of transformation? Not just a reassembling of
-desire and consumption practices, but what principles behind this reassembly that privileges what
-kinds of order? Without this specificity, the conceptual discussion risks becoming too vague for the
-reader; e.g. we learn that 'recommender systems stage an epistemic-operational transformation
-central to big data' (p5-6), but what we really want to know is what kind of transformation is
-happening. This would also help the introduction set out the broader 'so what' stakes of the article,
-which at the moment is not very explicit.
+On one hand, the article is solidly grounded in specific, relevant, non-trivial empirical research, and relates this to appropriate levels of conceptual analysis. On the other, there is sometimes an imbalance in how the writing travels across those levels. E.g. having already been told that the shopping list 'lies at the intersection of these logistical flows' as an 'intersectional ordering device that encapsulates a universe of possible references' (p2), the reader again is informed that lists 'take shape at the intersection of web and internet infrastructures [etc]' (p3), and, shortly after, that the recommendations list 'exemplifies a transformation in forms of ordering' in which it 'reassembles individualised desire, consumption practices, value-chains...' (p5) So there is a consistent and repeated jump between empirical description to (ironically) a listing of generalised concepts - but at this point, I think the reader is well ready for more precise conceptual analysis: not just 'a transformation', but what kind of transformation? Not just a reassembling of desire and consumption practices, but what principles behind this reassembly that privileges what kinds of order? Without this specificity, the conceptual discussion risks becoming too vague for the reader; e.g. we learn that 'recommender systems stage an epistemic-operational transformation central to big data' (p5-6), but what we really want to know is what kind of transformation is happening. This would also help the introduction set out the broader 'so what' stakes of the article, which at the moment is not very explicit.
 
-A similar problem recurs in later sections, where I think part of the issue concerns what gets labelled
-as a propensity in terms of the argumentative structure, and the precise conceptual distinction
-between probability and propensity, openness and closedness. E.g. the statement '...in which the
-propensities of things as commodities and the propensities of people mingle with each other,
-without overflowing the site of their ordering encounter, the list' (p21) makes sense at a general
-level, i.e. that the propensity towards a plenitude of possible combinations is constantly negotiated
-with the perceived benefits of personalisation and individuation. But it is unclear why those are
-pegged to the propensities of commodities and of people, and the expression of 'overflowing...'
-seems to overdramatise the relatively dry and pragmatic work of achieving humanly manageable
-results from big datasets. This isn’t to say the author is ‘wrong’, but that the analysis doesn't achieve
-the desired level of clarity across the various ingredients it has presented. E.g. Hansen's associative
-propensity (p22) contrasts the actual totality of possibilities and the reduced field of predictive
-datasets; footnote 5 hints that the author's view cuts the situation differently, but it isn't quite clear
-how, in part because it is not yet clarified how 'a model of personhood based on purchase data [can
-be said to] delimit the propensities of things'. (p22)
+A similar problem recurs in later sections, where I think part of the issue concerns what gets labelled as a propensity in terms of the argumentative structure, and the precise conceptual distinction between probability and propensity, openness and closedness. E.g. the statement '...in which the propensities of things as commodities and the propensities of people mingle with each other, without overflowing the site of their ordering encounter, the list' (p21) makes sense at a general level, i.e. that the propensity towards a plenitude of possible combinations is constantly negotiated with the perceived benefits of personalisation and individuation. But it is unclear why those are pegged to the propensities of commodities and of people, and the expression of 'overflowing...' seems to overdramatise the relatively dry and pragmatic work of achieving humanly manageable results from big datasets. This isn’t to say the author is ‘wrong’, but that the analysis doesn't achieve the desired level of clarity across the various ingredients it has presented. E.g. Hansen's associative propensity (p22) contrasts the actual totality of possibilities and the reduced field of predictive datasets; footnote 5 hints that the author's view cuts the situation differently, but it isn't quite clear how, in part because it is not yet clarified how 'a model of personhood based on purchase data [can be said to] delimit the propensities of things'. (p22)
 
-Clarifying the above portion of the article is critical because, as we see later, the article's main
-argument hinges on showing what kinds of openness and closure are exhibited by Tesco'srecommendation system, and how this effects the conversion of probabilities into propensities. In
-p25-6, the author begins by contrasting Hansen's surplus sensibility to a 'dearth of sensibility' in the
-case study. But surplus sensibility, in the Whiteheadian sense, wouldn't necessarily be a surplus of
-meaning, but an excess of data, of materia, of things; the erection of closed boundaries is necessary
-not because there is too much meaning out there, but because there is so much nonsense. In this
-light, wouldn't Patel's problem of 'lots of zeros' match precisely Hansen's surplus of sensibility, in
-that big data systems often struggle to close in on meaningful correlations and data out of the
-multitude? Following on from that, I would like to know what is the basis for the author to say that
-'thinking of good features' actually involves opening up the database to this surplus, and there
-should be more clarification on how this involves 'probabilities becom[ing] propensities' (p27). Some
-clarification is found later in p31 ('the propensities of things are enclosed as probabilities ... only to
-the extent that probabilities themselves become propensities'), but the conceptual and operational
-sense in which probabilities 'become' propensities, or what this transformation entails, remains
-implicit rather than explicit.
+Clarifying the above portion of the article is critical because, as we see later, the article's main argument hinges on showing what kinds of openness and closure are exhibited by Tesco'srecommendation system, and how this effects the conversion of probabilities into propensities. In p25-6, the author begins by contrasting Hansen's surplus sensibility to a 'dearth of sensibility' in the case study. But surplus sensibility, in the Whiteheadian sense, wouldn't necessarily be a surplus of meaning, but an excess of data, of materia, of things; the erection of closed boundaries is necessary not because there is too much meaning out there, but because there is so much nonsense. In this light, wouldn't Patel's problem of 'lots of zeros' match precisely Hansen's surplus of sensibility, in that big data systems often struggle to close in on meaningful correlations and data out of the multitude? Following on from that, I would like to know what is the basis for the author to say that 'thinking of good features' actually involves opening up the database to this surplus, and there should be more clarification on how this involves 'probabilities becom[ing] propensities' (p27). Some clarification is found later in p31 ('the propensities of things are enclosed as probabilities ... only to the extent that probabilities themselves become propensities'), but the conceptual and operational sense in which probabilities 'become' propensities, or what this transformation entails, remains implicit rather than explicit.
 
-E.g. there seems to be the argument that recommendation systems, built to have a special
-interest in identifying profitable probabilities, then play a key role in actualising those
-probabilities, retraining consumers to *fulfil* those probabilistic behaviours, and thereby
-breed or at least accentuate their propensities for particular forms of consumption. If this is
-a reasonable reading of the argument - and especially if it is not - it would be good to have
-these come out more explicitly.
+E.g. there seems to be the argument that recommendation systems, built to have a special interest in identifying profitable probabilities, then play a key role in actualising those probabilities, retraining consumers to *fulfil* those probabilistic behaviours, and thereby breed or at least accentuate their propensities for particular forms of consumption. If this is a reasonable reading of the argument - and especially if it is not - it would be good to have these come out more explicitly.
 
-The conclusion helpfully states that the technical and formal properties driving the management,
-enclosure, interpretation, of propensities effects the 'negotiation, compromises, rituals and local
-orderings of everyday life.' (p34) It would be fruitful to have a little more specificity on what kinds of
-shifts in social order, consumer-data-merchant relations, etc., are being encouraged or piggybacked
-by these systems; i.e. what the social order is changing into through these systems. (I do accept that
-there are scope limitations to the article, and that the change here is going to be more nuanced and
-indirect than in an analysis like Turow's.) Similarly, if the DunnHumby model demonstrates a certain
-openness to be required and retained in predictive conversion systems, what is the 'so what'
-element of this observation? Are we to understand the open/closed problem here in the classic
-binary of determination and freedom, and see this openness as a positive space of alternatives - or,
-in fact, a useful space for interpretive flexibility that gives these recommendation systems the power
-to pronounce self-fulfilling prophecies in the form of seemingly objective predictions?
+The conclusion helpfully states that the technical and formal properties driving the management, enclosure, interpretation, of propensities effects the 'negotiation, compromises, rituals and local orderings of everyday life.' (p34) It would be fruitful to have a little more specificity on what kinds of shifts in social order, consumer-data-merchant relations, etc., are being encouraged or piggybacked by these systems; i.e. what the social order is changing into through these systems. (I do accept that there are scope limitations to the article, and that the change here is going to be more nuanced and indirect than in an analysis like Turow's.) Similarly, if the DunnHumby model demonstrates a certain openness to be required and retained in predictive conversion systems, what is the 'so what' element of this observation? Are we to understand the open/closed problem here in the classic binary of determination and freedom, and see this openness as a positive space of alternatives - or, in fact, a useful space for interpretive flexibility that gives these recommendation systems the power to pronounce self-fulfilling prophecies in the form of seemingly objective predictions?
 
 4. Miscellaneous Comments
 

@@ -451,3 +451,9 @@ or
 
 ## Fri 28 Apr 2017 11:33:20 BST
 - accidentally came across Thrift 1999, lists come live and put into zotero ensembles folder 
+
+## Wed 05 Jul 2017 11:03:59 BST
+- received reports a week or two ago: all in report.md
+- printed them out to read; nothing too major, but they didn't get the paper. Revision will need to cut away whatever obstructs their view, I guess. 
+- programme the work on this: I've estimated 15 hours on it. Might work;
+- TODO: read reports properly
