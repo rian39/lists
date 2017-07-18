@@ -505,4 +505,35 @@ or
 - TODO: write short paragraph describing my overall social theory of lists (approx 200 words)
 - new title: Probabilities in the data analytic conversion of social order
 - TODO: play with the structuring of Section E. 
-- 
+
+## Tue 18 Jul 2017 07:18:46 BST
+- adding Marcus on prototyping method into intro; 
+- starting on section E: it will be rough
+- how do I actually use the social theory of lists - what happens to the mapping? to the discrepancies between normative and actual, and to the siting of the list?
+- TODO: write about this in the conclusion
+- remapped last 12 pages a bit, taking into account the Popper argument and critiquing the Hansen a bit more;  see page 21 of July printout for summary; still feels like need more experiments or prototypes; particularly for the model itself; 
+- TODO: rewrite section on logistic regression in terms of the theory of the list -- as a mapping;
+- restructuring of Section E: the idea is to combine the Hansen reading of Popper; the aspects of the relevance model (logistic regression,  much data, a/b experiments, good features, substitution/complementarity), and the social theory of the list
+- popper quotes in order:
+
+> the introduction of propensities amounts to generalizing and extending the idea of forces again  14
+
+> they should be regarded as _inherent in a situation_ 14
+
+> we need _a calculus of relative or conditional probabilities_ as opposed _a calculus of absolute probabilities_ 16
+
+> in many kinds of events this is not the case, and the propensities cannot be measured because the relevant situation changes and cannot be repeated 17
+
+> in our real changing world, the situation and, with it, the possibilities, and thus the propensities, change all the time. They may certainly change if we, or any other organisms,  _prefer_ one possibility to another; or if we _discover_ a possibility where we have not seen one before 17
+
+> experiments. ... by creating, at will, artificial conditions that either exclude, or reduce to zero, all the interfering and disturbing propensities 23
+
+> What may happen in the future .. is, to some extent, open. There are many possibilities trying to realize themselves, but few of them have a very high propensity, given the initial conditions. 22
+
+- an experiment for the conditional probability argument using logistic regression;
+    - simulated 500k customers in terms of Taking Part data
+    - simulate 52 weeks of purchase history using Tesco API data
+    - build a separate model for each customer; 
+    - see how that model can recommend substitutions or complementarities; these are 'new possibilities'   
+- TODO: move the personalization discussion higher up, perhaps in the introduction
+- rough reconstruction is ~4.2k, but haven't brought in the experiments much
