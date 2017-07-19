@@ -537,3 +537,20 @@ or
     - see how that model can recommend substitutions or complementarities; these are 'new possibilities'   
 - TODO: move the personalization discussion higher up, perhaps in the introduction
 - rough reconstruction is ~4.2k, but haven't brought in the experiments much
+
+## Wed 19 Jul 2017 06:46:17 BST
+- try writing the conclusion to give shape to various shifts in emphasis;  
+- made more notes in Dewey on reconstruction; see dewey_reconstruction_1957.md
+- TODO: put more Dewey in intro and conclusion
+
+- order of points in the conclusion:
+    - the specific situation is grocery list  and online shopping recommendations, not shopping in general, but the conversion or transformation of a  recommender system. 
+    - a small theory of shopping and shopping lists: shopping as a constant negotiation between normative and actual orders; list as an intersectional ordering device -- it creates a set of associations; it maps them to an order; but that order can be changed and can be re-associated
+    - these systems largely understood in terms of personalization; undoubtedly occurring. But  something else underpins  personalization and allows it to occur
+    - probabilization allows personalization and exceeds it: associations seen in the recommender system include person-thing, thing-thing, person-in-time; these associations overflow closure; the argument here has focused on describing how this affects attempts to construct predictive models
+    - suggests an alternative theory of social order in which association is not any single organization but propensities, or tendencies towards realization; 
+    - conversion events are what is going on in big data more generally: how do we think about them without being caught in inherited patterns of thought. 
+    - reconstruction and what it does: focuses on specific situations in order to get at the trouble, the problem, the conflict that attracts our interest to them; specifically addresses a broader inherited problem in relation between science and society
+
+- ok, that might work, but still a lot happening; there is no single clear point here at the moment; will have to simplify this more to make it work as article; the point that matters most to me is the personalization one; but I'm not sure exactly why ... I know philosophically -- I'm interested in probability -- but not so sure why in terms of the argument of the paper;   using probability and 
+- now trying to draft the conclusion: wrote 500 words; 
