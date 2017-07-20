@@ -554,3 +554,8 @@ or
 
 - ok, that might work, but still a lot happening; there is no single clear point here at the moment; will have to simplify this more to make it work as article; the point that matters most to me is the personalization one; but I'm not sure exactly why ... I know philosophically -- I'm interested in probability -- but not so sure why in terms of the argument of the paper;   using probability and 
 - now trying to draft the conclusion: wrote 500 words; 
+
+## Thu 20 Jul 2017 08:59:07 BST
+- today is Section E; I have about 7 hour left to finish this; so will need to get that section done today. 
+- working hard on the probability stuff - wrote a section introducting Popper; reframed arules discussion. 
+- TODO - short paragraph summarising the social theory of list ordering; make sure to add stuff on the ordering-remapping of order in the list; 
