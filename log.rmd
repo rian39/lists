@@ -559,3 +559,13 @@ or
 - today is Section E; I have about 7 hour left to finish this; so will need to get that section done today. 
 - working hard on the probability stuff - wrote a section introducting Popper; reframed arules discussion. 
 - TODO - short paragraph summarising the social theory of list ordering; make sure to add stuff on the ordering-remapping of order in the list; 
+
+## Fri 21 Jul 2017 09:22:28 BST
+- did so much work on this yesterday -- today I want it to go more easily; and I don't want to do so much work on it. 
+- link everything in the presentation to the logistic regression model; that's the linchpin -- a massive conditional probability statement
+        - TODO: add a bit about this model ... and think how Popper material helps here 
+- grocery shopping in principle cannot be about personalization because shopping itself isn't. Thats a fundamental problem.
+        - DONE - at least in part: update the theory of shopping to reflect this
+        - TODO: exemplify it in a number of ways
+- although I didn't do as much, paper felt better because I've managed to localize down on the logistic regression model; it helps me combat the personalization problem better. 
+- reached the customer-product matrix; 
