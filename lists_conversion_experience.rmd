@@ -213,8 +213,9 @@ Given this imbalance, distortion and deficit of sensibility in the data, 'thinki
 # Experimental settings: A/B allocation and uplift
 
 |Test A|Test B|
-|---|---|
+|------|------|
 |Control A|Control B|
+|------|------|
 
 For instance, the predictions of the recommender system themselves are the subject of probabilistic treatment. Patel described the experimental deployment of  the relevancy model experimentally in a random A/B controlled trial on the Tesco website. All customers were  allocated to one of four categories as shown in the table. In the  A/B trial,  an identical shopping list, or even the same person, might receive different recommendations.   The randomised application of the model, drawing on protocols for randomised clinical trials first developed in the 1960s, is widely used in social media platforms and hence in the implementation and observation of the effects of recommender systems.[^238.1] Random allocation of customers to the four categories (Test A, Test B, Control A, Control B) adds a layer of probability to the recommender system in the name of statistical validation of the effects or the 'uplift' of the model.[^122] Ironically,  the effects of a predictive model cannot be known in advance. They can only be observed experimentally. 
 

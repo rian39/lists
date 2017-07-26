@@ -569,3 +569,7 @@ or
         - TODO: exemplify it in a number of ways
 - although I didn't do as much, paper felt better because I've managed to localize down on the logistic regression model; it helps me combat the personalization problem better. 
 - reached the customer-product matrix; 
+
+## Wed 26 Jul 2017 12:06:20 BST
+- at the heart of the paper is the contrast between the association rules and the personal relevance model. The differences between them aren't as great as might seem to be ...   
+- starting adding the probability section  

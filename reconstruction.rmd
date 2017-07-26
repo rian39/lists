@@ -154,7 +154,22 @@ Since so many people buy milk, the recommendation system might end up always rec
  
 ## Platform Experiments that reduce interfering propensities
 
+In his account of probabilities as physical propensities, Popper emphasises the specific configurations established in laboratory experiments. 
+
 > experiments. ... by creating, at will, artificial conditions that either exclude, or reduce to zero, all the interfering and disturbing propensities 23
+
+|Test A|Test B|
+|------|------|
+|Control A|Control B|
+|------|------|
+
+For instance, the predictions of the recommender system themselves are the subject of probabilistic treatment. Patel described the experimental deployment of  the relevancy model experimentally in a random A/B controlled trial on the Tesco website. All customers were  allocated to one of four categories as shown in the table. In the  A/B trial,  an identical shopping list, or even the same person, might receive different recommendations.   The randomised application of the model, drawing on protocols for randomised clinical trials first developed in the 1960s, is widely used in social media platforms and hence in the implementation and observation of the effects of recommender systems.[^238.1] Random allocation of customers to the four categories (Test A, Test B, Control A, Control B) adds a layer of probability to the recommender system in the name of statistical validation of the effects or the 'uplift' of the model.[^122] Ironically,  the effects of a predictive model cannot be known in advance. They can only be observed experimentally. 
+
+[^238.1]: It is difficult to gauge how much. Facebook reports that it has more than 1 million models operating in its infrastructure. [@Dunn_2016] 
+
+It is perhaps significant that this random allocation of customers to control and test groups occurs without any relation to the particular profile or propensities of the customer. It seeks to statistically validate the effects -- the *uplift* -- of the model on  conversion events by allowing the effects of the model on what people do to be measured. The uplift refers to conversion events associated with the same groups of people. Effectively an experiment in inhabiting two different worlds, the randomised control trial  sets up a feedback look between the predictive model (the logistic regression), and the world. 
+
+[^122]: See [@Lo_2002] for an introduction to the construction of experimental set ups for uplift models. Market researchers and data miners seem to have started adopting a statistically grounded experimental predictive practice sometimes around 2000. See for instance [@Almquist_2001]  Response modelling, 'propensity' modelling and uplift modelling all seek to identify associations between 'treatments' or interventions and the 'Responders', the people  affected by the treatment.  
 
 ## The openness of the data -- new possibilities 
 
@@ -162,9 +177,9 @@ Since so many people buy milk, the recommendation system might end up always rec
 
 # F. Conclusion
 
-The 'minute and extensive scrutinizing' [@Dewey_1957] of a recommender system undergoing a conversion from an older data-mining approach to a current 'personal relevance model' approach addresses a specific situation: online grocery shopping (not shopping in general) and the ordering of lists.
+The 'minute and extensive scrutinizing' [@Dewey_1957] of a recommender system undergoing a conversion from an older data-mining approach to a current 'personal relevance model' approach addresses a specific situation: online grocery shopping (not shopping in general) and, even more micro-sociologically, the ordering of lists.
 
-The theory of shopping lists constructed at the beginning of the paper was a scaffolding component. It draws on anthropology, sociology and mathematics to suggest that we see shopping lists as the site of a complex negotiation between different social orders. The list itself as an inscriptive device functions as an ordering device, a device that accommodates an immense variety of specific habits, dispositions, values and associations. The mapping component of the list, the order that arranges the set of items according to different interests and aims, is the operational focus of recommender systems.      
+The theory of shopping lists constructed at the beginning of the paper was a scaffolding component. It draws on anthropology, sociology and mathematics to suggest that we see shopping lists as the site of a complex negotiation between different social orders, between norms and actualities. The list itself as an inscriptive device functions as an ordering device, a device that accommodates an immense variety of specific habits, dispositions, values and associations. The mapping element of the list, the order that arranges the set of items according to different interests, values, and aims, is the operational focus of recommender systems.      
 
 The personalization of recommendations has been a defining characteristic of many big data conversion events. Rightly, the effects of all-consuming personalization have been the target of critics and critical research. The archaeology of the Tesco recommender system, including its early experiments with demographic data-mining, its adoption of a rule-based 'market basket' analysis system, and its current implementation of a 'personal relevance model' certainly follows that trajectory.   But the conversion event is not reducible to personalization.
 
