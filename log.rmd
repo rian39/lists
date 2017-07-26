@@ -572,4 +572,6 @@ or
 
 ## Wed 26 Jul 2017 12:06:20 BST
 - at the heart of the paper is the contrast between the association rules and the personal relevance model. The differences between them aren't as great as might seem to be ...   
-- starting adding the probability section  
+- where I finished last time -- line 153 -- there is still a gap. I didn't get to say everything I wanted to about the logistic regression model;  I wanted to add some stuff about how the model includes all the different things
+- starting adding the probability section and adding in a bit of the Popper argument  
+- got to the point of trying to say what 'trying to realize themselves' might mean. I intend to connect this to both 'trying to construct good features.' 
