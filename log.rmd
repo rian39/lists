@@ -575,3 +575,8 @@ or
 - where I finished last time -- line 153 -- there is still a gap. I didn't get to say everything I wanted to about the logistic regression model;  I wanted to add some stuff about how the model includes all the different things
 - starting adding the probability section and adding in a bit of the Popper argument  
 - got to the point of trying to say what 'trying to realize themselves' might mean. I intend to connect this to both 'trying to construct good features.' 
+
+## Thu 27 Jul 2017 15:57:03 BST
+- late in the day to be starting this -- just wanted to get the one point in about building 'good feature.'  
+- brought in the self-learning substitutes discussion and the complementarities
+- TODO: decide whether the hadoop and the weekly model running, etc should go in 
