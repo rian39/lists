@@ -11,15 +11,15 @@ Lists as predictive setting
 List in a predictive configuration
 Streams as lists: the problem of lists in time
 Streams, pipelines and trees: living with unending lists
-**Have you forgotten? List experiences in our predictive condition** ... 
+**Have you forgotten? List experiences in our predictive condition** ...
 
 ## simple examples of lists
-- `ls` -- what is the history of this? See Stallman and MacKenzie; also cat, etc. 
+- `ls` -- what is the history of this? See Stallman and MacKenzie; also cat, etc.
 - indexes -- Abbott on this
 - indexing of elements in data structures and in mathematical forms
 - list on wikipedia
 - working memory and its addressability
-- job listings -- the Kaggle contest on this - but it is only in relation to testing 
+- job listings -- the Kaggle contest on this - but it is only in relation to testing
 - program listings and the problem of branches and the flow of control
 - image as a list -- AlphaGo
 - text as a list -- RNN
@@ -43,7 +43,7 @@ Streams, pipelines and trees: living with unending lists
 ## to-do
 - look at information retrieval textbooks -- Manning, etc
 - go through Whitehead mathematics notes on sequences and series: DONE
-- go through _Elements of Statistical Learning_ for stuff on lists and ranking: do they deal with it? 
+- go through _Elements of Statistical Learning_ for stuff on lists and ranking: do they deal with it?
 
 ## Tue Aug 23 08:41:32 BST 2016
 
@@ -51,111 +51,111 @@ Streams, pipelines and trees: living with unending lists
 - lists as sequences, and how sequences converge: this is only known through summation (Whitehead) and convergence to a limit; which links lists to neighbourhoods and ideas of convergence; via sequence, can also get into vector space
 - listings -- program code -- and lists of instructions executed by programs  -- and what differences listings make; why doesn't anyone really refer to program listings anymore
 - the list as predictive site -- how are lists becoming predictive: this could include many ranked lists (e.g. search results); -- but also the very architecture of the CPU itself as a predictive process.  -- the branch prediction idea and the way it allows pipelining of processes
-- ranking and lists: the obvious connection is ranking, but what if I don't want to do ranking? 
+- ranking and lists: the obvious connection is ranking, but what if I don't want to do ranking?
 - the substrate of lists and their space -- a topological account?
 - focus on the operations of listing, including indexing, ordering, ranking, rewriting, and retrieving
 - does the work on working memory, or on recursive processes help in exploring what is going on with lists?
 - could keep things simple and just focus on 'listings' dealt with in machine learning - how is a ranking actually done in  a model and why would that matter. The answer is probabilistic?  
-- lists and the problems of scale 
+- lists and the problems of scale
 
 ## Wed Aug 24 09:09:36 BST 2016
 
-- what if lists are fundamentally changing in nature because they are becoming probabilistic, vectorised and optimised.   The key question would be how to demonstrate that. 
+- what if lists are fundamentally changing in nature because they are becoming probabilistic, vectorised and optimised.   The key question would be how to demonstrate that.
 - large lists, indefinite lists, infinite lists ... how do they matter?  Because the series they produce becomes a kind of limit
 - second main idea: massive expansion of lists -- everything is a list (e.g. images, text, etc)
 
 ## Fri Aug 26 11:14:10 BST 2016
 
- - finalising title; had idea about lists that change and those that don't; lists that adapt to individual circumstance and those that seek maximum stabilisation; are there enough tensions between the agent and structures, between change and stability; between control/order and event/invention to explore here? Tensions between predictive or probabilised lists (that adapt fully to context) and those that seek to minimise change (blockchain, working memory, sequence forms,etc.) 
+ - finalising title; had idea about lists that change and those that don't; lists that adapt to individual circumstance and those that seek maximum stabilisation; are there enough tensions between the agent and structures, between change and stability; between control/order and event/invention to explore here? Tensions between predictive or probabilised lists (that adapt fully to context) and those that seek to minimise change (blockchain, working memory, sequence forms,etc.)
 
 ## Mon Sep  5 13:27:05 BST 2016
 
-- started looking at Godel numbers and Godel sequences, and from there got to the lists entry on wikipedia. Can think of stream as an infinite list, and this seems to be a useful way of thinking about lists in their contemporary form -- they are open ended; they contain time-orderings, but these orderings are not fixed. Could look at stream processing as an extension of lists; and then run an argument about scale. Do we oppose scale? Do we scale? What about scaleability? 
+- started looking at Godel numbers and Godel sequences, and from there got to the lists entry on wikipedia. Can think of stream as an infinite list, and this seems to be a useful way of thinking about lists in their contemporary form -- they are open ended; they contain time-orderings, but these orderings are not fixed. Could look at stream processing as an extension of lists; and then run an argument about scale. Do we oppose scale? Do we scale? What about scaleability?
 
 
 ## Mon Sep 12 15:19:55 BST 2016
 
-- just listened to Shreena Patel from DunnHumby speaking about 'Have you forgotten?' in the shopping basket at Tesco. Really interesting description of the pipeline for the recommendations that are shown at the end. Could base the whole talk around this rather than the high-falutin talk I've sent in. Shopping lists are the prosaic example I've been looking for. 
+- just listened to Shreena Patel from DunnHumby speaking about 'Have you forgotten?' in the shopping basket at Tesco. Really interesting description of the pipeline for the recommendations that are shown at the end. Could base the whole talk around this rather than the high-falutin talk I've sent in. Shopping lists are the prosaic example I've been looking for.
 - see pages  43-47, **August 2016** notebook; now scanned as figure/single_patel.pdf; also single pages as figure/patel_page3_SKM_C36816101109420.pdf and as figure/SKM_C36816100609150.pdf and figure/SKM_C36816100609170.pdf and figure/SKM_C36816100609171.pdf.
 
 ## Mon Sep 26 08:34:00 BST 2016
 
-- went through Shreena Patel DunnHumby presentation and turned it into around 10 points that could be the basis of the presentation. 
-- would be good to have her presentation. 
+- went through Shreena Patel DunnHumby presentation and turned it into around 10 points that could be the basis of the presentation.
+- would be good to have her presentation.
 - emailed her for it
 - put the 10 or so main points into presentation order and started to write some notes around these
-- could also point to (Recommender Systems Conference)[https://recsys.acm.org/recsys16/] as an example -- spent some time looking through these -- interesting papers on Youtube deeplearning, which I put in archive (~/archive/data_intensive/machine_learning/covington_youtube_deeplearning_2016.pdf). See there how matrix factorization has been been the main approach for recommender systems. 
-- would like to simulate some of the things that Patel talked about. 
+- could also point to (Recommender Systems Conference)[https://recsys.acm.org/recsys16/] as an example -- spent some time looking through these -- interesting papers on Youtube deeplearning, which I put in archive (~/archive/data_intensive/machine_learning/covington_youtube_deeplearning_2016.pdf). See there how matrix factorization has been been the main approach for recommender systems.
+- would like to simulate some of the things that Patel talked about.
 - got paper on Trilling, Kinsey Report -- started to think about all the accumulation of data in recommender systems. How long has this been happening? Tesco Clubcard seen as an origin, but customer/business analytics must be much older. How older? DONE: WoS search on research literature - DONE
 - did a bit of this -- first mention of the term is highly cited 1997 ACM article by Varian & Resnick; describes some existing systems; point to the term 'collaborative filtering' as first used in 1991; paper is in archive ~/archive/data_intensive/machine_learning/varian_resnick_recommenders_1997.pdf
-- 1997 special issue of ACM on recsys? Not sure. Went through time in WoS a bit and found 2001 article on recommender systems -- Schafer et al ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf -- which is a bit better. Has a lot of taxonomies and late 1990s references 
-- DONE: go through the main points and think about where I can put my own stuff in; DONE 
+- 1997 special issue of ACM on recsys? Not sure. Went through time in WoS a bit and found 2001 article on recommender systems -- Schafer et al ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf -- which is a bit better. Has a lot of taxonomies and late 1990s references
+- DONE: go through the main points and think about where I can put my own stuff in; DONE
 - DONE: look up ethnomethodology on lists ...
 - DONE: DONE go through book manuscript looking for points of intersection - could be on population; the table; optimisation/function; probabilisation, dimensionality; enunciative function;    
 
 ## Tue Sep 27 09:12:58 BST 2016
 
-- started looking for any literature on Amazon recommendation engine -- found their ML service; much discussion of how important recommendations have been ... downloaded Linden's amazon paper; quite useful for all its material on the problems of large scale ... 
-- tried to find Humby's work -- only one paper in Journal of Market Research, 1999, 'New developments in demographic targeting--the implications of 1991.'i about the ACORN system; this 1989 paper not n the archives of Market Research Society -- too early.  Found abstract for a paper given at 'young OR conference' in 1994. 
-- Took screenshot of Humby 1984 and saved in figures folder -- it will be a slide ... 
+- started looking for any literature on Amazon recommendation engine -- found their ML service; much discussion of how important recommendations have been ... downloaded Linden's amazon paper; quite useful for all its material on the problems of large scale ...
+- tried to find Humby's work -- only one paper in Journal of Market Research, 1999, 'New developments in demographic targeting--the implications of 1991.'i about the ACORN system; this 1989 paper not n the archives of Market Research Society -- too early.  Found abstract for a paper given at 'young OR conference' in 1994.
+- Took screenshot of Humby 1984 and saved in figures folder -- it will be a slide ...
 - following leads on collaborative filtering -- how it differs from market basket analysis; how item-based and user-based CF techniques differ; tutorials in R on these
-- also thinking about ordinals and well-ordered sets again: recommendation lists are well-ordered sets; in that sense they are something like ordinal numbers; that is, ways of describing well-ordered sets. 'Ordinal numbers are thus the "labels" needed to arrange collections of objects in order.' writes Wikipedia. 
-- did search on 'lists' in my notes and made file lists.md. Has useful stuff from Lury, Lazzarato, Fuller, d 
+- also thinking about ordinals and well-ordered sets again: recommendation lists are well-ordered sets; in that sense they are something like ordinal numbers; that is, ways of describing well-ordered sets. 'Ordinal numbers are thus the "labels" needed to arrange collections of objects in order.' writes Wikipedia.
+- did search on 'lists' in my notes and made file lists.md. Has useful stuff from Lury, Lazzarato, Fuller, d
 - looking at this blog (Salem Marafi)[http://www.salemmarafi.com/code/market-basket-analysis-with-r/], installed arulesViz and played a bit with Grocery dataset.  
 - wrote an intro to list, highlighting problems of how to study them as forms of order, and how to participate in them
-- NOTDONE: follow up on the Hobbes problem of social order: are new forms of operational changing that social problem. No longer contract, economic relations, etc. ... 
+- NOTDONE: follow up on the Hobbes problem of social order: are new forms of operational changing that social problem. No longer contract, economic relations, etc. ...
 - feel better about getting some code for arules in the paper -- this is something that I've wanted to do anyway
 - brought in all of Salem Marafi's code just to play with it -- will need more commentary to make sense of it. Am I saying that the shift in models from arules to CF is important? In what ways?
 
 ## Wed 28 Sep 09:33:36 BST 2016
 
-- will look at the most interesting bits of dunnhumby presentation first, and then see if the other bits can be fitted in time ... 
+- will look at the most interesting bits of dunnhumby presentation first, and then see if the other bits can be fitted in time ...
 - wrote a bit about arules and apriori, trying to link it to set theory; see ~/archive/data_intensive/machine_learning/agrawal_apriori_94apriori.pdf
 - DONE: find old shopping list and scan it DONE
 - added a bit of badiou, but I'm not convinced.
-- got distracted by non-human book (Grusin) and spent time downloading Hansen's article on prediction. And then Bogost on carpentry. 
+- got distracted by non-human book (Grusin) and spent time downloading Hansen's article on prediction. And then Bogost on carpentry.
 - added a bit more on the badiou front -- the open and excess.
 - DONE: image of a ClubCard -- DONE
-- spent time pasting itemset from `Groceries` dataset into Tesco's shopping list. Data is in data/grocery_items.csv. Can paste the whole list into the shopping site, or use the url (http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true)[http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true] substituting any term you want into it to get the results.  Would need to scrape a bit to get them all. Can get the number and then step through using http://www.tesco.com/groceries/product/search/default.aspx?notepad=chicken&viewMode=grid&N=0&Nao=40 
-- tracking down the `Groceries` dataset -- found reference in reference.pdf for `arules`. Added this to archive ~/archives/data_intensive/machine_learning/ 
+- spent time pasting itemset from `Groceries` dataset into Tesco's shopping list. Data is in data/grocery_items.csv. Can paste the whole list into the shopping site, or use the url (http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true)[http://www.tesco.com/groceries/Product/Search/Default.aspx?notepad=yogurt&newSort=true] substituting any term you want into it to get the results.  Would need to scrape a bit to get them all. Can get the number and then step through using http://www.tesco.com/groceries/product/search/default.aspx?notepad=chicken&viewMode=grid&N=0&Nao=40
+- tracking down the `Groceries` dataset -- found reference in reference.pdf for `arules`. Added this to archive ~/archives/data_intensive/machine_learning/
 - what do the brands do?
 
 ## Thu Sep 29 09:31:46 BST 2016
 
 - Played this game at the tea table:   'I went shopping and bought '  -- this game is an example of a well-ordered set, since it labels every item with a letter of the alphabet, and those letters are well-ordered.  
 - the game is about remembering what is in the list, and the alphabet helps remind you.
-- could use this game at the opening.  The baseline account of lists as a form of number. 
+- could use this game at the opening.  The baseline account of lists as a form of number.
 - wrote a bit about this at the beginning -- it feels a bit better than other stuff because it gets into sets
 - added in Hansen on prediction and how probability becomes actual ... Also put quotes in new notes file. His argument that prediction is a closed probabilistic determination of propensities that always exceed it as a field of data. The goal is to locate those excesses and perceptualise them somehow.  
 - DONE bring the quote about technical interface to the data of sensibility into the conclusion
 - read some Hansen at lunch and marked useful bits on paper copy -- DONE:  DONE put those into notes file and then use them to structure the argument?
-- started to bring some of the probability idea into 'I went shopping and I bought ...' 
+- started to bring some of the probability idea into 'I went shopping and I bought ...'
 
 ## Fri Sep 30 10:16:16 BST 2016
 
-- pfaffing with rmarkdown, setting up shortcuts, etc. will be a help I think 
+- pfaffing with rmarkdown, setting up shortcuts, etc. will be a help I think
 - trying to get to core of the issue- what is probabilistic and potentiating in the sense that Hansen speaks about ...  
 - wrote python script to scrape all the product counts from tesco in the groceries list; took 1 hour; to get a total figure that is accurate I suppose
-- saved results as csv data/tesco_groceries.csv and a did of them 
-- eventually got somewhere with the Tesco data. Plotted it (> 50); 
+- saved results as csv data/tesco_groceries.csv and a did of them
+- eventually got somewhere with the Tesco data. Plotted it (> 50);
 - started writing about the number of combinations of these items they constitute a surplus of sensibility.  
 - wrote some points for the conclusion
 
 ## Wed Oct  5 07:48:28 BST 2016
 - have written about 2500 words, but need to get to the point: how does a subject of the list take shape in the data
 - have finished reading the Hansen which is at ~/archive/Hansen feel like I want to get away from any opposition between the actual and the statistical, and say that the feeling of agency comes from the list.
-- like the argument that subject is a feeling of the list ... and Hansen's argument in general about 'our predictive condition' 
+- like the argument that subject is a feeling of the list ... and Hansen's argument in general about 'our predictive condition'
 - 'condition' reminds of Lyotard - downloaded and added to archive here ~/archive/Lyotard_Postmodern_Condition_1981.pdf great line there about continuous differentiable functions won't be the basis of prediction ... this quote in notes file ~/notes/lyotard_postmodern.md.  
 - DONE: get quote on conversion and **relevance** and why it matters from Hansen
-- also had an idea of thinking about an event that happens in recommender system -- does it ever happen that something is recommended that matters to me ... 
-- TESCO api -- signed up for this but can't get key for API for some reason -- can't see it there, but its probably a distraction ... 
-- DONE: DONE scan Shreena's graph of the models and use as image. 
-- went back to notes on 200000 products and looked at undersampling -- randomly drop some of the products to get a more balanced dataset; also see that much of the presentation was really about the topic of basket similarity and how to deal with it since it affects the **relevance** of the the recommendations. This is another tie-in to the Hansen argument. 
-- thought too that the conversion experience Tesco wants -- no low value conversion -- is precisely what they are suffering from in competition with the German supermarkets that do no online delivery. 
+- also had an idea of thinking about an event that happens in recommender system -- does it ever happen that something is recommended that matters to me ...
+- TESCO api -- signed up for this but can't get key for API for some reason -- can't see it there, but its probably a distraction ...
+- DONE: DONE scan Shreena's graph of the models and use as image.
+- went back to notes on 200000 products and looked at undersampling -- randomly drop some of the products to get a more balanced dataset; also see that much of the presentation was really about the topic of basket similarity and how to deal with it since it affects the **relevance** of the the recommendations. This is another tie-in to the Hansen argument.
+- thought too that the conversion experience Tesco wants -- no low value conversion -- is precisely what they are suffering from in competition with the German supermarkets that do no online delivery.
 
 ## Thu  6 Oct 09:27:40 BST 2016
 
-- scanned notes from notebook as figures. They are figure/single_patel.pdf as well as in single files 
+- scanned notes from notebook as figures. They are figure/single_patel.pdf as well as in single files
 - how to deal with surplus -- is that the issue? Could talk about the undersampling of the 200000 products.  
 - went back to the TESCO api and actually managed to register properly
 - wrote a small python script to get items -- actually more interested in the data that the api gives back. Its quite extensive in its attempts to qualify each item.
@@ -164,17 +164,17 @@ Streams, pipelines and trees: living with unending lists
 ## Fri Oct  7 10:30:53 BST 2016
 - writing scripts to get tesco products -- now have that working and can make montage of whole collections of products. tesco_get_groceries.py
 - not sure why I did that -- can see no use for it except to a sense of the surplus of sensibility by showing montages. But what is the point of that?
-- ran scripts enough times to get around 20k products. Might be overlap between categories, but this is about 10% of Tesco's product range in groceries .. 
+- ran scripts enough times to get around 20k products. Might be overlap between categories, but this is about 10% of Tesco's product range in groceries ..
 - had idea of trying to simulate strange interests by working with the tesco data and then building models that could predict those.
 - could also use the images to build classifiers; or use all the product metadata to construct new features and classifications
 - had idea of trying to simulate strange interests by working with the tesco data and then building models that could predict those.
 - could also use the images to build classifiers; or use all the product metadata to construct new features and classifications.
 - added a bit of stuff on the experimental allocation of customers
 - also started adding fragments of my notes as images; I'm hoping that I can write a script to extract the images and the knitr blocks into a presentation file and then present that.
-- wrote script simulate_baskets.r to pull all the results into a single dataframe for tesco items and then use that to run queries against. 
+- wrote script simulate_baskets.r to pull all the results into a single dataframe for tesco items and then use that to run queries against.
 - DONE: get some ideas on conversion from James' ~/archive/james_texts/james_varieties.pdf
 -  MAYBE: some more work on simulating the baskets and perhaps the customers using the GBCS data
-- started to write a script to simulate baskets in terms of range of items, total cost, number of items,, etac 
+- started to write a script to simulate baskets in terms of range of items, total cost, number of items,, etac
 - DONE: write r chunks in outline to extract high cost conversion items DONE
 
 ## Mon Oct 10 09:27:43 BST 2016
@@ -183,16 +183,16 @@ Streams, pipelines and trees: living with unending lists
 - also the hansen point about re-thinking media as distributed in the world
 - tried to track down the Vernes reference -- 1982, critique de raison aleatoire -- would need to ill that.
 - wrote some on the uplift model -- turns out that has only recently come into marking (around 1999) and is under active development in market research. I thought it would be standard practice ...  downloaded a paper on it by Victor Lo 2002 ~/archive/data_intensive/markets/lo_lift_model_1982_10.1.1.99.7064.pdf
-- uplift models are one of the ways that markets link machine learning into marketing ... 
+- uplift models are one of the ways that markets link machine learning into marketing ...
 - DONE: DONE write script to extract all headings, quotes, images and knitr chunks to a file and then convert to ioslides, etc. DONE
-- DONE: get some references for realtime in media: Hansen doesn't speak about this much -- might be able to adapt some of his temporality talk. ... 
+- DONE: get some references for realtime in media: Hansen doesn't speak about this much -- might be able to adapt some of his temporality talk. ...
 - tried t write the infrastructure section -- not much to say about hadoop, except that without it, no lists ... is all of this a product of infrastructural transformation?
 
 ## Tue 11 Oct 09:27:24 BST 2016
 
 - DONE: use montage to create image of all out.jpg as a slide
 - had to rescan patel page 3 because it was cropped figure/patel_page3_SKM_C36816101109420.pdf
-- went through paper adding a bit on classifiers and tangentially approaching the topic of basket similarity. 
+- went through paper adding a bit on classifiers and tangentially approaching the topic of basket similarity.
 - finding it hard to write about that bit of the presentation  - some small cues -- 'modelling substitutes'. Does that mean that they build models for reach product? Or for each of the recommendations in the 200 in the list? That is, a second layer of modelling that connects the recommendations to what is in the basket? Shreena talks about it in that way ...    
 
 ## Wed 12 Oct 11:41:17 BST 2016
@@ -205,7 +205,7 @@ Streams, pipelines and trees: living with unending lists
 
 ## Thu 13 Oct 15:58:47 BST 2016
 
-- didn't get much time today, but did a little on slides -- putting in chunk options, which didn't seem to work, and trying to get slides working. Some of them come out, but not all. 
+- didn't get much time today, but did a little on slides -- putting in chunk options, which didn't seem to work, and trying to get slides working. Some of them come out, but not all.
 
 ## Sun Oct 16 20:43:09 BST 2016
 
@@ -229,17 +229,17 @@ or
 
 ## Tue Oct 18 10:55:59 BST 2016
 
-- still need to write something on the similarity matrix; how does it fit into the narrative? 
+- still need to write something on the similarity matrix; how does it fit into the narrative?
 - playing around with figures in the margins instead of working on the similarity matrix
-- wrote a little on the similarity matrix, but it still doesn't go far. 
-- building an image of similarity matrix using all images; getting more images for snacks, sauces, etc. Idea is that I will be able to say something about propensities and hence conversion(?) by having these images in vast montage. 
-- finished making the image, but hard to get it showing in the document ... maybe just too big 
+- wrote a little on the similarity matrix, but it still doesn't go far.
+- building an image of similarity matrix using all images; getting more images for snacks, sauces, etc. Idea is that I will be able to say something about propensities and hence conversion(?) by having these images in vast montage.
+- finished making the image, but hard to get it showing in the document ... maybe just too big
 
 
 ## Wed 19 Oct 09:24:20 BST 2016
 
-- figure/propensity_conversions.png works ok at work laptop. Not sure why not showing at home. Some problem with eog. 
-- trying to write abstract to send, but not sure I have one. 
+- figure/propensity_conversions.png works ok at work laptop. Not sure why not showing at home. Some problem with eog.
+- trying to write abstract to send, but not sure I have one.
 - wrote abstract and sent it
 
 
@@ -248,7 +248,7 @@ or
 - changing font size on graphics2
 - added a bit to the conclusion and then printed to get something to work with
 - doing graphic for matrix of zeros
-- and trying to read everything 
+- and trying to read everything
 
 
 ## Fri 21 Oct 11:07:10 BST 2016
@@ -256,50 +256,50 @@ or
 - laid out all pages on the whiteboard and looked at the flow of the argument
 - making some changes, including a slide of early recommendation systems from 1990s such as described in ~/archive/data_intensive/machine_learning/schafer_recommenders_ecommerce_2001.pdf
 - feeling very distracted, but also adding ~/archive/data_intensive/machine_learning/varian_resnick_recommenders_1997.pdf
-- also did some re-formatting of tables and stuff to cut down on the output. 
-- Feels like the bigger ideas around transformation in probability are still being sorted out here. Do I think that the probability practices associated with the personal relevance model can be understood as propensities of things in the world? Or am I arguing for more intermediate positioning? That is, we don't to do an infrastructural transformation in order to account for the conversion experiences. 
-- Maybe I can play around a bit more with conversion experiences in theory. 
+- also did some re-formatting of tables and stuff to cut down on the output.
+- Feels like the bigger ideas around transformation in probability are still being sorted out here. Do I think that the probability practices associated with the personal relevance model can be understood as propensities of things in the world? Or am I arguing for more intermediate positioning? That is, we don't to do an infrastructural transformation in order to account for the conversion experiences.
+- Maybe I can play around a bit more with conversion experiences in theory.
 
 
 ## Mon 24 Oct 15:51:50 BST 2016
 
-- trying to fix up the flow a bit. Adding quote from Varian and Resnick. 
-- fleshing out some sections of the discussion by adding more commentary -- got to page 
+- trying to fix up the flow a bit. Adding quote from Varian and Resnick.
+- fleshing out some sections of the discussion by adding more commentary -- got to page
 
 
 ## Wed Oct 26 09:43:43 BST 2016
 
 - did some revisions on paper yesterday, but didn't manage to enter them all.
 - realised during revisions that predictions are in the product-customer matrix, not after that. Important for my argument that   
-- had to print out with revision halfway through ... 
+- had to print out with revision halfway through ...
 - working on train and flight. Re-wrote conclusion in notebook blue august 2016, 66-67. Also has some comments DONE: DONE bring these comments and ideas into paper
 
 
 ## Thu Oct 27 08:27:50 BST 2016
-- how to do ioslides -- take the main text; cut out everything except headings, quotes, images and r chunks; use --------- to make slide breaks ... 
+- how to do ioslides -- take the main text; cut out everything except headings, quotes, images and r chunks; use --------- to make slide breaks ...
 - added new patel screenshots to figure;
 - fixing plots to be a bit more meaningful
-- DONE: check whether Miller's work on shopping would be helpful here ... a good point of comparison. 
-- wrote lots of notes on the 2nd paper copy: DONE: bring them into the lists_conversion_experience.rmd. Also check the 1st printout as it has some unprocessed notes and changes. 
-- DONE: look at SI of E&P D on lists; also Stark and Esposito; also  maybe Eco; 
+- DONE: check whether Miller's work on shopping would be helpful here ... a good point of comparison.
+- wrote lots of notes on the 2nd paper copy: DONE: bring them into the lists_conversion_experience.rmd. Also check the 1st printout as it has some unprocessed notes and changes.
+- DONE: look at SI of E&P D on lists; also Stark and Esposito; also  maybe Eco;
 - MAYBE: would be good to  add a bit of the formalism of Agrawal to flesh out the rules
 - DONE: add Popper point about conditional probability
 - TODO: flesh out infrastructure section by reference to the ways in which the list is constructed around some infrastructural underpinnings  
-- this fits with Carolins point that many big data practices -- not all -- end up producing a ranked list. Could also use Jack Goody on lists and the seduction to order 
+- this fits with Carolins point that many big data practices -- not all -- end up producing a ranked list. Could also use Jack Goody on lists and the seduction to order
 
 ## Fri Oct 28 08:07:00 BST 2016
 
 - questions from presentation and further discussion thoughts:
     - doesn't the idea of the open need qualification? Yes, good idea -- would be good to develop some different ways of thinking about how to qualify the open;
     - What are the politics of doing this with the Tesco shopping list? Not sure how to answer this -- certainly doesn't have the politico-epistemically loaded value of elite examples ....
-    - How does this relate to the future? Is it about open future? Maybe it is -- what if these systems do shape what happens more and more? If we live in the anticipatory mode? 
-    - Where is trust in this setup? How do I trust over time? Again, couldn't answer this - I haven't look at how people relate to it. But wider issues of trust -- people going to supermarkets where the data science is not so obviously shaping everything; where the branding is not so extensively shaped by the supply chain logistics, etc. 
+    - How does this relate to the future? Is it about open future? Maybe it is -- what if these systems do shape what happens more and more? If we live in the anticipatory mode?
+    - Where is trust in this setup? How do I trust over time? Again, couldn't answer this - I haven't look at how people relate to it. But wider issues of trust -- people going to supermarkets where the data science is not so obviously shaping everything; where the branding is not so extensively shaped by the supply chain logistics, etc.
     - Valuation practices -- question from Martin -- about how these fit. Reminded me that I could add Marx on this ... on the forms of relevance embedded in the commodity form.
-    - Also looked up precision and recall again -- TODO: both of them are connected by the notion of relevance; look at Whitehead on this -- where does he talk about relevance? The flipside of this would be an irrelevant list, but possibly there would be a relevance that felt different to the ones described by precision and recall. 
-    - What about lists of images on the Tesco -- lists of images are shown ... 
+    - Also looked up precision and recall again -- TODO: both of them are connected by the notion of relevance; look at Whitehead on this -- where does he talk about relevance? The flipside of this would be an irrelevant list, but possibly there would be a relevance that felt different to the ones described by precision and recall.
+    - What about lists of images on the Tesco -- lists of images are shown ...
     - also could bring in grocerylists.org for many shopping lists
     - think of the list as a sub-structured by a much deeper set of plans and orientations. But also as the surplus -- between the two, what happens?
-- notes on the workshop august blue notebook pp 66-81 add more ... 
+- notes on the workshop august blue notebook pp 66-81 add more ...
 
 ## Thu 24 Nov 16:24:08 GMT 2016
 
@@ -312,12 +312,12 @@ or
 - DONE: read the notes above
 - DONE: read the notes in blue notebook
 - trying to calculate how many hours I need to revise the manuscript -- see blue_aug2016 notebook 152-153
-- starting reading the siegen manuscript and writing a few notes on it. 
-- reframe the list as important topic for bdas -- use peters argument for media theory notes/durham-peters-cloud.md - data comes first, and in a list; 
-- spent 25 minutes fixing knit elements of siegen version in order to get a clean manuscript. 
+- starting reading the siegen manuscript and writing a few notes on it.
+- reframe the list as important topic for bdas -- use peters argument for media theory notes/durham-peters-cloud.md - data comes first, and in a list;
+- spent 25 minutes fixing knit elements of siegen version in order to get a clean manuscript.
 - TODO: add the key point that big data is a response to the problem of logistical ensembles; this might be the linchpin for the whole paper. And definitely would suit it to BDAS
 - printed clean copy
-- NEXT: edit 6 pages 
+- NEXT: edit 6 pages
 
 ## Thu 02 Feb 2017 09:27:56 GMT
 - according to my calculations - blue_aug2016 152, editing and submission should take about 27 hours of work. I can do 2 hours today. Implies submission on 17 Feb
@@ -331,13 +331,13 @@ or
     - look at specific quantifications within lists -- often linked
     - affective becomings in list, especially via gaps
     - really rich set of list ideas in the workshop
-- spent quite a lot of time on bdas site -- around 134 articles there - I tried to download all of the biblio into zotero, but that wasn't working. I'd like to read of them.- spent quite a lot of time on bdas site -- around 134 articles there - I tried to download all of the biblio into zotero, but that wasn't working. I'd like to read of them. 
+- spent quite a lot of time on bdas site -- around 134 articles there - I tried to download all of the biblio into zotero, but that wasn't working. I'd like to read of them.- spent quite a lot of time on bdas site -- around 134 articles there - I tried to download all of the biblio into zotero, but that wasn't working. I'd like to read of them.
 - oh, no, it was working, just in a different place. so spent 20 minutes getting rid of duplicates
 - starting to work on the clean paper copy and want to address
     1. probability and propensities in the world -- the Hansen argument
     2. recommender system as construction of propensities
     3. but also as response to logistical worlds and complexity of transformations of value -- 'conversion experiences'
-    4. the conversion experience associated with 'big data' is? conversion of rules to associations; conversion of propensity to actuality; conversion of belief in big data into the operations of an ensemble (logistics, media platform, operational control). 
+    4. the conversion experience associated with 'big data' is? conversion of rules to associations; conversion of propensity to actuality; conversion of belief in big data into the operations of an ensemble (logistics, media platform, operational control).
 - managed to do 5 pages today, but then had all the pfaff described above as well. 22.5 hours work to go
 
 ## Fri 03 Feb 2017 13:08:17 GMT
@@ -346,14 +346,14 @@ or
 
 ## Mon 06 Feb 2017 11:20:42 GMT
 - limited time today, but thinking that 'propensity' should go in the title? Would I have to change a lot for that? Or do I need to speak much more about conversion? Or combine them: from propensity to actuality: conversion experiences in shopping lists ; the propensity discourse in big data is quite important since it underpins the promise. The promise of big data is a propensity promise. So to analyse the doing of propensity is to analyse the conversion experience ...
-- TODO: add the practice of propensity idea into the abstract, intro and conclusion framings. 
+- TODO: add the practice of propensity idea into the abstract, intro and conclusion framings.
 - did 8 pages of revisions today, leaving about 9 for tomorrow.  
 
 ## Tue 07 Feb 2017 08:58:03 GMT
 - hoping to do about 9 pages today, but we'll see. Some harder conceptual stuff around propensity to work through. Have read Hansen a bit again, and he is not so bad on open/closed.
 - pfaffed a bit with branches and commits between master/siegen version and newer bdas version. Hard to see sometimes in git how things are distributed. I used:
     git diff bdas  master -- lists_conversion_experience.rmd
-    to look at differences between the branches. 
+    to look at differences between the branches.
 - did around 7 pages -now finishing page 26, quite close to conclusion given the presence of a table. But I've hit a slight snag -- the design matrix, the similiarity matrix for products, has to be included in the overall process. How  
 
 ## Wed 08 Feb 2017 09:32:30 GMT
@@ -361,9 +361,9 @@ or
 -TODO: I was looking at DunnHumby yesterday. Could make more of what they claim about themselves. At least in a footnote. Also state an empirical limitation in the project -- commercial sensitivity -- and how I deal with it; could link this back to the forensic book on shelves at home
 -TODO also thinking about diapers and beer again. Could I make that into the headline story? An anchor point that I set out to reconstruct? But hasn't that been done? Should look up diaper on bdas.
 - finished paper revisions at 10.10. Still need do abstract; and many todos above on references, of various kinds. Especially Morris, Peters, etc.  
-- starting file revisions. 
+- starting file revisions.
 - DONE: get Miller - Theory of Shopping, TJRC (M); actually I got _Consumption and its Consequences_, 2012; seems just as good
-- added a backup file; did almost 5 pages of revs in the file. 
+- added a backup file; did almost 5 pages of revs in the file.
 
 ## Thu 09 Feb 2017 10:07:25 GMT
 -limited time today due to various home stuff, but trying to get 5 pages of edits into text.  
@@ -371,26 +371,26 @@ or
 
 ## Fri 10 Feb 2017 13:33:59 GMT
 - read a bit of dewey last night --  
-    > Concrete things have _ways_ of acting, as many ways of acting as they points of interaction with other things. One thing is callous, unresponsive, inert in the presence of some other things; it is alert, eager and on the aggressive with respect to other things; in a third case, it is receptive, docile. 153 
+    > Concrete things have _ways_ of acting, as many ways of acting as they points of interaction with other things. One thing is callous, unresponsive, inert in the presence of some other things; it is alert, eager and on the aggressive with respect to other things; in a third case, it is receptive, docile. 153
 
     >Organization is no more merely nominal or mental in any art, including the art of inquiry, than it is in a department store or railway system. 154
 
-    >[a classification] ... is rather a repertory of weapons for attack upon the future and the unknown. 154 
+    >[a classification] ... is rather a repertory of weapons for attack upon the future and the unknown. 154
 
-- these might be useful -- classification, organization, the future -- but only within the broader framing of a non-transcendental ontology. 
+- these might be useful -- classification, organization, the future -- but only within the broader framing of a non-transcendental ontology.
 - riding to work --  thought that I should emphasize the shift from rules to models, from associations to prediction; this is the major shift, and its use of probability as the connective tissue, as the abstract-concrete conditioning is really important to recognise. It cuts across the closed-open distinction that Hansen assumes; that said, the obscure of this conversion, the fact that it cannot be fully brought to light in reconstruction cannot be eliminated by phenomenological reduction; forensics, etc. It operates within the model itself, with the 'need for good features.'  
-- TODO: footnote how DunnHumby itself markets to customers. There is a regress, perhaps not infinite, but multi-stepped that runs from customer analytics; selling customer analytics; the images of analytics; the selling of images of analytics; etc. 
+- TODO: footnote how DunnHumby itself markets to customers. There is a regress, perhaps not infinite, but multi-stepped that runs from customer analytics; selling customer analytics; the images of analytics; the selling of images of analytics; etc.
 - did manage to get 5 more pages
 
 ## Mon 13 Feb 2017 09:21:53 GMT
 - still roughly on schedule I think; reached edit 24 of 44
-- read Will Davies on happiness industry on the weekend -- he has a lot on the problems of measuring people, including measuring faces, reactions, etc. + the rise of marketing and behavioural prediction. This is the side of things that I don't really talk about. That designing more effective recommendation really does not address an underlying malaise in which not speaking, not articulating, not contesting or engaging with the question of what you want, or what might make you happy, becomes the problem in itself. The better the recommender, the worse for the recommendee. 
+- read Will Davies on happiness industry on the weekend -- he has a lot on the problems of measuring people, including measuring faces, reactions, etc. + the rise of marketing and behavioural prediction. This is the side of things that I don't really talk about. That designing more effective recommendation really does not address an underlying malaise in which not speaking, not articulating, not contesting or engaging with the question of what you want, or what might make you happy, becomes the problem in itself. The better the recommender, the worse for the recommendee.
 - reached top of page 22, edit 34 done;  which is just 5 pages. But they were hard work. Still not sure if they are doing enough. The main thing would be the identification of person and things, and the list as the site of their encounter.  How does this differ from advertising?
 
 ## Tue 14 Feb 2017 09:52:01 GMT
-- late start due to school/run ; been thinking about modelisation, and how/why that matters. It is both limiting -- since its all still driven by customer behaviour -- and interesting because it identifies people and things. If probability is propensity of things, as Popper puts it, that is, all probability is conditional, and big data is a massive expansion of that conditionality, then what about conversion? There is no conversion, only an incremental indexing and linking up? 
-- heavy weather in these revisions -- not sure this part of the paper is working well enough. 
--made it to edit 42 of about 46 or page 28 of 31 
+- late start due to school/run ; been thinking about modelisation, and how/why that matters. It is both limiting -- since its all still driven by customer behaviour -- and interesting because it identifies people and things. If probability is propensity of things, as Popper puts it, that is, all probability is conditional, and big data is a massive expansion of that conditionality, then what about conversion? There is no conversion, only an incremental indexing and linking up?
+- heavy weather in these revisions -- not sure this part of the paper is working well enough.
+-made it to edit 42 of about 46 or page 28 of 31
 
 ## Wed 15 Feb 2017 09:36:21 GMT
 - hoping to finish the paper revisions today.
@@ -398,12 +398,12 @@ or
 - DONE: quote from hallinan about objects, etc
 - for conclusion, need to write the different senses of conversion; and perhaps add something about relation between inversion and conversion. Is there one? Method of infrastructural inversion; no real relation because one is a methodological maxim and the latter is a term describing something that takes place.  
 - writing a conclusion today -- nothing else really
-- have started putting some extra stuff - hallinan, more hansen, etc near the introduction. Feels like it needs another run through to fix many loose ends, etc. 
-- started to deGoede from e&P ~/archive/ensembles/deGoede_SI_lists_2016.pdf -- could add a bit more. 
-- started to go through TODO lists -- still more to follow up there. 
+- have started putting some extra stuff - hallinan, more hansen, etc near the introduction. Feels like it needs another run through to fix many loose ends, etc.
+- started to deGoede from e&P ~/archive/ensembles/deGoede_SI_lists_2016.pdf -- could add a bit more.
+- started to go through TODO lists -- still more to follow up there.
 
 ## Thu 16 Feb 2017 09:36:46 GMT
-- TODO will start by adding deGoede today - have made some ~/notes/deGoede_lists_2016.md and should include some of those in main text 
+- TODO will start by adding deGoede today - have made some ~/notes/deGoede_lists_2016.md and should include some of those in main text
 - have made some notes on deGoede -- not sure they open up any new insights. Should read Staheli's piece. But they are useful support. TODO: include in conclusion
 - looking at todos -- Popper is important; started reading that again and making ~/notes/popper_propensities.md
 - have added some Popper into intro and conclusion (too implicit?). Feels like I need to go through again and check the argument: which is now implicitly: conversion comes from propensities; .
@@ -411,25 +411,25 @@ or
 - DONE: check section headings map the overall argument
 
 ## Fri 17 Feb 2017 13:24:29 GMT
-- got Miller on Consumption; peanut-butter theory of shopping may be useful in framing what is going on with the shopping list; puts some notes in ~/notes/miller_consumptions_2012.md; two connections to social order -- the discrepancies between normative and actual; the sacrificial constitution of social order; 
-- DONE: emphasize in conclusion that the 'conversion' in Tesco is an example of ongoing modification; of a propensity that existed as a possibility for quite a long time. So the conversion event is just as much about Tesco itself as about what happens to people. Always this double face of the event. 
-- quite a lot of pfaffing around with images and other stuff; like labels etcs 
-- TODO: commentary on the different items show in the items table and what they might be for an individual shopper; 
+- got Miller on Consumption; peanut-butter theory of shopping may be useful in framing what is going on with the shopping list; puts some notes in ~/notes/miller_consumptions_2012.md; two connections to social order -- the discrepancies between normative and actual; the sacrificial constitution of social order;
+- DONE: emphasize in conclusion that the 'conversion' in Tesco is an example of ongoing modification; of a propensity that existed as a possibility for quite a long time. So the conversion event is just as much about Tesco itself as about what happens to people. Always this double face of the event.
+- quite a lot of pfaffing around with images and other stuff; like labels etcs
+- TODO: commentary on the different items show in the items table and what they might be for an individual shopper;
 
 ## Thu 16 Mar 2017 10:39:43 GMT
 - have done another edit on the paper, smoothing out the argument more.  
 - TODO: go through the bdas bibliography to see what should be included from there. started doing this and found dourish and garnett;  
 - starting to put paper edits in. How many in 30 minutes?
-- roughly 80 edits to do. 
-- did 20 edits in about 90 minutes of work. With 80 edits, that means about 3 more sessions of work. Should be able to submit next week. 
+- roughly 80 edits to do.
+- did 20 edits in about 90 minutes of work. With 80 edits, that means about 3 more sessions of work. Should be able to submit next week.
 
 ## Fri 17 Mar 2017 14:22:25 GMT
-- aiming for 20 edits today: DONE 
-- finally got some turow -- ~/archive/ensembles/Turow_data_mining_2015.pdf bit is pretty relevant -- focused on shopping ... but how would I relate to it? Don't disagree with it, but doesn't offer much of a way forward. Maybe could compare to Hansen? 
+- aiming for 20 edits today: DONE
+- finally got some turow -- ~/archive/ensembles/Turow_data_mining_2015.pdf bit is pretty relevant -- focused on shopping ... but how would I relate to it? Don't disagree with it, but doesn't offer much of a way forward. Maybe could compare to Hansen?
 
 ## Mon 20 Mar 2017 12:04:19 GMT
-- have got only 2 hours today maximum - working on 20 edits I hope 
-- not sure what to do about Turow -- read a bit and added notes in ~/notes/turow_2015.md Could use some of this in a footnote, or to distinguish what I'm doing in the article ... 
+- have got only 2 hours today maximum - working on 20 edits I hope
+- not sure what to do about Turow -- read a bit and added notes in ~/notes/turow_2015.md Could use some of this in a footnote, or to distinguish what I'm doing in the article ...
 - do a bdas search on personalization/personalisation
 
 ## Tue 21 Mar 2017 08:57:50 GMT
@@ -439,22 +439,22 @@ or
 - current title: **Probabilities and propensities: conversion experiences in online grocery shopping**
 
 ## Wed 22 Mar 2017 09:15:08 GMT
-- trying to get figure numbers working and made a new branch to do this. 
-- problems running arules -- updating packages to deal with that. 
-- found the root of all problems with figure numbering -- the lack of captions. Without a caption, knitr doesn't find the label. You must have captions on everything -- tables and figure -- for the cross-references to work. 
+- trying to get figure numbers working and made a new branch to do this.
+- problems running arules -- updating packages to deal with that.
+- found the root of all problems with figure numbering -- the lack of captions. Without a caption, knitr doesn't find the label. You must have captions on everything -- tables and figure -- for the cross-references to work.
 
 ## Fri 24 Mar 2017 12:16:48 GMT
-- been meaning to submit -- looking at guidelines https://us.sagepub.com/en-us/nam/journal/big-data-society#ManuscriptPrep 
+- been meaning to submit -- looking at guidelines https://us.sagepub.com/en-us/nam/journal/big-data-society#ManuscriptPrep
 
 ## Tue 28 Mar 2017 11:28:42 BST
-- rewrote abstract a bit, but played a lot with yaml, etc in trying to get title page to work. Ended up constructing one using title.rmd and then manual edits 
+- rewrote abstract a bit, but played a lot with yaml, etc in trying to get title page to work. Ended up constructing one using title.rmd and then manual edits
 
 ## Fri 28 Apr 2017 11:33:20 BST
-- accidentally came across Thrift 1999, lists come live and put into zotero ensembles folder 
+- accidentally came across Thrift 1999, lists come live and put into zotero ensembles folder
 
 ## Wed 05 Jul 2017 11:03:59 BST
 - received reports a week or two ago: all in report.md
-- printed them out to read; nothing too major, but they didn't get the paper. Revision will need to cut away whatever obstructs their view, I guess. 
+- printed them out to read; nothing too major, but they didn't get the paper. Revision will need to cut away whatever obstructs their view, I guess.
 - programme the work on this: I've estimated 15 hours on it. Might work;
 - DONE: read reports properly
 - added reports as report.md.gpg
@@ -464,20 +464,20 @@ or
 - TODO; notes from Dewey about reconstruction are here ~/notes/dewey_reconstruction_1957.md; and the full text is in ~/archive/dewey_reconstruction.txt;
 - Dewey:  grepped through the full text; the basic idea is that reconstruction is the way that experience can be intelligently re-configured; it draws on the  medium it inhabits, but changes/transforms elements of that medium, in the same way that any living thing does. The challenge of reconstruction is to deal with problem of the disconnect between power-knowledge and social life.  
 - if I were to rewrite the lists paper as a philosophical reconstruction, how would it differ from an empirical investigation of recommender systems.
-- dewey's argument is that a new conception of experience is needed, and a new relation between reason and experience (83). Psychology + biology: transformative nature of experience -- it changes the world; 'experience becomes an affair primarily of doing'  - this in the notes file ... 
+- dewey's argument is that a new conception of experience is needed, and a new relation between reason and experience (83). Psychology + biology: transformative nature of experience -- it changes the world; 'experience becomes an affair primarily of doing'  - this in the notes file ...
 
 ## Wed 12 Jul 2017 14:29:19 BST
-- historical precedent -- Tesco shopping 1984 http://www.bbc.co.uk/news/magazine-24091393 [@Winterman_2013]  - TODO -- add in 
+- historical precedent -- Tesco shopping 1984 http://www.bbc.co.uk/news/magazine-24091393 [@Winterman_2013]  - TODO -- add in
 - reading through the reports, and summarizing here what they are asking
-    1. The friendly one  - lack of cohesion and clarity in the argument; re-frame opening to be less about commodities and supply chain, and more about problems of association, correlation, categorisation, etc.; establish a consistent role for the list; elaborate the methodology of reconstruction; clearly say what kind of transformation occurs in the transformation, and in the propensities; and what is the 'so what' of these clarifications and conceptualisation? 
-    2. Asks for more substantial empirical engagement, reorganization of the piece and clarification of overall argument and purpose, and specific section purposes; many detailed points and calls for clarification; 
+    1. The friendly one  - lack of cohesion and clarity in the argument; re-frame opening to be less about commodities and supply chain, and more about problems of association, correlation, categorisation, etc.; establish a consistent role for the list; elaborate the methodology of reconstruction; clearly say what kind of transformation occurs in the transformation, and in the propensities; and what is the 'so what' of these clarifications and conceptualisation?
+    2. Asks for more substantial empirical engagement, reorganization of the piece and clarification of overall argument and purpose, and specific section purposes; many detailed points and calls for clarification;
     3. Asks for clarification about the contribution of the piece; description of the case is vague in detail; look at Bucher and Barocas for state of the art; deal with disconnect between abstract and actual paper, especially around social order; main argument is incomprehensible.  
 - started writing reply_to_reviews.md
-- there are 36 double-spaced pages of content (39 including references). About 6 of these are figures/tables/images. So at 6 pages/day revisions, it would take about 5 days. Starting tomorrow 13 July, that would be 13, 14, 17, 18, 19 July working on the pages.  Entering the edits would take another 5 days (20, 21, 24, 25, 26). That assumes not major obstacles. So submission could be before end of July. 
+- there are 36 double-spaced pages of content (39 including references). About 6 of these are figures/tables/images. So at 6 pages/day revisions, it would take about 5 days. Starting tomorrow 13 July, that would be 13, 14, 17, 18, 19 July working on the pages.  Entering the edits would take another 5 days (20, 21, 24, 25, 26). That assumes not major obstacles. So submission could be before end of July.
 - I'm not I can satisfy R2 in their desires for empirical, or sociological rigour. I'm drawn much more to the idea of reconstructing an encounter with a system, where reconstruction is a pragmatist/Dewey-oriented attempt to change our relation to experience. This includes a form of technical practice working with data and models, very much in the way of the actual recommender system.  
 
 ## Thu 13 Jul 2017 15:29:02 BST
-- starting revisions by going through ref2; 
+- starting revisions by going through ref2;
 - philosophico-methodological preramble: DONE: put this as opening paragraph
 
 > This paper is a philosophical reconstruction [@Dewey_2017] of an online grocery ordering system. The reconstruction is empirical in certain respects. It departs from an ethnographic moment: being a member of the audience at an industry/academic conference where a data scientist was describing how recommendations were created for online grocery orders. Given this highly mediated and limited encounter with a recommender system and one of its designers, the paper constructs a multi-layered account.   It draws on anthropological and sociological research concerning shopping and list-making to situate the recommender system amongst the social ordering practices of shopping. It conducts several code-based experiments in order to reconstruct, using widely available code resources resources such as API (Application Programmer Interfaces) and software libraries for machine learning, some important elements of the system in question.  It makes use of archaeological approaches, in the sense developed by Michel Foucault [@Foucault_1972] in order to identify and map the functional statements and practices underpinning the knowledge and order generated by such systems over time. Not least, I draw on the philosophy of science and media theory to frame an engagement with data, algorithms and recommendations around probabilities and their enactments. Like some recent work in science and technology studies,  anthropology and media studies [@Marres_2017; @Rabinow_2004; @Bogost_2012], through this combination of approaches,  the paper itself provisionally allows its own reconstruction to be shaped by an experiential encounter with the object it describes. At times, this mode of empirical philosophical engagement with its objects may well seem overly concerned with the technical minutiae of the grocery ordering system, and lacking in  sociological rigour or empirical evidence. With some forbearance on the part of readers, however, the main philosophical argument of the paper should resonate sociologically. It concerns social order, or the consistency and regularity of relating and acting amid a world in where probabilities and calculations based on probabilities play a more pervasive role.
@@ -486,12 +486,12 @@ or
 - read popper on propensities again, updated notes in ~/notes/popper_propensities.md, and also marked up the paper copy more;  
 - TODO: for methods add sandvig on audit [@Sandvig_2015a]
 
-> The main argument of the paper concerns how  probability operates in Big Data situations. While calculations of probability have  long-standing importance in many settings (insurance, medicine, experimental and field sciences, operations research, risk analysis, engineering design, public health,  economic modelling, etc.), probabilities have taken on a much thicker situational texture. Operational probabilities differ from epistemic probabilities in their position in the world, as part of infrastructures, transactions, and event-structures. Taking their complex siting into account, and accepting their _physical_ reality, we might come to understand the world they belong to as what the philosopher of science Karl Popper understood as a 'world of propensities, as an unfolding process of realizing possibilities and of unfolding new possibilities' [@Popper_1990,19]. Given this understanding of operational probability, our understanding of what is enacted in contemporary data analytics, especially in association with platforms [@Gillespie_2010] might shift. 
+> The main argument of the paper concerns how  probability operates in Big Data situations. While calculations of probability have  long-standing importance in many settings (insurance, medicine, experimental and field sciences, operations research, risk analysis, engineering design, public health,  economic modelling, etc.), probabilities have taken on a much thicker situational texture. Operational probabilities differ from epistemic probabilities in their position in the world, as part of infrastructures, transactions, and event-structures. Taking their complex siting into account, and accepting their _physical_ reality, we might come to understand the world they belong to as what the philosopher of science Karl Popper understood as a 'world of propensities, as an unfolding process of realizing possibilities and of unfolding new possibilities' [@Popper_1990,19]. Given this understanding of operational probability, our understanding of what is enacted in contemporary data analytics, especially in association with platforms [@Gillespie_2010] might shift.
 
 > The broad implication of the argument concerns how we think about social order or regularities: proponents and critics of Big Data present the advent of large volumes of data and analytical techniques (machine learning in particular) as transforming organisations, institutions, economic processes and social life. I suggest too that a transformation or conversion event is occurring, but one which might open up the possibility of experiencing the world differently, and conceiving of social ordering processes somewhat afresh.  Even if the argument is centred on an eminently social practice such as shopping, the analysis of how a world of propensities continuously and unevenly converts into realizations applies across the board, from the most physical to the most ideal or abstract settings. The average everydayness of the example here -- grocery shopping -- allows some first hand engagement with the messiness, the entanglements, and potentials of this conversion event in ways that other interesting settings -- particle physics for instance -- do not.
 
 ## Mon 17 Jul 2017 11:46:32 BST
-- still not sure how radically to restructure this. 
+- still not sure how radically to restructure this.
 - the simplest order I can think of
     - A. Introduction - includes a,b,c from above
     - B. Patel section + opening description
@@ -504,14 +504,14 @@ or
     - E: shift from apriori to logistic regression; then think of good features; experimentalising/trials; infrastructural operationalisation; but then what about substitution; complementarity? All of this section is meant to be about probabilisation? And the propensities idea;    
 - TODO: write short paragraph describing my overall social theory of lists (approx 200 words)
 - new title: Probabilities in the data analytic conversion of social order
-- DONE: play with the structuring of Section E. 
+- DONE: play with the structuring of Section E.
 
 ## Tue 18 Jul 2017 07:18:46 BST
-- adding Marcus on prototyping method into intro; 
+- adding Marcus on prototyping method into intro;
 - starting on section E: it will be rough
 - how do I actually use the social theory of lists - what happens to the mapping? to the discrepancies between normative and actual, and to the siting of the list?
 - TODO: write about this in the conclusion
-- remapped last 12 pages a bit, taking into account the Popper argument and critiquing the Hansen a bit more;  see page 21 of July printout for summary; still feels like need more experiments or prototypes; particularly for the model itself; 
+- remapped last 12 pages a bit, taking into account the Popper argument and critiquing the Hansen a bit more;  see page 21 of July printout for summary; still feels like need more experiments or prototypes; particularly for the model itself;
 - TODO: rewrite section on logistic regression in terms of the theory of the list -- as a mapping;
 - restructuring of Section E: the idea is to combine the Hansen reading of Popper; the aspects of the relevance model (logistic regression,  much data, a/b experiments, good features, substitution/complementarity), and the social theory of the list
 - popper quotes in order:
@@ -533,7 +533,7 @@ or
 - an experiment for the conditional probability argument using logistic regression;
     - simulated 500k customers in terms of Taking Part data
     - simulate 52 weeks of purchase history using Tesco API data
-    - build a separate model for each customer; 
+    - build a separate model for each customer;
     - see how that model can recommend substitutions or complementarities; these are 'new possibilities'   
 - DONE: move the personalization discussion higher up, perhaps in the introduction
 - rough reconstruction is ~4.2k, but haven't brought in the experiments much
@@ -544,48 +544,47 @@ or
 - TODO: put more Dewey in intro and conclusion
 
 - order of points in the conclusion:
-    - the specific situation is grocery list  and online shopping recommendations, not shopping in general, but the conversion or transformation of a  recommender system. 
+    - the specific situation is grocery list  and online shopping recommendations, not shopping in general, but the conversion or transformation of a  recommender system.
     - a small theory of shopping and shopping lists: shopping as a constant negotiation between normative and actual orders; list as an intersectional ordering device -- it creates a set of associations; it maps them to an order; but that order can be changed and can be re-associated
     - these systems largely understood in terms of personalization; undoubtedly occurring. But  something else underpins  personalization and allows it to occur
     - probabilization allows personalization and exceeds it: associations seen in the recommender system include person-thing, thing-thing, person-in-time; these associations overflow closure; the argument here has focused on describing how this affects attempts to construct predictive models
-    - suggests an alternative theory of social order in which association is not any single organization but propensities, or tendencies towards realization; 
-    - conversion events are what is going on in big data more generally: how do we think about them without being caught in inherited patterns of thought. 
+    - suggests an alternative theory of social order in which association is not any single organization but propensities, or tendencies towards realization;
+    - conversion events are what is going on in big data more generally: how do we think about them without being caught in inherited patterns of thought.
     - reconstruction and what it does: focuses on specific situations in order to get at the trouble, the problem, the conflict that attracts our interest to them; specifically addresses a broader inherited problem in relation between science and society
 
-- ok, that might work, but still a lot happening; there is no single clear point here at the moment; will have to simplify this more to make it work as article; the point that matters most to me is the personalization one; but I'm not sure exactly why ... I know philosophically -- I'm interested in probability -- but not so sure why in terms of the argument of the paper;   using probability and 
-- now trying to draft the conclusion: wrote 500 words; 
+- ok, that might work, but still a lot happening; there is no single clear point here at the moment; will have to simplify this more to make it work as article; the point that matters most to me is the personalization one; but I'm not sure exactly why ... I know philosophically -- I'm interested in probability -- but not so sure why in terms of the argument of the paper;   using probability and
+- now trying to draft the conclusion: wrote 500 words;
 
 ## Thu 20 Jul 2017 08:59:07 BST
-- today is Section E; I have about 7 hour left to finish this; so will need to get that section done today. 
-- working hard on the probability stuff - wrote a section introducting Popper; reframed arules discussion. 
-- TODO - short paragraph summarising the social theory of list ordering; make sure to add stuff on the ordering-remapping of order in the list; 
+- today is Section E; I have about 7 hour left to finish this; so will need to get that section done today.
+- working hard on the probability stuff - wrote a section introducting Popper; reframed arules discussion.
+- TODO - short paragraph summarising the social theory of list ordering; make sure to add stuff on the ordering-remapping of order in the list;
 
 ## Fri 21 Jul 2017 09:22:28 BST
-- did so much work on this yesterday -- today I want it to go more easily; and I don't want to do so much work on it. 
+- did so much work on this yesterday -- today I want it to go more easily; and I don't want to do so much work on it.
 - link everything in the presentation to the logistic regression model; that's the linchpin -- a massive conditional probability statement
-        - TODO: add a bit about this model ... and think how Popper material helps here 
+        - TODO: add a bit about this model ... and think how Popper material helps here
 - grocery shopping in principle cannot be about personalization because shopping itself isn't. Thats a fundamental problem.
         - DONE - at least in part: update the theory of shopping to reflect this
         - TODO: exemplify it in a number of ways
-- although I didn't do as much, paper felt better because I've managed to localize down on the logistic regression model; it helps me combat the personalization problem better. 
-- reached the customer-product matrix; 
+- although I didn't do as much, paper felt better because I've managed to localize down on the logistic regression model; it helps me combat the personalization problem better.
+- reached the customer-product matrix;
 
 ## Wed 26 Jul 2017 12:06:20 BST
 - at the heart of the paper is the contrast between the association rules and the personal relevance model. The differences between them aren't as great as might seem to be ...   
 - where I finished last time -- line 153 -- there is still a gap. I didn't get to say everything I wanted to about the logistic regression model;  I wanted to add some stuff about how the model includes all the different things
 - starting adding the probability section and adding in a bit of the Popper argument  
-- got to the point of trying to say what 'trying to realize themselves' might mean. I intend to connect this to both 'trying to construct good features.' 
+- got to the point of trying to say what 'trying to realize themselves' might mean. I intend to connect this to both 'trying to construct good features.'
 
 ## Thu 27 Jul 2017 15:57:03 BST
 - late in the day to be starting this -- just wanted to get the one point in about building 'good feature.'  
 - brought in the self-learning substitutes discussion and the complementarities
-- DONE: decide whether the hadoop and the weekly model running, etc should go in 
+- DONE: decide whether the hadoop and the weekly model running, etc should go in
 
 ## Fri 28 Jul 2017 12:18:30 BST
 - adding the hadoop stuff as a footnote to para on local mods.  
 - moved the personalization stuff into the intro
-- starting to rewrite the abstract; finished a version of it. 
+- starting to rewrite the abstract; finished a version of it.
 - DONE: go through and fix subheadings
 - TODO: go through TODOs
-- TODO: print
-
+- DONE: print

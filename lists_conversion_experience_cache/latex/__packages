@@ -1,0 +1,12 @@
+base
+rmarkdown
+bookdown
+tint
+tufte
+knitr
+dplyr
+ggplot2
+readr
+Matrix
+arules
+arulesViz
