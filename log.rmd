@@ -587,5 +587,8 @@ or
 - starting to rewrite the abstract; finished a version of it. 
 - DONE: go through and fix subheadings
 - TODO: go through TODOs
-- TODO: print
+- DONE: print
+
+## Mon 31 Jul 2017 11:47:42 BST
+- printing as docx. There are around 35 pages on manuscript. Plan for revision: 7 pages/day for one week; (7 hours)  go through referee reports again alongside the manuscript to put them in (2 hours); redo diagrams and references (3 hours), submission (1 hour). Total of about 12 hours. Might be to do about 6-7 hours this week.     
 
