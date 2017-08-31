@@ -557,7 +557,7 @@ or
 
 ## Thu 20 Jul 2017 08:59:07 BST
 - today is Section E; I have about 7 hour left to finish this; so will need to get that section done today.
-- working hard on the probability stuff - wrote a section introducting Popper; reframed arules discussion.
+- working hard on the probability stuff - wrote a section introducing Popper; reframed arules discussion.
 - TODO - short paragraph summarising the social theory of list ordering; make sure to add stuff on the ordering-remapping of order in the list;
 
 ## Fri 21 Jul 2017 09:22:28 BST
@@ -598,3 +598,8 @@ or
 
 ## Wed 02 Aug 2017 10:49:46 BST
 - reached page 27/31 in edits  on paper
+
+## Thu 31 Aug 2017 16:34:43 BST
+- long gap here -- due to important other activities such as summer holidays;  
+- found the 1989 Humby article on demographics -- argues for the need to add lifestage to that of neighbourhood. 
+- TODO: add reference to [@Humby_1989]
