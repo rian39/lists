@@ -605,3 +605,9 @@ or
 - DONE: add reference to [@Humby_1989]
 - reached conclusion in adding edits. Not sure if the section on Popper and possibiities trying to realize themselves is fleshed out enough.
 - TODO: check if the last section does enough with propensities and the new features.  
+
+## Fri 08 Sep 2017 09:24:22 BST
+- re-writing the conclusion today - did this on paper and now in file; it still needs more work
+- but in order to do that, I've had to go back to beginning and go through the paper looking at the argument again.< 
+- TODO: jump between D. and E. needs fixing. 
+- TODO: section on list theory is still awkward -- Miller is fine, but what then?
