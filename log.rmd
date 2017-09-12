@@ -611,3 +611,6 @@ or
 - but in order to do that, I've had to go back to beginning and go through the paper looking at the argument again.< 
 - TODO: jump between D. and E. needs fixing. 
 - TODO: section on list theory is still awkward -- Miller is fine, but what then?
+
+## Tue 12 Sep 2017 14:29:19 CEST
+- TODO: get Boltanski, 'finding ones ways in social space', 1983, has stuff on items and people; cf Distinction 
