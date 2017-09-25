@@ -613,4 +613,11 @@ or
 - TODO: section on list theory is still awkward -- Miller is fine, but what then?
 
 ## Tue 12 Sep 2017 14:29:19 CEST
-- TODO: get Boltanski, 'finding ones ways in social space', 1983, has stuff on items and people; cf Distinction 
+- DONE: get Boltanski, 'finding ones ways in social space', 1983, has stuff on items and people; cf Distinction; added to ~/archive/boltanski_navigating_1983.pdf
+
+## Mon 25 Sep 2017 09:37:00 BST
+- started writing the revision letter and have detailed the main changes there: reply_to_reviews.md 
+- redid the introduction again, take out lots of adjectives
+- TODO: rewrite abstract and conclusion
+- TODO: maybe should take out a lot of the list discussion. Is it too distracting?
+
