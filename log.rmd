@@ -609,8 +609,8 @@ or
 ## Fri 08 Sep 2017 09:24:22 BST
 - re-writing the conclusion today - did this on paper and now in file; it still needs more work
 - but in order to do that, I've had to go back to beginning and go through the paper looking at the argument again.< 
-- TODO: jump between D. and E. needs fixing. 
-- TODO: section on list theory is still awkward -- Miller is fine, but what then?
+- DONE: jump between D. and E. needs fixing. 
+- DONE: section on list theory is still awkward -- Miller is fine, but what then?
 
 ## Tue 12 Sep 2017 14:29:19 CEST
 - DONE: get Boltanski, 'finding ones ways in social space', 1983, has stuff on items and people; cf Distinction; added to ~/archive/boltanski_navigating_1983.pdf
@@ -619,5 +619,12 @@ or
 - started writing the revision letter and have detailed the main changes there: reply_to_reviews.md 
 - redid the introduction again, take out lots of adjectives
 - TODO: rewrite abstract and conclusion
-- TODO: maybe should take out a lot of the list discussion. Is it too distracting?
+- DONE: maybe should take out a lot of the list discussion. Is it too distracting?
 
+
+## Tue 26 Sep 2017 09:13:38 BST
+- realised I haven't actually entered the paper edits -- so going through the paper copy entering them. There are 34 pages -- do 15 today?  
+- going through these edits, cutting out the list discussion as much as possible. In particular took out the more formal part of the list discussion -- not sure how it fits at all. 
+- reached li 117/222, p18/34 today. 
+- TODO: check list section again - does it flow?
+- did some more -- p 22/34, li 153/222 
