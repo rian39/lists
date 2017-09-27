@@ -628,3 +628,11 @@ or
 - reached li 117/222, p18/34 today. 
 - TODO: check list section again - does it flow?
 - did some more -- p 22/34, li 153/222 
+
+## Wed 27 Sep 2017 09:21:08 BST
+- plan for next 3 days:
+    - today: enter last 8 pages of refs & update ref_bibs - actually, didn't get anywhere near doing this;
+    - Thurs: rewrite abstract & conclusion; read the whole thing through
+    - Fri: submission
+- TODO: all change 'relevancy' to relevance; all change inverted commans to none for this paper
+- TODO: l.201 need to rethink the point of self-learning substitutes -- does it not fit with personalization? Or if it does, it might overflow that ... in its groupiness .. Found this sentence in abstract 'At the point of delivery, a customer may be offered a substitute for an unavailable item in their order. ‘Self-Learning Substitutes’ is a technique for identifying suitable and affordable product substitutions in this situation, based on historical rejection rates. '
