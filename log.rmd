@@ -618,7 +618,7 @@ or
 ## Mon 25 Sep 2017 09:37:00 BST
 - started writing the revision letter and have detailed the main changes there: reply_to_reviews.md 
 - redid the introduction again, take out lots of adjectives
-- TODO: rewrite abstract and conclusion
+- DONE: rewrite abstract and conclusion
 - DONE: maybe should take out a lot of the list discussion. Is it too distracting?
 
 
@@ -636,3 +636,8 @@ or
     - Fri: submission
 - TODO: all change 'relevancy' to relevance; all change inverted commans to none for this paper
 - TODO: l.201 need to rethink the point of self-learning substitutes -- does it not fit with personalization? Or if it does, it might overflow that ... in its groupiness .. Found this sentence in abstract 'At the point of delivery, a customer may be offered a substitute for an unavailable item in their order. ‘Self-Learning Substitutes’ is a technique for identifying suitable and affordable product substitutions in this situation, based on historical rejection rates. '
+
+## Thu 28 Sep 2017 09:24:50 BST
+- that self-learning substitutes thing is a bit different to what I expected 
+- went through the conclusion and the introduction, and indeed started to go through the whole thing. 
+- at l.55/222 in going through again this morning. 
