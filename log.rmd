@@ -322,7 +322,7 @@ or
 ## Thu 02 Feb 2017 09:27:56 GMT
 - according to my calculations - blue_aug2016 152, editing and submission should take about 27 hours of work. I can do 2 hours today. Implies submission on 17 Feb
 - DONE: look at recent articles in bdas and collect any relevant ones; have been through 100 or so -- best candidates -- Kitchin,  Beer,  added some to lists subcollection in data_forms collection in zotero
-- TODO: look again at Amoore in Econ&Society, add Peters on List; could add List as evil media;
+- DONE: look again at Amoore in Econ&Society, add Peters on List; could add List as evil media;
 - Going through notes from the siegen event -- reminded me of
     - engagement with probability and propensity; a key site of debate
     - transformation of interestedness of order
@@ -359,7 +359,7 @@ or
 ## Wed 08 Feb 2017 09:32:30 GMT
 -working on the conclusion on paper
 -TODO: I was looking at DunnHumby yesterday. Could make more of what they claim about themselves. At least in a footnote. Also state an empirical limitation in the project -- commercial sensitivity -- and how I deal with it; could link this back to the forensic book on shelves at home
--TODO also thinking about diapers and beer again. Could I make that into the headline story? An anchor point that I set out to reconstruct? But hasn't that been done? Should look up diaper on bdas.
+- DONE also thinking about diapers and beer again. Could I make that into the headline story? An anchor point that I set out to reconstruct? But hasn't that been done? Should look up diaper on bdas.
 - finished paper revisions at 10.10. Still need do abstract; and many todos above on references, of various kinds. Especially Morris, Peters, etc.  
 - starting file revisions.
 - DONE: get Miller - Theory of Shopping, TJRC (M); actually I got _Consumption and its Consequences_, 2012; seems just as good
@@ -379,7 +379,7 @@ or
 
 - these might be useful -- classification, organization, the future -- but only within the broader framing of a non-transcendental ontology.
 - riding to work --  thought that I should emphasize the shift from rules to models, from associations to prediction; this is the major shift, and its use of probability as the connective tissue, as the abstract-concrete conditioning is really important to recognise. It cuts across the closed-open distinction that Hansen assumes; that said, the obscure of this conversion, the fact that it cannot be fully brought to light in reconstruction cannot be eliminated by phenomenological reduction; forensics, etc. It operates within the model itself, with the 'need for good features.'  
-- TODO: footnote how DunnHumby itself markets to customers. There is a regress, perhaps not infinite, but multi-stepped that runs from customer analytics; selling customer analytics; the images of analytics; the selling of images of analytics; etc.
+- DONE: footnote how DunnHumby itself markets to customers. There is a regress, perhaps not infinite, but multi-stepped that runs from customer analytics; selling customer analytics; the images of analytics; the selling of images of analytics; etc.
 - did manage to get 5 more pages
 
 ## Mon 13 Feb 2017 09:21:53 GMT
@@ -407,7 +407,7 @@ or
 - have made some notes on deGoede -- not sure they open up any new insights. Should read Staheli's piece. But they are useful support. TODO: include in conclusion
 - looking at todos -- Popper is important; started reading that again and making ~/notes/popper_propensities.md
 - have added some Popper into intro and conclusion (too implicit?). Feels like I need to go through again and check the argument: which is now implicitly: conversion comes from propensities; .
-- TODO: check the overall argument by going through introduction, abstract and conclusion
+- DONE: check the overall argument by going through introduction, abstract and conclusion
 - DONE: check section headings map the overall argument
 
 ## Fri 17 Feb 2017 13:24:29 GMT
@@ -461,13 +461,13 @@ or
 
 ## Mon 10 Jul 2017 15:50:59 BST
 - need to update this log with stuff about reports;
-- TODO; notes from Dewey about reconstruction are here ~/notes/dewey_reconstruction_1957.md; and the full text is in ~/archive/dewey_reconstruction.txt;
+- DONE; notes from Dewey about reconstruction are here ~/notes/dewey_reconstruction_1957.md; and the full text is in ~/archive/dewey_reconstruction.txt;
 - Dewey:  grepped through the full text; the basic idea is that reconstruction is the way that experience can be intelligently re-configured; it draws on the  medium it inhabits, but changes/transforms elements of that medium, in the same way that any living thing does. The challenge of reconstruction is to deal with problem of the disconnect between power-knowledge and social life.  
 - if I were to rewrite the lists paper as a philosophical reconstruction, how would it differ from an empirical investigation of recommender systems.
 - dewey's argument is that a new conception of experience is needed, and a new relation between reason and experience (83). Psychology + biology: transformative nature of experience -- it changes the world; 'experience becomes an affair primarily of doing'  - this in the notes file ...
 
 ## Wed 12 Jul 2017 14:29:19 BST
-- historical precedent -- Tesco shopping 1984 http://www.bbc.co.uk/news/magazine-24091393 [@Winterman_2013]  - TODO -- add in
+- historical precedent -- Tesco shopping 1984 http://www.bbc.co.uk/news/magazine-24091393 [@Winterman_2013]  - DONE -- add in
 - reading through the reports, and summarizing here what they are asking
     1. The friendly one  - lack of cohesion and clarity in the argument; re-frame opening to be less about commodities and supply chain, and more about problems of association, correlation, categorisation, etc.; establish a consistent role for the list; elaborate the methodology of reconstruction; clearly say what kind of transformation occurs in the transformation, and in the propensities; and what is the 'so what' of these clarifications and conceptualisation?
     2. Asks for more substantial empirical engagement, reorganization of the piece and clarification of overall argument and purpose, and specific section purposes; many detailed points and calls for clarification;
@@ -510,7 +510,7 @@ or
 - adding Marcus on prototyping method into intro;
 - starting on section E: it will be rough
 - how do I actually use the social theory of lists - what happens to the mapping? to the discrepancies between normative and actual, and to the siting of the list?
-- TODO: write about this in the conclusion
+- DONE: write about this in the conclusion
 - remapped last 12 pages a bit, taking into account the Popper argument and critiquing the Hansen a bit more;  see page 21 of July printout for summary; still feels like need more experiments or prototypes; particularly for the model itself;
 - TODO: rewrite section on logistic regression in terms of the theory of the list -- as a mapping;
 - restructuring of Section E: the idea is to combine the Hansen reading of Popper; the aspects of the relevance model (logistic regression,  much data, a/b experiments, good features, substitution/complementarity), and the social theory of the list
@@ -566,7 +566,7 @@ or
         - TODO: add a bit about this model ... and think how Popper material helps here
 - grocery shopping in principle cannot be about personalization because shopping itself isn't. Thats a fundamental problem.
         - DONE - at least in part: update the theory of shopping to reflect this
-        - TODO: exemplify it in a number of ways
+        - DONE: exemplify it in a number of ways
 - although I didn't do as much, paper felt better because I've managed to localize down on the logistic regression model; it helps me combat the personalization problem better.
 - reached the customer-product matrix;
 
@@ -586,7 +586,7 @@ or
 - moved the personalization stuff into the intro
 - starting to rewrite the abstract; finished a version of it.
 - DONE: go through and fix subheadings
-- TODO: go through TODOs
+- DONE: go through TODOs
 - DONE: print
 
 ## Mon 31 Jul 2017 11:47:42 BST
@@ -604,7 +604,7 @@ or
 - found the 1989 Humby article on demographics -- argues for the need to add lifestage to that of neighbourhood. 
 - DONE: add reference to [@Humby_1989]
 - reached conclusion in adding edits. Not sure if the section on Popper and possibiities trying to realize themselves is fleshed out enough.
-- TODO: check if the last section does enough with propensities and the new features.  
+- DONE: check if the last section does enough with propensities and the new features.  
 
 ## Fri 08 Sep 2017 09:24:22 BST
 - re-writing the conclusion today - did this on paper and now in file; it still needs more work
@@ -626,7 +626,7 @@ or
 - realised I haven't actually entered the paper edits -- so going through the paper copy entering them. There are 34 pages -- do 15 today?  
 - going through these edits, cutting out the list discussion as much as possible. In particular took out the more formal part of the list discussion -- not sure how it fits at all. 
 - reached li 117/222, p18/34 today. 
-- TODO: check list section again - does it flow?
+- DONE: check list section again - does it flow?
 - did some more -- p 22/34, li 153/222 
 
 ## Wed 27 Sep 2017 09:21:08 BST
@@ -634,10 +634,23 @@ or
     - today: enter last 8 pages of refs & update ref_bibs - actually, didn't get anywhere near doing this;
     - Thurs: rewrite abstract & conclusion; read the whole thing through
     - Fri: submission
-- TODO: all change 'relevancy' to relevance; all change inverted commans to none for this paper
+- DONE: all change 'relevancy' to relevance; all change inverted commans to none for this paper
 - TODO: l.201 need to rethink the point of self-learning substitutes -- does it not fit with personalization? Or if it does, it might overflow that ... in its groupiness .. Found this sentence in abstract 'At the point of delivery, a customer may be offered a substitute for an unavailable item in their order. ‘Self-Learning Substitutes’ is a technique for identifying suitable and affordable product substitutions in this situation, based on historical rejection rates. '
 
 ## Thu 28 Sep 2017 09:24:50 BST
 - that self-learning substitutes thing is a bit different to what I expected 
 - went through the conclusion and the introduction, and indeed started to go through the whole thing. 
 - at l.55/222 in going through again this morning. 
+- going through TODOs;
+- quick read [@Amoore_2015] and found this quote to differ from:
+	>They carve out and convert radical heterogeneity into flat difference of degree, such that it appears as though everything is calculable, everything about the uncertain future is nonetheless decidable.361
+- Also this:
+	>In current debates on protecting people from the worst vicissitudes of data mining and algorithmic decision, the emphasis is placed overwhelmingly on the restriction of processes to specified people of interest and specific queries defined in advance. As we have argued, this critical framing entirely misunderstands the work of the analytics. The stories of the mass or bulk data are precisely the means by which the queries are generated – the analytics require the mass data in order to decide on what or who is interesting, and this can only ever be retroactive. 361
+
+## Fri 29 Sep 2017 09:42:48 BST
+- just doing an hour on this today. Mainly on the TBAs - DONE
+- checking the list section; DONE
+- doing a bit more around experiments -- adding note on random variables.
+- went through intro again and re-ordered. How many times have I done that?
+- new title:  "Personalization and probabilities: conversion events in online grocery shopping"
+- ready to resubmit?
