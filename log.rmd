@@ -654,3 +654,13 @@ or
 - went through intro again and re-ordered. How many times have I done that?
 - new title:  "Personalization and probabilities: conversion events in online grocery shopping"
 - ready to resubmit?
+
+## Mon 02 Oct 2017 12:14:12 BST
+- facing resubmission build. Bound to be missing references. I have them all somewhere.  
+- using render_tufte.r
+- drats - problem with the work I did on Friday -- some kind of crash (battery ran out?) has lost work I did later on Friday morning. Need to redo that now. The TBAs are still there for instance. 
+- have got most of the references in; need to get Christian_2012 in there. 
+- TODO: go abstract and intro again;
+    - go through conclusion again;
+    - redo TBAs
+    - check whether the extra Amoore point about homogeneous calculative space is there
