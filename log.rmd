@@ -660,7 +660,10 @@ or
 - using render_tufte.r
 - drats - problem with the work I did on Friday -- some kind of crash (battery ran out?) has lost work I did later on Friday morning. Need to redo that now. The TBAs are still there for instance. 
 - have got most of the references in; need to get Christian_2012 in there. 
-- TODO: go abstract and intro again;
+- TODO:
+     -DONE go abstract and intro again;
     - go through conclusion again;
-    - redo TBAs
-    - check whether the extra Amoore point about homogeneous calculative space is there
+    - DONE I think: redo TBAs
+    - DONE: check whether the extra Amoore point about homogeneous calculative space is there
+    - go over the revisions letter
+    - generate the docx
