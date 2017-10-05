@@ -667,3 +667,8 @@ or
     - DONE: check whether the extra Amoore point about homogeneous calculative space is there
     - go over the revisions letter
     - generate the docx
+
+## Thu 05 Oct 2017 11:59:08 BST
+- submitting it as a new submission. The old one was BDS-17-0018. Does that mean that by march there were 18 submissions?   
+- reconstruction.docx is the main file. It has been handtweaked in various ways, but most of these have been put back into reconstruction.rmd.
+- figure numbering is still not right. Done that by hand. 

@@ -94,7 +94,7 @@ Probability has been difficult to work with philosophically according to Popper 
 
 Viewed from the standpoint of probabilities, predictive systems are highly crafted arrangements for the calculation of conditional probabilities. For instance, the first element of the new recommender system consisted in a change of the underpinning algorithms and model. Patel described  move away from 'a rules-based system'. It is likely that what Patel describes as  the 'rules-based system' refers  to the extremely well-known association rules or `apriori` algorithm  learning technique, developed  by computer scientists Rakesh Agrawal and Ramakrishnan Srikanti working at IBM Research Alameda in the early 1990s [@Agrawal_1994]. A now-classic approach to 'market basket analysis,' it was listed as one of the top ten data mining algorithms in a survey conducted amongst data miners [@Wu_2008] and usually attracts a chapter in data-mining and machine learning textbooks (e.g. [@Hastie_2009]). The interest of `apriori` for our purposes is that it begins to address the problem of understanding large numbers of shopping transactions as a matter of conditional probability.
 
-```{r arules-ex, cache=TRUE, fig.cap='Frequency of association betwene items in the `Grocery` dataset', message=FALSE, echo=FALSE, fig.margin=TRUE}
+```{r arules-ex, cache=TRUE, fig.cap='Frequency of items in the `Grocery` dataset', message=FALSE, echo=FALSE, fig.margin=TRUE}
 library(knitr)
 library(arules)
 library(arulesViz)
@@ -105,7 +105,7 @@ itemFrequencyPlot(Groceries,topN=10,col=rainbow(10), ntype="absolute",  cex.axis
 
 The notion of conditional probability at work in `aprior` is relatively simple, and assumes that the frequency of transactions provides the best guide to what shoppers are likely to buy. The `apriori` algorithm finds sets of items that commonly occur together in transactions. In this sense, is still oriented by a notion of absolute probability, inflected by some elements of conditional probability.   Commonly occurring sets are expressed as 'association rules.' For instance, applied to a dataset of generic, unbranded grocery purchases, the `apriori` algorithm counts frequencies of purchase in the overall set of all items purchased in a supermarket (the `Groceries` dataset  was acquired from a 'local German supermarket' [@Hahsler_2006]). Figure \@ref(fig:arules-ex) shows how often the most common items appear. `Whole milk` appears most frequently.
 
-```{r arules-ex2}
+```{r arules-ex2, echo=FALSE}
 options(digits=2)
 rules<- apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), appearance = list(default="rhs",lhs="whole milk"), control = list(verbose=FALSE))
 rules_sorted <- sort(rules, decreasing=TRUE,by="confidence")
@@ -118,7 +118,7 @@ The association rule-based model for the `Groceries` dataset illustrates some ch
 
 Even as `apriori`  expresses associations between things as relative probabilities, it struggles with the propensity of commodities to multiply, especially in supermarkets and grocery shopping. A simple illustration of the combinatorial problem faced by recommender system can be drawn by bringing the `Grocery` dataset together with the actual list of items that Tesco sells online.  If we take all the items in the `Grocery` dataset and paste them into the 'shopping list' box on the Tesco grocery website (or as I did, run them as searches on the TescoLab Product API [@Tesco_2016]), each of the 169 generic items in the `Grocery` dataset yields dozens and sometimes thousands of products in the Tesco inventory.
 
-```{r tesco-ex, echo=FALSE, cache=TRUE, fig.cap ='Tesco surplus',  fig.margin=TRUE}
+```{r tesco-ex, echo=FALSE, cache=TRUE, fig.cap ='Tesco grocery items with more than 50 products',  fig.margin=TRUE}
     library(ggplot2)
     tesco = read.csv('data/reference_data/tesco_groceries.csv')
     total = sum(tesco$actual, na.rm=TRUE)
@@ -126,10 +126,12 @@ Even as `apriori`  expresses associations between things as relative probabiliti
     tesco$actual = as.integer(tesco$actual)
     ggplot(tesco[tesco$actual>50,],
         aes(x=labels, y=actual, fill=labels)) +
+        xlab('Item count') + ylab('Grocery item') +
         geom_bar(stat='identity') + coord_flip() +
-        ggtitle('Tesco grocery items with more than 50 products') +
         theme(legend.position="none", axis.text=element_text(size=7))
 
+ggsave('figure/tesco_grocery_lines.svg')
+ggsave('figure/tesco_grocery_lines.png')
 ```
 
 Items in the `Groceries` dataset proliferate into a Tesco's list of branded products. The 169 items of the `Groceries` dataset  expand into roughly `r total` Tesco items (see Figure \@ref(fig:tesco-ex)).  Recommender systems confront, I would suggest, a logistical proliferation of commodities. The association rules derived  from  the `Grocery` dataset becomes more open to identifying sets of items that have only low association with each other.  Given almost 2500 `sauces` and 1200 `rice` products listed by the Tesco API,  a tremendous number of associations between sauce and rice are possible. The propensities of any given sauce and rice product to find themselves together in a shopping basket greatly. The proliferation of things on the shelves of supermarket or grocery warehouse produces a combinatorial problem for data-mining machine learning approaches such as association rules. `r total` products (actually Patel mentioned 200,000 products) can be combined in a many ways. If a typical shopping list has 20 items, then there are `r format(choose(total, 20), 2)` possible lists. Most possible shopping lists have propensities or tendencies to realization expressed as probabilities close to zero. Others with somewhat higher propensities might furnish the basis of interesting recommendations.
