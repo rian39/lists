@@ -672,3 +672,4 @@ or
 - submitting it as a new submission. The old one was BDS-17-0018. Does that mean that by march there were 18 submissions?   
 - reconstruction.docx is the main file. It has been handtweaked in various ways, but most of these have been put back into reconstruction.rmd.
 - figure numbering is still not right. Done that by hand. 
+- then had to delete a dual footnote when looking at the submission proofs. 
