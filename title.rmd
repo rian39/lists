@@ -1,0 +1,12 @@
+---
+title: "Probabilities and propensities: conversion experiences in online grocery shopping"
+author: Adrian Mackenzie, Sociology, Lancaster University 
+date: "`r format(Sys.time(), '%B %Y')`"
+output:
+    word_document: 
+fontsize: 12pt
+abstract: 
+    "Recommender systems attempt to transform or convert the temporal and agential fabric of social ordering by substituting probabilistic calculation for social practices. This paper investigates practices of ordering in the setting of shopping lists and  online grocery orders. It reconstructs an account of how a recommender system suggests a small number of grocery items of personal relevance to each of the millions of online grocery shoppers in  a major UK supermarket chain. Although all shopping lists mix past and future actions, actual and potential events, and normative and actual values, their re-writing by recommender systems adds a new operational dynamic.The paper explores how in the context of recommender systems the constitutive incompleteness of shopping lists, their propensity to expand or change, becomes more important than their capacity to inscribe social order. This suggests that the conversion of lists from finite ordering to indeterminate propensity in recommender systems requires new ways of conceptualising social order."
+keywords: prediction, probability, order, lists, recommender system, shopping
+---
+
