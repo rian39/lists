@@ -673,3 +673,14 @@ or
 - reconstruction.docx is the main file. It has been handtweaked in various ways, but most of these have been put back into reconstruction.rmd.
 - figure numbering is still not right. Done that by hand. 
 - then had to delete a dual footnote when looking at the submission proofs. 
+
+## Fri 02 Feb 2018 09:55:57 GMT
+- starting revisions of next version; reports on the 2nd version are here -- reports_revised.md 
+- will put revisions directly into reconstruction.rmd
+
+- revision letter
+
+I went through the three reports, making nearly all the changes suggested. Many of these were useful and I was happy to respond to them. 
+Here are the ones I didn't do:
+ - R1: For reasons of word count, I wasn't able to include a detailed discussion of the Tesco user interface. Given my focus on propensities and ordering of recommendations, I wasn't sure that was so relevant. Footnote 3 has a description of how handwritten lists and writing lists have been understood by anthropologists and literary theorists. 
+ - R2: 
