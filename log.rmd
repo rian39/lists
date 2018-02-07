@@ -698,7 +698,7 @@ An overview of changes and discussion of suggestions I wasn't able to implement:
     - R2 couldn't work out the 'intended meaning' of some key sentences. There was a grammar problem in these sentences, which I've fixed. I'm hoping that this was the problem with those sentences not the actual content. 
     - I've moved key part of footnote 5 into the introduction. That was a useful suggestion. 
     - I've shortened the historical-archaeology of recommender system, and explained its purpose in the introductory overview. 
-    - The section on limitations of association rule systems has been re-framed in the introduction/overview, and I've added some sentences at the beginning of the section explaining why attention to limitations is relevant to the main argument about probabilities. 
+    - The section on limitations of association rule systems has been re-framed in the introduction/overview, and I've changed sentences at the close of the section explaining why attention to limitations is relevant to the main argument about probabilities. 
 - R3:
     - it was a relief to not have to do much in responding to this report. I was happy to expand the sentences about object-oriented research.  
 
@@ -721,3 +721,9 @@ An overview of changes and discussion of suggestions I wasn't able to implement:
 - added some more quotes on reconstruction to ~/notes/dewey_reconstruction_1957.md
 - read through editors requests -- think I've done most of them
 - entered changes up to Section B
+
+## Wed 07 Feb 2018 09:53:49 GMT
+- starting section B edits. Not too much to do here.  
+- Section C -- only made a few changes; 
+- Section D -- thinking I should combine this into the main section E? no, I didn't. But did do a bit of reframing
+- Reached Section E (v) - platform experiments
