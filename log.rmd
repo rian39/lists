@@ -680,19 +680,19 @@ or
 
 - revision letter
 
-I went through the three reports, making many of the changes suggested. Many of these were useful and I was happy to respond to them. The main change is the overview and summary of the paper. A new paragraph towards the end of the introduction sets out the argument step by step, and the steps of the argument are also reiterated in the conclusion. 
+I went through the three reports, making many of the changes suggested. Many of these were useful and I was happy to respond to them. The main change is the overview and summary of the paper. A new paragraph towards the end of the introduction sets out the argument step by step, and the steps of the argument are also reiterated in the conclusion. The main  section of the paper -- E -- now has a summary at the end, as well as various signposts along the way. Throughout these revisions, I've tried to be precise and focused about the argument of the paper: the nature of conversion events. 
 
 An overview of changes and discussion of suggestions I wasn't able to implement:
  - R1: 
-     -  For reasons of word count, I wasn't able to include a detailed discussion of the Tesco user interface. Given my focus on probabilities, propensities and ordering of recommendations, I wasn't sure that was so relevant. Footnote 3 has a description of how handwritten lists and writing lists have been understood by anthropologists and literary theorists. 
+     -  For reasons of word count, I wasn't able to include a detailed discussion of the Tesco user interface. This would be slightly tricky given web and app variations. Given my focus on probabilities, propensities and ordering of recommendations, I wasn't sure that was so relevant. Footnote 3 has a description of how handwritten lists and writing lists have been understood by anthropologists and literary theorists. 
      - R1 asked for computer science and Web science literature on adaptive ecommerce systems to be included, which is fine as part of the context (I included several new references suggested by R1 in the introduction), but I didn't discuss this very much for two reasons. Grocery shopping, as I point in the introduction differs in important ways from many typical e-commerce settings.  Furthermore, because I was interested in the commercial operation of recommender systems, I wanted to focus on what was presented for discussion by the industry data scientist. Her presentation framed the sample of research literature I draw on. 
      - I edited the graphic as suggested
      - I modified the conclusion as suggested
  - R2: 
-    - to be honest, this was a difficult report to respond to. I could sympathise with the reviewers frustration, but I think the reviewer was approaching the manuscript from a quite different episteme. I have tried to respond constructively to their difficulties, but it would require much more scaffolding to deal with them all. 
+    - to be honest, this was a difficult report to fully deal with.  I could sympathise with the reviewers frustration, but I think the reviewer was approaching the manuscript from a quite different episteme. I have tried to respond constructively to their difficulties, but it would require much more scaffolding to deal with them all. 
     - R2 asked for 'specifics about how the analysis may translate to other personalization contexts, despite this being promised.' Although I did claim the case might be 'sociologically resonant,' I don't think I promised to translate to other personalization contexts. (Reading abstract, introduction and conclusion shows no sign of that promise.) It would be a significant new section of the paper to specify the general argument for other concrete contexts.  
     - R2 found the borrowing and repurposing of the term 'conversion event' from the recommender system literature confusing. I've added a footnote to explain the motivation for this borrowing, but I probably won't be able to convince R2 of the value of a material-semiotic approach in which such dual-register terms are quite common. 
-    - R2 was concerned about extremely confusing methodology. I've added a sentence or two in the methodology section saying what the paper does. But I won't, I fear, be able to assuage R2's concerns. They don't countenance what I'm trying to do: ground a theoretical argument about changing modes of operational knowledge by assembling some empirical engagements -- the ethnographic event, the small experiments with Tesco APIs and recommender system models, the existing sociologies and anthropologies of shopping and lists and the archaeology of recommendation. Its not a conventional empirical research project, and the methodology of reconstruction that I use (borrowing from Dewey) does not conform to narrowly defined sociological requirements. Given the methodological pluralism of the journal, I'm hoping that this is viable. 
+    - R2 was concerned about the confusing methodology. I've added a sentence or two in the methodology section saying what the paper does. But I won't, I fear, be able to assuage all R2's concerns. They don't countenance what I'm trying to do: ground a theoretical argument about changing modes of operational knowledge by assembling some empirical engagements -- the ethnographic event, the small experiments with Tesco APIs and recommender system models, the existing sociologies and anthropologies of shopping and lists and the archaeology of recommendation. It's not a conventional empirical research project, and the methodology of reconstruction that I use (borrowing from Dewey) does not conform to narrowly defined sociological requirements. Given the methodological pluralism of the journal, I'm hoping that this is viable. 
     - I've added a footnote with URL for the Github repository for the paper and its scripts. 
     - R2 wasn't able to see what the ethnographic material adds to analysis.  They could refer to p3, li 44-48 (in pre-revision manuscript) where I set out how I understand it is as part of a 'big data conversion event.'
     - R2 couldn't work out the 'intended meaning' of some key sentences. There was a grammar problem in these sentences, which I've fixed. I'm hoping that this was the problem with those sentences not the actual content. 
@@ -700,7 +700,7 @@ An overview of changes and discussion of suggestions I wasn't able to implement:
     - I've shortened the historical-archaeology of recommender system, and explained its purpose in the introductory overview. 
     - The section on limitations of association rule systems has been re-framed in the introduction/overview, and I've changed sentences at the close of the section explaining why attention to limitations is relevant to the main argument about probabilities. 
 - R3:
-    - it was a relief to not have to do much in responding to this report. I was happy to expand the sentences about object-oriented research.  
+    - it was a relief to not have to do much in responding to this report. I was happy to expand the sentences about object-oriented research as suggested in the methods section.  
 
 ## Mon 05 Feb 2018 08:07:19 GMT
 - responding to R2 today; 
@@ -727,3 +727,11 @@ An overview of changes and discussion of suggestions I wasn't able to implement:
 - Section C -- only made a few changes; 
 - Section D -- thinking I should combine this into the main section E? no, I didn't. But did do a bit of reframing
 - Reached Section E (v) - platform experiments
+
+## Thu 08 Feb 2018 11:24:54 GMT
+- will do rest of Section E and conclusion today. Submit tomorrow?  
+- wrote new summary for section E:
+
+>The different encounters with the data staged in the personal relevance model cannot be reduced to any simple probabilistic calculation. Rather, as Patel's presentation of the different models, the logistics of running the models in a platform setting, the experimental validation of the model in A/B testing, and the construction of new features that sought to increase complementarities and reduce similarities suggests, the expression of propensities occurs in a changing weave of infrastructure, mathematics, history and logistics. None of these has a particularly strong relation to personhood or individual experience, even if personalization the main way this weave is figured.     
+
+- revised conclusion
