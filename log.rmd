@@ -735,3 +735,6 @@ An overview of changes and discussion of suggestions I wasn't able to implement:
 >The different encounters with the data staged in the personal relevance model cannot be reduced to any simple probabilistic calculation. Rather, as Patel's presentation of the different models, the logistics of running the models in a platform setting, the experimental validation of the model in A/B testing, and the construction of new features that sought to increase complementarities and reduce similarities suggests, the expression of propensities occurs in a changing weave of infrastructure, mathematics, history and logistics. None of these has a particularly strong relation to personhood or individual experience, even if personalization the main way this weave is figured.     
 
 - revised conclusion
+
+## Tue 20 Mar 2018 20:44:39 AEDT
+- Manning _Information Retrieval_ has chapters on  recommender systems; should use this;
