@@ -735,3 +735,148 @@ An overview of changes and discussion of suggestions I wasn't able to implement:
 >The different encounters with the data staged in the personal relevance model cannot be reduced to any simple probabilistic calculation. Rather, as Patel's presentation of the different models, the logistics of running the models in a platform setting, the experimental validation of the model in A/B testing, and the construction of new features that sought to increase complementarities and reduce similarities suggests, the expression of propensities occurs in a changing weave of infrastructure, mathematics, history and logistics. None of these has a particularly strong relation to personhood or individual experience, even if personalization the main way this weave is figured.     
 
 - revised conclusion
+
+## Mon 16 Apr 2018 09:05:53 BST
+- received reports back: 
+
+        
+    From:	Big Data & Society <onbehalfof@manuscriptcentral.com>
+    Reply-to:	e.s.ruppert@mac.com
+    To:	a.mackenzie@lancaster.ac.uk
+    Subject:	Big Data & Society - Decision on Manuscript ID BDS-17-0074.R1
+    Date:	Sat, 31 Mar 2018 11:05:35 -0400 (31/03/18 16:05:35)
+    31-Mar-2018
+
+    Dear Adrian:
+
+    We hope you are well!  Good to see your submission move along. Here is the standard decision letter for minor revisions.....
+
+    Manuscript ID BDS-17-0074.R1 entitled "Personalization and probabilities: impersonal propensities in online grocery shopping" which you submitted to Big Data & Society, has been reviewed.  The comments of the reviewer(s) are included at the bottom of this letter.
+
+    The reviewer(s) and co-editor have recommended publication subject to the completion of some minor revisions to your paper.  Therefore, I invite you to respond to their comments and revise your paper.
+
+    To revise your paper, log into https://mc.manuscriptcentral.com/bdas and enter your Author Center, where you will find your paper title listed under "Manuscripts with Decisions."  Under "Actions," click on "Create a Revision."  Your paper number has been appended to denote a revision.
+
+    You may also click the below link to start the revision process (or continue the process if you have already started your revision) for your paper. If you use the below link you will not be required to login to ScholarOne Manuscripts.
+
+    *** PLEASE NOTE: This is a two-step process. After clicking on the link, you will be directed to a webpage to confirm. *** 
+
+    https://mc.manuscriptcentral.com/bdas?URL_MASK=da35635913af44a5a940c7c2973881ca
+
+    You will be unable to make your revisions on the originally submitted version of the paper.  Instead, revise your paper using a word processing program and save it on your computer.  Please also highlight the changes to your paper within the document by using bold or colored text.
+
+    Once the revised paper is prepared, you can upload it and submit it through your Author Center.
+
+    When submitting your revised paper, you will be able to respond to the comments made by the reviewer(s) in the space provided.  You can use this space to document any changes you make to the original paper.  In order to expedite the processing of the revised paper, please be as specific as possible in your response to the reviewer(s) as they will be forwarded on your responses. Please also ensure that any response you make to reviewer comments remain anonymous.
+
+    IMPORTANT:  Your original files are available to you when you upload your revised paper.  Please delete any redundant files before completing the submission.
+
+    Because we are trying to facilitate timely publication of papers submitted to Big Data & Society, your revised paper should be uploaded as soon as possible and no later than four weeks of receipt of this letter.  If it is not possible for you to submit your revision in this time, please let me know otherwise we may have to consider your paper as a new submission.
+
+    Once again, thank you for submitting your paper to Big Data & Society and I look forward to receiving your revision.
+
+    Sincerely,
+    Evelyn
+    Professor Evelyn Ruppert
+    Editor in Chief, Big Data & Society
+    e.s.ruppert@mac.com
+
+    Co-Editor(s)' Comments to Author:
+
+    Co-Editor: Gabrys, Jennifer
+    Comments to the Author:
+    Based on the reviewers' comments, we are recommending minor revisions for your manuscript.
+
+    There are a few additional points suggested in the reviewers’ comments, which should be addressed when making your revisions, including:
+
+    * Per R1, make more explicit the industry data scientist presentation as the basis for your material, and per R2 ensure this material is addressed both in terms of method and ethnographic contribution.
+
+    *Per R2 and R1, briefly contextualise online grocery shopping in relation to other forms of e-commerce and other personalization concepts.
+
+    *Per R1, address footnote formatting issues, and per R2 ensure all footnotes are added as indicated, and clarify usage of the ‘conversion event’ throughout.
+
+    There are additional detailed comments to be found in the reviewers’ reports, which you can address at your discretion.
+
+    We look forward to receiving your revised manuscript taking the above notes specifically into account, as well as the detailed comments provided in the reviews.
+
+    Reviewer(s)' Comments to Author:
+
+    Reviewer: 1
+
+    Comments to the Author
+    Thank you for making changes to this paper. The justification that what wanted to focus on was what was presented by the industry data scientist, and that her presentation framed the sample of literature you drew upon, should be explicitly in the text. Similarly, it would be useful to see a more explicit flag to how grocery shopping differs from traditional e-commerce, as you said.
+
+    There's also a footnote error that looks like it comes from markdown on pages 14 (line 20) and 13 (line 28).
+
+    Beyond putting those simple clarifications you make in the review into the text, I am now happy with the changes you have made to this work and recommend it for publication.
+
+    Reviewer: 2
+
+    Comments to the Author
+    Given the dismissive nature of the author's responses to the majority of my report, I will refer directly to these responses here, and explain the motivation for some of my comments which remains unchanged with the new version of the paper. 
+
+    My frustration with the paper was not based on some fundamental disagreement with the methodology employed or theoretical foundation of the paper, but rather its imprecision. While I can tell I do not come from the same disciplinary background as the author, I should nonetheless be able to understand the thesis of the paper and how each component or section (or in this case, each piece of the mixed methodology) contributes to this thesis. This was my chief criticism of the first version of the paper: the various components are not sufficiently contextualised to explain their contribution to the overall thesis of the paper. In some cases, it felt as these gaps are papered over with needlessly complex language and construction. The author is correct that I was left frustrated by the paper, but this frustration was borne more of issues with the structure and presentation of the paper than any fundamental disciplinary, methodological or epistemological disagreements. This frustration remains with the new draft of the paper. For a journal that embraces methodological pluralism as openly as Big Data & Society, surely contributions should be comprehensible for readers not sharing the author's particular disciplinary background?
+
+    Responses to the author's responses:
+
+    "- R2 asked for 'specifics about how the analysis may translate to other personalization contexts, despite
+    this being promised.' Although I did claim the case might be 'sociologically resonant,' I don't think I promised
+    to translate to other personalization contexts. (Reading abstract, introduction and conclusion shows no sign
+    of that promise.) It would be a significant new section of the paper to specify the general argument for other
+    concrete contexts."
+
+    From the abstract: "This paper argues that personalization through models using large-scale data is part of a more expansive change in probabilization that, in principle, is not reducible to individual or ‘personal’ attributes and actions. It describes the ‘personalization’ of an online grocery shopping recommender system to list a small number of grocery items of personal relevance for each of the millions of online grocery shoppers at a major UK supermarket chain." To me this clearly says that you will use personalization in online grocery shopping to make a broader point about personalization in large-scale data. Perhaps I am reading too much into this. I think what you mean to say is that you demonstrate that elements of a broader, previously described trend can be found in online grocery shopping.
+
+    "- R2 found the borrowing and repurposing of the term 'conversion event' from the recommender system
+    literature confusing. I've added a footnote to explain the motivation for this borrowing, but I probably won't be
+    able to convince R2 of the value of a material-semiotic approach in which such dual-register terms are quite
+    common."
+
+    I cannot find the footnote referenced here, can the author specify which footnote specifically by number? My point was about clarity of language for the reader. Is the term always used in its dual sense throughout the paper? If not, at a minimum each usage should refer to which dimension is relevant.
+
+    "- R2 was concerned about the confusing methodology. I've added a sentence or two in the methodology
+    section saying what the paper does. But I won't, I fear, be able to assuage all R2's concerns. They don't
+    countenance what I'm trying to do: ground a theoretical argument about changing modes of operational
+    knowledge by assembling some empirical engagements -- the ethnographic event, the small experiments
+    with Tesco APIs and recommender system models, the existing sociologies and anthropologies of shopping
+    and lists and the archaeology of recommendation. It's not a conventional empirical research project, and the
+    methodology of reconstruction that I use (borrowing from Dewey) does not conform to narrowly defined
+    sociological requirements. Given the methodological pluralism of the journal, I'm hoping that this is viable."
+
+    I do not disagree with the methodology used by the author. My concern was that the contribution of each element to the paper's thesis was not sufficiently explained or justified. In the original draft, the methodology came across as a convenience sample of methods, rather than a deliberately planned study. This concern has been partially addressed by changes in the new draft.
+
+    "- R2 wasn't able to see what the ethnographic material adds to analysis. They could refer to p3, li 44-48 (in
+    pre-revision manuscript) where I set out how I understand it is as part of a 'big data conversion event.'"
+
+    The lines referred to explain the intended contribution of the ethnographic material. My criticism was about what the actual material tells us that is relevant to the paper's overall thesis. I understand the intended contribution of the material perfectly well; I am not convinced that the material is sufficiently well discussed to actually contribute what has been proposed. I gave an example from the dunnhumby presentation where the relevance of a particular detail the author chose to highlight was never explained to the reader. 
+
+    "- R2 couldn't work out the 'intended meaning' of some key sentences. There was a grammar problem in
+    these sentences, which I've fixed. I'm hoping that this was the problem with those sentences not the actual
+    content.
+    - I've moved key part of footnote 5 into the introduction. That was a useful suggestion.
+    - I've shortened the historical-archaeology of recommender system, and explained its purpose in the
+    introductory overview.
+    - The section on limitations of association rule systems has been re-framed in the introduction/overview,
+    and I've changed sentences at the close of the section explaining why attention to limitations is relevant to
+    the main argument about probabilities."
+
+    These were all welcome changes.
+
+-------------------------------------------------
+
+- starting to do the minor revisions; I'm not reading the detail reports, just the editor requests with my replies, as pasted in ScholarOne:
+    * Per R1, make more explicit the industry data scientist presentation as the basis for your material, and per R2 ensure this material is addressed both in terms of method and ethnographic contribution.
+    DONE: added a new sentence in Section B, Para 1, which I hope addresses this. 
+
+    *Per R2 and R1, briefly contextualise online grocery shopping in relation to other forms of e-commerce and other personalization concepts.
+    DONE: Rewrote much of the third paragraph of the 'shopping lists' to contrast online grocery shopping with other forms of shopping. New sentences added to the end of this paragraph.  
+
+    *Per R1, address footnote formatting issues, and per R2 ensure all footnotes are added as indicated, and clarify usage of the ‘conversion event’ throughout.
+    DONE: apologies to R2 -- I said I defined 'conversion event' in a footnote. I had done that, but then decided the definition should be in the opening paragraph of the manuscript. It's there. I also  fixed the footnote formatting issue mentioned by R1
+
+- will do this in reconstruction.rmd
+- submitting to the Mansuscript-central. Will tag this revision as bdas-final-revision
+- had to do the bibliography using 12 Feb 2018 ref_bibs commit; I've tried to tag it as bdas-references
+
+
+
