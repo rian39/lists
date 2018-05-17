@@ -18,7 +18,7 @@ abstract:
 ```{r setup2, cache=FALSE, include=FALSE}
 library(knitr)
 library(tint)
-knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tint'))
+knitr::opts_chunk$set(tidy = FALSE, dev='svg',  cache.extra = packageVersion('tint'))
 options(htmltools.dir.version = FALSE)
 output <- opts_knit$get("rmarkdown.pandoc.to")
 opts_chunk$set(warning=FALSE)
@@ -77,7 +77,7 @@ Although the changes Patel described are configured in Tesco-specific ways by Du
 [^65.2]: Tesco changed its relations to customers in 1984 when they launched a very online grocery shopping system [@Winterman_2013]. 
 
 
-```{r humby-1984, fig.cap = 'Abstract from a Clive Humby presentation (Humby,1984)'}
+```{r humby-1984, fig.cap = 'Abstract from a Clive Humby presentation in 1984 [@O'Keefe,1984]'}
         library(knitr)
         include_graphics('figure/2_humby_young_org_1994.png')
 ```
@@ -107,7 +107,7 @@ Probability has been difficult to work with philosophically according to Popper 
 
 Viewed from the standpoint of probabilities, predictive systems are highly crafted arrangements for the calculation of conditional probabilities. For instance, the first element of the new recommender system consisted in a change of the underpinning algorithms and model. Patel described  move away from 'a rules-based system'. It is likely that what Patel describes as  the 'rules-based system' refers  to the extremely well-known association rules or `apriori` algorithm  learning technique, developed  by computer scientists Rakesh Agrawal and Ramakrishnan Srikanti working at IBM Research Alameda in the early 1990s [@Agrawal_1994]. A now-classic approach to 'market basket analysis,' it was listed as one of the top ten data mining algorithms in a survey conducted amongst data miners [@Wu_2008] and usually attracts a chapter in data-mining and machine learning textbooks (e.g. [@Hastie_2009]). The interest of `apriori` for our purposes is that it begins to address the problem of understanding large numbers of shopping transactions as a matter of conditional probability.
 
-```{r arules-ex, cache=TRUE, fig.cap='Frequency of items in the `Grocery` dataset', message=FALSE, echo=FALSE, fig.margin=TRUE}
+```{r arules-ex, cache=TRUE, fig.cap='Frequency of items in the `Grocery` dataset', message=FALSE, echo=FALSE, fig.margin=TRUE, dev='svg'}
 library(knitr)
 library(arules)
 library(arulesViz)
