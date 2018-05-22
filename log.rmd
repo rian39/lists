@@ -885,3 +885,5 @@ An overview of changes and discussion of suggestions I wasn't able to implement:
     - look up Sarwar conference location
     - Ardissono editors, etc.Goy, Anna, Liliana Ardissono, and Giovanna Petrone. ‘Personalization in E-Commerce Applications’. In The Adaptive Web, edited by P. Brusilovsky, A. Kobsa, and W Nejdl, 485–520. Springer, 2007.
  
+## Tue 22 May 2018 14:29:45 BST
+- doing proofs again -- there were some more typos, etc. 
